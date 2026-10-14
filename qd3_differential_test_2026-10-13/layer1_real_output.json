@@ -1,0 +1,37 @@
+[
+ {
+  "decisionId": "qd3-s5-verified-1791859143",
+  "class": "REJECT",
+  "covered": false
+ },
+ {
+  "decisionId": "qd3-s6-verified-1791859143",
+  "class": "REJECT",
+  "covered": false
+ },
+ {
+  "decisionId": "qd3-s7-verified-1791859143",
+  "class": "REJECT",
+  "covered": false
+ },
+ {
+  "decisionId": "qd3-clean-verified-1791859258",
+  "class": "SAFE",
+  "covered": true
+ },
+ {
+  "decisionId": "qd3-cd-verified-1791859258",
+  "class": "REJECT",
+  "covered": false
+ },
+ {
+  "decisionId": "qd3-reusefix-first-1791859886",
+  "class": "SAFE",
+  "covered": true
+ },
+ {
+  "decisionId": "qd3-reusefix-second-1791859886",
+  "class": "REJECT",
+  "covered": false
+ }
+]

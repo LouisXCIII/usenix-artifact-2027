@@ -1,0 +1,2802 @@
+[
+  {
+    "decisionId": "qd3-sweep-0001",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0002",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0003",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0004",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0005",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0006",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0007",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0008",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0009",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0010",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0011",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0012",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0013",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0014",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0015",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0016",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0017",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0018",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0019",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0020",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0021",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0022",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0023",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0024",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0025",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0026",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0027",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0028",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0029",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0030",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0031",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0032",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0033",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0034",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0035",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0036",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0037",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0038",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0039",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0040",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0041",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0042",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0043",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0044",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0045",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0046",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0047",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0048",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0049",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0050",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0051",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0052",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0053",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0054",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0055",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0056",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0057",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0058",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0059",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0060",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0061",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0062",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0063",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0064",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0065",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0066",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0067",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0068",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0069",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0070",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0071",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0072",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0073",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0074",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0075",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0076",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0077",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0078",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0079",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0080",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0081",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0082",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0083",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0084",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0085",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0086",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0087",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0088",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0089",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0090",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0091",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0092",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0093",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0094",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0095",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0096",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0097",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0098",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0099",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0100",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0101",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0102",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0103",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0104",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0105",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0106",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0107",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0108",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0109",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0110",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0111",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0112",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0113",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0114",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0115",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0116",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0117",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0118",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0119",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0120",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0121",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0122",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0123",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0124",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0125",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0126",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0127",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0128",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0129",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0130",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0131",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0132",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0133",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0134",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0135",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0136",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0137",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0138",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0139",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0140",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0141",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0142",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0143",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0144",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0145",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0146",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0147",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0148",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0149",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0150",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0151",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0152",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0153",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0154",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0155",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0156",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0157",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0158",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0159",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0160",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0161",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0162",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0163",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0164",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0165",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0166",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0167",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0168",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0169",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0170",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0171",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0172",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0173",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0174",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0175",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0176",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0177",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0178",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0179",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0180",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0181",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0182",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0183",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0184",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0185",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0186",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0187",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0188",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0189",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0190",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0191",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0192",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0193",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0194",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0195",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0196",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0197",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0198",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0199",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0200",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0201",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0202",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0203",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0204",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0205",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0206",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0207",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0208",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0209",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0210",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0211",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0212",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0213",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0214",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0215",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0216",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0217",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0218",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0219",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0220",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0221",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0222",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0223",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0224",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0225",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0226",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0227",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0228",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0229",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0230",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0231",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0232",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0233",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0234",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0235",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0236",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0237",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0238",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0239",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0240",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0241",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0242",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0243",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0244",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0245",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0246",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0247",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0248",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0249",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0250",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0251",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0252",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0253",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0254",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0255",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0256",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0257",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0258",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0259",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0260",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0261",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0262",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0263",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0264",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0265",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0266",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0267",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0268",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0269",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0270",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0271",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0272",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0273",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0274",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0275",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0276",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0277",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0278",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0279",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0280",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0281",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0282",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0283",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0284",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0285",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0286",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0287",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0288",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0289",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0290",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0291",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0292",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0293",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0294",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0295",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0296",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0297",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0298",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0299",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0300",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0301",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0302",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0303",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0304",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0305",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0306",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0307",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0308",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0309",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0310",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0311",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0312",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0313",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0314",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0315",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0316",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0317",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0318",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0319",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0320",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0321",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0322",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0323",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0324",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0325",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0326",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0327",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0328",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0329",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0330",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0331",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0332",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0333",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0334",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0335",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0336",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0337",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0338",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0339",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0340",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0341",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0342",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0343",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0344",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0345",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0346",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0347",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0348",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0349",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0350",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0351",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0352",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0353",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0354",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0355",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0356",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0357",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0358",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0359",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0360",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0361",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0362",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0363",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0364",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0365",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0366",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0367",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0368",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0369",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0370",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0371",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0372",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0373",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0374",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0375",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0376",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0377",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0378",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0379",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0380",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0381",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0382",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0383",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0384",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0385",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0386",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0387",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0388",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0389",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0390",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0391",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0392",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0393",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0394",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0395",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0396",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0397",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0398",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0399",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0400",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0401",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0402",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0403",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0404",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0405",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0406",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0407",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0408",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0409",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0410",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0411",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0412",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0413",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0414",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0415",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0416",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0417",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0418",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0419",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0420",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0421",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0422",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0423",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0424",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0425",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0426",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0427",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0428",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0429",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0430",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0431",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0432",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0433",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0434",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0435",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0436",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0437",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0438",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0439",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0440",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0441",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0442",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0443",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0444",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0445",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0446",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0447",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0448",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0449",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0450",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0451",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0452",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0453",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0454",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0455",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0456",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0457",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0458",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0459",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0460",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0461",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0462",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0463",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0464",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0465",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0466",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0467",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0468",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0469",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0470",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0471",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0472",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0473",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0474",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0475",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0476",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0477",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0478",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0479",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0480",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0481",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0482",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0483",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0484",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0485",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0486",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0487",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0488",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0489",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0490",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0491",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0492",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0493",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0494",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0495",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0496",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0497",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0498",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0499",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0500",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0501",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0502",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0503",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0504",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0505",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0506",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0507",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0508",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0509",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0510",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0511",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0512",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0513",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0514",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0515",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0516",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0517",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0518",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0519",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0520",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0521",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0522",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0523",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0524",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0525",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0526",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0527",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0528",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0529",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0530",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0531",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0532",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0533",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0534",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0535",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0536",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0537",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0538",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0539",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0540",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0541",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0542",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0543",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0544",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0545",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0546",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0547",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0548",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0549",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0550",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0551",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0552",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0553",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0554",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0555",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0556",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0557",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0558",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0559",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0560",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0561",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0562",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0563",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0564",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0565",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0566",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0567",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0568",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0569",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0570",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0571",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0572",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0573",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0574",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0575",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0576",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0577",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0578",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0579",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0580",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0581",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0582",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0583",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0584",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0585",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0586",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0587",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0588",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0589",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0590",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0591",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0592",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0593",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0594",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0595",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0596",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0597",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0598",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0599",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0600",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0601",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0602",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0603",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0604",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0605",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0606",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0607",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0608",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0609",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0610",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0611",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0612",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0613",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0614",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0615",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0616",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0617",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0618",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0619",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0620",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0621",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0622",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0623",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0624",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0625",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0626",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0627",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0628",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0629",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0630",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0631",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0632",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0633",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0634",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0635",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0636",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0637",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0638",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0639",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0640",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0641",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0642",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0643",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0644",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0645",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0646",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0647",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0648",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0649",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0650",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0651",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0652",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0653",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0654",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0655",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0656",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0657",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0658",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0659",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0660",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0661",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0662",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0663",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0664",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0665",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0666",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0667",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0668",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0669",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0670",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0671",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0672",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0673",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0674",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0675",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0676",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-sweep-0677",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0678",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0679",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0680",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0681",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0682",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0683",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0684",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0685",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0686",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0687",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0688",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0689",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0690",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0691",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0692",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0693",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0694",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0695",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0696",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0697",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0698",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0699",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-sweep-0700",
+    "covered": false
+  }
+]

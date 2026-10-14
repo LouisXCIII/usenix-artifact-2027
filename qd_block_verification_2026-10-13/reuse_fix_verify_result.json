@@ -1,0 +1,66 @@
+{
+  "conditional": {
+    "kind": "reusefix_conditional",
+    "decisionId": "qd3-reusefix-full-1791859886",
+    "ok": true,
+    "returned": "CONDITIONAL",
+    "committed": "CONDITIONAL",
+    "wallMs": 2078.9328219998424,
+    "tail": ""
+  },
+  "discharge": {
+    "kind": "reusefix_discharge",
+    "decisionId": "qd3-reusefix-full-1791859886",
+    "ok": true,
+    "returned": "EXACT",
+    "committed": "EXACT",
+    "wallMs": 2079.277134000222,
+    "tail": ""
+  },
+  "first": {
+    "kind": "reusefix_first",
+    "decisionId": "qd3-reusefix-first-1791859886",
+    "ok": true,
+    "returned": "SAFE",
+    "committed": "SAFE",
+    "wallMs": 2102.0788030000404,
+    "tail": ""
+  },
+  "second": {
+    "kind": "reusefix_second_should_now_reject",
+    "decisionId": "qd3-reusefix-second-1791859886",
+    "ok": true,
+    "returned": "REJECT",
+    "committed": "REJECT",
+    "wallMs": 2074.0284219991736,
+    "tail": ""
+  },
+  "readDecision_second": {
+    "decisionId": "qd3-reusefix-second-1791859886",
+    "sourceDomain": "besu-mainnet",
+    "role": "manager",
+    "amount": 410000,
+    "sourceLimit": 1000000,
+    "semBound": true,
+    "evAssuranceOk": true,
+    "transferClass": "REJECT",
+    "destThreshold": 500000,
+    "zkVerified": true,
+    "zkVerificationDetail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+    "codeHash": "0x1ec384e18d2347802df160867c784cd5b40086e9f67b7c514e9b1b0772fa6809",
+    "lcVerified": true,
+    "lcDetail": "header of block 0xa433e reproduced from raw fields with 3/4 distinct pinned-validator commit seals; registry slots proven by Merkle-Patricia proofs under its stateRoot",
+    "sourceBlockNumber": "0xa433e",
+    "sourceBlockHash": "0xbe1f0ffdfec446894c06116e26ee2f3eaf2c5b5b66d35082064e689695170286",
+    "provenApprovals": 2,
+    "provenMlScanPassed": true,
+    "obligationProfile": "audit",
+    "mappedMechanism": "audit",
+    "obligationDetailV2": "obligation not yet discharged (ordinary Conditional path, not S5/S6/S7) [discharge: referenced record \"qd3-reusefix-full-1791859886\" was already consumed by decision \"qd3-reusefix-first-1791859886\" (one discharge covers one decision; re-citation rejected)]",
+    "obligationV2Checked": true
+  },
+  "decisionId_full": "qd3-reusefix-full-1791859886",
+  "decisionId_first": "qd3-reusefix-first-1791859886",
+  "decisionId_second": "qd3-reusefix-second-1791859886",
+  "stamp": "1791859886"
+}

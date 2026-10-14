@@ -1,0 +1,30 @@
+[
+  {
+    "decisionId": "qd3-s5-verified-1791859143",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-s6-verified-1791859143",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-s7-verified-1791859143",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-clean-verified-1791859258",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-cd-verified-1791859258",
+    "covered": false
+  },
+  {
+    "decisionId": "qd3-reusefix-first-1791859886",
+    "covered": true
+  },
+  {
+    "decisionId": "qd3-reusefix-second-1791859886",
+    "covered": false
+  }
+]

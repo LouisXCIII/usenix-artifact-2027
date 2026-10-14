@@ -1,0 +1,135 @@
+package chaincode
+
+// QD3 offline differential-test harness: calls the REAL, unmodified
+// SubmitDecisionTrustlessV7ObligationVerifiedDischarge (ablation_behavior_safety.go) via an
+// in-memory ledger stub, reusing one real cached ZK proof + Besu header fixture (obligation
+// fields are independent of the evidence chain, so one fixture is valid for every case). No
+// chaincode function is refactored for this test -- this calls the exact deployed entry point.
+// env: QD3_CASES = input JSON, QD3_FIXTURE = fixture JSON, QD3_OUT = output JSON.
+
+import (
+	"encoding/json"
+	"os"
+	"testing"
+	"time"
+
+	"github.com/hyperledger/fabric-chaincode-go/v2/shim"
+	"github.com/hyperledger/fabric-contract-api-go/v2/contractapi"
+	"google.golang.org/protobuf/types/known/timestamppb"
+)
+
+type qd3MemStub struct {
+	shim.ChaincodeStubInterface
+	m  map[string][]byte
+	ts *timestamppb.Timestamp
+}
+
+func (s *qd3MemStub) GetState(k string) ([]byte, error)              { return s.m[k], nil }
+func (s *qd3MemStub) PutState(k string, v []byte) error              { s.m[k] = v; return nil }
+func (s *qd3MemStub) GetTxTimestamp() (*timestamppb.Timestamp, error) { return s.ts, nil }
+
+type qd3DischargeRef struct {
+	ObligationDischarged          bool   `json:"obligationDischarged"`
+	SourceDomain                  string `json:"sourceDomain"`
+	Role                          string `json:"role"`
+	Amount                        int64  `json:"amount"`
+	AlreadyCitedByAnotherDecision bool   `json:"alreadyCitedByAnotherDecision"`
+}
+
+type qd3Case struct {
+	DecisionID                 string           `json:"decisionId"`
+	SourceDomain               string           `json:"sourceDomain"`
+	Role                       string           `json:"role"`
+	Amount                     int64            `json:"amount"`
+	ObligationProfile          string           `json:"obligationProfile"`
+	MappedMechanism            string           `json:"mappedMechanism"`
+	ObligationDischargeRef     string           `json:"obligationDischargeRef"`
+	ReferencedDischargeRecord  *qd3DischargeRef `json:"referencedDischargeRecord"`
+	EnforcementWitnessVerified bool             `json:"enforcementWitnessVerified"`
+}
+
+type qd3Fixture struct {
+	CodeHash        string `json:"codeHash"`
+	Proof           string `json:"proof"`
+	Public          string `json:"public"`
+	Header          string `json:"header"`
+	RegistryProof   string `json:"registryProof"`
+	FeatureProof    string `json:"featureProof"`
+	HeaderTimestamp int64  `json:"headerTimestamp"`
+}
+
+type qd3Out struct {
+	DecisionID string `json:"decisionId"`
+	Class      string `json:"class"`
+	Covered    bool   `json:"covered"`
+	Err        string `json:"err,omitempty"`
+}
+
+type qd3RecordPeek struct {
+	ObligationCoveredV2 bool `json:"obligationCoveredV2"`
+}
+
+func TestQD3Sweep(t *testing.T) {
+	inPath, outPath, fixPath := os.Getenv("QD3_CASES"), os.Getenv("QD3_OUT"), os.Getenv("QD3_FIXTURE")
+	if inPath == "" {
+		t.Skip("QD3_CASES not set")
+	}
+	raw, err := os.ReadFile(inPath)
+	if err != nil {
+		t.Fatal(err)
+	}
+	var cases []qd3Case
+	if err := json.Unmarshal(raw, &cases); err != nil {
+		t.Fatal(err)
+	}
+	fraw, err := os.ReadFile(fixPath)
+	if err != nil {
+		t.Fatal(err)
+	}
+	var fx qd3Fixture
+	if err := json.Unmarshal(fraw, &fx); err != nil {
+		t.Fatal(err)
+	}
+
+	useLedgerClock = false // package var, clock.go: "tests may disable it"
+
+	txTime := timestamppb.New(time.Unix(fx.HeaderTimestamp+60, 0))
+	c := &AuthContract{}
+	outs := make([]qd3Out, 0, len(cases))
+	for _, cs := range cases {
+		stub := &qd3MemStub{m: map[string][]byte{}, ts: txTime}
+		if cs.ObligationDischargeRef != "" && cs.ReferencedDischargeRecord != nil {
+			rec := PortableDecisionRecord{
+				ObligationDischarged: cs.ReferencedDischargeRecord.ObligationDischarged,
+				SourceDomain:         cs.ReferencedDischargeRecord.SourceDomain,
+				Role:                 cs.ReferencedDischargeRecord.Role,
+				Amount:               cs.ReferencedDischargeRecord.Amount,
+			}
+			b, _ := json.Marshal(rec)
+			stub.m[cs.ObligationDischargeRef] = b
+			if cs.ReferencedDischargeRecord.AlreadyCitedByAnotherDecision {
+				stub.m["discharge-used:"+cs.ObligationDischargeRef] = []byte("some-other-decision")
+			}
+		}
+		ctx := &contractapi.TransactionContext{}
+		ctx.SetStub(stub)
+		cls, cerr := c.SubmitDecisionTrustlessV7ObligationVerifiedDischarge(ctx,
+			cs.DecisionID, cs.SourceDomain, cs.Role, cs.Amount, 1000000,
+			fx.CodeHash, fx.Proof, fx.Public, fx.Header, fx.RegistryProof, fx.FeatureProof,
+			cs.ObligationProfile, cs.MappedMechanism, cs.ObligationDischargeRef, cs.EnforcementWitnessVerified)
+		o := qd3Out{DecisionID: cs.DecisionID, Class: cls}
+		if cerr != nil {
+			o.Err = cerr.Error()
+		}
+		if raw2, _ := stub.GetState(cs.DecisionID); raw2 != nil {
+			var peek qd3RecordPeek
+			_ = json.Unmarshal(raw2, &peek)
+			o.Covered = peek.ObligationCoveredV2
+		}
+		outs = append(outs, o)
+	}
+	ob, _ := json.MarshalIndent(outs, "", " ")
+	if err := os.WriteFile(outPath, ob, 0o644); err != nil {
+		t.Fatal(err)
+	}
+}

@@ -1,0 +1,121 @@
+[
+  {
+    "decisionId": "qd3-s5-verified-1791859143",
+    "sourceDomain": "besu-mainnet",
+    "role": "manager",
+    "amount": 350000,
+    "obligationProfile": "combined",
+    "mappedMechanism": "",
+    "obligationDischargeRef": "qd3-s5-full-1791859143",
+    "referencedDischargeRecord": {
+      "obligationDischarged": true,
+      "sourceDomain": "besu-mainnet",
+      "role": "manager",
+      "amount": 350000,
+      "alreadyCitedByAnotherDecision": false
+    },
+    "enforcementWitnessVerified": true
+  },
+  {
+    "decisionId": "qd3-s6-verified-1791859143",
+    "sourceDomain": "besu-mainnet",
+    "role": "manager",
+    "amount": 360000,
+    "obligationProfile": "combined",
+    "mappedMechanism": "notification",
+    "obligationDischargeRef": "qd3-s6-full-1791859143",
+    "referencedDischargeRecord": {
+      "obligationDischarged": true,
+      "sourceDomain": "besu-mainnet",
+      "role": "manager",
+      "amount": 360000,
+      "alreadyCitedByAnotherDecision": false
+    },
+    "enforcementWitnessVerified": true
+  },
+  {
+    "decisionId": "qd3-s7-verified-1791859143",
+    "sourceDomain": "besu-mainnet",
+    "role": "manager",
+    "amount": 370000,
+    "obligationProfile": "audit",
+    "mappedMechanism": "audit",
+    "obligationDischargeRef": "qd3-s7-full-1791859143",
+    "referencedDischargeRecord": {
+      "obligationDischarged": true,
+      "sourceDomain": "besu-mainnet",
+      "role": "manager",
+      "amount": 370000,
+      "alreadyCitedByAnotherDecision": false
+    },
+    "enforcementWitnessVerified": false
+  },
+  {
+    "decisionId": "qd3-clean-verified-1791859258",
+    "sourceDomain": "besu-mainnet",
+    "role": "manager",
+    "amount": 380000,
+    "obligationProfile": "audit",
+    "mappedMechanism": "audit",
+    "obligationDischargeRef": "qd3-clean-full-1791859258",
+    "referencedDischargeRecord": {
+      "obligationDischarged": true,
+      "sourceDomain": "besu-mainnet",
+      "role": "manager",
+      "amount": 380000,
+      "alreadyCitedByAnotherDecision": false
+    },
+    "enforcementWitnessVerified": true
+  },
+  {
+    "decisionId": "qd3-cd-verified-1791859258",
+    "sourceDomain": "besu-mainnet",
+    "role": "manager",
+    "amount": 395000,
+    "obligationProfile": "audit",
+    "mappedMechanism": "audit",
+    "obligationDischargeRef": "qd3-cd-full-1791859258",
+    "referencedDischargeRecord": {
+      "obligationDischarged": true,
+      "sourceDomain": "besu-mainnet",
+      "role": "manager",
+      "amount": 390000,
+      "alreadyCitedByAnotherDecision": false
+    },
+    "enforcementWitnessVerified": true
+  },
+  {
+    "decisionId": "qd3-reusefix-first-1791859886",
+    "sourceDomain": "besu-mainnet",
+    "role": "manager",
+    "amount": 410000,
+    "obligationProfile": "audit",
+    "mappedMechanism": "audit",
+    "obligationDischargeRef": "qd3-reusefix-full-1791859886",
+    "referencedDischargeRecord": {
+      "obligationDischarged": true,
+      "sourceDomain": "besu-mainnet",
+      "role": "manager",
+      "amount": 410000,
+      "alreadyCitedByAnotherDecision": false
+    },
+    "enforcementWitnessVerified": true
+  },
+  {
+    "decisionId": "qd3-reusefix-second-1791859886",
+    "sourceDomain": "besu-mainnet",
+    "role": "manager",
+    "amount": 410000,
+    "obligationProfile": "audit",
+    "mappedMechanism": "audit",
+    "obligationDischargeRef": "qd3-reusefix-full-1791859886",
+    "referencedDischargeRecord": {
+      "obligationDischarged": true,
+      "sourceDomain": "besu-mainnet",
+      "role": "manager",
+      "amount": 410000,
+      "alreadyCitedByAnotherDecision": true
+    },
+    "enforcementWitnessVerified": true
+  }
+]
