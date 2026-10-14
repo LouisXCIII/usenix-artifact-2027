@@ -1,0 +1,34 @@
+{
+  "gateAddr": "0x25f041aDf403dd1cba17d3c5593B3B3055Fd092c",
+  "org1": "0x0250812142577b93a70190D88403DB730D0A16De",
+  "org2": "0x3ff00c0960daf07eD230C4a789dB66E43fD77600",
+  "results": [
+    {
+      "name": "director_org1_within_cap",
+      "expected": "SAFE",
+      "observed": "SAFE",
+      "callerOrg": "Org1",
+      "decisionId": "0xd1ece9ec79441b91525b983d06ef60971836a10de7e5420a71a557e06d79960d",
+      "txHash": "0x4f38fe449efe8792e3b15a4ff0e5cfcc54f4aed55c90539f8f37ba2d0c49cef0",
+      "correct": true
+    },
+    {
+      "name": "director_org2_same_amount_exceeds_cap",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "callerOrg": "Org2",
+      "decisionId": "0x55ae00a6ee20e832f5e15e858c7438e9d7822a3e7ca20627d1052e76e132be17",
+      "txHash": "0x9bebefa0aea2cf26d42b2a8a6cf92272d7ad5982b3da124fc1f4d037589c57c8",
+      "correct": true
+    },
+    {
+      "name": "director_org2_within_own_cap",
+      "expected": "SAFE",
+      "observed": "SAFE",
+      "callerOrg": "Org2",
+      "decisionId": "0x0e3af6918755c079ef487db31a205ce4c745ff792be3d71829776df5ab9172e1",
+      "txHash": "0xc9fe5e6655e0bdc03a7f8a0ef16c0e38023f65fb9f6291f0cc95a8b54567516e",
+      "correct": true
+    }
+  ]
+}

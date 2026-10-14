@@ -1,0 +1,109 @@
+{
+  "new_safe_cases": {
+    "n": 7,
+    "all_confirmed_committed_SAFE_semBound_true_evOK_true": true,
+    "decisionIDs": {
+      "new_safe_1": "e7corpus-new_safe_1-1790224277859",
+      "new_safe_2": "e7corpus-new_safe_2-1790224247689",
+      "new_safe_4": "e7corpus-new_safe_4-1790224247804",
+      "new_safe_6": "e7corpus-new_safe_6-1790224247907",
+      "new_safe_8": "e7corpus-new_safe_8-1790224248006",
+      "new_safe_9": "e7corpus-new_safe_9-1790224248090",
+      "new_safe_10": "e7corpus-new_safe_10-1790224248164"
+    }
+  },
+  "new_substitution_cases": {
+    "n": 16,
+    "all_confirmed_committed_REJECT_semBound_false": true,
+    "pairs": [
+      {
+        "attacker": "v7_honest",
+        "target": "new_safe_1",
+        "decisionID": "e7corpus-sub-v7_honest-as-new_safe_1-1790224366214"
+      },
+      {
+        "attacker": "v7_honest",
+        "target": "new_safe_4",
+        "decisionID": "e7corpus-sub-v7_honest-as-new_safe_4-1790224366293"
+      },
+      {
+        "attacker": "new_safe_1",
+        "target": "new_safe_2",
+        "decisionID": "e7corpus-sub-new_safe_1-as-new_safe_2-1790224366369"
+      },
+      {
+        "attacker": "new_safe_1",
+        "target": "new_safe_6",
+        "decisionID": "e7corpus-sub-new_safe_1-as-new_safe_6-1790224366482"
+      },
+      {
+        "attacker": "new_safe_2",
+        "target": "new_safe_4",
+        "decisionID": "e7corpus-sub-new_safe_2-as-new_safe_4-1790224366567"
+      },
+      {
+        "attacker": "new_safe_2",
+        "target": "new_safe_8",
+        "decisionID": "e7corpus-sub-new_safe_2-as-new_safe_8-1790224366641"
+      },
+      {
+        "attacker": "new_safe_4",
+        "target": "new_safe_6",
+        "decisionID": "e7corpus-sub-new_safe_4-as-new_safe_6-1790224366708"
+      },
+      {
+        "attacker": "new_safe_4",
+        "target": "new_safe_9",
+        "decisionID": "e7corpus-sub-new_safe_4-as-new_safe_9-1790224366785"
+      },
+      {
+        "attacker": "new_safe_6",
+        "target": "new_safe_8",
+        "decisionID": "e7corpus-sub-new_safe_6-as-new_safe_8-1790224366860"
+      },
+      {
+        "attacker": "new_safe_6",
+        "target": "new_safe_10",
+        "decisionID": "e7corpus-sub-new_safe_6-as-new_safe_10-1790224366928"
+      },
+      {
+        "attacker": "new_safe_8",
+        "target": "new_safe_9",
+        "decisionID": "e7corpus-sub-new_safe_8-as-new_safe_9-1790224367010"
+      },
+      {
+        "attacker": "new_safe_8",
+        "target": "v7_honest",
+        "decisionID": "e7corpus-sub-new_safe_8-as-v7_honest-1790224367090"
+      },
+      {
+        "attacker": "new_safe_9",
+        "target": "new_safe_10",
+        "decisionID": "e7corpus-sub-new_safe_9-as-new_safe_10-1790224367147"
+      },
+      {
+        "attacker": "new_safe_9",
+        "target": "new_safe_1",
+        "decisionID": "e7corpus-sub-new_safe_9-as-new_safe_1-1790224367198"
+      },
+      {
+        "attacker": "new_safe_10",
+        "target": "v7_honest",
+        "decisionID": "e7corpus-sub-new_safe_10-as-v7_honest-1790224367247"
+      },
+      {
+        "attacker": "new_safe_10",
+        "target": "new_safe_2",
+        "decisionID": "e7corpus-sub-new_safe_10-as-new_safe_2-1790224367299"
+      }
+    ]
+  },
+  "corpus_totals": {
+    "unsafe_before": 19,
+    "unsafe_after": 35,
+    "safe_before": 5,
+    "safe_after": 12,
+    "total_before": 24,
+    "total_after": 47
+  }
+}

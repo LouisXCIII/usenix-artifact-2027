@@ -1,0 +1,230 @@
+{
+  "safe_cases": {
+    "new_safe_1": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "codeHash_recomputed": "0x4b573928cdbfee4ca909fe923b70417b5c1cb092586456b9057aaf9c6dc757",
+      "codeHash_recorded": "0x004b573928cdbfee4ca909fe923b70417b5c1cb092586456b9057aaf9c6dc757",
+      "public_signals": [
+        "1",
+        "133115522804641827656093500284753806295944519197654521395885208714091546455",
+        "6065748848910247228523303897996039529588627870456406810799661398798732185018",
+        "0",
+        "54445307",
+        "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+        "1627590158553747796774783583623189369550445100658208452603424416576484396164"
+      ],
+      "policy_maxVulnClass_is_0": true
+    },
+    "new_safe_2": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "codeHash_recomputed": "0x81c8340d5aab7fe9692da7770314e28dc86e79fa549d4a9e94afb7b59f1317d",
+      "codeHash_recorded": "0x081c8340d5aab7fe9692da7770314e28dc86e79fa549d4a9e94afb7b59f1317d",
+      "public_signals": [
+        "1",
+        "3668880383189689866538853688065798991492177351243063168028483507319263539581",
+        "12748113430900743811245945742957383793238238091512373193102407372275595406",
+        "0",
+        "54445307",
+        "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+        "13300629771731128907309365133368397187765627780456033365874621113404178638716"
+      ],
+      "policy_maxVulnClass_is_0": true
+    },
+    "new_safe_4": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "codeHash_recomputed": "0xecee47e99a1512dbaa02fc0f51ee2e64ed03a1685171012037302006f63f19d",
+      "codeHash_recorded": "0x0ecee47e99a1512dbaa02fc0f51ee2e64ed03a1685171012037302006f63f19d",
+      "public_signals": [
+        "1",
+        "6697927386809567551393487510608260708971719757675683735601348459530486542749",
+        "13777509911327594169218948759310972557490438872076171094982702180602382231776",
+        "0",
+        "54445307",
+        "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+        "13457035697316495607403734777166249266264668010744883352719192659298734796176"
+      ],
+      "policy_maxVulnClass_is_0": true
+    },
+    "new_safe_6": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "codeHash_recomputed": "0x128d51c23b9c3444f7b798074687d48d44cab5432a41b97904b175be9be46521",
+      "codeHash_recorded": "0x128d51c23b9c3444f7b798074687d48d44cab5432a41b97904b175be9be46521",
+      "public_signals": [
+        "1",
+        "8391320988593974523957609912099247030749171255373262139599854518642330068257",
+        "3879712913374487075665351803665992192146082146051349003140796995329766007434",
+        "0",
+        "54445307",
+        "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+        "16966911270559639988607315891011216405184523308203449852314802249211341843815"
+      ],
+      "policy_maxVulnClass_is_0": true
+    },
+    "new_safe_8": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "codeHash_recomputed": "0x1ec842dfe453a579a3ff56099d7ebf48ce396349e705eea78ab83bd090f237c",
+      "codeHash_recorded": "0x01ec842dfe453a579a3ff56099d7ebf48ce396349e705eea78ab83bd090f237c",
+      "public_signals": [
+        "1",
+        "870201026364142256077643764181426495726225238888242364181592963351078445948",
+        "16864532895736391871502635078908009182822078746959466973575946130155008108274",
+        "0",
+        "54445307",
+        "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+        "17928499757666534998606938728685717777339351310691240653558722320007567736019"
+      ],
+      "policy_maxVulnClass_is_0": true
+    },
+    "new_safe_9": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "codeHash_recomputed": "0x1f4b82b9140f0c3fcb242039ffddba66bb33d2d8feddccc633fe8a567deff928",
+      "codeHash_recorded": "0x1f4b82b9140f0c3fcb242039ffddba66bb33d2d8feddccc633fe8a567deff928",
+      "public_signals": [
+        "1",
+        "14155114052667289219608569193059142609131470717491035317217061506241080064296",
+        "1010150945350405477433827883822385498619716589882777695700316293046377112113",
+        "0",
+        "54445307",
+        "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+        "13605172021163874342448785185765603256020540835272992866159608789756880880860"
+      ],
+      "policy_maxVulnClass_is_0": true
+    },
+    "new_safe_10": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "codeHash_recomputed": "0x137259f1243ba4be193b518a87c1cd85e5ed10cdaccc3bde6d18434d0e64f7a7",
+      "codeHash_recorded": "0x137259f1243ba4be193b518a87c1cd85e5ed10cdaccc3bde6d18434d0e64f7a7",
+      "public_signals": [
+        "1",
+        "8795985445054586759542741676655507656665845660266443021471505628611878385575",
+        "12478045368190205971711393173926075680636359233421207118661289180854068836480",
+        "0",
+        "54445307",
+        "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+        "15777835615605569530208689215603315088576988207272084494164613933565062488809"
+      ],
+      "policy_maxVulnClass_is_0": true
+    }
+  },
+  "substitution_cases": {
+    "v7_honest_as_new_safe_1": {
+      "attacker_own_codeHash": "0x0cdca6b375e2a354c612465c59140e334b1eb37b84d23ed9fc0635b3e821ce89",
+      "target_claimed_codeHash": "0x004b573928cdbfee4ca909fe923b70417b5c1cb092586456b9057aaf9c6dc757",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0xcdca6b375e2a354c612465c59140e334b1eb37b84d23ed9fc0635b3e821ce89",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "v7_honest_as_new_safe_4": {
+      "attacker_own_codeHash": "0x0cdca6b375e2a354c612465c59140e334b1eb37b84d23ed9fc0635b3e821ce89",
+      "target_claimed_codeHash": "0x0ecee47e99a1512dbaa02fc0f51ee2e64ed03a1685171012037302006f63f19d",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0xcdca6b375e2a354c612465c59140e334b1eb37b84d23ed9fc0635b3e821ce89",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_1_as_new_safe_2": {
+      "attacker_own_codeHash": "0x004b573928cdbfee4ca909fe923b70417b5c1cb092586456b9057aaf9c6dc757",
+      "target_claimed_codeHash": "0x081c8340d5aab7fe9692da7770314e28dc86e79fa549d4a9e94afb7b59f1317d",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0x4b573928cdbfee4ca909fe923b70417b5c1cb092586456b9057aaf9c6dc757",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_1_as_new_safe_6": {
+      "attacker_own_codeHash": "0x004b573928cdbfee4ca909fe923b70417b5c1cb092586456b9057aaf9c6dc757",
+      "target_claimed_codeHash": "0x128d51c23b9c3444f7b798074687d48d44cab5432a41b97904b175be9be46521",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0x4b573928cdbfee4ca909fe923b70417b5c1cb092586456b9057aaf9c6dc757",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_2_as_new_safe_4": {
+      "attacker_own_codeHash": "0x081c8340d5aab7fe9692da7770314e28dc86e79fa549d4a9e94afb7b59f1317d",
+      "target_claimed_codeHash": "0x0ecee47e99a1512dbaa02fc0f51ee2e64ed03a1685171012037302006f63f19d",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0x81c8340d5aab7fe9692da7770314e28dc86e79fa549d4a9e94afb7b59f1317d",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_2_as_new_safe_8": {
+      "attacker_own_codeHash": "0x081c8340d5aab7fe9692da7770314e28dc86e79fa549d4a9e94afb7b59f1317d",
+      "target_claimed_codeHash": "0x01ec842dfe453a579a3ff56099d7ebf48ce396349e705eea78ab83bd090f237c",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0x81c8340d5aab7fe9692da7770314e28dc86e79fa549d4a9e94afb7b59f1317d",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_4_as_new_safe_6": {
+      "attacker_own_codeHash": "0x0ecee47e99a1512dbaa02fc0f51ee2e64ed03a1685171012037302006f63f19d",
+      "target_claimed_codeHash": "0x128d51c23b9c3444f7b798074687d48d44cab5432a41b97904b175be9be46521",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0xecee47e99a1512dbaa02fc0f51ee2e64ed03a1685171012037302006f63f19d",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_4_as_new_safe_9": {
+      "attacker_own_codeHash": "0x0ecee47e99a1512dbaa02fc0f51ee2e64ed03a1685171012037302006f63f19d",
+      "target_claimed_codeHash": "0x1f4b82b9140f0c3fcb242039ffddba66bb33d2d8feddccc633fe8a567deff928",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0xecee47e99a1512dbaa02fc0f51ee2e64ed03a1685171012037302006f63f19d",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_6_as_new_safe_8": {
+      "attacker_own_codeHash": "0x128d51c23b9c3444f7b798074687d48d44cab5432a41b97904b175be9be46521",
+      "target_claimed_codeHash": "0x01ec842dfe453a579a3ff56099d7ebf48ce396349e705eea78ab83bd090f237c",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0x128d51c23b9c3444f7b798074687d48d44cab5432a41b97904b175be9be46521",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_6_as_new_safe_10": {
+      "attacker_own_codeHash": "0x128d51c23b9c3444f7b798074687d48d44cab5432a41b97904b175be9be46521",
+      "target_claimed_codeHash": "0x137259f1243ba4be193b518a87c1cd85e5ed10cdaccc3bde6d18434d0e64f7a7",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0x128d51c23b9c3444f7b798074687d48d44cab5432a41b97904b175be9be46521",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_8_as_new_safe_9": {
+      "attacker_own_codeHash": "0x01ec842dfe453a579a3ff56099d7ebf48ce396349e705eea78ab83bd090f237c",
+      "target_claimed_codeHash": "0x1f4b82b9140f0c3fcb242039ffddba66bb33d2d8feddccc633fe8a567deff928",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0x1ec842dfe453a579a3ff56099d7ebf48ce396349e705eea78ab83bd090f237c",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_8_as_v7_honest": {
+      "attacker_own_codeHash": "0x01ec842dfe453a579a3ff56099d7ebf48ce396349e705eea78ab83bd090f237c",
+      "target_claimed_codeHash": "0x0cdca6b375e2a354c612465c59140e334b1eb37b84d23ed9fc0635b3e821ce89",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0x1ec842dfe453a579a3ff56099d7ebf48ce396349e705eea78ab83bd090f237c",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_9_as_new_safe_10": {
+      "attacker_own_codeHash": "0x1f4b82b9140f0c3fcb242039ffddba66bb33d2d8feddccc633fe8a567deff928",
+      "target_claimed_codeHash": "0x137259f1243ba4be193b518a87c1cd85e5ed10cdaccc3bde6d18434d0e64f7a7",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0x1f4b82b9140f0c3fcb242039ffddba66bb33d2d8feddccc633fe8a567deff928",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_9_as_new_safe_1": {
+      "attacker_own_codeHash": "0x1f4b82b9140f0c3fcb242039ffddba66bb33d2d8feddccc633fe8a567deff928",
+      "target_claimed_codeHash": "0x004b573928cdbfee4ca909fe923b70417b5c1cb092586456b9057aaf9c6dc757",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0x1f4b82b9140f0c3fcb242039ffddba66bb33d2d8feddccc633fe8a567deff928",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_10_as_v7_honest": {
+      "attacker_own_codeHash": "0x137259f1243ba4be193b518a87c1cd85e5ed10cdaccc3bde6d18434d0e64f7a7",
+      "target_claimed_codeHash": "0x0cdca6b375e2a354c612465c59140e334b1eb37b84d23ed9fc0635b3e821ce89",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0x137259f1243ba4be193b518a87c1cd85e5ed10cdaccc3bde6d18434d0e64f7a7",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    },
+    "new_safe_10_as_new_safe_2": {
+      "attacker_own_codeHash": "0x137259f1243ba4be193b518a87c1cd85e5ed10cdaccc3bde6d18434d0e64f7a7",
+      "target_claimed_codeHash": "0x081c8340d5aab7fe9692da7770314e28dc86e79fa549d4a9e94afb7b59f1317d",
+      "proof_bound_codeHash_recomputed_from_public_signal": "0x137259f1243ba4be193b518a87c1cd85e5ed10cdaccc3bde6d18434d0e64f7a7",
+      "mismatch_vs_target_confirmed": true,
+      "proof_genuinely_bound_to_attacker_own_hash": true
+    }
+  }
+}

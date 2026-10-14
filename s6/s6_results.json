@@ -1,0 +1,1600 @@
+{
+ "fresh": [
+  {
+   "scenario": "fresh-h1",
+   "variant": "composed",
+   "replica": 0,
+   "chain": "s6-fresh-h1-composed-0-1790587622",
+   "h": 1,
+   "gap_s": null,
+   "classes": [
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0
+   ],
+   "gaps": [
+    0
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h1",
+   "variant": "composed",
+   "replica": 1,
+   "chain": "s6-fresh-h1-composed-1-1790587622",
+   "h": 1,
+   "gap_s": null,
+   "classes": [
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0
+   ],
+   "gaps": [
+    0
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h1",
+   "variant": "local",
+   "replica": 0,
+   "chain": "s6-fresh-h1-local-0-1790587622",
+   "h": 1,
+   "gap_s": null,
+   "classes": [
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0
+   ],
+   "gaps": [
+    0
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h1",
+   "variant": "local",
+   "replica": 1,
+   "chain": "s6-fresh-h1-local-1-1790587622",
+   "h": 1,
+   "gap_s": null,
+   "classes": [
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0
+   ],
+   "gaps": [
+    0
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h2",
+   "variant": "composed",
+   "replica": 0,
+   "chain": "s6-fresh-h2-composed-0-1790587622",
+   "h": 2,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    11
+   ],
+   "gaps": [
+    0,
+    11
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h2",
+   "variant": "composed",
+   "replica": 1,
+   "chain": "s6-fresh-h2-composed-1-1790587622",
+   "h": 2,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    11
+   ],
+   "gaps": [
+    0,
+    11
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h2",
+   "variant": "local",
+   "replica": 0,
+   "chain": "s6-fresh-h2-local-0-1790587622",
+   "h": 2,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    11
+   ],
+   "gaps": [
+    0,
+    11
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h2",
+   "variant": "local",
+   "replica": 1,
+   "chain": "s6-fresh-h2-local-1-1790587622",
+   "h": 2,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    11
+   ],
+   "gaps": [
+    0,
+    11
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h3",
+   "variant": "composed",
+   "replica": 0,
+   "chain": "s6-fresh-h3-composed-0-1790587622",
+   "h": 3,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    21
+   ],
+   "gaps": [
+    0,
+    10,
+    11
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h3",
+   "variant": "composed",
+   "replica": 1,
+   "chain": "s6-fresh-h3-composed-1-1790587622",
+   "h": 3,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    21
+   ],
+   "gaps": [
+    0,
+    10,
+    11
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h3",
+   "variant": "local",
+   "replica": 0,
+   "chain": "s6-fresh-h3-local-0-1790587622",
+   "h": 3,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    21
+   ],
+   "gaps": [
+    0,
+    10,
+    11
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h3",
+   "variant": "local",
+   "replica": 1,
+   "chain": "s6-fresh-h3-local-1-1790587622",
+   "h": 3,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    21
+   ],
+   "gaps": [
+    0,
+    10,
+    11
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h4",
+   "variant": "composed",
+   "replica": 0,
+   "chain": "s6-fresh-h4-composed-0-1790587622",
+   "h": 4,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    21,
+    31
+   ],
+   "gaps": [
+    0,
+    10,
+    11,
+    10
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h4",
+   "variant": "composed",
+   "replica": 1,
+   "chain": "s6-fresh-h4-composed-1-1790587622",
+   "h": 4,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    21,
+    31
+   ],
+   "gaps": [
+    0,
+    10,
+    11,
+    10
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h4",
+   "variant": "local",
+   "replica": 0,
+   "chain": "s6-fresh-h4-local-0-1790587622",
+   "h": 4,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    21,
+    31
+   ],
+   "gaps": [
+    0,
+    10,
+    11,
+    10
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h4",
+   "variant": "local",
+   "replica": 1,
+   "chain": "s6-fresh-h4-local-1-1790587622",
+   "h": 4,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    21,
+    31
+   ],
+   "gaps": [
+    0,
+    10,
+    11,
+    10
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h5",
+   "variant": "composed",
+   "replica": 0,
+   "chain": "s6-fresh-h5-composed-0-1790587622",
+   "h": 5,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    20,
+    30,
+    41
+   ],
+   "gaps": [
+    0,
+    10,
+    10,
+    10,
+    11
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h5",
+   "variant": "composed",
+   "replica": 1,
+   "chain": "s6-fresh-h5-composed-1-1790587622",
+   "h": 5,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    20,
+    30,
+    41
+   ],
+   "gaps": [
+    0,
+    10,
+    10,
+    10,
+    11
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h5",
+   "variant": "local",
+   "replica": 0,
+   "chain": "s6-fresh-h5-local-0-1790587622",
+   "h": 5,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    20,
+    30,
+    41
+   ],
+   "gaps": [
+    0,
+    10,
+    10,
+    10,
+    11
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h5",
+   "variant": "local",
+   "replica": 1,
+   "chain": "s6-fresh-h5-local-1-1790587622",
+   "h": 5,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    20,
+    30,
+    41
+   ],
+   "gaps": [
+    0,
+    10,
+    10,
+    10,
+    11
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h10",
+   "variant": "composed",
+   "replica": 0,
+   "chain": "s6-fresh-h10-composed-0-1790587622",
+   "h": 10,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    7,
+    13,
+    19,
+    25,
+    31,
+    37,
+    43,
+    50,
+    56
+   ],
+   "gaps": [
+    0,
+    7,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7,
+    6
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "fresh-h10",
+   "variant": "local",
+   "replica": 0,
+   "chain": "s6-fresh-h10-local-0-1790587622",
+   "h": 10,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    7,
+    13,
+    19,
+    25,
+    31,
+    37,
+    43,
+    50,
+    56
+   ],
+   "gaps": [
+    0,
+    7,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7,
+    6
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "ctxloss-h4",
+   "variant": "composed",
+   "replica": 0,
+   "chain": "s6-ctxloss-h4-composed-0-1790587622",
+   "h": 4,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    20,
+    30
+   ],
+   "gaps": [
+    0,
+    10,
+    10,
+    10
+   ],
+   "end_to_end": "REJECT",
+   "errors": []
+  },
+  {
+   "scenario": "ctxloss-h4",
+   "variant": "composed",
+   "replica": 1,
+   "chain": "s6-ctxloss-h4-composed-1-1790587622",
+   "h": 4,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    20,
+    30
+   ],
+   "gaps": [
+    0,
+    10,
+    10,
+    10
+   ],
+   "end_to_end": "REJECT",
+   "errors": []
+  },
+  {
+   "scenario": "ctxloss-h4",
+   "variant": "local",
+   "replica": 0,
+   "chain": "s6-ctxloss-h4-local-0-1790587622",
+   "h": 4,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    20,
+    30
+   ],
+   "gaps": [
+    0,
+    10,
+    10,
+    10
+   ],
+   "end_to_end": "REJECT",
+   "errors": []
+  },
+  {
+   "scenario": "ctxloss-h4",
+   "variant": "local",
+   "replica": 1,
+   "chain": "s6-ctxloss-h4-local-1-1790587622",
+   "h": 4,
+   "gap_s": null,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    10,
+    20,
+    30
+   ],
+   "gaps": [
+    0,
+    10,
+    10,
+    10
+   ],
+   "end_to_end": "REJECT",
+   "errors": []
+  }
+ ],
+ "stale": [
+  {
+   "scenario": "stale-h3",
+   "variant": "composed",
+   "replica": 0,
+   "chain": "s6-stale-h3-composed-0-1790587622",
+   "h": 3,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100
+   ],
+   "gaps": [
+    0,
+    50,
+    50
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h3",
+   "variant": "composed",
+   "replica": 1,
+   "chain": "s6-stale-h3-composed-1-1790587622",
+   "h": 3,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100
+   ],
+   "gaps": [
+    0,
+    50,
+    50
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h3",
+   "variant": "local",
+   "replica": 0,
+   "chain": "s6-stale-h3-local-0-1790587622",
+   "h": 3,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100
+   ],
+   "gaps": [
+    0,
+    50,
+    50
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h3",
+   "variant": "local",
+   "replica": 1,
+   "chain": "s6-stale-h3-local-1-1790587622",
+   "h": 3,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100
+   ],
+   "gaps": [
+    0,
+    50,
+    50
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h4",
+   "variant": "composed",
+   "replica": 0,
+   "chain": "s6-stale-h4-composed-0-1790587622",
+   "h": 4,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "REJECT"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "REJECT"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100,
+    150
+   ],
+   "gaps": [
+    0,
+    50,
+    50,
+    50
+   ],
+   "end_to_end": "REJECT",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h4",
+   "variant": "composed",
+   "replica": 1,
+   "chain": "s6-stale-h4-composed-1-1790587622",
+   "h": 4,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "REJECT"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "REJECT"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100,
+    150
+   ],
+   "gaps": [
+    0,
+    50,
+    50,
+    50
+   ],
+   "end_to_end": "REJECT",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h4",
+   "variant": "local",
+   "replica": 0,
+   "chain": "s6-stale-h4-local-0-1790587622",
+   "h": 4,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100,
+    150
+   ],
+   "gaps": [
+    0,
+    50,
+    50,
+    50
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h4",
+   "variant": "local",
+   "replica": 1,
+   "chain": "s6-stale-h4-local-1-1790587622",
+   "h": 4,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100,
+    150
+   ],
+   "gaps": [
+    0,
+    50,
+    50,
+    50
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h5",
+   "variant": "composed",
+   "replica": 0,
+   "chain": "s6-stale-h5-composed-0-1790587622",
+   "h": 5,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100,
+    150,
+    200
+   ],
+   "gaps": [
+    0,
+    50,
+    50,
+    50,
+    50
+   ],
+   "end_to_end": "REJECT",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h5",
+   "variant": "composed",
+   "replica": 1,
+   "chain": "s6-stale-h5-composed-1-1790587622",
+   "h": 5,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100,
+    150,
+    200
+   ],
+   "gaps": [
+    0,
+    50,
+    50,
+    50,
+    50
+   ],
+   "end_to_end": "REJECT",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h5",
+   "variant": "local",
+   "replica": 0,
+   "chain": "s6-stale-h5-local-0-1790587622",
+   "h": 5,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100,
+    150,
+    200
+   ],
+   "gaps": [
+    0,
+    50,
+    50,
+    50,
+    50
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h5",
+   "variant": "local",
+   "replica": 1,
+   "chain": "s6-stale-h5-local-1-1790587622",
+   "h": 5,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100,
+    150,
+    200
+   ],
+   "gaps": [
+    0,
+    50,
+    50,
+    50,
+    50
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h10",
+   "variant": "composed",
+   "replica": 0,
+   "chain": "s6-stale-h10-composed-0-1790587622",
+   "h": 10,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450
+   ],
+   "gaps": [
+    0,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50
+   ],
+   "end_to_end": "REJECT",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h10",
+   "variant": "composed",
+   "replica": 1,
+   "chain": "s6-stale-h10-composed-1-1790587622",
+   "h": 10,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT",
+    "REJECT"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450
+   ],
+   "gaps": [
+    0,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50
+   ],
+   "end_to_end": "REJECT",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h10",
+   "variant": "local",
+   "replica": 0,
+   "chain": "s6-stale-h10-local-0-1790587622",
+   "h": 10,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450
+   ],
+   "gaps": [
+    0,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  },
+  {
+   "scenario": "stale-h10",
+   "variant": "local",
+   "replica": 1,
+   "chain": "s6-stale-h10-local-1-1790587622",
+   "h": 10,
+   "gap_s": 50,
+   "classes": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "model_prediction": [
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE",
+    "SAFE"
+   ],
+   "matches_model": true,
+   "origin_t0_identical_across_hops": true,
+   "ages": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450
+   ],
+   "gaps": [
+    0,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50
+   ],
+   "end_to_end": "SAFE",
+   "errors": []
+  }
+ ],
+ "negative_controls": [
+  {
+   "variant": "composed",
+   "hop0": "SAFE",
+   "skip_hop_refused": true,
+   "skip_error": "Error: endorsement failure during invoke. response: status:500 message:\"previous hop 1 of chain s6-neg-composed-1790587622 not found -- state-binding continuity broken\"",
+   "replay_refused": true,
+   "replay_error": "Error: endorsement failure during invoke. response: status:500 message:\"hop 0 of chain s6-neg-composed-1790587622 already recorded (replay rejected)\""
+  },
+  {
+   "variant": "local",
+   "hop0": "SAFE",
+   "skip_hop_refused": true,
+   "skip_error": "Error: endorsement failure during invoke. response: status:500 message:\"previous hop 1 of chain s6-neg-local-1790587622 not found -- state-binding continuity broken\"",
+   "replay_refused": true,
+   "replay_error": "Error: endorsement failure during invoke. response: status:500 message:\"hop 0 of chain s6-neg-local-1790587622 already recorded (replay rejected)\""
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+  "block": 333,
+  "num_txs": 10,
+  "transactions_filter": [
+    0,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11
+  ],
+  "validation_code_legend": {
+    "0": "VALID",
+    "11": "MVCC_READ_CONFLICT"
+  },
+  "interpretation": "1 original SubmitDecision commit (tx0, VALID) + 9 raced replay attempts that were endorsed before the winning write committed, all invalidated at ledger commit time (MVCC_READ_CONFLICT). Combined with 91 attempts rejected at endorsement time (chaincode decisionExists check), all 100 replay attempts were ultimately rejected end-to-end.",
+  "tx_ids": [
+    "ccd7a13abdca",
+    "0e77aea82c3e",
+    "d064776dce0a",
+    "7127fa5c7f53",
+    "d8016c83f817",
+    "bf782c8457e9",
+    "8b8f931245b3",
+    "3d309908dbf5",
+    "13439005d2b0",
+    "79aa317820ec"
+  ],
+  "block_334_fresh_nonce_control": {
+    "num_txs": 1,
+    "transactions_filter": [
+      0
+    ],
+    "tx_id": "86dbbf2afc41",
+    "interpretation": "genuinely new decision id, committed VALID, confirms replay protection does not spuriously block legitimate new submissions"
+  }
+}

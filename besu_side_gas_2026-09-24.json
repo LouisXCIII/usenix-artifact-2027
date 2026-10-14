@@ -1,0 +1,26 @@
+{
+  "FabricRealTxVerifier_blockCommit": {
+    "txHash": "0xd6785aec0b6d49f5e87f5708cf30daf55bb3b4688694b05a169289891f328e82",
+    "gasUsed": 327461
+  },
+  "FabricRealTxVerifier_endorsement": {
+    "txHash": "0x9d764c252b5385068cb0a17f86c05c4a7219d010bcc1664222459a986f68d3e6",
+    "gasUsed": 636283
+  },
+  "FabricNestedInclusionVerifier_case1_singleEnvelope": {
+    "txHash": "0x3392fe08d86db09572e424708a368569afbe63b2664f0fed35cc179c2fdd45e6",
+    "gasUsed": 1060906
+  },
+  "FabricNestedInclusionVerifier_case2_multiEnvelope": {
+    "txHash": "0x437af33d0bfb05d462f76815a06aca1ddf8fc54f368291d352c84b93d278fe34",
+    "gasUsed": 1379887
+  },
+  "PQCInterBankTransferV2_validSig": {
+    "txHash": "0x473ddad18410056a1f0d8ea340bde2f4c4c796929f4366bf2a54a9b5686ad033",
+    "gasUsed": 440052
+  },
+  "PQCInterBankTransferV2_tamperedSig": {
+    "txHash": "0xf2c5ac47aed748858e67a44dd49bbe8c0640fc32099aa44f18f087e62bdba308",
+    "gasUsed": 500721
+  }
+}

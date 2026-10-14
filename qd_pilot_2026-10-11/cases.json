@@ -1,0 +1,562 @@
+[
+ {
+  "id": 0,
+  "role": "clerk",
+  "tier": 0,
+  "amount": 1,
+  "axis": "tier0_always_deny",
+  "real_grant": false
+ },
+ {
+  "id": 1,
+  "role": "clerk",
+  "tier": 0,
+  "amount": 10000,
+  "axis": "tier0_always_deny",
+  "real_grant": false
+ },
+ {
+  "id": 2,
+  "role": "clerk",
+  "tier": 1,
+  "amount": 999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 3,
+  "role": "clerk",
+  "tier": 1,
+  "amount": 1000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 4,
+  "role": "clerk",
+  "tier": 1,
+  "amount": 1001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 5,
+  "role": "clerk",
+  "tier": 2,
+  "amount": 4999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 6,
+  "role": "clerk",
+  "tier": 2,
+  "amount": 5000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 7,
+  "role": "clerk",
+  "tier": 2,
+  "amount": 5001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 8,
+  "role": "clerk",
+  "tier": 3,
+  "amount": 9999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 9,
+  "role": "clerk",
+  "tier": 3,
+  "amount": 10000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 10,
+  "role": "clerk",
+  "tier": 3,
+  "amount": 10001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 11,
+  "role": "clerk",
+  "tier": 1,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 12,
+  "role": "clerk",
+  "tier": 2,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 13,
+  "role": "clerk",
+  "tier": 3,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 14,
+  "role": "manager",
+  "tier": 0,
+  "amount": 1,
+  "axis": "tier0_always_deny",
+  "real_grant": false
+ },
+ {
+  "id": 15,
+  "role": "manager",
+  "tier": 0,
+  "amount": 500000,
+  "axis": "tier0_always_deny",
+  "real_grant": false
+ },
+ {
+  "id": 16,
+  "role": "manager",
+  "tier": 1,
+  "amount": 49999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 17,
+  "role": "manager",
+  "tier": 1,
+  "amount": 50000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 18,
+  "role": "manager",
+  "tier": 1,
+  "amount": 50001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 19,
+  "role": "manager",
+  "tier": 2,
+  "amount": 249999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 20,
+  "role": "manager",
+  "tier": 2,
+  "amount": 250000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 21,
+  "role": "manager",
+  "tier": 2,
+  "amount": 250001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 22,
+  "role": "manager",
+  "tier": 3,
+  "amount": 499999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 23,
+  "role": "manager",
+  "tier": 3,
+  "amount": 500000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 24,
+  "role": "manager",
+  "tier": 3,
+  "amount": 500001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 25,
+  "role": "manager",
+  "tier": 1,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 26,
+  "role": "manager",
+  "tier": 2,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 27,
+  "role": "manager",
+  "tier": 3,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 28,
+  "role": "director",
+  "tier": 0,
+  "amount": 1,
+  "axis": "tier0_always_deny",
+  "real_grant": false
+ },
+ {
+  "id": 29,
+  "role": "director",
+  "tier": 0,
+  "amount": 2000000,
+  "axis": "tier0_always_deny",
+  "real_grant": false
+ },
+ {
+  "id": 30,
+  "role": "director",
+  "tier": 1,
+  "amount": 199999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 31,
+  "role": "director",
+  "tier": 1,
+  "amount": 200000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 32,
+  "role": "director",
+  "tier": 1,
+  "amount": 200001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 33,
+  "role": "director",
+  "tier": 2,
+  "amount": 999999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 34,
+  "role": "director",
+  "tier": 2,
+  "amount": 1000000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 35,
+  "role": "director",
+  "tier": 2,
+  "amount": 1000001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 36,
+  "role": "director",
+  "tier": 3,
+  "amount": 1999999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 37,
+  "role": "director",
+  "tier": 3,
+  "amount": 2000000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 38,
+  "role": "director",
+  "tier": 3,
+  "amount": 2000001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 39,
+  "role": "director",
+  "tier": 1,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 40,
+  "role": "director",
+  "tier": 2,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 41,
+  "role": "director",
+  "tier": 3,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 42,
+  "role": "gerente",
+  "tier": 0,
+  "amount": 1,
+  "axis": "tier0_always_deny",
+  "real_grant": false
+ },
+ {
+  "id": 43,
+  "role": "gerente",
+  "tier": 0,
+  "amount": 500000,
+  "axis": "tier0_always_deny",
+  "real_grant": false
+ },
+ {
+  "id": 44,
+  "role": "gerente",
+  "tier": 1,
+  "amount": 49999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 45,
+  "role": "gerente",
+  "tier": 1,
+  "amount": 50000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 46,
+  "role": "gerente",
+  "tier": 1,
+  "amount": 50001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 47,
+  "role": "gerente",
+  "tier": 2,
+  "amount": 249999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 48,
+  "role": "gerente",
+  "tier": 2,
+  "amount": 250000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 49,
+  "role": "gerente",
+  "tier": 2,
+  "amount": 250001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 50,
+  "role": "gerente",
+  "tier": 3,
+  "amount": 499999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 51,
+  "role": "gerente",
+  "tier": 3,
+  "amount": 500000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 52,
+  "role": "gerente",
+  "tier": 3,
+  "amount": 500001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 53,
+  "role": "gerente",
+  "tier": 1,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 54,
+  "role": "gerente",
+  "tier": 2,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 55,
+  "role": "gerente",
+  "tier": 3,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 56,
+  "role": "gerente_senior",
+  "tier": 0,
+  "amount": 1,
+  "axis": "tier0_always_deny",
+  "real_grant": false
+ },
+ {
+  "id": 57,
+  "role": "gerente_senior",
+  "tier": 0,
+  "amount": 2000000,
+  "axis": "tier0_always_deny",
+  "real_grant": false
+ },
+ {
+  "id": 58,
+  "role": "gerente_senior",
+  "tier": 1,
+  "amount": 199999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 59,
+  "role": "gerente_senior",
+  "tier": 1,
+  "amount": 200000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 60,
+  "role": "gerente_senior",
+  "tier": 1,
+  "amount": 200001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 61,
+  "role": "gerente_senior",
+  "tier": 2,
+  "amount": 999999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 62,
+  "role": "gerente_senior",
+  "tier": 2,
+  "amount": 1000000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 63,
+  "role": "gerente_senior",
+  "tier": 2,
+  "amount": 1000001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 64,
+  "role": "gerente_senior",
+  "tier": 3,
+  "amount": 1999999,
+  "axis": "just_under_or_at",
+  "real_grant": true
+ },
+ {
+  "id": 65,
+  "role": "gerente_senior",
+  "tier": 3,
+  "amount": 2000000,
+  "axis": "exactly_at_boundary",
+  "real_grant": true
+ },
+ {
+  "id": 66,
+  "role": "gerente_senior",
+  "tier": 3,
+  "amount": 2000001,
+  "axis": "just_over_boundary",
+  "real_grant": false
+ },
+ {
+  "id": 67,
+  "role": "gerente_senior",
+  "tier": 1,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 68,
+  "role": "gerente_senior",
+  "tier": 2,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ },
+ {
+  "id": 69,
+  "role": "gerente_senior",
+  "tier": 3,
+  "amount": 1,
+  "axis": "trivial_small_amount",
+  "real_grant": true
+ }
+]

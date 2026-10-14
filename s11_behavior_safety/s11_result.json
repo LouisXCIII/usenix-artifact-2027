@@ -1,0 +1,85 @@
+{
+  "stamp": "1791431718",
+  "chaincodeVersion_before": "authcc_2.35/seq47",
+  "fixture": "03_dos_safe.sol",
+  "heightBefore": 4767,
+  "A_exploit_on_deployed_v7obligation": {
+    "result": {
+      "kind": "A_v7obl_trusts_bare_discharge_claim",
+      "decisionId": "s11-a-v7obl-exploit-1791431718",
+      "ok": true,
+      "returned": "SAFE",
+      "committed": "SAFE",
+      "wallMs": 2059.318809000615,
+      "tail": ""
+    },
+    "gap_demonstrated": true
+  },
+  "B_patched_rejects_unverified": {
+    "result": {
+      "kind": "B_patched_rejects_unbacked_claim",
+      "decisionId": "s11-b-v7oblvd-norebound-1791431718",
+      "ok": true,
+      "returned": "REJECT",
+      "committed": "REJECT",
+      "wallMs": 2048.3451039999636,
+      "tail": ""
+    },
+    "fix_confirmed": true
+  },
+  "C_legitimate_discharge_honored": {
+    "conditional": {
+      "kind": "C1_submitdecisionfull_conditional",
+      "decisionId": "s11-c-full-conditional-1791431718",
+      "ok": true,
+      "returned": "CONDITIONAL",
+      "committed": "CONDITIONAL",
+      "wallMs": 2049.938222999117,
+      "tail": ""
+    },
+    "real_discharge": {
+      "kind": "C2_real_discharge",
+      "decisionId": "s11-c-full-conditional-1791431718",
+      "ok": true,
+      "returned": "EXACT",
+      "committed": "EXACT",
+      "wallMs": 2054.7696179983177,
+      "tail": ""
+    },
+    "verified_submit": {
+      "kind": "C3_patched_accepts_real_discharge",
+      "decisionId": "s11-c-v7oblvd-legit-1791431718",
+      "ok": true,
+      "returned": "SAFE",
+      "committed": "SAFE",
+      "wallMs": 2051.606634999189,
+      "tail": ""
+    },
+    "honest_path_preserved": true
+  },
+  "D_crosswire_rejected": {
+    "result": {
+      "kind": "D_patched_rejects_crosswired_discharge",
+      "decisionId": "s11-d-v7oblvd-crosswire-1791431718",
+      "ok": true,
+      "returned": "REJECT",
+      "committed": "REJECT",
+      "wallMs": 2052.309286000309,
+      "tail": ""
+    },
+    "binding_check_confirmed": true
+  },
+  "E_replay": {
+    "attempt": {
+      "kind": "E_replay_rejected",
+      "decisionId": "s11-b-v7oblvd-norebound-1791431718",
+      "ok": false,
+      "returned": null,
+      "committed": null,
+      "wallMs": 39.14790199996787,
+      "tail": "Error: endorsement failure during invoke. response: status:500 message:\"decision s11-b-v7oblvd-norebound-1791431718 already recorded (replay rejected)\""
+    },
+    "recordUnchanged": true
+  },
+  "heightAfter": 4773
+}

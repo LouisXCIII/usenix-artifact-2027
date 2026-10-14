@@ -1,0 +1,86 @@
+[
+ {
+  "case": "D1_honest",
+  "role": "clerk",
+  "amount": "5000",
+  "class": "SAFE",
+  "commitVerified": true,
+  "semBound": true,
+  "evOK": true,
+  "detail": "decision content recomputed into hD and proven committed on the source by the pinned policy authority"
+ },
+ {
+  "case": "D1_replay",
+  "role": "clerk",
+  "amount": "5000",
+  "class": "ERR: Error: endorsement failure during invoke. response: status:500 message:\"decision hd:43a8b619d7c2455c5b6dbf44252d9b73a3a698d8eda0f689d07aaf183e22ac59 already recorded (replay rejected)\"",
+  "commitVerified": null,
+  "semBound": null,
+  "evOK": null,
+  "detail": null
+ },
+ {
+  "case": "relay_escalates_role_and_amount",
+  "role": "director",
+  "amount": "700000",
+  "class": "REJECT",
+  "commitVerified": null,
+  "semBound": true,
+  "evOK": true,
+  "detail": "no source commitment exists for this exact decision content"
+ },
+ {
+  "case": "relay_raises_amount",
+  "role": "clerk",
+  "amount": "9999",
+  "class": "REJECT",
+  "commitVerified": null,
+  "semBound": true,
+  "evOK": true,
+  "detail": "no source commitment exists for this exact decision content"
+ },
+ {
+  "case": "relay_changes_role",
+  "role": "manager",
+  "amount": "5000",
+  "class": "REJECT",
+  "commitVerified": null,
+  "semBound": true,
+  "evOK": true,
+  "detail": "no source commitment exists for this exact decision content"
+ },
+ {
+  "case": "Dexp_expired",
+  "role": "clerk",
+  "amount": "5000",
+  "class": "REJECT",
+  "commitVerified": null,
+  "semBound": true,
+  "evOK": true,
+  "detail": "decision expired at 1700000000, transaction time 1789999427"
+ },
+ {
+  "case": "Dother_presented_to_authcc",
+  "role": "clerk",
+  "amount": "5000",
+  "class": "REJECT",
+  "commitVerified": null,
+  "semBound": true,
+  "evOK": true,
+  "detail": "no source commitment exists for this exact decision content"
+ },
+ {
+  "case": "stranger_uncommitted",
+  "role": "clerk",
+  "amount": "5000",
+  "class": "REJECT",
+  "commitVerified": null,
+  "semBound": true,
+  "evOK": true,
+  "detail": "no source commitment exists for this exact decision content"
+ },
+ {
+  "case": "contrast_old_path_escalation",
+  "class": "SAFE"
+ }
+]

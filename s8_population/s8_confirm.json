@@ -1,0 +1,5606 @@
+{
+ "seed": 20260928,
+ "n": 100,
+ "rows": [
+  {
+   "id": "c000",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 27886638,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2082,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 509172,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 597,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 20185211,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 16,
+     "n_diff": 120,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 28109310,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 54,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 28632640,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c001",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 42518525,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2175,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 64768065,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 964,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 53715860,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 33,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 42061404,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 109,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 40945635,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c009",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 34239585,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1974,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 17877031,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 397,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 30530044,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 10,
+     "n_diff": 118,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 34344171,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 34314742,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c016",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 39341754,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2632,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 4086791,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 825,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 28304331,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 32,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 39768030,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 109,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 40773118,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c019",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 16344748,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3393,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 69035879,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 661,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 26667919,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 72,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 15249765,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 245,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 12670304,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c020",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 74110765,
+     "strict_sat": true
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 5571,
+     "n_diff": 141,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 145634081,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 542,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 80814986,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 48,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 73548244,
+     "strict_sat": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 160,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 72227253,
+     "strict_sat": true
+    }
+   }
+  },
+  {
+   "id": "c025",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 28090829,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 5795,
+     "n_diff": 149,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 81029143,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 424,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 20710845,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 75,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 29370457,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 249,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 32285164,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c029",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 23612743,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3699,
+     "n_diff": 139,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 36563638,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 805,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 11729961,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 26,
+     "n_diff": 120,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 23977180,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 87,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 24822894,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c032",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 13103294,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1835,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 34875638,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 818,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 22771339,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 78,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 12082841,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 132,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 11393771,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c047",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 22799086,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2106,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 5056661,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 487,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 18694477,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 21,
+     "n_diff": 118,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 22984002,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 36,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 23104362,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c048",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 14490374,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2640,
+     "n_diff": 138,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 32708751,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 584,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 4270563,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 65,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 15695063,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 217,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 18538612,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c059",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 26250739,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 371,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 21984139,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1754,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 5249761,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 42,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 26690956,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 73,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 26994142,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c064",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 8180284,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 393,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 3999281,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1517,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 9436485,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 47,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 8721652,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 80,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 9102509,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c092",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 54290515,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 4709,
+     "n_diff": 141,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 16130642,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1072,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 41609806,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 231,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 57141315,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 742,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 63586078,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c093",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 33829926,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1086,
+     "n_diff": 141,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 23583181,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 530,
+     "n_diff": 139,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 28614435,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 4,
+     "n_diff": 96,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 33869533,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 114,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 33897492,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c096",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 57858584,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 465,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 52661650,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1689,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 37663670,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 38,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 58232110,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 65,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 58489522,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c099",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 22891306,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1276,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 38328763,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1039,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 34946393,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 86,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 21876926,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 293,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 19653011,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c100",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 54735198,
+     "strict_sat": true
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1046,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 67291967,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 936,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 66273271,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 62,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 54026777,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 210,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 52361569,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c102",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 8163394,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1331,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 8264203,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 474,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 2400487,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 73,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 9123800,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 243,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 11334374,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c103",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 43346742,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 963,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 52164685,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1075,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 53105973,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 162,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 41819754,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 187,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 41584939,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c108",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 20129591,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 104,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 20098597,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 5718,
+     "n_diff": 141,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 43500287,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 1,
+     "n_diff": 15,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 20130613,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 2,
+     "n_diff": 55,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 20139881,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c131",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 42021408,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 101,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 40697923,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 7456,
+     "n_diff": 140,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 42022836,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 6,
+     "n_diff": 96,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 42101683,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 21,
+     "n_diff": 115,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 42293491,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c137",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 56474502,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1310,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 42770508,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 745,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 48323361,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 4,
+     "n_diff": 96,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 56515510,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 16,
+     "n_diff": 116,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 56643061,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c161",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 107884744,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3529,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 75338965,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 163,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 106808858,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 23,
+     "n_diff": 115,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 108045486,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 6,
+     "n_diff": 103,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 107914782,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c162",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 28321494,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 5310,
+     "n_diff": 144,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 36768187,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 241,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 25509483,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 20,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 28544677,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 23,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 28581912,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c163",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 84057241,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 6807,
+     "n_diff": 147,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 27181623,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 131,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 82063802,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 17,
+     "n_diff": 116,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 84281820,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 58,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 84838340,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c171",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 51815210,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1120,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 34119435,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 371,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 46195974,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 25,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 52200976,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 86,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 53121405,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c173",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 56198878,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1190,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 44741501,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 402,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 52530946,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 4,
+     "n_diff": 91,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 56223589,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 6,
+     "n_diff": 102,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 56246774,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c177",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 97398670,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3643,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 69112057,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 115,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 96564248,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 97398670,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 4,
+     "n_diff": 97,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 97425103,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c183",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 111604479,
+     "strict_sat": true
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3949,
+     "n_diff": 141,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 156015237,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 191,
+     "n_diff": 133,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 114565310,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 111604479,
+     "strict_sat": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 167,
+     "n_diff": 133,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 109002452,
+     "strict_sat": true
+    }
+   }
+  },
+  {
+   "id": "c189",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 33859664,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2742,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 2745522,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 349,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 30194960,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 23,
+     "n_diff": 118,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 34110299,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 78,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 34691238,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c192",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 18986140,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2949,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 14274837,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 234,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 16041251,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 38,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 19447700,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 16,
+     "n_diff": 119,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 19183772,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c200",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 42316050,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 362,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 35984463,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 720,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 29718184,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 79,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 43731778,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 273,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 47070940,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c206",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 49815757,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1839,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 35462908,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 356,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 47275580,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 9,
+     "n_diff": 112,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 49867962,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 10,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 49875322,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c208",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 18842101,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3801,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 47948178,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 283,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 21077662,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 18842101,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 32,
+     "n_diff": 119,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 18599775,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c212",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 45070298,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2862,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 5292949,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 434,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 38875123,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 107,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 45181891,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 26,
+     "n_diff": 120,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 45447346,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c213",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 36566424,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2293,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 11290885,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 293,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 33232830,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 20,
+     "n_diff": 115,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 36793131,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 14,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 36716400,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c217",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 554429,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2000,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 14537572,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 381,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 2178376,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 106,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 612235,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 24,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 744012,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c219",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 97633698,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3869,
+     "n_diff": 137,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 30439643,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 389,
+     "n_diff": 133,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 90189290,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 46,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 98584441,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 79,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 99276758,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c225",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 209345935,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 7697,
+     "n_diff": 147,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 48135295,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 587,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 202899498,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 223,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 211587109,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 372,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 211037820,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c228",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 60754516,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 4141,
+     "n_diff": 145,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 23675593,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 276,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 58397178,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 60754516,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 18,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 60902328,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c231",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 155940835,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3659,
+     "n_diff": 145,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 115835858,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 409,
+     "n_diff": 139,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 151606446,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 64,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 156601253,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 73,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 156691881,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c238",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 156513515,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 6342,
+     "n_diff": 144,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 74765321,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 209,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 154927883,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 38,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 156664111,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 22,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 156673769,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c243",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 109972311,
+     "strict_sat": true
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 5120,
+     "n_diff": 145,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 166329546,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 436,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 115080511,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 59,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 109299498,
+     "strict_sat": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 196,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 107713359,
+     "strict_sat": true
+    }
+   }
+  },
+  {
+   "id": "c246",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 95570943,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2849,
+     "n_diff": 139,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 58620610,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 412,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 91784402,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 38,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 95919385,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 130,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 96749570,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c248",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 8533165,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 915,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 3778683,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 694,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 377082,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 8533165,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 262,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 11192763,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c257",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 1150870,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 326,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 3711506,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 563,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 6662986,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 73,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 2259305,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 250,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 5124797,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c261",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 3661660,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 102,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 2159922,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 545,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 5289345,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 22,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 3980556,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 76,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 4765938,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c264",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 48931810,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 324,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 53502745,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 727,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 59475076,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 70,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 47864559,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 233,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 45352538,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c266",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 45587577,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 731,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 57157976,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 712,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 56848393,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 55,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 44611027,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 188,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 42240327,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c270",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 1931644,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 182,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 3471741,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1127,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 11794599,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 40,
+     "n_diff": 120,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 1610338,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 135,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 832070,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c276",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 51146764,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 697,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 64246901,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 653,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 63393062,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 165,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 48372556,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 523,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 41357867,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c284",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 55911859,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 233,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 53427795,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1113,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 44935046,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 2,
+     "n_diff": 62,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 55938693,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 100,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 55988354,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c286",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 17394651,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3020,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 7349952,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 324,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 14166561,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 4,
+     "n_diff": 87,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 17434460,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 6,
+     "n_diff": 106,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 17446812,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c295",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 21573418,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 134,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 20496146,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 811,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 14523899,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 31,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 21795937,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 104,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 22370952,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c331",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 16088421,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1201,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 25414899,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 663,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 21120963,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 5,
+     "n_diff": 94,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 16055522,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 16,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 15983086,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c343",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 28678865,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3380,
+     "n_diff": 137,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 11435811,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 343,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 24367300,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 112,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 28754090,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 21,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 28943824,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c348",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 18139912,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3762,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 22036284,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 514,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 13300966,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 24,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 18330454,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 14,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 18246376,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c356",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 30360158,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1338,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 18824824,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 626,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 24644683,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 31,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 30690426,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 115,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 30442182,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c359",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 50832464,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1053,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 40285329,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 540,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 45663929,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 50832464,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 24,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 51032707,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c360",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 71895968,
+     "strict_sat": true
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1047,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 90226918,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 781,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 85530769,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 71895968,
+     "strict_sat": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 549,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 62271437,
+     "strict_sat": true
+    }
+   }
+  },
+  {
+   "id": "c364",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 11084583,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1580,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 4475119,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 406,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 5993381,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 39,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 11652092,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 33,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 11567922,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c370",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 9978021,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1178,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 26001980,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 752,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 19911040,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 9978021,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 178,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 7847708,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c378",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 13543574,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 169,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 11452934,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 556,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 6317692,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 13543574,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 125,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 14961315,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c380",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 85607887,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2962,
+     "n_diff": 137,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 43951925,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 404,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 79877830,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 85607887,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 192,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 88759269,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c407",
+   "corpus": "s1_sources",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 42556675,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3838,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 11806871,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 372,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 38503344,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 35,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 42921055,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 60,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 43176747,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c411",
+   "corpus": "s1_sources",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 21426308,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2414,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 2932840,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 159,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 20421177,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 21426308,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 112,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 21482716,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c432",
+   "corpus": "s1_sources",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 7071875,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2365,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 25921236,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 276,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 9573857,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 2,
+     "n_diff": 70,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 7059252,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 108,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 7007362,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c435",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 100023661,
+     "strict_sat": true
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 181,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 100968021,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 909,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 104461491,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 41,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 99795558,
+     "strict_sat": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 143,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 99261794,
+     "strict_sat": true
+    }
+   }
+  },
+  {
+   "id": "c439",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 51332892,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 679,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 56041701,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 900,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 57645847,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 207,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 49946693,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 143,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 50364269,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c445",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 127525601,
+     "strict_sat": true
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 160,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 127992574,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 826,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 130030495,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 31,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 127385986,
+     "strict_sat": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 105,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 127010729,
+     "strict_sat": true
+    }
+   }
+  },
+  {
+   "id": "c455",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 51839707,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 674,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 56520146,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 908,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 58279374,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 209,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 50398065,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 144,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 50836809,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c466",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 76754612,
+     "strict_sat": true
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 767,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 82374166,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1005,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 84032627,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 197,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 75185336,
+     "strict_sat": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 139,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 75665588,
+     "strict_sat": true
+    }
+   }
+  },
+  {
+   "id": "c473",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 95172008,
+     "strict_sat": true
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 128,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 95199957,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 562,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 95725684,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 27,
+     "n_diff": 120,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 95168523,
+     "strict_sat": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 95,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 95130975,
+     "strict_sat": true
+    }
+   }
+  },
+  {
+   "id": "c489",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 115030077,
+     "strict_sat": true
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 116,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 114652796,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 567,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 114744718,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 27,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 115147936,
+     "strict_sat": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 91,
+     "n_diff": 119,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 115436619,
+     "strict_sat": true
+    }
+   }
+  },
+  {
+   "id": "c492",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 127550584,
+     "strict_sat": true
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 161,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 128013736,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 828,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 130064974,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 30,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 127396959,
+     "strict_sat": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 105,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 127039508,
+     "strict_sat": true
+    }
+   }
+  },
+  {
+   "id": "c516",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 3513860,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 3513860,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 952,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 13944910,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 109,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 3439587,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 27,
+     "n_diff": 119,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 3239168,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c518",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 4095234,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 4095234,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 880,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 3725851,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 107,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 4169122,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 13,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 4230156,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c523",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 6435674,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 6435674,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 714,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 604776,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 20,
+     "n_diff": 118,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 6575095,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 14,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 6533477,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c526",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 67593912,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 67593912,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 969,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 57557704,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 4,
+     "n_diff": 91,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 67645343,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 107,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 67674780,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c540",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 11872265,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 11872265,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 735,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 5569974,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 18,
+     "n_diff": 119,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 11985901,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 13,
+     "n_diff": 114,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 11951025,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c544",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 32011831,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 32011831,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 907,
+     "n_diff": 140,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 21397962,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 20,
+     "n_diff": 133,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 32221504,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 18,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 32188626,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c546",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 6789020,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 6789020,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 917,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 2286699,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 16,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 6916991,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 11,
+     "n_diff": 110,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 6877975,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c549",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 33370527,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 33370527,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 923,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 23759918,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 14,
+     "n_diff": 118,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 33513240,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 9,
+     "n_diff": 115,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 33474606,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c562",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 15527773,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 15527773,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 582,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 21244260,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 5,
+     "n_diff": 90,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 15489433,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 107,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 15462695,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c566",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 65549260,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 65549260,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 909,
+     "n_diff": 137,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 61370251,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 10,
+     "n_diff": 107,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 65624660,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 11,
+     "n_diff": 111,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 65635253,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c572",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 8983964,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 8983964,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 913,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 444385,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 108,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 9064968,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 14,
+     "n_diff": 119,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 9118455,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c578",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 1266858,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 1266858,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 939,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 9018657,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 11,
+     "n_diff": 109,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 1355859,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 12,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 1369361,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c579",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 26535633,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 26535633,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 867,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 18109405,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 17,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 26689112,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 11,
+     "n_diff": 112,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 26639727,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c580",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 26432654,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 26432654,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 867,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 18515933,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 15,
+     "n_diff": 111,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 26559492,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 26,
+     "n_diff": 114,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 26645264,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c589",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 59897677,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 59897677,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 828,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 48966562,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 10,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 60022492,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 16,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 60113706,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c590",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 32885978,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 32885978,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 773,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 24294135,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 9,
+     "n_diff": 112,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 32975446,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 15,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 33039695,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c591",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 40779958,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 40779958,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 961,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 28873061,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 3,
+     "n_diff": 78,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 40809345,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 3,
+     "n_diff": 74,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 40810503,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c602",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 39357106,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 39357106,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 883,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 30838625,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 6,
+     "n_diff": 98,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 39406006,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 10,
+     "n_diff": 110,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 39435958,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c604",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 35210261,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 35210261,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 939,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 43416926,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 2,
+     "n_diff": 45,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 35197881,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 97,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 35155456,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c607",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 60398539,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 60398539,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 796,
+     "n_diff": 137,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 52472477,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 112,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 60434412,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 13,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 60457251,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c615",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 42310540,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 42310540,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1023,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 61297578,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 282,
+     "n_diff": 120,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 36724950,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 918,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 24336336,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c625",
+   "corpus": "test22",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 66113634,
+     "strict_sat": true
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1961,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 79233216,
+     "strict_sat": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 690,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 71005152,
+     "strict_sat": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 50,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 65695888,
+     "strict_sat": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 85,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 65393332,
+     "strict_sat": true
+    }
+   }
+  },
+  {
+   "id": "c634",
+   "corpus": "test22",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 8,
+     "margin": 10413991,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3465,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 40253182,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 568,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 2735111,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 53,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 11143367,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 90,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 8,
+     "margin": 11652750,
+     "strict_sat": false
+    }
+   }
+  },
+  {
+   "id": "c640",
+   "corpus": "test22",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false,
+     "pred": 0,
+     "margin": 2280703,
+     "strict_sat": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3757,
+     "n_diff": 137,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 48001324,
+     "strict_sat": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 480,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 8410356,
+     "strict_sat": false
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 40,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 1767510,
+     "strict_sat": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 68,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true,
+     "pred": 0,
+     "margin": 1399180,
+     "strict_sat": false
+    }
+   }
+  }
+ ]
+}

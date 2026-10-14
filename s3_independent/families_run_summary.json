@@ -1,0 +1,470 @@
+{
+ "action": {
+  "in_domain_cases": 128,
+  "overall": {
+   "match": 128
+  },
+  "unsafe_accepts": 0,
+  "cp95_upper_bound_if_zero": 0.023132405251746757,
+  "out_of_domain": {
+   "match": 27
+  },
+  "skipped": 0,
+  "adversary_expected_vs_oracle": {
+   "agree": 152
+  },
+  "per_category": {
+   "accept_boundary": {
+    "match": 9
+   },
+   "accept_family_pass": {
+    "match": 3
+   },
+   "action_truncation": {
+    "match": 6
+   },
+   "attest_both_false_family_fail": {
+    "match": 4
+   },
+   "attest_one_false_family_fail": {
+    "match": 4
+   },
+   "boundary_action_level": {
+    "match": 30
+   },
+   "boundary_action_level_cond_fail": {
+    "match": 8
+   },
+   "cond1_both_false": {
+    "match": 1
+   },
+   "cond1_evAssurance_false": {
+    "match": 3
+   },
+   "cond1_semBound_false": {
+    "match": 3
+   },
+   "cond2_bad_role": {
+    "match": 19
+   },
+   "cond3_amount_2pow31": {
+    "match": 1
+   },
+   "cond3_amount_2pow32_wrap": {
+    "match": 1
+   },
+   "cond3_amount_cap_plus1": {
+    "match": 3
+   },
+   "cond3_amount_huge": {
+    "match": 3
+   },
+   "cond3_cross_role": {
+    "match": 4
+   },
+   "family_fail_base_ok": {
+    "match": 9
+   },
+   "multi_fail": {
+    "match": 10
+   },
+   "sourceDomain_irrelevant": {
+    "match": 2
+   },
+   "sourceLimit_irrelevant": {
+    "match": 5
+   }
+  },
+  "examples": []
+ },
+ "assurance_a6": {
+  "in_domain_cases": 219,
+  "overall": {
+   "match": 219
+  },
+  "unsafe_accepts": 0,
+  "cp95_upper_bound_if_zero": 0.0135860084772772,
+  "out_of_domain": {
+   "match": 10
+  },
+  "skipped": 10,
+  "adversary_expected_vs_oracle": {
+   "agree": 226
+  },
+  "per_category": {
+   "accept_boundary": {
+    "match": 9
+   },
+   "accept_family_pass": {
+    "match": 4
+   },
+   "assurance_a6_varied_base": {
+    "match": 138
+   },
+   "attest_both_false_family_fail": {
+    "match": 6
+   },
+   "attest_one_false_family_fail": {
+    "match": 6
+   },
+   "cond1_both_false": {
+    "match": 1
+   },
+   "cond1_evAssurance_false": {
+    "match": 3
+   },
+   "cond1_semBound_false": {
+    "match": 3
+   },
+   "cond2_bad_role": {
+    "match": 19
+   },
+   "cond3_amount_2pow31": {
+    "match": 1
+   },
+   "cond3_amount_2pow32_wrap": {
+    "match": 1
+   },
+   "cond3_amount_cap_plus1": {
+    "match": 3
+   },
+   "cond3_amount_huge": {
+    "match": 3
+   },
+   "cond3_cross_role": {
+    "match": 4
+   },
+   "exhaustive_assurance_a6": {
+    "match": 6
+   },
+   "family_fail_base_ok": {
+    "match": 2
+   },
+   "multi_fail": {
+    "match": 3
+   },
+   "sourceDomain_irrelevant": {
+    "match": 2
+   },
+   "sourceLimit_irrelevant": {
+    "match": 5
+   }
+  },
+  "examples": []
+ },
+ "assurance_v2": {
+  "in_domain_cases": 175,
+  "overall": {
+   "match": 175
+  },
+  "unsafe_accepts": 0,
+  "cp95_upper_bound_if_zero": 0.016972781630711253,
+  "out_of_domain": {
+   "match": 5
+  },
+  "skipped": 12,
+  "adversary_expected_vs_oracle": {
+   "agree": 177
+  },
+  "per_category": {
+   "accept_boundary": {
+    "match": 9
+   },
+   "accept_family_pass": {
+    "match": 3
+   },
+   "assurance_v2_varied_base": {
+    "match": 72
+   },
+   "attest_both_false_family_fail": {
+    "match": 6
+   },
+   "attest_one_false_family_fail": {
+    "match": 6
+   },
+   "cond1_both_false": {
+    "match": 1
+   },
+   "cond1_evAssurance_false": {
+    "match": 3
+   },
+   "cond1_semBound_false": {
+    "match": 3
+   },
+   "cond2_bad_role": {
+    "match": 19
+   },
+   "cond3_amount_2pow31": {
+    "match": 1
+   },
+   "cond3_amount_2pow32_wrap": {
+    "match": 1
+   },
+   "cond3_amount_cap_plus1": {
+    "match": 3
+   },
+   "cond3_amount_huge": {
+    "match": 3
+   },
+   "cond3_cross_role": {
+    "match": 4
+   },
+   "exhaustive_assurance_v2": {
+    "match": 24
+   },
+   "family_fail_base_ok": {
+    "match": 5
+   },
+   "multi_fail": {
+    "match": 5
+   },
+   "sourceDomain_irrelevant": {
+    "match": 2
+   },
+   "sourceLimit_irrelevant": {
+    "match": 5
+   }
+  },
+  "examples": []
+ },
+ "context": {
+  "in_domain_cases": 152,
+  "overall": {
+   "match": 152
+  },
+  "unsafe_accepts": 0,
+  "cp95_upper_bound_if_zero": 0.019515816917848205,
+  "out_of_domain": {
+   "match": 5
+  },
+  "skipped": 0,
+  "adversary_expected_vs_oracle": {
+   "agree": 154
+  },
+  "per_category": {
+   "accept_boundary": {
+    "match": 9
+   },
+   "accept_family_pass": {
+    "match": 1
+   },
+   "attest_both_false_family_fail": {
+    "match": 6
+   },
+   "attest_one_false_family_fail": {
+    "match": 6
+   },
+   "boundary_context": {
+    "match": 30
+   },
+   "cond1_both_false": {
+    "match": 1
+   },
+   "cond1_evAssurance_false": {
+    "match": 3
+   },
+   "cond1_semBound_false": {
+    "match": 3
+   },
+   "cond2_bad_role": {
+    "match": 19
+   },
+   "cond3_amount_2pow31": {
+    "match": 1
+   },
+   "cond3_amount_2pow32_wrap": {
+    "match": 1
+   },
+   "cond3_amount_cap_plus1": {
+    "match": 3
+   },
+   "cond3_amount_huge": {
+    "match": 3
+   },
+   "cond3_cross_role": {
+    "match": 4
+   },
+   "context_attest_matrix": {
+    "match": 24
+   },
+   "context_ok_amount_extreme": {
+    "match": 9
+   },
+   "context_ok_bad_role": {
+    "match": 19
+   },
+   "family_fail_base_ok": {
+    "match": 1
+   },
+   "multi_fail": {
+    "match": 2
+   },
+   "sourceDomain_irrelevant": {
+    "match": 2
+   },
+   "sourceLimit_irrelevant": {
+    "match": 5
+   }
+  },
+  "examples": []
+ },
+ "obligation_v2": {
+  "in_domain_cases": 198,
+  "overall": {
+   "match": 198
+  },
+  "unsafe_accepts": 0,
+  "cp95_upper_bound_if_zero": 0.01501607818876094,
+  "out_of_domain": {
+   "match": 5
+  },
+  "skipped": 16,
+  "adversary_expected_vs_oracle": {
+   "agree": 200
+  },
+  "per_category": {
+   "accept_boundary": {
+    "match": 9
+   },
+   "accept_family_pass": {
+    "match": 4
+   },
+   "attest_both_false_family_fail": {
+    "match": 6
+   },
+   "attest_one_false_family_fail": {
+    "match": 6
+   },
+   "cond1_both_false": {
+    "match": 1
+   },
+   "cond1_evAssurance_false": {
+    "match": 3
+   },
+   "cond1_semBound_false": {
+    "match": 3
+   },
+   "cond2_bad_role": {
+    "match": 19
+   },
+   "cond3_amount_2pow31": {
+    "match": 1
+   },
+   "cond3_amount_2pow32_wrap": {
+    "match": 1
+   },
+   "cond3_amount_cap_plus1": {
+    "match": 3
+   },
+   "cond3_amount_huge": {
+    "match": 3
+   },
+   "cond3_cross_role": {
+    "match": 4
+   },
+   "exhaustive_obligation": {
+    "match": 100
+   },
+   "family_fail_base_ok": {
+    "match": 6
+   },
+   "multi_fail": {
+    "match": 6
+   },
+   "obligation_empty_cond_fail": {
+    "match": 3
+   },
+   "obligation_pass_cond_fail": {
+    "match": 8
+   },
+   "obligation_weaken_strip": {
+    "match": 5
+   },
+   "sourceDomain_irrelevant": {
+    "match": 2
+   },
+   "sourceLimit_irrelevant": {
+    "match": 5
+   }
+  },
+  "examples": []
+ },
+ "resource": {
+  "in_domain_cases": 152,
+  "overall": {
+   "match": 152
+  },
+  "unsafe_accepts": 0,
+  "cp95_upper_bound_if_zero": 0.019515816917848205,
+  "out_of_domain": {
+   "match": 5
+  },
+  "skipped": 0,
+  "adversary_expected_vs_oracle": {
+   "agree": 154
+  },
+  "per_category": {
+   "accept_boundary": {
+    "match": 9
+   },
+   "accept_family_pass": {
+    "match": 1
+   },
+   "attest_both_false_family_fail": {
+    "match": 6
+   },
+   "attest_one_false_family_fail": {
+    "match": 6
+   },
+   "boundary_resource_id": {
+    "match": 48
+   },
+   "cond1_both_false": {
+    "match": 1
+   },
+   "cond1_evAssurance_false": {
+    "match": 3
+   },
+   "cond1_semBound_false": {
+    "match": 3
+   },
+   "cond2_bad_role": {
+    "match": 19
+   },
+   "cond3_amount_2pow31": {
+    "match": 1
+   },
+   "cond3_amount_2pow32_wrap": {
+    "match": 1
+   },
+   "cond3_amount_cap_plus1": {
+    "match": 3
+   },
+   "cond3_amount_huge": {
+    "match": 3
+   },
+   "cond3_cross_role": {
+    "match": 4
+   },
+   "family_fail_base_ok": {
+    "match": 15
+   },
+   "multi_fail": {
+    "match": 15
+   },
+   "resource_pinned_attest_fail": {
+    "match": 3
+   },
+   "resource_pinned_role_fail": {
+    "match": 4
+   },
+   "sourceDomain_irrelevant": {
+    "match": 2
+   },
+   "sourceLimit_irrelevant": {
+    "match": 5
+   }
+  },
+  "examples": []
+ }
+}

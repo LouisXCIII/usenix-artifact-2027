@@ -1,0 +1,531 @@
+{
+ "range": [
+  3400,
+  3465
+ ],
+ "rows": [
+  {
+   "block": 3400,
+   "bytes": 21579,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3401,
+   "bytes": 21967,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3402,
+   "bytes": 21466,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3403,
+   "bytes": 21459,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3404,
+   "bytes": 21430,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3405,
+   "bytes": 21707,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3406,
+   "bytes": 21499,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3407,
+   "bytes": 21154,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3408,
+   "bytes": 21401,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3409,
+   "bytes": 21407,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3410,
+   "bytes": 21230,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3411,
+   "bytes": 21255,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3412,
+   "bytes": 21371,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3413,
+   "bytes": 21530,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3414,
+   "bytes": 21659,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3415,
+   "bytes": 21903,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3416,
+   "bytes": 21533,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3417,
+   "bytes": 21262,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3418,
+   "bytes": 21484,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3419,
+   "bytes": 21417,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3420,
+   "bytes": 21348,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3421,
+   "bytes": 21400,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3422,
+   "bytes": 21267,
+   "hasControlId": true,
+   "hasTreatmentId": false,
+   "xHits": [
+    "03_dos_safe.sol"
+   ],
+   "wHit": false
+  },
+  {
+   "block": 3423,
+   "bytes": 21753,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3424,
+   "bytes": 21493,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3425,
+   "bytes": 21287,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3426,
+   "bytes": 21957,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3427,
+   "bytes": 21267,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3428,
+   "bytes": 21541,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3429,
+   "bytes": 21448,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3430,
+   "bytes": 21728,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3431,
+   "bytes": 21518,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3432,
+   "bytes": 21252,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3433,
+   "bytes": 21923,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3434,
+   "bytes": 21283,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3435,
+   "bytes": 21449,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3436,
+   "bytes": 21724,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3437,
+   "bytes": 21520,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3438,
+   "bytes": 21251,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3439,
+   "bytes": 21925,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3440,
+   "bytes": 21285,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3441,
+   "bytes": 21203,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3442,
+   "bytes": 21714,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3443,
+   "bytes": 21505,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3444,
+   "bytes": 21476,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3445,
+   "bytes": 21912,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3446,
+   "bytes": 21271,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3447,
+   "bytes": 21437,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3448,
+   "bytes": 21717,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3449,
+   "bytes": 21505,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3450,
+   "bytes": 21239,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3451,
+   "bytes": 21912,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3452,
+   "bytes": 21271,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3453,
+   "bytes": 17792,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3454,
+   "bytes": 17277,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3455,
+   "bytes": 17534,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3456,
+   "bytes": 17793,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3457,
+   "bytes": 17325,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3458,
+   "bytes": 17584,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3459,
+   "bytes": 17766,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3460,
+   "bytes": 17315,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3461,
+   "bytes": 17070,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3462,
+   "bytes": 17757,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3463,
+   "bytes": 17343,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  },
+  {
+   "block": 3464,
+   "bytes": 17110,
+   "hasControlId": false,
+   "hasTreatmentId": true,
+   "xHits": [],
+   "wHit": false
+  }
+ ],
+ "keyNote": "x_q[0:16] compact JSON per file; W_q[0][0:8]"
+}

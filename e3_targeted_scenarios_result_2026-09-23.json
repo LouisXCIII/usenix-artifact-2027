@@ -1,0 +1,264 @@
+{
+  "total_n": 30,
+  "total_unsafe_accepted": 0,
+  "scenarios": {
+    "S0": {
+      "n": 3,
+      "unsafe_accepted": 0,
+      "cases": [
+        {
+          "id": "S0-1",
+          "gt": "EXACT",
+          "pred": "EXACT",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S0-250000",
+          "gt": "EXACT",
+          "pred": "EXACT",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S0-500000",
+          "gt": "EXACT",
+          "pred": "EXACT",
+          "unsafe_accepted": false
+        }
+      ]
+    },
+    "S1": {
+      "n": 3,
+      "unsafe_accepted": 0,
+      "cases": [
+        {
+          "id": "S1-1",
+          "gt": "SAFE",
+          "pred": "SAFE",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S1-125000",
+          "gt": "SAFE",
+          "pred": "SAFE",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S1-250000",
+          "gt": "SAFE",
+          "pred": "SAFE",
+          "unsafe_accepted": false
+        }
+      ]
+    },
+    "S2": {
+      "n": 3,
+      "unsafe_accepted": 0,
+      "cases": [
+        {
+          "id": "S2-1",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S2-1000",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S2-2000000",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        }
+      ]
+    },
+    "S3": {
+      "n": 3,
+      "unsafe_accepted": 0,
+      "cases": [
+        {
+          "id": "S3-499999",
+          "gt": "SAFE",
+          "pred": "SAFE",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S3-500000",
+          "gt": "SAFE",
+          "pred": "SAFE",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S3-500001",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        }
+      ]
+    },
+    "S4": {
+      "n": 4,
+      "unsafe_accepted": 0,
+      "cases": [
+        {
+          "id": "S4-0",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S4-1",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S4-2",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S4-3",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        }
+      ]
+    },
+    "S8": {
+      "n": 1,
+      "unsafe_accepted": 0,
+      "cases": [
+        {
+          "id": "S8",
+          "gt": "CONDITIONAL",
+          "pred": "CONDITIONAL",
+          "unsafe_accepted": false
+        }
+      ]
+    },
+    "S9": {
+      "n": 1,
+      "unsafe_accepted": 0,
+      "cases": [
+        {
+          "id": "S9",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        }
+      ]
+    },
+    "S10": {
+      "n": 2,
+      "unsafe_accepted": 0,
+      "cases": [
+        {
+          "id": "S10-noauth",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S10-auth",
+          "gt": "REEVALUATE",
+          "pred": "REEVALUATE",
+          "unsafe_accepted": false
+        }
+      ]
+    },
+    "S12": {
+      "n": 1,
+      "unsafe_accepted": 0,
+      "cases": [
+        {
+          "id": "S12",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        }
+      ]
+    },
+    "S13": {
+      "n": 1,
+      "unsafe_accepted": 0,
+      "cases": [
+        {
+          "id": "S13",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        }
+      ]
+    },
+    "S14": {
+      "n": 3,
+      "unsafe_accepted": 0,
+      "cases": [
+        {
+          "id": "S14-below",
+          "gt": "CONDITIONAL",
+          "pred": "CONDITIONAL",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S14-at",
+          "gt": "EXACT",
+          "pred": "EXACT",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S14-above",
+          "gt": "EXACT",
+          "pred": "EXACT",
+          "unsafe_accepted": false
+        }
+      ]
+    },
+    "S15": {
+      "n": 3,
+      "unsafe_accepted": 0,
+      "cases": [
+        {
+          "id": "S15-classical",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S15-hybrid",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S15-pq",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        }
+      ]
+    },
+    "S17": {
+      "n": 2,
+      "unsafe_accepted": 0,
+      "cases": [
+        {
+          "id": "S17-govfail",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        },
+        {
+          "id": "S17-govfail-widened",
+          "gt": "REJECT",
+          "pred": "REJECT",
+          "unsafe_accepted": false
+        }
+      ]
+    }
+  }
+}

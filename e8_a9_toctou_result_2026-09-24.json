@@ -1,0 +1,25 @@
+{
+  "experiment": "A9 real concurrent TOCTOU race: state-bound clock vs caller-chosen timestamp",
+  "real_case": {
+    "function": "SubmitDecisionTrustless",
+    "decisionId": "a9-real-race-1790217645",
+    "concurrent_with": "SetClock(1790218306)",
+    "block": 405,
+    "txid": "c04b07a20554",
+    "validationCode": 11,
+    "validationCodeName": "MVCC_READ_CONFLICT",
+    "interpretation": "the real, state-bound ledger clock read (ledgerNow->GetState(clock:now)) was genuinely included in this transaction's MVCC read-set; the concurrent SetClock write to the same key caused Fabric to correctly invalidate this transaction at commit time -- real TOCTOU protection working"
+  },
+  "ablated_case": {
+    "function": "SubmitDecisionTrustlessCallerTimestamp",
+    "decisionId": "a9-ablated-race-1790217645",
+    "concurrent_with": "SetClock(1790218606)",
+    "block": 406,
+    "txid": "92e1609999d5",
+    "validationCode": 0,
+    "validationCodeName": "VALID",
+    "interpretation": "GetTxTimestamp() (caller-chosen) was used instead of ledgerNow(); no GetState(clock:now) call means no MVCC read-set entry for the clock key at all -- the concurrent SetClock write had zero effect, the transaction committed successfully regardless -- the real consequence of A9"
+  },
+  "n_correct": 2,
+  "n_total": 2
+}

@@ -1,0 +1,23 @@
+00_clean_token.sol: pred=0 margin=1.049 strict_sat=False relaxed_ok=True snarkjs_ok=True 9.9s
+00_clean_voting.sol: pred=0 margin=2.319 strict_sat=False relaxed_ok=True snarkjs_ok=True 9.6s
+02_integer_overflow_safe.sol: pred=8 margin=0.435 strict_sat=False relaxed_ok=True snarkjs_ok=True 9.7s
+02_integer_overflow_vuln.sol: pred=8 margin=1.351 strict_sat=False relaxed_ok=True snarkjs_ok=True 9.8s
+03_dos_safe.sol: pred=0 margin=3.941 strict_sat=True relaxed_ok=True snarkjs_ok=True 10.3s
+03_dos_vuln.sol: pred=0 margin=5.525 strict_sat=True relaxed_ok=True snarkjs_ok=True 10.5s
+04_call_to_unknown_safe.sol: pred=0 margin=5.532 strict_sat=True relaxed_ok=True snarkjs_ok=True 10.5s
+04_call_to_unknown_vuln.sol: pred=8 margin=2.908 strict_sat=False relaxed_ok=True snarkjs_ok=True 10.0s
+05_weak_access_control_safe.sol: pred=0 margin=0.556 strict_sat=False relaxed_ok=True snarkjs_ok=True 10.1s
+05_weak_access_control_vuln.sol: pred=8 margin=7.066 strict_sat=False relaxed_ok=True snarkjs_ok=True 10.4s
+06_unused_return_safe.sol: pred=0 margin=3.543 strict_sat=True relaxed_ok=True snarkjs_ok=True 10.6s
+06_unused_return_vuln.sol: pred=8 margin=2.979 strict_sat=False relaxed_ok=True snarkjs_ok=True 9.9s
+07_tod_safe.sol: pred=0 margin=2.157 strict_sat=False relaxed_ok=True snarkjs_ok=True 9.7s
+07_tod_vuln.sol: pred=8 margin=0.621 strict_sat=False relaxed_ok=True snarkjs_ok=True 9.9s
+08_timestamp_safe.sol: pred=0 margin=1.693 strict_sat=False relaxed_ok=True snarkjs_ok=True 10.1s
+08_timestamp_vuln.sol: pred=0 margin=4.595 strict_sat=True relaxed_ok=True snarkjs_ok=True 10.9s
+09_mishandled_exception_safe.sol: pred=0 margin=1.893 strict_sat=False relaxed_ok=True snarkjs_ok=True 10.0s
+09_mishandled_exception_vuln.sol: pred=0 margin=3.248 strict_sat=True relaxed_ok=True snarkjs_ok=True 10.8s
+10_gas_exception_safe.sol: pred=0 margin=0.975 strict_sat=False relaxed_ok=True snarkjs_ok=True 10.1s
+10_gas_exception_vuln.sol: pred=0 margin=0.136 strict_sat=False relaxed_ok=True snarkjs_ok=True 10.2s
+11_external_bug_safe.sol: pred=8 margin=0.321 strict_sat=False relaxed_ok=True snarkjs_ok=True 10.2s
+11_external_bug_vuln.sol: pred=8 margin=3.108 strict_sat=False relaxed_ok=True snarkjs_ok=True 10.6s
+wrote fixtures.json 22

@@ -1,0 +1,214 @@
+{
+ "full": {
+  "in_domain_cases": 360,
+  "overall": {
+   "match": 360
+  },
+  "unsafe_accepts": 0,
+  "cp95_upper_bound_if_zero": 0.008286950875235677,
+  "out_of_domain": {
+   "over_conservative": 20,
+   "class_mismatch": 140,
+   "match": 40
+  },
+  "skipped_int64_overflow": 0,
+  "per_category": {
+   "cap_boundary": {
+    "match": 150
+   },
+   "half_cap_boundary": {
+    "match": 120
+   },
+   "low_amount": {
+    "match": 40
+   },
+   "malformed_role": {
+    "match": 40
+   },
+   "replay": {
+    "match": 10
+   }
+  },
+  "examples": {
+   "out_of_domain": [
+    [
+     "M00065",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "EXACT"
+    ],
+    [
+     "M00066",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "EXACT"
+    ],
+    [
+     "M00067",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "REJECT"
+    ],
+    [
+     "M00068",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "REJECT"
+    ],
+    [
+     "M00069",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "REJECT"
+    ],
+    [
+     "M00070",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "REJECT"
+    ],
+    [
+     "M00071",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "REJECT"
+    ],
+    [
+     "M00072",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "REJECT"
+    ],
+    [
+     "M00073",
+     "manager",
+     -1,
+     "ERROR:amount must be positive (got -1)",
+     "EXACT"
+    ],
+    [
+     "M00074",
+     "manager",
+     -1,
+     "ERROR:amount must be positive (got -1)",
+     "EXACT"
+    ]
+   ]
+  },
+  "adversary_expected_vs_oracle": {}
+ },
+ "basic": {
+  "in_domain_cases": 360,
+  "overall": {
+   "match": 360
+  },
+  "unsafe_accepts": 0,
+  "cp95_upper_bound_if_zero": 0.008286950875235677,
+  "out_of_domain": {
+   "over_conservative": 12,
+   "class_mismatch": 148,
+   "match": 40
+  },
+  "skipped_int64_overflow": 0,
+  "per_category": {
+   "cap_boundary": {
+    "match": 150
+   },
+   "half_cap_boundary": {
+    "match": 120
+   },
+   "low_amount": {
+    "match": 40
+   },
+   "malformed_role": {
+    "match": 40
+   },
+   "replay": {
+    "match": 10
+   }
+  },
+  "examples": {
+   "out_of_domain": [
+    [
+     "M00065",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "SAFE"
+    ],
+    [
+     "M00066",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "SAFE"
+    ],
+    [
+     "M00067",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "REJECT"
+    ],
+    [
+     "M00068",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "REJECT"
+    ],
+    [
+     "M00069",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "REJECT"
+    ],
+    [
+     "M00070",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "REJECT"
+    ],
+    [
+     "M00071",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "REJECT"
+    ],
+    [
+     "M00072",
+     "manager",
+     0,
+     "ERROR:amount must be positive (got 0)",
+     "REJECT"
+    ],
+    [
+     "M00073",
+     "manager",
+     -1,
+     "ERROR:amount must be positive (got -1)",
+     "SAFE"
+    ],
+    [
+     "M00074",
+     "manager",
+     -1,
+     "ERROR:amount must be positive (got -1)",
+     "SAFE"
+    ]
+   ]
+  },
+  "adversary_expected_vs_oracle": {}
+ }
+}

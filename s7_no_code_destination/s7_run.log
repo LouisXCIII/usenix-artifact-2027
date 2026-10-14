@@ -1,0 +1,73 @@
+height before 3400
+M1 00_clean_token.sol True REJECT REJECT expected REJECT 2110 ms
+M1 00_clean_voting.sol True REJECT REJECT expected REJECT 2097 ms
+M1 02_integer_overflow_safe.sol True REJECT REJECT expected REJECT 2079 ms
+M1 02_integer_overflow_vuln.sol True REJECT REJECT expected REJECT 2084 ms
+M1 03_dos_safe.sol True SAFE SAFE expected SAFE 2095 ms
+M1 03_dos_vuln.sol True SAFE SAFE expected SAFE 2087 ms
+M1 04_call_to_unknown_safe.sol True SAFE SAFE expected SAFE 2093 ms
+M1 04_call_to_unknown_vuln.sol True REJECT REJECT expected REJECT 2094 ms
+M1 05_weak_access_control_safe.sol True REJECT REJECT expected REJECT 2140 ms
+M1 05_weak_access_control_vuln.sol True REJECT REJECT expected REJECT 2101 ms
+M1 06_unused_return_safe.sol True SAFE SAFE expected SAFE 2060 ms
+M1 06_unused_return_vuln.sol True REJECT REJECT expected REJECT 2061 ms
+M1 07_tod_safe.sol True REJECT REJECT expected REJECT 2060 ms
+M1 07_tod_vuln.sol True REJECT REJECT expected REJECT 2068 ms
+M1 08_timestamp_safe.sol True REJECT REJECT expected REJECT 2059 ms
+M1 08_timestamp_vuln.sol True SAFE SAFE expected SAFE 2086 ms
+M1 09_mishandled_exception_safe.sol True REJECT REJECT expected REJECT 2106 ms
+M1 09_mishandled_exception_vuln.sol True SAFE SAFE expected SAFE 2099 ms
+M1 10_gas_exception_safe.sol True REJECT REJECT expected REJECT 2067 ms
+M1 10_gas_exception_vuln.sol True REJECT REJECT expected REJECT 2061 ms
+M1 11_external_bug_safe.sol True REJECT REJECT expected REJECT 2079 ms
+M1 11_external_bug_vuln.sol True REJECT REJECT expected REJECT 2096 ms
+POSITIVE CONTROL (B1Store with x) True SAFE
+N1_proof_substitution 03_dos_safe.sol True REJECT REJECT 
+N1_proof_substitution 03_dos_vuln.sol True REJECT REJECT 
+N1_proof_substitution 04_call_to_unknown_safe.sol True REJECT REJECT 
+N1_proof_substitution 06_unused_return_safe.sol True REJECT REJECT 
+N1_proof_substitution 08_timestamp_vuln.sol True REJECT REJECT 
+N1_proof_substitution 09_mishandled_exception_vuln.sol True REJECT REJECT 
+N2_tampered_proof 03_dos_safe.sol True REJECT REJECT 
+N2_tampered_proof 03_dos_vuln.sol True REJECT REJECT 
+N2_tampered_proof 04_call_to_unknown_safe.sol True REJECT REJECT 
+N2_tampered_proof 06_unused_return_safe.sol True REJECT REJECT 
+N2_tampered_proof 08_timestamp_vuln.sol True REJECT REJECT 
+N2_tampered_proof 09_mishandled_exception_vuln.sol True REJECT REJECT 
+N3_forged_featureHash 03_dos_safe.sol True REJECT REJECT 
+N3_forged_featureHash 03_dos_vuln.sol True REJECT REJECT 
+N3_forged_featureHash 04_call_to_unknown_safe.sol True REJECT REJECT 
+N3_forged_featureHash 06_unused_return_safe.sol True REJECT REJECT 
+N3_forged_featureHash 08_timestamp_vuln.sol True REJECT REJECT 
+N3_forged_featureHash 09_mishandled_exception_vuln.sol True REJECT REJECT 
+N4_wrong_feature_proof 03_dos_safe.sol True REJECT REJECT 
+N4_wrong_feature_proof 03_dos_vuln.sol True REJECT REJECT 
+N4_wrong_feature_proof 04_call_to_unknown_safe.sol True REJECT REJECT 
+N4_wrong_feature_proof 06_unused_return_safe.sol True REJECT REJECT 
+N4_wrong_feature_proof 08_timestamp_vuln.sol True REJECT REJECT 
+N4_wrong_feature_proof 09_mishandled_exception_vuln.sol True REJECT REJECT 
+N5_amount_over_threshold 03_dos_safe.sol True REJECT REJECT 
+N5_amount_over_threshold 03_dos_vuln.sol True REJECT REJECT 
+N5_amount_over_threshold 04_call_to_unknown_safe.sol True REJECT REJECT 
+N5_amount_over_threshold 06_unused_return_safe.sol True REJECT REJECT 
+N5_amount_over_threshold 08_timestamp_vuln.sol True REJECT REJECT 
+N5_amount_over_threshold 09_mishandled_exception_vuln.sol True REJECT REJECT 
+N6_replay 03_dos_safe.sol False None unchanged :500 message:"decision s7-t-03_dos_safe.sol-1790602218 already recorded (replay rejected)"
+N6_replay 03_dos_vuln.sol False None unchanged :500 message:"decision s7-t-03_dos_vuln.sol-1790602218 already recorded (replay rejected)"
+N6_replay 04_call_to_unknown_safe.sol False None unchanged :"decision s7-t-04_call_to_unknown_safe.sol-1790602218 already recorded (replay rejected)"
+N6_replay 06_unused_return_safe.sol False None unchanged ge:"decision s7-t-06_unused_return_safe.sol-1790602218 already recorded (replay rejected)"
+N6_replay 08_timestamp_vuln.sol False None unchanged essage:"decision s7-t-08_timestamp_vuln.sol-1790602218 already recorded (replay rejected)"
+N6_replay 09_mishandled_exception_vuln.sol False None unchanged ision s7-t-09_mishandled_exception_vuln.sol-1790602218 already recorded (replay rejected)"
+B0_N1_proof_substitution 03_dos_safe.sol True SAFE SAFE
+B0_N5_amount_over_threshold 03_dos_safe.sol True SAFE SAFE
+B0_N1_proof_substitution 03_dos_vuln.sol True SAFE SAFE
+B0_N5_amount_over_threshold 03_dos_vuln.sol True SAFE SAFE
+B0_N1_proof_substitution 04_call_to_unknown_safe.sol True SAFE SAFE
+B0_N5_amount_over_threshold 04_call_to_unknown_safe.sol True SAFE SAFE
+B0_N1_proof_substitution 06_unused_return_safe.sol True SAFE SAFE
+B0_N5_amount_over_threshold 06_unused_return_safe.sol True SAFE SAFE
+B0_N1_proof_substitution 08_timestamp_vuln.sol True SAFE SAFE
+B0_N5_amount_over_threshold 08_timestamp_vuln.sol True SAFE SAFE
+B0_N1_proof_substitution 09_mishandled_exception_vuln.sol True SAFE SAFE
+B0_N5_amount_over_threshold 09_mishandled_exception_vuln.sol True SAFE SAFE
+height after 3465

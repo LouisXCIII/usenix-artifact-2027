@@ -1,0 +1,108 @@
+{
+ "op_l2cdm": {
+  "R14 unsafe-target denylist check": {
+   "found": true,
+   "in": [
+    "0x250AF3f4__src__universal__CrossDomainMessenger.sol"
+   ]
+  },
+  "R14 denylist = self + MessagePasser": {
+   "found": true,
+   "in": [
+    "0x250AF3f4__src__L2__L2CrossDomainMessenger.sol"
+   ]
+  },
+  "R14 paused() check": {
+   "found": true,
+   "in": [
+    "0x250AF3f4__src__universal__CrossDomainMessenger.sol"
+   ]
+  },
+  "R14 xDomainMsgSender set to sender": {
+   "found": true,
+   "in": [
+    "0x250AF3f4__src__universal__CrossDomainMessenger.sol"
+   ]
+  }
+ },
+ "comp_arb": {
+  "R13 govTimelock origin check": {
+   "found": true,
+   "in": [
+    "0x42480C37__contracts__bridges__BaseBridgeReceiver.sol"
+   ]
+  },
+  "R13 local timelock delay": {
+   "found": true,
+   "in": [
+    "0x42480C37__contracts__bridges__BaseBridgeReceiver.sol"
+   ]
+  },
+  "R13 queue on local timelock": {
+   "found": true,
+   "in": [
+    "0x42480C37__contracts__bridges__BaseBridgeReceiver.sol"
+   ]
+  },
+  "arb: alias undone for sender": {
+   "found": true,
+   "in": [
+    "0x42480C37__contracts__bridges__arbitrum__ArbitrumBridgeReceiver.sol",
+    "0x42480C37__contracts__bridges__arbitrum__AddressAliasHelper.sol"
+   ]
+  }
+ },
+ "comp_poly": {
+  "R13 govTimelock origin check": {
+   "found": true,
+   "in": [
+    "0x18281dfC__contracts__bridges__BaseBridgeReceiver.sol"
+   ]
+  },
+  "R13 local timelock delay": {
+   "found": true,
+   "in": [
+    "0x18281dfC__contracts__bridges__BaseBridgeReceiver.sol"
+   ]
+  },
+  "R13 queue on local timelock": {
+   "found": true,
+   "in": [
+    "0x18281dfC__contracts__bridges__BaseBridgeReceiver.sol"
+   ]
+  },
+  "poly: fxChild-only": {
+   "found": true,
+   "in": [
+    "0x18281dfC__contracts__bridges__polygon__PolygonBridgeReceiver.sol"
+   ]
+  }
+ },
+ "comp_op": {
+  "R13 govTimelock origin check": {
+   "found": true,
+   "in": [
+    "0xC3a73A70__contracts__bridges__BaseBridgeReceiver.sol"
+   ]
+  },
+  "R13 local timelock delay": {
+   "found": true,
+   "in": [
+    "0xC3a73A70__contracts__bridges__BaseBridgeReceiver.sol"
+   ]
+  },
+  "R13 queue on local timelock": {
+   "found": true,
+   "in": [
+    "0xC3a73A70__contracts__bridges__BaseBridgeReceiver.sol"
+   ]
+  },
+  "op: messenger xDomainMessageSender": {
+   "found": true,
+   "in": [
+    "0xC3a73A70__contracts__bridges__optimism__OptimismBridgeReceiver.sol",
+    "0xC3a73A70__contracts__bridges__optimism__IOvmL2CrossDomainMessengerInterface.sol"
+   ]
+  }
+ }
+}

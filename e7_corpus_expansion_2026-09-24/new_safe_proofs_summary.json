@@ -1,0 +1,142 @@
+{
+  "new_safe_1": {
+    "valid": true,
+    "public": [
+      "1",
+      "133115522804641827656093500284753806295944519197654521395885208714091546455",
+      "6065748848910247228523303897996039529588627870456406810799661398798732185018",
+      "0",
+      "54445307",
+      "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+      "1627590158553747796774783583623189369550445100658208452603424416576484396164"
+    ],
+    "codeHash": "0x4b573928cdbfee4ca909fe923b70417b5c1cb092586456b9057aaf9c6dc757",
+    "witness_gen_s": 0.6876420974731445,
+    "proof_gen_s": 9.476869344711304,
+    "margin": 7.579,
+    "file": "/tmp/e7corpus_new_safe/new_safe_1.sol"
+  },
+  "new_safe_2": {
+    "valid": true,
+    "public": [
+      "1",
+      "3668880383189689866538853688065798991492177351243063168028483507319263539581",
+      "12748113430900743811245945742957383793238238091512373193102407372275595406",
+      "0",
+      "54445307",
+      "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+      "13300629771731128907309365133368397187765627780456033365874621113404178638716"
+    ],
+    "codeHash": "0x81c8340d5aab7fe9692da7770314e28dc86e79fa549d4a9e94afb7b59f1317d",
+    "witness_gen_s": 0.683201789855957,
+    "proof_gen_s": 9.153146266937256,
+    "margin": 5.705,
+    "file": "/tmp/e7corpus_new_safe/new_safe_2.sol"
+  },
+  "new_safe_3": {
+    "valid": false,
+    "why": "witness generation failed",
+    "stderr_tail": "y.forEach (<anonymous>)\n    at WitnessCalculator._doCalculateWitness (/home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:143:14)\n    at WitnessCalculator.calculateWTNSBin (/home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:218:20)\n    at /home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/generate_witness.js:16:38\n\nNode.js v24.21.0",
+    "margin": 0.107,
+    "file": "/tmp/e7corpus_new_safe/new_safe_3.sol"
+  },
+  "new_safe_4": {
+    "valid": true,
+    "public": [
+      "1",
+      "6697927386809567551393487510608260708971719757675683735601348459530486542749",
+      "13777509911327594169218948759310972557490438872076171094982702180602382231776",
+      "0",
+      "54445307",
+      "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+      "13457035697316495607403734777166249266264668010744883352719192659298734796176"
+    ],
+    "codeHash": "0xecee47e99a1512dbaa02fc0f51ee2e64ed03a1685171012037302006f63f19d",
+    "witness_gen_s": 0.7011568546295166,
+    "proof_gen_s": 9.042080402374268,
+    "margin": 5.933,
+    "file": "/tmp/e7corpus_new_safe/new_safe_4.sol"
+  },
+  "new_safe_5": {
+    "valid": false,
+    "why": "witness generation failed",
+    "stderr_tail": "y.forEach (<anonymous>)\n    at WitnessCalculator._doCalculateWitness (/home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:143:14)\n    at WitnessCalculator.calculateWTNSBin (/home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:218:20)\n    at /home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/generate_witness.js:16:38\n\nNode.js v24.21.0",
+    "margin": 0.106,
+    "file": "/tmp/e7corpus_new_safe/new_safe_5.sol"
+  },
+  "new_safe_6": {
+    "valid": true,
+    "public": [
+      "1",
+      "8391320988593974523957609912099247030749171255373262139599854518642330068257",
+      "3879712913374487075665351803665992192146082146051349003140796995329766007434",
+      "0",
+      "54445307",
+      "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+      "16966911270559639988607315891011216405184523308203449852314802249211341843815"
+    ],
+    "codeHash": "0x128d51c23b9c3444f7b798074687d48d44cab5432a41b97904b175be9be46521",
+    "witness_gen_s": 0.6901731491088867,
+    "proof_gen_s": 9.119798421859741,
+    "margin": 5.673,
+    "file": "/tmp/e7corpus_new_safe/new_safe_6.sol"
+  },
+  "new_safe_7": {
+    "valid": false,
+    "why": "witness generation failed",
+    "stderr_tail": "y.forEach (<anonymous>)\n    at WitnessCalculator._doCalculateWitness (/home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:143:14)\n    at WitnessCalculator.calculateWTNSBin (/home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:218:20)\n    at /home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/generate_witness.js:16:38\n\nNode.js v24.21.0",
+    "margin": 2.291,
+    "file": "/tmp/e7corpus_new_safe/new_safe_7.sol"
+  },
+  "new_safe_8": {
+    "valid": true,
+    "public": [
+      "1",
+      "870201026364142256077643764181426495726225238888242364181592963351078445948",
+      "16864532895736391871502635078908009182822078746959466973575946130155008108274",
+      "0",
+      "54445307",
+      "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+      "17928499757666534998606938728685717777339351310691240653558722320007567736019"
+    ],
+    "codeHash": "0x1ec842dfe453a579a3ff56099d7ebf48ce396349e705eea78ab83bd090f237c",
+    "witness_gen_s": 0.6974196434020996,
+    "proof_gen_s": 8.914172887802124,
+    "margin": 4.816,
+    "file": "/tmp/e7corpus_new_safe/new_safe_8.sol"
+  },
+  "new_safe_9": {
+    "valid": true,
+    "public": [
+      "1",
+      "14155114052667289219608569193059142609131470717491035317217061506241080064296",
+      "1010150945350405477433827883822385498619716589882777695700316293046377112113",
+      "0",
+      "54445307",
+      "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+      "13605172021163874342448785185765603256020540835272992866159608789756880880860"
+    ],
+    "codeHash": "0x1f4b82b9140f0c3fcb242039ffddba66bb33d2d8feddccc633fe8a567deff928",
+    "witness_gen_s": 0.704134464263916,
+    "proof_gen_s": 8.967756271362305,
+    "margin": 4.08,
+    "file": "/tmp/e7corpus_new_safe/new_safe_9.sol"
+  },
+  "new_safe_10": {
+    "valid": true,
+    "public": [
+      "1",
+      "8795985445054586759542741676655507656665845660266443021471505628611878385575",
+      "12478045368190205971711393173926075680636359233421207118661289180854068836480",
+      "0",
+      "54445307",
+      "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+      "15777835615605569530208689215603315088576988207272084494164613933565062488809"
+    ],
+    "codeHash": "0x137259f1243ba4be193b518a87c1cd85e5ed10cdaccc3bde6d18434d0e64f7a7",
+    "witness_gen_s": 0.6964359283447266,
+    "proof_gen_s": 8.938764095306396,
+    "margin": 6.847,
+    "file": "/tmp/e7corpus_new_safe/new_safe_10.sol"
+  }
+}

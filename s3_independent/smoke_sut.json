@@ -1,0 +1,58 @@
+[
+ {
+  "id": "tx1_exact",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "tx2_safe",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "tx3_cond",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "tx4_reeval",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "tx5_reject",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "tx3b_cond",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "over_cap",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "replay",
+  "class": "",
+  "err": "decision tx1_exact already recorded (replay rejected)",
+  "class_basic": "",
+  "err_basic": "decision tx1_exact already recorded (replay rejected)"
+ }
+]

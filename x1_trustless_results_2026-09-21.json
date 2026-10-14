@@ -1,0 +1,47 @@
+[
+ {
+  "label": "H0 honest prover cannot prove V'; relay substitutes SafeBank's proof",
+  "class": "REJECT",
+  "semBound": false,
+  "evOK": true,
+  "provenMl": true,
+  "zk": "proof verifies but its public solidityCodeHash differs from this decision's codeHash (proof substitution rejected)",
+  "lc": "header of block 0x60135 reproduced from raw fields with 3/4 distinct pinned-validator commit seals; registry slots proven by Merkle-Patricia proofs under its stateRoot"
+ },
+ {
+  "label": "A2 forged features (clean x, hash of vulnerable V')",
+  "class": "SAFE",
+  "semBound": true,
+  "evOK": true,
+  "provenMl": true,
+  "zk": "Groth16 proof verified on-chain at the destination; public signals meet destination policy (maxVulnClass, minConfidence)",
+  "lc": "header of block 0x60135 reproduced from raw fields with 3/4 distinct pinned-validator commit seals; registry slots proven by Merkle-Patricia proofs under its stateRoot"
+ },
+ {
+  "label": "A3 substituted weights (W=0, b favours class 0)",
+  "class": "SAFE",
+  "semBound": true,
+  "evOK": true,
+  "provenMl": true,
+  "zk": "Groth16 proof verified on-chain at the destination; public signals meet destination policy (maxVulnClass, minConfidence)",
+  "lc": "header of block 0x60135 reproduced from raw fields with 3/4 distinct pinned-validator commit seals; registry slots proven by Merkle-Patricia proofs under its stateRoot"
+ },
+ {
+  "label": "H1 honest prover on 05_weak_access_control_safe: no proof, substitution",
+  "class": "REJECT",
+  "semBound": false,
+  "evOK": true,
+  "provenMl": true,
+  "zk": "proof verifies but its public solidityCodeHash differs from this decision's codeHash (proof substitution rejected)",
+  "lc": "header of block 0x60135 reproduced from raw fields with 3/4 distinct pinned-validator commit seals; registry slots proven by Merkle-Patricia proofs under its stateRoot"
+ },
+ {
+  "label": "A2d forged confidence (real 0.6348 declared 0.9999)",
+  "class": "SAFE",
+  "semBound": true,
+  "evOK": true,
+  "provenMl": true,
+  "zk": "Groth16 proof verified on-chain at the destination; public signals meet destination policy (maxVulnClass, minConfidence)",
+  "lc": "header of block 0x60135 reproduced from raw fields with 3/4 distinct pinned-validator commit seals; registry slots proven by Merkle-Patricia proofs under its stateRoot"
+ }
+]

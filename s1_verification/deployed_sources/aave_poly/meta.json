@@ -1,0 +1,54 @@
+{
+ "label": "aave_poly",
+ "explorer": "https://polygon.blockscout.com",
+ "queried": [
+  {
+   "address": "0x401B5D0294E23637c18fcc38b1Bca814CDa2637C",
+   "name": "TransparentUpgradeableProxy",
+   "verified": true,
+   "compiler": "v0.8.10+commit.fc410830",
+   "proxy_type": "eip1967",
+   "implementations": [
+    "0xb962dCD6d9F0bFB4Cb2936C6C5E5c7C3f0D3c778"
+   ],
+   "files": [
+    "0x401B5D02__lib__solidity-utils__src__contracts__transparent-proxy__TransparentUpgradeableProxy.sol",
+    "0x401B5D02__lib__solidity-utils__src__contracts__oz-common__Address.sol",
+    "0x401B5D02__lib__solidity-utils__src__contracts__oz-common__StorageSlot.sol",
+    "0x401B5D02__lib__solidity-utils__src__contracts__transparent-proxy__ERC1967Proxy.sol",
+    "0x401B5D02__lib__solidity-utils__src__contracts__transparent-proxy__ERC1967Upgrade.sol",
+    "0x401B5D02__lib__solidity-utils__src__contracts__transparent-proxy__Proxy.sol"
+   ]
+  },
+  {
+   "address": "0xb962dCD6d9F0bFB4Cb2936C6C5E5c7C3f0D3c778",
+   "name": "PayloadsController",
+   "verified": true,
+   "compiler": "v0.8.19+commit.7dd6d404",
+   "proxy_type": null,
+   "implementations": [],
+   "files": [
+    "0xb962dCD6__src__contracts__payloads__PayloadsController.sol",
+    "0xb962dCD6__lib__aave-crosschain-infra__src__contracts__interfaces__IBaseReceiverPortal.sol",
+    "0xb962dCD6__lib__solidity-utils__src__contracts__access-control__OwnableWithGuardian.sol",
+    "0xb962dCD6__lib__solidity-utils__src__contracts__access-control__interfaces__IWithGuardian.sol",
+    "0xb962dCD6__lib__solidity-utils__src__contracts__oz-common__Address.sol",
+    "0xb962dCD6__lib__solidity-utils__src__contracts__oz-common__Context.sol",
+    "0xb962dCD6__lib__solidity-utils__src__contracts__oz-common__Ownable.sol",
+    "0xb962dCD6__lib__solidity-utils__src__contracts__oz-common__SafeCast.sol",
+    "0xb962dCD6__lib__solidity-utils__src__contracts__oz-common__SafeERC20.sol",
+    "0xb962dCD6__lib__solidity-utils__src__contracts__oz-common__interfaces__IERC20.sol",
+    "0xb962dCD6__lib__solidity-utils__src__contracts__oz-common__interfaces__draft-IERC20Permit.sol",
+    "0xb962dCD6__lib__solidity-utils__src__contracts__transparent-proxy__Initializable.sol",
+    "0xb962dCD6__lib__solidity-utils__src__contracts__utils__Rescuable.sol",
+    "0xb962dCD6__lib__solidity-utils__src__contracts__utils__interfaces__IRescuable.sol",
+    "0xb962dCD6__src__contracts__libraries__Errors.sol",
+    "0xb962dCD6__src__contracts__payloads__PayloadsControllerCore.sol",
+    "0xb962dCD6__src__contracts__payloads__PayloadsControllerUtils.sol",
+    "0xb962dCD6__src__contracts__payloads__interfaces__IExecutor.sol",
+    "0xb962dCD6__src__contracts__payloads__interfaces__IPayloadsController.sol",
+    "0xb962dCD6__src__contracts__payloads__interfaces__IPayloadsControllerCore.sol"
+   ]
+  }
+ ]
+}

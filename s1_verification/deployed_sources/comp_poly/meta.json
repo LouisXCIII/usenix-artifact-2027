@@ -1,0 +1,20 @@
+{
+ "label": "comp_poly",
+ "explorer": "https://polygon.blockscout.com",
+ "queried": [
+  {
+   "address": "0x18281dfC4d00905DA1aaA6731414EABa843c468A",
+   "name": "PolygonBridgeReceiver",
+   "verified": true,
+   "compiler": "0.8.15+commit.e14f2714",
+   "proxy_type": null,
+   "implementations": [],
+   "files": [
+    "0x18281dfC__contracts__bridges__polygon__PolygonBridgeReceiver.sol",
+    "0x18281dfC__contracts__ITimelock.sol",
+    "0x18281dfC__contracts__bridges__BaseBridgeReceiver.sol",
+    "0x18281dfC__contracts__bridges__polygon__IFxMessageProcessor.sol"
+   ]
+  }
+ ]
+}

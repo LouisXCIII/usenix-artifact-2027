@@ -1,0 +1,12 @@
+{
+  "chaincode_version": "2.8",
+  "chaincode_sequence": 20,
+  "action_cases": [
+    {"decisionId": "act-pos-1790177779", "actionLevel": 2, "class": "EXACT"},
+    {"decisionId": "act-neg-1790177779", "actionLevel": 3, "class": "REJECT"}
+  ],
+  "resource_cases": [
+    {"decisionId": "res-pos-1790177779", "resourceId": 2, "class": "EXACT"},
+    {"decisionId": "res-neg-1790177779", "resourceId": 99, "class": "REJECT"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "g2_obligation": {
+    "naive_pkg": "authz.obligation",
+    "hardened_pkg": "hardened_obligation",
+    "naive_mismatches": [],
+    "hardened_mismatches": [],
+    "n_cases": 300,
+    "naive_mismatch_count": 0,
+    "hardened_mismatch_count": 0
+  },
+  "g3_multihop": {
+    "naive_pkg": "multihop",
+    "hardened_pkg": "hardened_multihop",
+    "naive_mismatches": [],
+    "hardened_mismatches": [],
+    "n_cases": 63,
+    "naive_mismatch_count": 0,
+    "hardened_mismatch_count": 0
+  },
+  "g4_vocab": {
+    "naive_pkg": "authz.rolemap",
+    "hardened_pkg": "hardened_vocab",
+    "naive_mismatches": [],
+    "hardened_mismatches": [],
+    "n_cases": 56,
+    "naive_mismatch_count": 0,
+    "hardened_mismatch_count": 0
+  }
+}

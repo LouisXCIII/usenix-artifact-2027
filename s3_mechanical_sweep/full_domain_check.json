@@ -1,0 +1,1806 @@
+{
+ "n": 200,
+ "mismatches_oracle_deny_sut_permits": [],
+ "rows": [
+  {
+   "id": "M00065",
+   "role": "manager",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00066",
+   "role": "manager",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00067",
+   "role": "manager",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00068",
+   "role": "manager",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00069",
+   "role": "manager",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00070",
+   "role": "manager",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00071",
+   "role": "manager",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00072",
+   "role": "manager",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00073",
+   "role": "manager",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00074",
+   "role": "manager",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00075",
+   "role": "manager",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00076",
+   "role": "manager",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00077",
+   "role": "manager",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00078",
+   "role": "manager",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00079",
+   "role": "manager",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00080",
+   "role": "manager",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00145",
+   "role": "director",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00146",
+   "role": "director",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00147",
+   "role": "director",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00148",
+   "role": "director",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00149",
+   "role": "director",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00150",
+   "role": "director",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00151",
+   "role": "director",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00152",
+   "role": "director",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00153",
+   "role": "director",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00154",
+   "role": "director",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00155",
+   "role": "director",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00156",
+   "role": "director",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00157",
+   "role": "director",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00158",
+   "role": "director",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00159",
+   "role": "director",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00160",
+   "role": "director",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00225",
+   "role": "clerk",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00226",
+   "role": "clerk",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00227",
+   "role": "clerk",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00228",
+   "role": "clerk",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00229",
+   "role": "clerk",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00230",
+   "role": "clerk",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00231",
+   "role": "clerk",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00232",
+   "role": "clerk",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00233",
+   "role": "clerk",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00234",
+   "role": "clerk",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00235",
+   "role": "clerk",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00236",
+   "role": "clerk",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00237",
+   "role": "clerk",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00238",
+   "role": "clerk",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00239",
+   "role": "clerk",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00240",
+   "role": "clerk",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00305",
+   "role": "gerente",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00306",
+   "role": "gerente",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00307",
+   "role": "gerente",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00308",
+   "role": "gerente",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00309",
+   "role": "gerente",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00310",
+   "role": "gerente",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00311",
+   "role": "gerente",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00312",
+   "role": "gerente",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00313",
+   "role": "gerente",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00314",
+   "role": "gerente",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00315",
+   "role": "gerente",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00316",
+   "role": "gerente",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00317",
+   "role": "gerente",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00318",
+   "role": "gerente",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00319",
+   "role": "gerente",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00320",
+   "role": "gerente",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00385",
+   "role": "gerente_senior",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00386",
+   "role": "gerente_senior",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00387",
+   "role": "gerente_senior",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00388",
+   "role": "gerente_senior",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00389",
+   "role": "gerente_senior",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00390",
+   "role": "gerente_senior",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00391",
+   "role": "gerente_senior",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00392",
+   "role": "gerente_senior",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00393",
+   "role": "gerente_senior",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00394",
+   "role": "gerente_senior",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00395",
+   "role": "gerente_senior",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00396",
+   "role": "gerente_senior",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00397",
+   "role": "gerente_senior",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00398",
+   "role": "gerente_senior",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00399",
+   "role": "gerente_senior",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00400",
+   "role": "gerente_senior",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00401",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REEVALUATE",
+   "sut_err": ""
+  },
+  {
+   "id": "M00402",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REEVALUATE",
+   "sut_err": ""
+  },
+  {
+   "id": "M00403",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00404",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00405",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00406",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00407",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00408",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00409",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00410",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00411",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00412",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00413",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00414",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00415",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00416",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00417",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00418",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00419",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00420",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00421",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00422",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00423",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00424",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00425",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REEVALUATE",
+   "sut_err": ""
+  },
+  {
+   "id": "M00426",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REEVALUATE",
+   "sut_err": ""
+  },
+  {
+   "id": "M00427",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00428",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00429",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00430",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00431",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00432",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00433",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00434",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00435",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00436",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00437",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00438",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00439",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00440",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00441",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REEVALUATE",
+   "sut_err": ""
+  },
+  {
+   "id": "M00442",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REEVALUATE",
+   "sut_err": ""
+  },
+  {
+   "id": "M00443",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00444",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00445",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00446",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00447",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00448",
+   "role": "",
+   "amount": 1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00449",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REEVALUATE",
+   "sut_err": ""
+  },
+  {
+   "id": "M00450",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REEVALUATE",
+   "sut_err": ""
+  },
+  {
+   "id": "M00451",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00452",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00453",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00454",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00455",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00456",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00457",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REEVALUATE",
+   "sut_err": ""
+  },
+  {
+   "id": "M00458",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REEVALUATE",
+   "sut_err": ""
+  },
+  {
+   "id": "M00459",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00460",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00461",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00462",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00463",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00464",
+   "role": "",
+   "amount": 2,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "REJECT",
+   "sut_err": ""
+  },
+  {
+   "id": "M00465",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00466",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00467",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00468",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00469",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00470",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00471",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00472",
+   "role": "",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00473",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00474",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00475",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00476",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00477",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00478",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00479",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00480",
+   "role": "",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00489",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00490",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00491",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00492",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00493",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00494",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00495",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00496",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00497",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00498",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00499",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00500",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00501",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00502",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00503",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00504",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00513",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00514",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00515",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00516",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00517",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00518",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00519",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00520",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00545",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00546",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00547",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00548",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00549",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00550",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00551",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00552",
+   "role": "not_a_role",
+   "amount": 0,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got 0)"
+  },
+  {
+   "id": "M00553",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00554",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00555",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00556",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00557",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00558",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00559",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  },
+  {
+   "id": "M00560",
+   "role": "not_a_role",
+   "amount": -1,
+   "oracle_deny": true,
+   "sut_denies": true,
+   "sut_class": "",
+   "sut_err": "amount must be positive (got -1)"
+  }
+ ]
+}

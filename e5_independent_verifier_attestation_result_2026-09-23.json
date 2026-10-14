@@ -1,0 +1,54 @@
+{
+  "oracle": "0x65c2711D0fD586368f33b962cFa243E6A431E78B",
+  "v3": "0x033fa0158d3Eb580C4bdcce565704E11F197542C",
+  "bankA": "0x0250812142577b93a70190D88403DB730D0A16De",
+  "bankB": "0x3ff00c0960daf07eD230C4a789dB66E43fD77600",
+  "verifier": "0x4A3234209922FCCc56a358E2801502d5074B7d5b",
+  "results": {
+    "S1_valid_honest": {
+      "attestTx": "0x74f778f9cd237ebb253ad498d93778d9ad7bb98fae68dbd093d00958024d9f51",
+      "submitTx": "0xc95d5d9420bf5162ff8edf5101a86ef1d24458312b998eeda83fd090274aa3de",
+      "transferId": "0xa4ced4b9a18f2756ad350ba535dc864f57d1b2db47bb65f07774ce8c7a04caaa",
+      "claimedVerified": true,
+      "independentlyVerified": true,
+      "selfReportMismatch": false,
+      "status": "VERIFIED"
+    },
+    "S2_tampered_honest": {
+      "attestTx": "0xf3508d63fae7298fa71631d4a83b66c849fa20385c2feee9f238fe6fd7f56d6c",
+      "submitTx": "0x494d241ecd2e41184481de2de2aa54fbb046d193a398df57570abdff817083b5",
+      "transferId": "0x1532aad955907ec69a871095736a32d596b5eea56c5be0a238ddd50f5c8929b0",
+      "claimedVerified": false,
+      "independentlyVerified": false,
+      "selfReportMismatch": false,
+      "status": "REJECTED"
+    },
+    "S3_tampered_dishonest_claim": {
+      "attestTx": null,
+      "submitTx": "0x8a43573bf3cf9126c6c4b68e532a526f671b0713b3b60773dde18e057dd20bb4",
+      "transferId": "0x6f5ae3b38821c292771dd815c1a899be01fa1af6f6a69514da8e8acfc67ce6d2",
+      "claimedVerified": true,
+      "independentlyVerified": false,
+      "selfReportMismatch": true,
+      "status": "REJECTED"
+    },
+    "S4_message_substitution": {
+      "attestTx": "0x7b3a2bf8f8bfaeb141415ac67b980913ff7357f61b43a4f654046b504ef71e00",
+      "submitTx": "0x0893ad5bc988887de8b83c5999662deeedb1383805c7c0f47fe595781a447387",
+      "transferId": "0x8cbabe486a1052731fc6eaeab72dbcc7aea25e6d0d12fce131f9b4d908258f72",
+      "claimedVerified": true,
+      "independentlyVerified": false,
+      "selfReportMismatch": true,
+      "status": "REJECTED"
+    },
+    "S5_pubkey_substitution": {
+      "attestTx": "0x44396d6947a25b9524d0a53c6b2f0b784214a317b0af9479b5f72e1a2ce71c38",
+      "submitTx": "0x09dd0616b00a06958d79e4166327b617ae0a1285b3a17c2d6718f6f0749a2e34",
+      "transferId": "0x31dc8f5a36729dd5dac1b60ea39f119980d30b964197a4d09b825f38a6c7cb44",
+      "claimedVerified": true,
+      "independentlyVerified": false,
+      "selfReportMismatch": true,
+      "status": "REJECTED"
+    }
+  }
+}

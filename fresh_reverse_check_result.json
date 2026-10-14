@@ -1,0 +1,18 @@
+{
+  "fabricDecisionId": "fresh-reverse-src-1790256272698",
+  "fabricOut": {
+    "decisionId": "fresh-reverse-src-1790256272698",
+    "sourceDomain": "besu-mainnet",
+    "role": "manager",
+    "amount": 200000,
+    "sourceLimit": 500000,
+    "semBound": true,
+    "evAssuranceOk": true,
+    "transferClass": "SAFE",
+    "destThreshold": 500000
+  },
+  "evmDecisionId": "0x34b883463fc065b33707d07013ca555c61f0617b1d6358cbf56ca33adc0b7bd8",
+  "evmTxHash": "0x31d072c165fdbd44e8d3120a3d3120155824626a2b8c93ccbb09cb01f1a2c022",
+  "evmClass": "EXACT",
+  "ok": false
+}

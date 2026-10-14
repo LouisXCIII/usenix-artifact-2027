@@ -1,0 +1,44 @@
+{
+  "gateAddr": "0xEeb84df0157167bAcc7384C674AbFDf8c8C27230",
+  "results": [
+    {
+      "name": "S0_positive_control_identity",
+      "sourceRef": "a3-real-manager-below_half-apprfalse-1790238720184-1",
+      "role": "manager",
+      "amount": 200000,
+      "semBound": true,
+      "evAssuranceOk": true,
+      "expected": "EXACT",
+      "decisionId": "0xd7ee7decd937f9c1caffd7bfcf81b5c3f2af68dabc0e380397a0dfb25e932c05",
+      "txHash": "0x5c6873f15638b0f9f5e03bc69a918ce80a169b4d85aab5d6b35879403c139be7",
+      "observed": "EXACT",
+      "correct": true
+    },
+    {
+      "name": "S2_role_widening_mapped",
+      "sourceRef": "a8-real-reject_semBound_to_safe-1790238771162-1",
+      "role": "gerente_senior",
+      "amount": 1800000,
+      "semBound": true,
+      "evAssuranceOk": true,
+      "expected": "SAFE",
+      "decisionId": "0xba3e3ffe0f57aa16ce57cebe2c874be98cbf1722854366131249c3f3160e5191",
+      "txHash": "0xbb75432e3d3de8f629d2bdab32df23d719658e240cc81b3884fde91b4c915484",
+      "observed": "SAFE",
+      "correct": true
+    },
+    {
+      "name": "S3_threshold_widening",
+      "sourceRef": "0xeee239c59c6ade96c8ef3a011a8bfbce4507daa0677ab11c34347564e5a70eb0",
+      "role": "manager",
+      "amount": 600000,
+      "semBound": true,
+      "evAssuranceOk": true,
+      "expected": "REJECT",
+      "decisionId": "0xe486bb8bcde6080c385757345266c86475603172c82957816a9e42ec95089dce",
+      "txHash": "0x41f687473ee316b8e40993e42e47eabb9011e3ab9d48eb1e2cea389f2c299cb2",
+      "observed": "REJECT",
+      "correct": true
+    }
+  ]
+}

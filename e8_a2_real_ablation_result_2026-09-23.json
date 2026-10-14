@@ -1,0 +1,48 @@
+{
+  "experiment": "E8 A2 ablation, real on-chain analog",
+  "chaincode_version": "2.9/seq21",
+  "cases": [
+    {
+      "name": "real_over_threshold",
+      "function": "SubmitDecision",
+      "role": "manager",
+      "amount": 600000,
+      "threshold": 500000,
+      "expected": "REJECT",
+      "result": "REJECT",
+      "decisionId": "e8-a2-real-1790186047"
+    },
+    {
+      "name": "ablated_over_threshold",
+      "function": "SubmitDecisionNoSemCheck",
+      "role": "manager",
+      "amount": 600000,
+      "threshold": 500000,
+      "expected": "SAFE (incorrect, demonstrates A2 consequence)",
+      "result": "SAFE",
+      "decisionId": "e8-a2-ablated-1790186047"
+    },
+    {
+      "name": "real_within_threshold",
+      "function": "SubmitDecision",
+      "role": "manager",
+      "amount": 200000,
+      "threshold": 500000,
+      "expected": "SAFE",
+      "result": "SAFE",
+      "decisionId": "e8-a2-real-ok-1790186062"
+    },
+    {
+      "name": "ablated_within_threshold",
+      "function": "SubmitDecisionNoSemCheck",
+      "role": "manager",
+      "amount": 200000,
+      "threshold": 500000,
+      "expected": "SAFE",
+      "result": "SAFE",
+      "decisionId": "e8-a2-ablated-ok-1790186062"
+    }
+  ],
+  "n_correct": 4,
+  "n_total": 4
+}

@@ -1,0 +1,434 @@
+[
+ {
+  "system": "hyperlane",
+  "repo": "https://github.com/hyperlane-xyz/hyperlane-monorepo",
+  "commit": "9dd44f2776201bae00a53b872278114ccf14804d",
+  "commit_date": "2026-09-25",
+  "path": "solidity/contracts/middleware/InterchainAccountRouter.sol",
+  "saved_as": "hyperlane/solidity__contracts__middleware__InterchainAccountRouter.sol",
+  "bytes": 28682
+ },
+ {
+  "system": "hyperlane",
+  "repo": "https://github.com/hyperlane-xyz/hyperlane-monorepo",
+  "commit": "9dd44f2776201bae00a53b872278114ccf14804d",
+  "commit_date": "2026-09-25",
+  "path": "solidity/contracts/middleware/libs/OwnableMulticall.sol",
+  "saved_as": "hyperlane/solidity__contracts__middleware__libs__OwnableMulticall.sol",
+  "bytes": 2451
+ },
+ {
+  "system": "hyperlane",
+  "repo": "https://github.com/hyperlane-xyz/hyperlane-monorepo",
+  "commit": "9dd44f2776201bae00a53b872278114ccf14804d",
+  "commit_date": "2026-09-25",
+  "path": "solidity/contracts/middleware/libs/Call.sol",
+  "saved_as": "hyperlane/solidity__contracts__middleware__libs__Call.sol",
+  "bytes": 4456
+ },
+ {
+  "system": "hyperlane",
+  "repo": "https://github.com/hyperlane-xyz/hyperlane-monorepo",
+  "commit": "9dd44f2776201bae00a53b872278114ccf14804d",
+  "commit_date": "2026-09-25",
+  "path": "solidity/contracts/client/Router.sol",
+  "saved_as": "hyperlane/solidity__contracts__client__Router.sol",
+  "bytes": 7658
+ },
+ {
+  "system": "axelar-gmp",
+  "repo": "https://github.com/axelarnetwork/axelar-gmp-sdk-solidity",
+  "commit": "30196ca7cb9479fd5f79f0668523bd2a488093ed",
+  "commit_date": "2026-06-02",
+  "path": "contracts/executable/AxelarExecutable.sol",
+  "saved_as": "axelar-gmp/contracts__executable__AxelarExecutable.sol",
+  "bytes": 2964
+ },
+ {
+  "system": "axelar-gmp",
+  "repo": "https://github.com/axelarnetwork/axelar-gmp-sdk-solidity",
+  "commit": "30196ca7cb9479fd5f79f0668523bd2a488093ed",
+  "commit_date": "2026-06-02",
+  "path": "contracts/governance/InterchainGovernance.sol",
+  "saved_as": "axelar-gmp/contracts__governance__InterchainGovernance.sol",
+  "bytes": 7195
+ },
+ {
+  "system": "axelar-gmp",
+  "repo": "https://github.com/axelarnetwork/axelar-gmp-sdk-solidity",
+  "commit": "30196ca7cb9479fd5f79f0668523bd2a488093ed",
+  "commit_date": "2026-06-02",
+  "path": "contracts/utils/TimeLock.sol",
+  "saved_as": "axelar-gmp/contracts__utils__TimeLock.sol",
+  "bytes": 3363
+ },
+ {
+  "system": "lz-v2",
+  "repo": "https://github.com/LayerZero-Labs/LayerZero-v2",
+  "commit": "9c741e7f9790639537b1710a203bcdfd73b0b9ac",
+  "commit_date": "2026-02-27",
+  "path": "packages/layerzero-v2/evm/oapp/contracts/oapp/OAppReceiver.sol",
+  "saved_as": "lz-v2/packages__layerzero-v2__evm__oapp__contracts__oapp__OAppReceiver.sol",
+  "bytes": 5410
+ },
+ {
+  "system": "ccip",
+  "repo": "https://github.com/smartcontractkit/chainlink-ccip",
+  "commit": "d6b3956a7ba1c7b30fdb4925eb97e843a38eab0e",
+  "commit_date": "2026-09-25",
+  "path": "chains/evm/contracts/applications/CCIPReceiver.sol",
+  "saved_as": "ccip/chains__evm__contracts__applications__CCIPReceiver.sol",
+  "bytes": 3474
+ },
+ {
+  "system": "ccip",
+  "repo": "https://github.com/smartcontractkit/chainlink-ccip",
+  "commit": "d6b3956a7ba1c7b30fdb4925eb97e843a38eab0e",
+  "commit_date": "2026-09-25",
+  "path": "chains/evm/contracts/pools/TokenPool.sol",
+  "saved_as": "ccip/chains__evm__contracts__pools__TokenPool.sol",
+  "bytes": 54362
+ },
+ {
+  "system": "ccip",
+  "repo": "https://github.com/smartcontractkit/chainlink-ccip",
+  "commit": "d6b3956a7ba1c7b30fdb4925eb97e843a38eab0e",
+  "commit_date": "2026-09-25",
+  "path": "chains/evm/contracts/libraries/RateLimiter.sol",
+  "saved_as": "ccip/chains__evm__contracts__libraries__RateLimiter.sol",
+  "bytes": 5917
+ },
+ {
+  "system": "wormhole",
+  "repo": "https://github.com/wormhole-foundation/wormhole",
+  "commit": "2df4000c5bd228e5ce3a3d87f0475837071587f9",
+  "commit_date": "2026-09-17",
+  "path": "ethereum/contracts/Messages.sol",
+  "saved_as": "wormhole/ethereum__contracts__Messages.sol",
+  "bytes": 10068
+ },
+ {
+  "system": "uni-wh",
+  "repo": "https://github.com/uniswapfoundation/Uniswap-Wormhole-Bridge",
+  "commit": "9698281b20c35a21f0057689e97926618047f908",
+  "commit_date": "2026-07-22",
+  "path": "src/UniswapWormholeMessageReceiver.sol",
+  "saved_as": "uni-wh/src__UniswapWormholeMessageReceiver.sol",
+  "bytes": 7569
+ },
+ {
+  "system": "uni-wh",
+  "repo": "https://github.com/uniswapfoundation/Uniswap-Wormhole-Bridge",
+  "commit": "9698281b20c35a21f0057689e97926618047f908",
+  "commit_date": "2026-07-22",
+  "path": "README.md",
+  "saved_as": "uni-wh/README.md",
+  "bytes": 5458
+ },
+ {
+  "system": "aave-deliv",
+  "repo": "https://github.com/bgd-labs/aave-delivery-infrastructure",
+  "commit": "e4e2500c58fa1eeaa3ffd8f352bdc55c576c1148",
+  "commit_date": "2026-06-03",
+  "path": "src/contracts/CrossChainReceiver.sol",
+  "saved_as": "aave-deliv/src__contracts__CrossChainReceiver.sol",
+  "bytes": 13088
+ },
+ {
+  "system": "aave-gov3",
+  "repo": "https://github.com/bgd-labs/aave-governance-v3",
+  "commit": "497226efad1ca3723074034c8341fb90931fc2b2",
+  "commit_date": "2026-07-30",
+  "path": "src/contracts/payloads/PayloadsControllerCore.sol",
+  "saved_as": "aave-gov3/src__contracts__payloads__PayloadsControllerCore.sol",
+  "bytes": 11878
+ },
+ {
+  "system": "maker-arb",
+  "repo": "https://github.com/makerdao/arbitrum-dai-bridge",
+  "commit": "ba5e98631307025a74fc03108492b20af57a0d3a",
+  "commit_date": "2021-09-20",
+  "path": "contracts/l2/L2GovernanceRelay.sol",
+  "saved_as": "maker-arb/contracts__l2__L2GovernanceRelay.sol",
+  "bytes": 1452
+ },
+ {
+  "system": "comet",
+  "repo": "https://github.com/compound-finance/comet",
+  "commit": "f766f51583c23acc33b2a7824654ef2029a96804",
+  "commit_date": "2026-06-23",
+  "path": "contracts/bridges/BaseBridgeReceiver.sol",
+  "saved_as": "comet/contracts__bridges__BaseBridgeReceiver.sol",
+  "bytes": 5488
+ },
+ {
+  "system": "op",
+  "repo": "https://github.com/ethereum-optimism/optimism",
+  "commit": "fe0f79991f90384c331c9c6b46ddce42b51ab174",
+  "commit_date": "2026-09-26",
+  "path": "packages/contracts-bedrock/src/universal/CrossDomainMessenger.sol",
+  "saved_as": "op/packages__contracts-bedrock__src__universal__CrossDomainMessenger.sol",
+  "bytes": 23324
+ },
+ {
+  "system": "op",
+  "repo": "https://github.com/ethereum-optimism/optimism",
+  "commit": "fe0f79991f90384c331c9c6b46ddce42b51ab174",
+  "commit_date": "2026-09-26",
+  "path": "packages/contracts-bedrock/src/L2/L2CrossDomainMessenger.sol",
+  "saved_as": "op/packages__contracts-bedrock__src__L2__L2CrossDomainMessenger.sol",
+  "bytes": 2648
+ },
+ {
+  "system": "nitro",
+  "repo": "https://github.com/OffchainLabs/nitro-contracts",
+  "commit": "f117ac38d93b012fbfae2f074bd7872ea8597242",
+  "commit_date": "2026-09-24",
+  "path": "src/bridge/Inbox.sol",
+  "saved_as": "nitro/src__bridge__Inbox.sol",
+  "bytes": 11495
+ },
+ {
+  "system": "nitro",
+  "repo": "https://github.com/OffchainLabs/nitro-contracts",
+  "commit": "f117ac38d93b012fbfae2f074bd7872ea8597242",
+  "commit_date": "2026-09-24",
+  "path": "src/libraries/AddressAliasHelper.sol",
+  "saved_as": "nitro/src__libraries__AddressAliasHelper.sol",
+  "bytes": 1301
+ },
+ {
+  "system": "ibc-go",
+  "repo": "https://github.com/cosmos/ibc-go",
+  "commit": "5f1b25289bf5e605821fb4a1c765a92bcda1d2e3",
+  "commit_date": "2026-09-26",
+  "path": "modules/apps/27-interchain-accounts/host/keeper/relay.go",
+  "saved_as": "ibc-go/modules__apps__27-interchain-accounts__host__keeper__relay.go",
+  "bytes": 5910
+ },
+ {
+  "system": "ibc-go",
+  "repo": "https://github.com/cosmos/ibc-go",
+  "commit": "5f1b25289bf5e605821fb4a1c765a92bcda1d2e3",
+  "commit_date": "2026-09-26",
+  "path": "modules/apps/27-interchain-accounts/host/types/params.go",
+  "saved_as": "ibc-go/modules__apps__27-interchain-accounts__host__types__params.go",
+  "bytes": 1376
+ },
+ {
+  "system": "ibc-go",
+  "repo": "https://github.com/cosmos/ibc-go",
+  "commit": "5f1b25289bf5e605821fb4a1c765a92bcda1d2e3",
+  "commit_date": "2026-09-26",
+  "path": "modules/apps/transfer/types/params.go",
+  "saved_as": "ibc-go/modules__apps__transfer__types__params.go",
+  "bytes": 585
+ },
+ {
+  "system": "ibc-apps",
+  "repo": "https://github.com/cosmos/ibc-apps",
+  "commit": "b524d3eee2990fde1a28e807628d6414c3f7e547",
+  "commit_date": "2026-07-13",
+  "path": "modules/rate-limiting/keeper/flow.go",
+  "saved_as": "ibc-apps/modules__rate-limiting__keeper__flow.go",
+  "bytes": 3520
+ },
+ {
+  "system": "polkadot",
+  "repo": "https://github.com/paritytech/polkadot-sdk",
+  "commit": "bd6b01028c6cfb9c010bbf6cb505d2330f8a0433",
+  "commit_date": "2026-09-25",
+  "path": "polkadot/xcm/xcm-executor/src/config.rs",
+  "saved_as": "polkadot/polkadot__xcm__xcm-executor__src__config.rs",
+  "bytes": 5360
+ },
+ {
+  "system": "polkadot",
+  "repo": "https://github.com/paritytech/polkadot-sdk",
+  "commit": "bd6b01028c6cfb9c010bbf6cb505d2330f8a0433",
+  "commit_date": "2026-09-25",
+  "path": "polkadot/xcm/xcm-executor/src/lib.rs",
+  "saved_as": "polkadot/polkadot__xcm__xcm-executor__src__lib.rs",
+  "bytes": 67169
+ },
+ {
+  "system": "weaver",
+  "repo": "https://github.com/hyperledger-labs/weaver-dlt-interoperability",
+  "commit": "59feaff1522e64bcc95e6a88aa670320d792643c",
+  "commit_date": "2024-09-04",
+  "path": "common/protos/common/verification_policy.proto",
+  "saved_as": "weaver/common__protos__common__verification_policy.proto",
+  "bytes": 967
+ },
+ {
+  "system": "weaver",
+  "repo": "https://github.com/hyperledger-labs/weaver-dlt-interoperability",
+  "commit": "59feaff1522e64bcc95e6a88aa670320d792643c",
+  "commit_date": "2024-09-04",
+  "path": "common/protos/common/access_control.proto",
+  "saved_as": "weaver/common__protos__common__access_control.proto",
+  "bytes": 585
+ },
+ {
+  "system": "cacti",
+  "repo": "https://github.com/hyperledger-cacti/cacti",
+  "commit": "d43374ba5df98f979f35d58a40bce47762c8d9bc",
+  "commit_date": "2026-09-23",
+  "path": "packages/cactus-plugin-satp-hermes/src/main/typescript/core/stage-services/server/stage1-server-service.ts",
+  "saved_as": "cacti/packages__cactus-plugin-satp-hermes__src__main__typescript__core__stage-services__server__stage1-server-service.ts",
+  "bytes": 25164
+ },
+ {
+  "system": "ntt",
+  "repo": "https://github.com/wormhole-foundation/native-token-transfers",
+  "commit": "250d810d42b005526e4fb7e3aea75d2d2ab8fdbb",
+  "commit_date": "2026-07-30",
+  "path": "evm/src/NttManager/NttManager.sol",
+  "saved_as": "ntt/evm__src__NttManager__NttManager.sol",
+  "bytes": 26665
+ },
+ {
+  "system": "fx",
+  "repo": "https://github.com/0xPolygon/fx-portal",
+  "commit": "731959279a77b0779f8a1eccdaea710e0babee19",
+  "commit_date": "2023-12-19",
+  "path": "contracts/tunnel/FxBaseChildTunnel.sol",
+  "saved_as": "fx/contracts__tunnel__FxBaseChildTunnel.sol",
+  "bytes": 2353
+ },
+ {
+  "system": "aave-gov3",
+  "repo": "https://github.com/bgd-labs/aave-governance-v3",
+  "commit": "497226efad1ca3723074034c8341fb90931fc2b2",
+  "commit_date": "2026-07-30",
+  "path": "src/contracts/payloads/PayloadsController.sol",
+  "saved_as": "aave-gov3/src__contracts__payloads__PayloadsController.sol",
+  "bytes": 3113
+ },
+ {
+  "system": "ibc-go",
+  "repo": "https://github.com/cosmos/ibc-go",
+  "commit": "5f1b25289bf5e605821fb4a1c765a92bcda1d2e3",
+  "commit_date": "2026-09-26",
+  "path": "modules/apps/27-interchain-accounts/host/ibc_module.go",
+  "saved_as": "ibc-go/modules__apps__27-interchain-accounts__host__ibc_module.go",
+  "bytes": 5635
+ },
+ {
+  "system": "ccip",
+  "repo": "https://github.com/smartcontractkit/chainlink-ccip",
+  "commit": "d6b3956a7ba1c7b30fdb4925eb97e843a38eab0e",
+  "commit_date": "2026-09-25",
+  "path": "chains/evm/contracts/libraries/Client.sol",
+  "saved_as": "ccip/chains__evm__contracts__libraries__Client.sol",
+  "bytes": 6580
+ },
+ {
+  "system": "cctp",
+  "repo": "https://github.com/circlefin/evm-cctp-contracts",
+  "commit": "a92a2b4e7e6ef99bf0b05dca71780f5ec190e729",
+  "commit_date": "2026-06-18",
+  "path": "src/MessageTransmitter.sol",
+  "saved_as": "cctp/src__MessageTransmitter.sol",
+  "bytes": 14060
+ },
+ {
+  "system": "cctp",
+  "repo": "https://github.com/circlefin/evm-cctp-contracts",
+  "commit": "a92a2b4e7e6ef99bf0b05dca71780f5ec190e729",
+  "commit_date": "2026-06-18",
+  "path": "src/TokenMessenger.sol",
+  "saved_as": "cctp/src__TokenMessenger.sol",
+  "bytes": 22628
+ },
+ {
+  "system": "cctp",
+  "repo": "https://github.com/circlefin/evm-cctp-contracts",
+  "commit": "a92a2b4e7e6ef99bf0b05dca71780f5ec190e729",
+  "commit_date": "2026-06-18",
+  "path": "src/TokenMinter.sol",
+  "saved_as": "cctp/src__TokenMinter.sol",
+  "bytes": 7128
+ },
+ {
+  "system": "scroll",
+  "repo": "https://github.com/scroll-tech/scroll-contracts",
+  "commit": "dfbd661520ac30505a773881728cc5cfb005978b",
+  "commit_date": "2026-03-18",
+  "path": "src/L2/L2ScrollMessenger.sol",
+  "saved_as": "scroll/src__L2__L2ScrollMessenger.sol",
+  "bytes": 6503
+ },
+ {
+  "system": "scroll",
+  "repo": "https://github.com/scroll-tech/scroll-contracts",
+  "commit": "dfbd661520ac30505a773881728cc5cfb005978b",
+  "commit_date": "2026-03-18",
+  "path": "src/libraries/ScrollMessengerBase.sol",
+  "saved_as": "scroll/src__libraries__ScrollMessengerBase.sol",
+  "bytes": 5140
+ },
+ {
+  "system": "gnosis-amb",
+  "repo": "https://github.com/poanetwork/tokenbridge-contracts",
+  "commit": "908a48107919d4ab127f9af07d44d47eac91547e",
+  "commit_date": "2021-09-06",
+  "path": "contracts/upgradeable_contracts/arbitrary_message/MessageProcessor.sol",
+  "saved_as": "gnosis-amb/contracts__upgradeable_contracts__arbitrary_message__MessageProcessor.sol",
+  "bytes": 12425
+ },
+ {
+  "system": "gnosis-amb",
+  "repo": "https://github.com/poanetwork/tokenbridge-contracts",
+  "commit": "908a48107919d4ab127f9af07d44d47eac91547e",
+  "commit_date": "2021-09-06",
+  "path": "contracts/upgradeable_contracts/arbitrary_message/BasicAMB.sol",
+  "saved_as": "gnosis-amb/contracts__upgradeable_contracts__arbitrary_message__BasicAMB.sol",
+  "bytes": 8289
+ },
+ {
+  "system": "gnosis-amb",
+  "repo": "https://github.com/poanetwork/tokenbridge-contracts",
+  "commit": "908a48107919d4ab127f9af07d44d47eac91547e",
+  "commit_date": "2021-09-06",
+  "path": "contracts/upgradeable_contracts/arbitrary_message/BasicForeignAMB.sol",
+  "saved_as": "gnosis-amb/contracts__upgradeable_contracts__arbitrary_message__BasicForeignAMB.sol",
+  "bytes": 5212
+ },
+ {
+  "system": "gnosis-amb",
+  "repo": "https://github.com/poanetwork/tokenbridge-contracts",
+  "commit": "908a48107919d4ab127f9af07d44d47eac91547e",
+  "commit_date": "2021-09-06",
+  "path": "contracts/upgradeable_contracts/arbitrary_message/ForeignAMB.sol",
+  "saved_as": "gnosis-amb/contracts__upgradeable_contracts__arbitrary_message__ForeignAMB.sol",
+  "bytes": 650
+ },
+ {
+  "system": "bridge-exec",
+  "repo": "https://github.com/aave/governance-crosschain-bridges",
+  "commit": "57dd43969a68eb076fdbeae2953b572534694986",
+  "commit_date": "2023-03-27",
+  "path": "contracts/bridges/BridgeExecutorBase.sol",
+  "saved_as": "bridge-exec/contracts__bridges__BridgeExecutorBase.sol",
+  "bytes": 12473
+ },
+ {
+  "system": "bridge-exec",
+  "repo": "https://github.com/aave/governance-crosschain-bridges",
+  "commit": "57dd43969a68eb076fdbeae2953b572534694986",
+  "commit_date": "2023-03-27",
+  "path": "contracts/bridges/L2BridgeExecutor.sol",
+  "saved_as": "bridge-exec/contracts__bridges__L2BridgeExecutor.sol",
+  "bytes": 2558
+ },
+ {
+  "system": "bridge-exec",
+  "repo": "https://github.com/aave/governance-crosschain-bridges",
+  "commit": "57dd43969a68eb076fdbeae2953b572534694986",
+  "commit_date": "2023-03-27",
+  "path": "contracts/bridges/ArbitrumBridgeExecutor.sol",
+  "saved_as": "bridge-exec/contracts__bridges__ArbitrumBridgeExecutor.sol",
+  "bytes": 1680
+ }
+]

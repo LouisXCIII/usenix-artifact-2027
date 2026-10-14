@@ -1,0 +1,145 @@
+{
+  "method": "B1perf N=10-per-file median (2026-09-29) vs existing B4 per-file median (paired_reusegain_result.json)",
+  "pairs": [
+    {
+      "name": "00_clean_token.sol",
+      "b4_median_ms": 2.060277,
+      "b1perf_n10_median_ms": 10.002613067626953,
+      "reusegain": 0.7940261223671641
+    },
+    {
+      "name": "00_clean_voting.sol",
+      "b4_median_ms": 1.891991,
+      "b1perf_n10_median_ms": 8.579373359680176,
+      "reusegain": 0.7794721221841626
+    },
+    {
+      "name": "02_integer_overflow_safe.sol",
+      "b4_median_ms": 2.0381115,
+      "b1perf_n10_median_ms": 6.3163042068481445,
+      "reusegain": 0.6773253102992923
+    },
+    {
+      "name": "02_integer_overflow_vuln.sol",
+      "b4_median_ms": 1.934273,
+      "b1perf_n10_median_ms": 5.664825439453125,
+      "reusegain": 0.6585467600592593
+    },
+    {
+      "name": "03_dos_safe.sol",
+      "b4_median_ms": 2.0741675,
+      "b1perf_n10_median_ms": 4.517197608947754,
+      "reusegain": 0.5408286996585121
+    },
+    {
+      "name": "03_dos_vuln.sol",
+      "b4_median_ms": 2.063811,
+      "b1perf_n10_median_ms": 4.521369934082031,
+      "reusegain": 0.5435429902687197
+    },
+    {
+      "name": "04_call_to_unknown_safe.sol",
+      "b4_median_ms": 2.067458,
+      "b1perf_n10_median_ms": 4.394650459289551,
+      "reusegain": 0.5295512079624577
+    },
+    {
+      "name": "04_call_to_unknown_vuln.sol",
+      "b4_median_ms": 1.9056715,
+      "b1perf_n10_median_ms": 2.7141571044921875,
+      "reusegain": 0.2978772316289529
+    },
+    {
+      "name": "05_weak_access_control_safe.sol",
+      "b4_median_ms": 2.042453,
+      "b1perf_n10_median_ms": 3.7119388580322266,
+      "reusegain": 0.4497611415176312
+    },
+    {
+      "name": "05_weak_access_control_vuln.sol",
+      "b4_median_ms": 1.9807565,
+      "b1perf_n10_median_ms": 3.291964530944824,
+      "reusegain": 0.3983056374451566
+    },
+    {
+      "name": "06_unused_return_safe.sol",
+      "b4_median_ms": 2.075407,
+      "b1perf_n10_median_ms": 3.949403762817383,
+      "reusegain": 0.4745011843206762
+    },
+    {
+      "name": "06_unused_return_vuln.sol",
+      "b4_median_ms": 1.9330705,
+      "b1perf_n10_median_ms": 3.49581241607666,
+      "reusegain": 0.4470325435340495
+    },
+    {
+      "name": "07_tod_safe.sol",
+      "b4_median_ms": 2.0435065,
+      "b1perf_n10_median_ms": 5.442023277282715,
+      "reusegain": 0.624495082825086
+    },
+    {
+      "name": "07_tod_vuln.sol",
+      "b4_median_ms": 2.0345975,
+      "b1perf_n10_median_ms": 3.826022148132324,
+      "reusegain": 0.4682211912983331
+    },
+    {
+      "name": "08_timestamp_safe.sol",
+      "b4_median_ms": 1.9538015,
+      "b1perf_n10_median_ms": 7.12430477142334,
+      "reusegain": 0.7257554859476265
+    },
+    {
+      "name": "08_timestamp_vuln.sol",
+      "b4_median_ms": 1.974249,
+      "b1perf_n10_median_ms": 4.347562789916992,
+      "reusegain": 0.5458952301784481
+    },
+    {
+      "name": "09_mishandled_exception_safe.sol",
+      "b4_median_ms": 2.0840195,
+      "b1perf_n10_median_ms": 6.042957305908203,
+      "reusegain": 0.6551325130226465
+    },
+    {
+      "name": "09_mishandled_exception_vuln.sol",
+      "b4_median_ms": 2.0180965,
+      "b1perf_n10_median_ms": 4.102826118469238,
+      "reusegain": 0.5081203926933783
+    },
+    {
+      "name": "10_gas_exception_safe.sol",
+      "b4_median_ms": 2.0335125,
+      "b1perf_n10_median_ms": 6.389260292053223,
+      "reusegain": 0.6817295888650483
+    },
+    {
+      "name": "10_gas_exception_vuln.sol",
+      "b4_median_ms": 2.0610515,
+      "b1perf_n10_median_ms": 3.982663154602051,
+      "reusegain": 0.4824941452509204
+    },
+    {
+      "name": "11_external_bug_safe.sol",
+      "b4_median_ms": 1.9766755,
+      "b1perf_n10_median_ms": 5.826115608215332,
+      "reusegain": 0.6607215453787573
+    },
+    {
+      "name": "11_external_bug_vuln.sol",
+      "b4_median_ms": 1.972141,
+      "b1perf_n10_median_ms": 2.9071569442749023,
+      "reusegain": 0.321625547638988
+    }
+  ],
+  "median_gain": 0.5421858449636159,
+  "mean_gain": 0.5574982579247848,
+  "min_gain": 0.2978772316289529,
+  "max_gain": 0.7940261223671641,
+  "wilcoxon_statistic": 0.0,
+  "wilcoxon_pvalue": 4.76837158203125e-07,
+  "n_files_b4_faster": 22,
+  "n": 22
+}

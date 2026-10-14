@@ -1,0 +1,8 @@
+{
+  "chaincode_version": "2.7",
+  "chaincode_sequence": 19,
+  "cases": [
+    {"decisionId": "ctx-pos-1790177224", "contextOK": true, "role": "manager", "amount": 200000, "class": "EXACT"},
+    {"decisionId": "ctx-neg-1790177224", "contextOK": false, "role": "manager", "amount": 200000, "class": "REJECT"}
+  ]
+}

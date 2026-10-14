@@ -1,0 +1,83 @@
+{
+  "n_correct": 7,
+  "n_total": 7,
+  "results": {
+    "positive_control": {
+      "case": {
+        "obligation_profile": "dual_approval",
+        "mapped_mechanism": "dual_approval",
+        "obligation_discharged": true,
+        "enforcement_witness_verified": true
+      },
+      "expected": true,
+      "got": true,
+      "pass": true
+    },
+    "S5_stripped": {
+      "case": {
+        "obligation_profile": "dual_approval",
+        "mapped_mechanism": null,
+        "obligation_discharged": false,
+        "enforcement_witness_verified": false
+      },
+      "expected": false,
+      "got": false,
+      "pass": true
+    },
+    "S6_weakened": {
+      "case": {
+        "obligation_profile": "dual_approval",
+        "mapped_mechanism": "notification",
+        "obligation_discharged": true,
+        "enforcement_witness_verified": true
+      },
+      "expected": false,
+      "got": false,
+      "pass": true
+    },
+    "S7_laundered": {
+      "case": {
+        "obligation_profile": "audit",
+        "mapped_mechanism": "audit",
+        "obligation_discharged": true,
+        "enforcement_witness_verified": false
+      },
+      "expected": false,
+      "got": false,
+      "pass": true
+    },
+    "boundary_equal_strength": {
+      "case": {
+        "obligation_profile": "audit",
+        "mapped_mechanism": "audit",
+        "obligation_discharged": true,
+        "enforcement_witness_verified": true
+      },
+      "expected": true,
+      "got": true,
+      "pass": true
+    },
+    "boundary_stronger_mechanism": {
+      "case": {
+        "obligation_profile": "dual_approval",
+        "mapped_mechanism": "combined",
+        "obligation_discharged": true,
+        "enforcement_witness_verified": true
+      },
+      "expected": true,
+      "got": true,
+      "pass": true
+    },
+    "empty_profile": {
+      "case": {
+        "obligation_profile": "empty",
+        "mapped_mechanism": null,
+        "obligation_discharged": false,
+        "enforcement_witness_verified": false
+      },
+      "expected": true,
+      "got": true,
+      "pass": true
+    }
+  }
+}

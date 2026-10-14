@@ -1,0 +1,30 @@
+{
+ "treatment": {
+  "stdout": "SAFE",
+  "stderr": ""
+ },
+ "N1_proof_substitution": {
+  "stdout": "REJECT",
+  "stderr": ""
+ },
+ "N2_tampered_proof": {
+  "stdout": "REJECT",
+  "stderr": ""
+ },
+ "N3_forged_featureHash": {
+  "stdout": "REJECT",
+  "stderr": ""
+ },
+ "N4_wrong_feature_proof": {
+  "stdout": "REJECT",
+  "stderr": ""
+ },
+ "N5_amount_over_threshold": {
+  "stdout": "REJECT",
+  "stderr": ""
+ },
+ "C3_B1Store_without_x": {
+  "stdout": "",
+  "stderr": "Error: endorsement failure during query. response: status:500 message:\"malformed verification request: feature vector must have 256 entries\""
+ }
+}

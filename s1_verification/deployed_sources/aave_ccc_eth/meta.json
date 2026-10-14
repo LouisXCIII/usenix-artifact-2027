@@ -1,0 +1,61 @@
+{
+ "label": "aave_ccc_eth",
+ "explorer": "https://eth.blockscout.com",
+ "queried": [
+  {
+   "address": "0xEd42a7D8559a463722Ca4beD50E0Cc05a386b0e1",
+   "name": "TransparentUpgradeableProxy",
+   "verified": true,
+   "compiler": "0.8.10+commit.fc410830",
+   "proxy_type": "eip1967",
+   "implementations": [
+    "0x92F4736b72D131D836B3e4d4C3C23fE53150Ce4d"
+   ],
+   "files": [
+    "0xEd42a7D8__src__contracts__transparent-proxy__TransparentUpgradeableProxy.sol",
+    "0xEd42a7D8__src__contracts__oz-common__Address.sol",
+    "0xEd42a7D8__src__contracts__oz-common__StorageSlot.sol",
+    "0xEd42a7D8__src__contracts__transparent-proxy__ERC1967Proxy.sol",
+    "0xEd42a7D8__src__contracts__transparent-proxy__ERC1967Upgrade.sol",
+    "0xEd42a7D8__src__contracts__transparent-proxy__Proxy.sol"
+   ]
+  },
+  {
+   "address": "0x92F4736b72D131D836B3e4d4C3C23fE53150Ce4d",
+   "name": "CrossChainControllerUpgradeRev3",
+   "verified": true,
+   "compiler": "v0.8.19+commit.7dd6d404",
+   "proxy_type": null,
+   "implementations": [],
+   "files": [
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__revisions__update_to_rev_3__CrossChainController.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__lib__aave-helpers__lib__solidity-utils__src__contracts__access-control__OwnableWithGuardian.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__lib__aave-helpers__lib__solidity-utils__src__contracts__access-control__interfaces__IWithGuardian.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__lib__aave-helpers__lib__solidity-utils__src__contracts__oz-common__Address.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__lib__aave-helpers__lib__solidity-utils__src__contracts__oz-common__Context.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__lib__aave-helpers__lib__solidity-utils__src__contracts__oz-common__Ownable.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__lib__aave-helpers__lib__solidity-utils__src__contracts__oz-common__SafeERC20.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__lib__aave-helpers__lib__solidity-utils__src__contracts__oz-common__interfaces__IERC20.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__lib__aave-helpers__lib__solidity-utils__src__contracts__oz-common__interfaces__IERC20Permit.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__lib__aave-helpers__lib__solidity-utils__src__contracts__transparent-proxy__Initializable.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__lib__aave-helpers__lib__solidity-utils__src__contracts__utils__Rescuable.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__lib__aave-helpers__lib__solidity-utils__src__contracts__utils__interfaces__IRescuable.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__lib__openzeppelin-contracts__contracts__utils__structs__EnumerableSet.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__BaseCrossChainController.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__CrossChainController.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__CrossChainForwarder.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__CrossChainReceiver.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__adapters__IBaseAdapter.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__interfaces__IBaseCrossChainController.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__interfaces__IBaseReceiverPortal.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__interfaces__ICrossChainController.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__interfaces__ICrossChainForwarder.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__interfaces__ICrossChainReceiver.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__libs__EncodingUtils.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__libs__Errors.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__libs__Utils.sol",
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__revisions__update_to_rev_3__IReinitialize.sol"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1572 @@
+{
+ "seed": 20260928,
+ "sat_new": [
+  {
+   "id": "c003",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/access_control/incorrect_constructor_name2.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 64063608,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c004",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/access_control/incorrect_constructor_name3.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 63512948,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c020",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/arithmetic/integer_overflow_1.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 74110765,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c042",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/denial_of_service/dos_address.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 119274465,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c044",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/denial_of_service/dos_simple.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 63829915,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c049",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/front_running/eth_tx_order_dependence_minimal.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 60707875,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c076",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/reentrancy/modifier_reentrancy.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 81553471,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c078",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/reentrancy/reentrancy_bonus.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 76694863,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c090",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/time_manipulation/timed_crowdsale.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 85800679,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c100",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x4a66ad0bca2d700f11e1f2fc2c106f7d3264504c.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 54735198,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c117",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0xa1fceeff3acc57d257b917e30c4df661401d6431.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 73673200,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c134",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 120769214,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c165",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_arb/0x89644CA1__src__contracts__transparent-proxy__Proxy.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 78030238,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c175",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_ccc_eth/0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__interfaces__IBaseCrossChainController.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 60117882,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c183",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_ccc_eth/0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__revisions__update_to_rev_3__IReinitialize.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 111604479,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c188",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__deploy__Create3.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 111308881,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c207",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IAxelarAmplifierAuth.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 68139588,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c209",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IAxelarAmplifierGatewayAuth.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 177566644,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c223",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__ICaller.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 69450228,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c230",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IFinalProxy.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 73647734,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c232",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IImplementation.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 160575493,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c243",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IPausable.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 109972311,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c244",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IProxy.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 63934916,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c253",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__libs__ECDSA.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 73446142,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c254",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__libs__SafeNativeTransfer.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 117906175,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c255",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__libs__SafeTransfer.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 75559323,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c263",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__gas-estimation__TestInterchainGasEstimation.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 68619465,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c278",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__governance__TestBaseWeightedMultisig.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 101058409,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c283",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__libs__TestStringStorage.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 60639264,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c285",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__mocks__MockGatewayValidation.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 68392373,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c289",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__CallInitProxy.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 104110766,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c291",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__FixedImplementation.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 54874437,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c294",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__InvalidUpgradableTest.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 135948144,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c298",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__TestImplementation.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 80891342,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c299",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__TestInitProxy.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 103634237,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c301",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__TestUpgradable.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 72508091,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c303",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__utils__TestMulticall.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 54654276,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c304",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__utils__TestOperators.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 189511047,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c305",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__utils__TestOwnable.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 81571868,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c306",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__utils__TestPausable.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 98751433,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c320",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__utils__Caller.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 111731127,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c322",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__utils__Multicall.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 88842677,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c324",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__utils__Pausable.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 64287982,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c334",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/comp_arb/0x42480C37__contracts__bridges__arbitrum__ArbitrumBridgeReceiver.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 62938187,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c351",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__@openzeppelin__contracts__utils__math__SignedMath.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 154029360,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c358",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__contracts__interfaces__IInterchainSecurityModule.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 59042946,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c360",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__contracts__interfaces__IMessageRecipient.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 71895968,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c363",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__contracts__interfaces__isms__IRoutingIsm.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 97345856,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c366",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__contracts__isms__routing__AbstractRoutingIsm.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 88016876,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c375",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/maker_arb/0x10E6593C__contracts__l2__L2CrossDomainEnabled.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 63442015,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c377",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/op_l2cdm/0x250AF3f4__interfaces__L1__IResourceMetering.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 82788219,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c403",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/uni_bnb/contracts__Structs.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 149763858,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c434",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/AlphaEscrow.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 127550584,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c435",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/AnchorVault.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 100023661,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c436",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/ApexAuction.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 68198538,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c437",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/AsterFaucet.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 115030077,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c438",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/AstraVoting.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 95541598,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c442",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/BeaconCounter.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 80016884,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c443",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/BetaVoting.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 95620921,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c445",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/BridgeEscrow.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 127525601,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c446",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/CedarSubscription.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 95172008,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c447",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/CellCounter27.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 77205779,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c448",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/CentralCounter.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 79917710,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c450",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/CivicEscrow.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 127550584,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c453",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/CrestFaucet.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 115030077,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c454",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/DeltaCounter.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 80118923,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c456",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/EastVoting.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 95620921,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c457",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/FederalFaucet.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 115059318,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c459",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/GammaVault.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 100063827,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c460",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/GateSubscription.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 95172864,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c462",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/GroveCounter.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 80118923,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c463",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/HarborAuction.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 68170410,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c464",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/HavenFaucet.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 115030077,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c466",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/LedgerCounter17.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 76754612,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c468",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/MapleEscrow.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 127550584,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c469",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/MeadowAuction.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 68170410,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c470",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/MetroSubscription.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 95172008,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c473",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/NorthSubscription.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 95172008,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c474",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/NovaSubscription.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 95172864,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c475",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/OakVoting.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 95713159,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c476",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/OmegaAuction.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 68179902,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c477",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/PathVoting.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 95620921,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c478",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/PeakEscrow.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 127567995,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c479",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/PineVault.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 100092661,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c480",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/PlainCounter2.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 78075937,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c482",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/PortFaucet.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 115016119,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c483",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/PrimeCounter.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 80118923,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c484",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/PublicVoting.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 95442580,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c485",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/RealCounter7.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 78343480,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c486",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/RidgeVoting.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 95541598,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c488",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/RouteVault.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 100063827,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c489",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/SigmaFaucet.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 115030077,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c491",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/SolidCounter12.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 76977616,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c492",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/SouthEscrow.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 127550584,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c496",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/StoreCounter22.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 76977616,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c497",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/SummitSubscription.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 95169405,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c498",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/TerraEscrow.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 127550584,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c499",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/TrackCounter.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 80118923,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c500",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/TrailAuction.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 68179902,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c502",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/UnionAuction.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 68179902,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c504",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/ValeVault.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 100092661,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c506",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/VertexVault.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 100023661,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c507",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/WestVault.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 100092661,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c508",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/WillowCounter.sol",
+   "corpus": "e7",
+   "pred": 0,
+   "margin": 80016884,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c611",
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/incorrect_constructor_name1.sol",
+   "corpus": "weakaccess",
+   "pred": 0,
+   "margin": 79903301,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c616",
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/suicide_multitx_feasible.sol",
+   "corpus": "weakaccess",
+   "pred": 0,
+   "margin": 74501165,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c617",
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/suicide_multitx_infeasible.sol",
+   "corpus": "weakaccess",
+   "pred": 0,
+   "margin": 74501165,
+   "strict_sat": true,
+   "exists": true
+  }
+ ],
+ "sat_s4": [
+  {
+   "id": "c625",
+   "path": "/home/deployer/pqc-hardhat/test_contracts/03_dos_safe.sol",
+   "corpus": "test22",
+   "pred": 0,
+   "margin": 66113634,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c626",
+   "path": "/home/deployer/pqc-hardhat/test_contracts/03_dos_vuln.sol",
+   "corpus": "test22",
+   "pred": 0,
+   "margin": 92691546,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c627",
+   "path": "/home/deployer/pqc-hardhat/test_contracts/04_call_to_unknown_safe.sol",
+   "corpus": "test22",
+   "pred": 0,
+   "margin": 92807724,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c631",
+   "path": "/home/deployer/pqc-hardhat/test_contracts/06_unused_return_safe.sol",
+   "corpus": "test22",
+   "pred": 0,
+   "margin": 59440518,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c636",
+   "path": "/home/deployer/pqc-hardhat/test_contracts/08_timestamp_vuln.sol",
+   "corpus": "test22",
+   "pred": 0,
+   "margin": 77086019,
+   "strict_sat": true,
+   "exists": true
+  },
+  {
+   "id": "c638",
+   "path": "/home/deployer/pqc-hardhat/test_contracts/09_mishandled_exception_vuln.sol",
+   "corpus": "test22",
+   "pred": 0,
+   "margin": 54489499,
+   "strict_sat": true,
+   "exists": true
+  }
+ ],
+ "unsat_sample": [
+  {
+   "id": "c000",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/access_control/FibonacciBalance.sol",
+   "corpus": "smartbugs",
+   "pred": 8,
+   "margin": 27886638,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c001",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/access_control/arbitrary_location_write_simple.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 42518525,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c011",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/access_control/proxy.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 11049113,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c018",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/arithmetic/BECToken.sol",
+   "corpus": "smartbugs",
+   "pred": 8,
+   "margin": 16427732,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c028",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/arithmetic/overflow_simple_add.sol",
+   "corpus": "smartbugs",
+   "pred": 8,
+   "margin": 26351774,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c032",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/arithmetic/tokensalechallenge.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 13103294,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c035",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/bad_randomness/guess_the_random_number.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 49328149,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c053",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/other/open_address_lottery.sol",
+   "corpus": "smartbugs",
+   "pred": 8,
+   "margin": 20259517,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c054",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/reentrancy/0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 27853807,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c065",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+   "corpus": "smartbugs",
+   "pred": 8,
+   "margin": 9624249,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c070",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/reentrancy/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol",
+   "corpus": "smartbugs",
+   "pred": 8,
+   "margin": 13916693,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c102",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x524960d55174d912768678d8c606b4d50b79d7b1.sol",
+   "corpus": "smartbugs",
+   "pred": 8,
+   "margin": 8163394,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c103",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x52d2e0f9b01101a59b38a3d05c80b7618aeed984.sol",
+   "corpus": "smartbugs",
+   "pred": 0,
+   "margin": 43346742,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c106",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x663e4229142a27f00bafb5d087e1e730648314c3.sol",
+   "corpus": "smartbugs",
+   "pred": 8,
+   "margin": 32621308,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c109",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x7a4349a749e59a5736efb7826ee3496a2dfd5489.sol",
+   "corpus": "smartbugs",
+   "pred": 8,
+   "margin": 63414040,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c110",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x7d09edb07d23acb532a82be3da5c17d9d85806b4.sol",
+   "corpus": "smartbugs",
+   "pred": 8,
+   "margin": 45303961,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c112",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x84d9ec85c9c568eb332b7226a8f826d897e0a4a8.sol",
+   "corpus": "smartbugs",
+   "pred": 8,
+   "margin": 120418954,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c113",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x89c1b3807d4c67df034fffb62f3509561218d30b.sol",
+   "corpus": "smartbugs",
+   "pred": 8,
+   "margin": 62798738,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c119",
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol",
+   "corpus": "smartbugs",
+   "pred": 8,
+   "margin": 18317881,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c143",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_arb/0x118DFD54__lib__solidity-utils__src__contracts__access-control__OwnableWithGuardian.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 43005335,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c149",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_arb/0x118DFD54__lib__solidity-utils__src__contracts__oz-common__SafeERC20.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 50109381,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c174",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_ccc_eth/0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__adapters__IBaseAdapter.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 104229716,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c176",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_ccc_eth/0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__interfaces__ICrossChainController.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 138709454,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c186",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_poly/0xb962dCD6__src__contracts__libraries__Errors.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 148225787,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c189",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__deploy__Create3Address.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 33859664,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c193",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__executable__AxelarExecutableWithToken.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 5867933,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c199",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__gateway__AxelarAmplifierGateway.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 74925229,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c210",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IAxelarExecutable.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 26538208,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c218",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IAxelarValuedExpressExecutable.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 64928826,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c233",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IInitProxy.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 16598064,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c234",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IInterchainAddressTracker.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 57921702,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c240",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IMultisig.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 28461462,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c248",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IUpgradable.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 8533165,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c265",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__gateway__TestBaseAmplifierGateway.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 38741212,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c270",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__gmp__DestinationChainTokenSwapper.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 1931644,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c273",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__gmp__SourceChainSender.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 22268614,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c275",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__gmp__ValuedExpressExecutableTest.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 32532487,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c287",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__token__ERC20MintableBurnable.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 16284663,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c302",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__utils__TestInterchainAddressTracker.sol",
+   "corpus": "deployed",
+   "pred": 0,
+   "margin": 35666631,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c316",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__upgradable__Implementation.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 15179151,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c327",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__utils__RolesBase.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 120699141,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c329",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/comp_arb/0x42480C37__contracts__IERC20NonStandard.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 136568810,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c339",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xDb1734Cf__..__node_modules__@openzeppelin__contracts__utils__Address.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 137602079,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c382",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/op_l2cdm/0x250AF3f4__interfaces__universal__ISemver.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 213168361,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c394",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/op_l2cdm/0x250AF3f4__src__libraries__Predeploys.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 70026810,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c399",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/op_l2cdm/0x250AF3f4__src__universal__CrossDomainMessenger.sol",
+   "corpus": "deployed",
+   "pred": 8,
+   "margin": 7567543,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c408",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_sources/bridge-exec/contracts__bridges__BridgeExecutorBase.sol",
+   "corpus": "s1_sources",
+   "pred": 8,
+   "margin": 57324072,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c412",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_sources/ccip/chains__evm__contracts__libraries__RateLimiter.sol",
+   "corpus": "s1_sources",
+   "pred": 8,
+   "margin": 28728334,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c416",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_sources/cctp/src__TokenMinter.sol",
+   "corpus": "s1_sources",
+   "pred": 8,
+   "margin": 11539598,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c422",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_sources/gnosis-amb/contracts__upgradeable_contracts__arbitrary_message__MessageProcessor.sol",
+   "corpus": "s1_sources",
+   "pred": 8,
+   "margin": 62815545,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c430",
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_sources/scroll/src__L2__L2ScrollMessenger.sol",
+   "corpus": "s1_sources",
+   "pred": 8,
+   "margin": 9345176,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c515",
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x07419940b9a2d1eb54e123bd4853240ffac77186.sol",
+   "corpus": "weakaccess",
+   "pred": 8,
+   "margin": 3832142,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c536",
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x3933e1bd030c3c14407f8eecce81493e066ab5e1_2.sol",
+   "corpus": "weakaccess",
+   "pred": 8,
+   "margin": 23027392,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c539",
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x3bcaf56923335062e8f272d011efd2e40fa42147.sol",
+   "corpus": "weakaccess",
+   "pred": 0,
+   "margin": 20231145,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c543",
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x42e98f6ed27fc8f76118efb7d4fe9a254bf3bcc9_1.sol",
+   "corpus": "weakaccess",
+   "pred": 8,
+   "margin": 32036513,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c559",
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x7bd9084fdd5d021c226918d86c0721cb088b9b4a.sol",
+   "corpus": "weakaccess",
+   "pred": 8,
+   "margin": 15131050,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c570",
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x9ac4883b0226fb37fa362dbd76564c539c4f0ee6_3.sol",
+   "corpus": "weakaccess",
+   "pred": 8,
+   "margin": 56078005,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c577",
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xa7ca36f7273d4d38fc2aec5a454c497f86728a7a.sol",
+   "corpus": "weakaccess",
+   "pred": 8,
+   "margin": 4125389,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c593",
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xe923dd860176d3ef69d7852257cc773900807f7c.sol",
+   "corpus": "weakaccess",
+   "pred": 8,
+   "margin": 4125389,
+   "strict_sat": false,
+   "exists": true
+  },
+  {
+   "id": "c596",
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xf34839b310097fcb4cf3a302dda8cc9b57501083.sol",
+   "corpus": "weakaccess",
+   "pred": 8,
+   "margin": 6413600,
+   "strict_sat": false,
+   "exists": true
+  }
+ ],
+ "counts": {
+  "sat_all": 113,
+  "sat_new": 107,
+  "sat_s4": 6,
+  "unsat_sample": 60
+ }
+}

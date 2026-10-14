@@ -1,0 +1,25 @@
+{
+  "fabric_identity_key_check": {
+    "contract": "0xB3FF28BFA00e43a4A2A079d6FaE47dC11b2b2CCD",
+    "fresh_block_used": 1014,
+    "block_source": "a real block from this sessions own recent E7 corpus-expansion transactions",
+    "comparisons": {
+      "Org1MSP": {
+        "onchain_qx": "0x92beac1094f0723f72de685de3188a03afa45d6fb0a500c57987eb19ecc0a57f",
+        "onchain_qy": "0x958d9708f22bda00f1109a8ae243d1a882ec5e4966b80d3237d804d98c0e2b72",
+        "fresh_extract_matches": true
+      },
+      "Org2MSP": {
+        "onchain_qx": "0x6d2c6a7e9342c56b41a149a748e1836f658359bfd24df70cb985545c74959a2c",
+        "onchain_qy": "0xcad2fee39c8e85bd4f82ecf1e91495caaaa43383f6a8fa9d82da1fc72474abdf",
+        "fresh_extract_matches": true
+      },
+      "OrdererMSP": {
+        "onchain_qx": "0x7b66c389c35e091650db7807c91ed3a857bb4d125d46a916dcd8f86ba1f0c561",
+        "onchain_qy": "0xd39a5c90d23bc95db93d597e4cb93e883dfa1eeb68cd0fece88f25277f6e517d",
+        "fresh_extract_matches": true
+      }
+    },
+    "all_identical": true
+  }
+}

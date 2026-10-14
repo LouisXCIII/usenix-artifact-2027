@@ -1,0 +1,219 @@
+{
+ "uni_bnb": {
+  "R9 emitter check": {
+   "found": true,
+   "in": [
+    "contracts__UniswapWormholeMessageReceiver.sol"
+   ]
+  },
+  "R9 arbitrary call": {
+   "found": true,
+   "in": [
+    "contracts__UniswapWormholeMessageReceiver.sol"
+   ]
+  },
+  "R9 validity window 2 days": {
+   "found": true,
+   "in": [
+    "contracts__UniswapWormholeMessageReceiver.sol"
+   ]
+  }
+ },
+ "maker_arb": {
+  "R12 L1 counterpart only": {
+   "found": true,
+   "in": [
+    "0x10E6593C__contracts__l2__L2GovernanceRelay.sol"
+   ]
+  },
+  "R12 delegatecall arbitrary": {
+   "found": true,
+   "in": [
+    "0x10E6593C__contracts__l2__L2GovernanceRelay.sol"
+   ]
+  }
+ },
+ "aave_eth": {
+  "R11 origin check": {
+   "found": true,
+   "in": [
+    "0x7222182c__src__contracts__payloads__PayloadsController.sol"
+   ]
+  },
+  "R11 level >= required": {
+   "found": true,
+   "in": [
+    "0x7222182c__src__contracts__payloads__PayloadsControllerCore.sol"
+   ]
+  },
+  "R11 timelock": {
+   "found": true,
+   "in": [
+    "0x7222182c__src__contracts__payloads__PayloadsControllerCore.sol"
+   ]
+  },
+  "R11 guardian cancel": {
+   "found": false,
+   "in": []
+  },
+  "R11 executor per level": {
+   "found": true,
+   "in": [
+    "0x7222182c__src__contracts__payloads__PayloadsControllerCore.sol"
+   ]
+  }
+ },
+ "aave_poly": {
+  "R11 origin check": {
+   "found": true,
+   "in": [
+    "0xb962dCD6__src__contracts__payloads__PayloadsController.sol"
+   ]
+  },
+  "R11 level >= required": {
+   "found": true,
+   "in": [
+    "0xb962dCD6__src__contracts__payloads__PayloadsControllerCore.sol"
+   ]
+  },
+  "R11 timelock": {
+   "found": true,
+   "in": [
+    "0xb962dCD6__src__contracts__payloads__PayloadsControllerCore.sol"
+   ]
+  },
+  "R11 guardian cancel": {
+   "found": false,
+   "in": []
+  },
+  "R11 executor per level": {
+   "found": true,
+   "in": [
+    "0xb962dCD6__src__contracts__payloads__PayloadsControllerCore.sol"
+   ]
+  }
+ },
+ "aave_arb": {
+  "R11 origin check": {
+   "found": true,
+   "in": [
+    "0x118DFD54__src__contracts__payloads__PayloadsController.sol"
+   ]
+  },
+  "R11 level >= required": {
+   "found": true,
+   "in": [
+    "0x118DFD54__src__contracts__payloads__PayloadsControllerCore.sol"
+   ]
+  },
+  "R11 timelock": {
+   "found": true,
+   "in": [
+    "0x118DFD54__src__contracts__payloads__PayloadsControllerCore.sol"
+   ]
+  },
+  "R11 guardian cancel": {
+   "found": false,
+   "in": []
+  },
+  "R11 executor per level": {
+   "found": true,
+   "in": [
+    "0x118DFD54__src__contracts__payloads__PayloadsControllerCore.sol"
+   ]
+  }
+ },
+ "aave_ccc_eth": {
+  "R11 allowed adapters": {
+   "found": true,
+   "in": [
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__CrossChainReceiver.sol"
+   ]
+  },
+  "R11 required confirmations": {
+   "found": true,
+   "in": [
+    "0x92F4736b__lib__aave-delivery-infrastructure__src__contracts__CrossChainReceiver.sol"
+   ]
+  }
+ },
+ "hl_ica_eth": {
+  "R2 ICA multicall": {
+   "found": true,
+   "in": [
+    "0xC00b94c1__contracts__middleware__InterchainAccountRouter.sol"
+   ]
+  },
+  "R2 delegatecall path in CallLib": {
+   "found": false,
+   "in": []
+  },
+  "R2 only owner may multicall": {
+   "found": true,
+   "in": [
+    "0xC00b94c1__contracts__middleware__libs__OwnableMulticall.sol",
+    "0xec3a8287__contracts__middleware__libs__OwnableMulticall.sol"
+   ]
+  },
+  "R2 owner check": {
+   "found": true,
+   "in": [
+    "0xC00b94c1__contracts__middleware__libs__OwnableMulticall.sol",
+    "0xec3a8287__contracts__middleware__libs__OwnableMulticall.sol"
+   ]
+  }
+ },
+ "hl_ica_arb": {
+  "R2 ICA multicall": {
+   "found": true,
+   "in": [
+    "0xF90A3d40__contracts__middleware__InterchainAccountRouter.sol"
+   ]
+  },
+  "R2 delegatecall path in CallLib": {
+   "found": false,
+   "in": []
+  },
+  "R2 only owner may multicall": {
+   "found": true,
+   "in": [
+    "0xF90A3d40__contracts__middleware__libs__OwnableMulticall.sol",
+    "0xDb1734Cf__contracts__middleware__libs__OwnableMulticall.sol"
+   ]
+  },
+  "R2 owner check": {
+   "found": true,
+   "in": [
+    "0xF90A3d40__contracts__middleware__libs__OwnableMulticall.sol",
+    "0xDb1734Cf__contracts__middleware__libs__OwnableMulticall.sol"
+   ]
+  }
+ },
+ "axl_eth": {
+  "R4 governance origin check": {
+   "found": true,
+   "in": [
+    "0x7Acbae6C__contracts__governance__InterchainGovernance.sol"
+   ]
+  },
+  "R4 arbitrary _call": {
+   "found": true,
+   "in": [
+    "0x7Acbae6C__contracts__governance__InterchainGovernance.sol",
+    "0x7Acbae6C__contracts__governance__AxelarServiceGovernance.sol"
+   ]
+  },
+  "R4 target != 0 only": {
+   "found": true,
+   "in": [
+    "0x7Acbae6C__contracts__governance__InterchainGovernance.sol"
+   ]
+  },
+  "R4 min timelock": {
+   "found": true,
+   "in": [
+    "0x7Acbae6C__contracts__utils__TimeLock.sol"
+   ]
+  }
+ }
+}

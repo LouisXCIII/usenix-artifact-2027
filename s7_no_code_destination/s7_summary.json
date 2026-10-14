@@ -1,0 +1,88 @@
+{
+ "M1": {
+  "n": 22,
+  "committed_match": 22,
+  "safe": 6,
+  "reject": 16,
+  "median_wall_ms": 2086.7822380023426
+ },
+ "M3": {
+  "treatment_bytes_median": 14815,
+  "b1_form_bytes_median": 14659,
+  "x_bytes_median": 869
+ },
+ "M4": {
+  "N1_proof_substitution": {
+   "n": 6,
+   "accepted": 0,
+   "errors": 0,
+   "reject_or_reeval": 6,
+   "cp95_upper": 0.39303776899708276
+  },
+  "N2_tampered_proof": {
+   "n": 6,
+   "accepted": 0,
+   "errors": 0,
+   "reject_or_reeval": 6,
+   "cp95_upper": 0.39303776899708276
+  },
+  "N3_forged_featureHash": {
+   "n": 6,
+   "accepted": 0,
+   "errors": 0,
+   "reject_or_reeval": 6,
+   "cp95_upper": 0.39303776899708276
+  },
+  "N4_wrong_feature_proof": {
+   "n": 6,
+   "accepted": 0,
+   "errors": 0,
+   "reject_or_reeval": 6,
+   "cp95_upper": 0.39303776899708276
+  },
+  "N5_amount_over_threshold": {
+   "n": 6,
+   "accepted": 0,
+   "errors": 0,
+   "reject_or_reeval": 6,
+   "cp95_upper": 0.39303776899708276
+  },
+  "N6_replay": {
+   "n": 6,
+   "accepted": 0,
+   "errors": 6,
+   "reject_or_reeval": 0,
+   "cp95_upper": 0.39303776899708276
+  }
+ },
+ "M5_B0": {
+  "B0_N1_proof_substitution": {
+   "n": 6,
+   "accepted": 6,
+   "errors": 0
+  },
+  "B0_N5_amount_over_threshold": {
+   "n": 6,
+   "accepted": 6,
+   "errors": 0
+  }
+ },
+ "C3_B1_without_x": {
+  "stdout": "",
+  "stderr": "Error: endorsement failure during query. response: status:500 message:\"malformed verification request: feature vector must have 256 entries\""
+ },
+ "positiveControlB1": {
+  "ok": true,
+  "class": "SAFE"
+ },
+ "M2b": {
+  "blocks": 65,
+  "control_blocks": [
+   3422
+  ],
+  "control_x_found": true,
+  "treatment_blocks": 64,
+  "treatment_x_hits": 0,
+  "treatment_W_hits": 0
+ }
+}

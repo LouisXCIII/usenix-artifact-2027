@@ -1,0 +1,30 @@
+{
+  "cycle2_org": "Org2MSP (cycle1 used Org1MSP, for real diversity)",
+  "weak_version": "v2.19/seq31, signature-policy=OR(Org2MSP.member)",
+  "restore_version": "v2.20/seq32, default policy (channel MAJORITY)",
+  "results": {
+    "exploit_org2only_under_weak_policy": {
+      "decisionID": "a7v2-weak-exploit-org2only-1790231749",
+      "block": 1034,
+      "validationCode": 0,
+      "validationCodeName": "VALID",
+      "committed": true
+    },
+    "reconfirm_org2only_under_restored_policy": {
+      "decisionID": "a7v2-restored-org2only-1790231851",
+      "block": 1038,
+      "validationCode": 10,
+      "validationCodeName": "ENDORSEMENT_POLICY_FAILURE",
+      "committed": false
+    },
+    "reconfirm_dualorg_under_restored_policy": {
+      "decisionID": "a7v2-restored-dualorg-1790231855",
+      "block": 1039,
+      "validationCode": 0,
+      "validationCodeName": "VALID",
+      "committed": true
+    }
+  },
+  "summary": "4/4 real checks matched expectation (weaken-deploy implicit in commit, exploit succeeds, restore-deploy implicit in commit, reconfirm-fail + reconfirm-works)",
+  "total_a7_corpus": "n=4 (cycle1, Org1) + n=4 (cycle2, Org2) = 8"
+}

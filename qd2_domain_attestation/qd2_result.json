@@ -1,0 +1,82 @@
+{
+  "stamp": "1791454755",
+  "chaincodeVersion": "authcc_2.37/seq49",
+  "fixture": "03_dos_safe.sol",
+  "heightBefore": 4780,
+  "awsDomainAuthority": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+  "a_genuine_agreement": {
+    "conditional": {
+      "kind": "A1_submitdecisionfull_conditional",
+      "decisionId": "qd2-a-cond-1791454755",
+      "ok": true,
+      "returned": "CONDITIONAL",
+      "committed": "CONDITIONAL",
+      "wallMs": 2047.6898140004778,
+      "tail": ""
+    },
+    "real_discharge": {
+      "kind": "A2_real_discharge",
+      "decisionId": "qd2-a-cond-1791454755",
+      "ok": true,
+      "returned": "EXACT",
+      "committed": "EXACT",
+      "wallMs": 2050.575420998939,
+      "tail": ""
+    },
+    "aws_independent_result": {
+      "passed": true,
+      "reason": "independent re-derivation: amount within threshold, discharge record genuinely bound to this same transfer, mechanism sufficient",
+      "awsSigner": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+      "compactSig": "1bc9b2b17ba5c717ac41bea563672d800ef3a0c78e0abaa28c5476a14990ac828e436b8e2ab47e569cf58fa729f0a38a8994d8745f369ee154b9314c5257c5e3ad"
+    },
+    "submit": {
+      "kind": "A3_both_domains_agree",
+      "decisionId": "qd2-a-domainverified-1791454755",
+      "ok": true,
+      "returned": "SAFE",
+      "committed": "SAFE",
+      "wallMs": 2049.4325309991837,
+      "tail": ""
+    },
+    "both_domains_safe": true
+  },
+  "b_forged_signature": {
+    "forged_signer": "0xeed91cc241380110450f1189dfe00e425547b085",
+    "real_aws_authority": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+    "submit": {
+      "kind": "B_forged_signature_rejected",
+      "decisionId": "qd2-b-forged-1791454755",
+      "ok": true,
+      "returned": "REJECT",
+      "committed": "REJECT",
+      "wallMs": 2053.468611000426,
+      "tail": ""
+    },
+    "attack_rejected": true
+  },
+  "c_boundary_probe": {
+    "amount": 500000,
+    "conditional": {
+      "kind": "C1_boundary_conditional",
+      "decisionId": "qd2-c-cond-1791454755",
+      "ok": true,
+      "returned": "CONDITIONAL",
+      "committed": "CONDITIONAL",
+      "wallMs": 2047.1716329993797,
+      "tail": ""
+    },
+    "real_discharge": {
+      "kind": "C2_boundary_discharge",
+      "decisionId": "qd2-c-cond-1791454755",
+      "ok": true,
+      "returned": "EXACT",
+      "committed": "EXACT",
+      "wallMs": 2046.6842550013098,
+      "tail": ""
+    },
+    "aws_independent_passed": true,
+    "chain_committed": "SAFE",
+    "divergence_found": false
+  },
+  "heightAfter": 4787
+}

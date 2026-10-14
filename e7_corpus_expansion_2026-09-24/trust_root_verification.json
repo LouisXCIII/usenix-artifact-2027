@@ -1,0 +1,28 @@
+{
+  "verification_key_check": {
+    "chaincode_embedded_path": "/home/deployer/fabric-network/authcc/chaincode/verification_key_v7.json",
+    "independent_local_path": "/home/deployer/pqc-hardhat/circuits_v7/verification_key_v7.json",
+    "sha256_both": "c01de09270b2cc1f202cbe4e79719628a1b4428a8b0f8e6e213e01db1d1bb559",
+    "identical": true
+  },
+  "validator_set_check": {
+    "pinned_in_lightclient_go": [
+      "3ff00c0960daf07ed230c4a789db66e43fd77600",
+      "ab3b96e0cb3594fe092fdadf10a53d8033174552",
+      "0250812142577b93a70190d88403db730d0a16de",
+      "496eeed75e79102238176c56206ca727e2fafc3a"
+    ],
+    "live_besu_ibft_getValidatorsByBlockNumber": [
+      "0x0250812142577b93a70190d88403db730d0a16de",
+      "0x3ff00c0960daf07ed230c4a789db66e43fd77600",
+      "0x496eeed75e79102238176c56206ca727e2fafc3a",
+      "0xab3b96e0cb3594fe092fdadf10a53d8033174552"
+    ],
+    "identical_set": true
+  },
+  "registry_bytecode_check": {
+    "address": "0x4BDF7d0CC77F907FeDfc1Ab6B39fa9f4336869c7",
+    "eth_getCode_bytecode_hex_length": 2106,
+    "is_real_contract": true
+  }
+}

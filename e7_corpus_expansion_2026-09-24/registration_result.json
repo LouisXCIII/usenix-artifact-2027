@@ -1,0 +1,53 @@
+{
+  "new_safe_1": {
+    "error": "execution reverted: \"already approved\" (action=\"estimateGas\", data=\"0x08c379a000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000010616c726561647920617070726f76656400000000000000000000000000000000\", reason=\"already approved\", transaction={ \"data\": \"0x66f125db004b573928cdbfee4ca909fe923b70417b5c1cb092586456b9057aaf9c6dc7579c8d2fcfe7dad42e56b517b0172ba7893349d92c097c33c645d2f9d628eaf3c6\", \"from\": \"0x0250812142577b93a70190D88403DB730D0A16De\", \"to\": \"0x4BDF7d0CC77F907FeDfc1Ab6B39fa9f4336869c7\" }, invocation=null, revert={ \"args\": [ \"already approved\" ], \"name\": \"Error\", \"signature\": \"Error(string)\" }, code=CALL_EXCEPTION, version=6.7.0)"
+  },
+  "new_safe_2": {
+    "codeHash": "0x081c8340d5aab7fe9692da7770314e28dc86e79fa549d4a9e94afb7b59f1317d",
+    "recordTx": "0xd5de6fdfee442e15180a2b806517f4d6e92c76eb624c9403e43559ba547e5cf6",
+    "approve0Tx": "0x67d1aae2855e949ab7bed0df019675ae1d75e97ef51f679162f9f095bd4fdba3",
+    "approve1Tx": "0x9ac1c04bd935da54b7e36b6f8a0566536ab85fd74497745d5b7fe4a84fe8442e",
+    "mlScanPassed": true,
+    "approvalCount": 2
+  },
+  "new_safe_4": {
+    "codeHash": "0x0ecee47e99a1512dbaa02fc0f51ee2e64ed03a1685171012037302006f63f19d",
+    "recordTx": "0xc6fef701a3afc3f283e655af65cd38da1a1ce42fd73be80ddd403aa7ea9e6325",
+    "approve0Tx": "0xeaca6ca28ded992b990c89021888d81803f565542b509b746fafab8c732339f4",
+    "approve1Tx": "0xa82d5e32e8349de1e9a9f65751bc7200c9879a2c9bee06aba8e605868b91136a",
+    "mlScanPassed": true,
+    "approvalCount": 2
+  },
+  "new_safe_6": {
+    "codeHash": "0x128d51c23b9c3444f7b798074687d48d44cab5432a41b97904b175be9be46521",
+    "recordTx": "0x2548ea711e36598135d0987ac3b8c616f4a9f7463e31cba0b0975f3dc9a39854",
+    "approve0Tx": "0x0cf80e2717d299d8786cab49639499ef2f701c78e78885a0b9d973df9aef303f",
+    "approve1Tx": "0x1869c87afcd59ed786ecba534e7f72532ce84a5d9bfc22840bca65c198eb6500",
+    "mlScanPassed": true,
+    "approvalCount": 2
+  },
+  "new_safe_8": {
+    "codeHash": "0x01ec842dfe453a579a3ff56099d7ebf48ce396349e705eea78ab83bd090f237c",
+    "recordTx": "0x240047e173fcc5fa84c862240584a2de1e24a203a1a14c7cdb30ae7a5bebd294",
+    "approve0Tx": "0x2ccc5e1862c7506769126bd43a62ac3fcaf6205c3ef697ec3b30b8d9a7c9fd58",
+    "approve1Tx": "0xd910a03e921d17622be69e724af8a53fcf84556ab751474b5143042d5b5474f6",
+    "mlScanPassed": true,
+    "approvalCount": 2
+  },
+  "new_safe_9": {
+    "codeHash": "0x1f4b82b9140f0c3fcb242039ffddba66bb33d2d8feddccc633fe8a567deff928",
+    "recordTx": "0x29d88690feae8357fb24f2a2bbc48a12e233f38a8a76df2d224152235c827b2d",
+    "approve0Tx": "0x71d8fb23dee099825f964ce79b77e6e233b57a73f54b27344e1f37834001d685",
+    "approve1Tx": "0x333dac73550d34659e10ee6b07d8657cde167c09d1957c4c46618c2fea8d03cf",
+    "mlScanPassed": true,
+    "approvalCount": 2
+  },
+  "new_safe_10": {
+    "codeHash": "0x137259f1243ba4be193b518a87c1cd85e5ed10cdaccc3bde6d18434d0e64f7a7",
+    "recordTx": "0x2e63ce3e4b2f91b367621a49ca504691b30573ed1a22f8f208b649236aa0414e",
+    "approve0Tx": "0x8318aae09e01c4219c291d2ed2e4a3ce2d308cc3fa9796dddbfaf8ba0bf4c2ab",
+    "approve1Tx": "0xf0cf73977704ba95131216bfb9518377813aca74d8b71789b74898ee17059059",
+    "mlScanPassed": true,
+    "approvalCount": 2
+  }
+}

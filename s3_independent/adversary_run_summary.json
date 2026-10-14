@@ -1,0 +1,207 @@
+{
+ "full": {
+  "in_domain_cases": 480,
+  "overall": {
+   "match": 480
+  },
+  "unsafe_accepts": 0,
+  "cp95_upper_bound_if_zero": 0.006221673636624847,
+  "out_of_domain": {
+   "match": 20,
+   "unsafe_accept": 15
+  },
+  "skipped_int64_overflow": 7,
+  "per_category": {
+   "attestation_precedence": {
+    "match": 33
+   },
+   "cap_boundary": {
+    "match": 40
+   },
+   "cross_role_cap": {
+    "match": 36
+   },
+   "decisionid_lookalike": {
+    "match": 9
+   },
+   "half_cap_boundary": {
+    "match": 40
+   },
+   "int64_limits": {
+    "match": 48
+   },
+   "out_of_domain_empty_decisionid": {
+    "match": 2
+   },
+   "out_of_domain_empty_role": {
+    "match": 2
+   },
+   "precedence_unrecognised_over_cap": {
+    "match": 7
+   },
+   "registry_mapped_cap": {
+    "match": 18
+   },
+   "replay": {
+    "match": 18
+   },
+   "replay_setup": {
+    "match": 7
+   },
+   "role_string_trick": {
+    "match": 126
+   },
+   "source_domain_irrelevant": {
+    "match": 7
+   },
+   "source_limit_informational": {
+    "match": 72
+   },
+   "unneeded_approval": {
+    "match": 15
+   }
+  },
+  "examples": {
+   "out_of_domain": [
+    [
+     "A482",
+     "manager",
+     -9223372036854775808,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "A483",
+     "manager",
+     -4611686018427387905,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "A484",
+     "manager",
+     -9223372036854775807,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "A487",
+     "gerente",
+     -9223372036854775808,
+     "SAFE",
+     "CONDITIONAL"
+    ],
+    [
+     "A488",
+     "gerente",
+     -4611686018427387905,
+     "SAFE",
+     "CONDITIONAL"
+    ],
+    [
+     "A489",
+     "gerente",
+     -9223372036854775807,
+     "SAFE",
+     "CONDITIONAL"
+    ],
+    [
+     "A492",
+     "clerk",
+     -9223372036854775808,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "A493",
+     "clerk",
+     -4611686018427387905,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "A494",
+     "clerk",
+     -9223372036854775807,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "A497",
+     "director",
+     -9223372036854775808,
+     "EXACT",
+     "CONDITIONAL"
+    ]
+   ]
+  },
+  "adversary_expected_vs_oracle": {
+   "agree": 500,
+   "disagree": 15
+  }
+ },
+ "basic": {
+  "in_domain_cases": 480,
+  "overall": {
+   "match": 480
+  },
+  "unsafe_accepts": 0,
+  "cp95_upper_bound_if_zero": 0.006221673636624847,
+  "out_of_domain": {
+   "match": 35
+  },
+  "skipped_int64_overflow": 7,
+  "per_category": {
+   "attestation_precedence": {
+    "match": 33
+   },
+   "cap_boundary": {
+    "match": 40
+   },
+   "cross_role_cap": {
+    "match": 36
+   },
+   "decisionid_lookalike": {
+    "match": 9
+   },
+   "half_cap_boundary": {
+    "match": 40
+   },
+   "int64_limits": {
+    "match": 48
+   },
+   "out_of_domain_empty_decisionid": {
+    "match": 2
+   },
+   "out_of_domain_empty_role": {
+    "match": 2
+   },
+   "precedence_unrecognised_over_cap": {
+    "match": 7
+   },
+   "registry_mapped_cap": {
+    "match": 18
+   },
+   "replay": {
+    "match": 18
+   },
+   "replay_setup": {
+    "match": 7
+   },
+   "role_string_trick": {
+    "match": 126
+   },
+   "source_domain_irrelevant": {
+    "match": 7
+   },
+   "source_limit_informational": {
+    "match": 72
+   },
+   "unneeded_approval": {
+    "match": 15
+   }
+  },
+  "examples": {},
+  "adversary_expected_vs_oracle": {}
+ }
+}

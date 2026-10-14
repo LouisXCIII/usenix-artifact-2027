@@ -1,0 +1,239 @@
+{
+ "minMargin_quantized": 54445307,
+ "modelWeightsHash": "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+ "contracts": [
+  {
+   "i": 0,
+   "file": "VulnerableBank.sol",
+   "class_idx": 8,
+   "margin_logits": 2.5899,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 1,
+   "file": "SafeBank.sol",
+   "class_idx": 0,
+   "margin_logits": 1.2359,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 2,
+   "file": "02_integer_overflow_vuln.sol",
+   "class_idx": 8,
+   "margin_logits": 1.351,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 3,
+   "file": "02_integer_overflow_safe.sol",
+   "class_idx": 8,
+   "margin_logits": 0.4348,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 4,
+   "file": "03_dos_vuln.sol",
+   "class_idx": 0,
+   "margin_logits": 5.5248,
+   "valid_proof": true,
+   "why": null
+  },
+  {
+   "i": 5,
+   "file": "03_dos_safe.sol",
+   "class_idx": 0,
+   "margin_logits": 3.9407,
+   "valid_proof": true,
+   "why": null
+  },
+  {
+   "i": 6,
+   "file": "04_call_to_unknown_vuln.sol",
+   "class_idx": 8,
+   "margin_logits": 2.9076,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 7,
+   "file": "04_call_to_unknown_safe.sol",
+   "class_idx": 0,
+   "margin_logits": 5.5318,
+   "valid_proof": true,
+   "why": null
+  },
+  {
+   "i": 8,
+   "file": "05_weak_access_control_vuln.sol",
+   "class_idx": 8,
+   "margin_logits": 7.0656,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 9,
+   "file": "05_weak_access_control_safe.sol",
+   "class_idx": 0,
+   "margin_logits": 0.5563,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 10,
+   "file": "06_unused_return_vuln.sol",
+   "class_idx": 8,
+   "margin_logits": 2.9787,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 11,
+   "file": "06_unused_return_safe.sol",
+   "class_idx": 0,
+   "margin_logits": 3.5429,
+   "valid_proof": true,
+   "why": null
+  },
+  {
+   "i": 12,
+   "file": "07_tod_vuln.sol",
+   "class_idx": 8,
+   "margin_logits": 0.6207,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 13,
+   "file": "07_tod_safe.sol",
+   "class_idx": 0,
+   "margin_logits": 2.1568,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 14,
+   "file": "08_timestamp_vuln.sol",
+   "class_idx": 0,
+   "margin_logits": 4.5947,
+   "valid_proof": true,
+   "why": null
+  },
+  {
+   "i": 15,
+   "file": "08_timestamp_safe.sol",
+   "class_idx": 0,
+   "margin_logits": 1.6931,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 16,
+   "file": "09_mishandled_exception_vuln.sol",
+   "class_idx": 0,
+   "margin_logits": 3.2478,
+   "valid_proof": true,
+   "why": null
+  },
+  {
+   "i": 17,
+   "file": "09_mishandled_exception_safe.sol",
+   "class_idx": 0,
+   "margin_logits": 1.8934,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 18,
+   "file": "10_gas_exception_vuln.sol",
+   "class_idx": 0,
+   "margin_logits": 0.1359,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 19,
+   "file": "10_gas_exception_safe.sol",
+   "class_idx": 0,
+   "margin_logits": 0.975,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 20,
+   "file": "11_external_bug_vuln.sol",
+   "class_idx": 8,
+   "margin_logits": 3.1078,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 21,
+   "file": "11_external_bug_safe.sol",
+   "class_idx": 8,
+   "margin_logits": 0.3212,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 22,
+   "file": "00_clean_token.sol",
+   "class_idx": 0,
+   "margin_logits": 1.0485,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  },
+  {
+   "i": 23,
+   "file": "00_clean_voting.sol",
+   "class_idx": 0,
+   "margin_logits": 2.3194,
+   "valid_proof": false,
+   "why": "witness generation failed (a circuit constraint is violated)"
+  }
+ ],
+ "attacks": {
+  "A2_forged_features": {
+   "donor": "test_contracts/04_call_to_unknown_safe.sol",
+   "donor_margin": 5.532,
+   "valid": true,
+   "public": [
+    "1",
+    "5616631384879556582244751215625974693571385545902380780444161943759060504503",
+    "14609710889075609838083104642439894217498133792438429170986536814018329731674",
+    "0",
+    "54445307",
+    "10494038872765858080845244269484429820162559076895853253651143169770011946707"
+   ]
+  },
+  "A3_substituted_weights": {
+   "weights_hash_differs": true,
+   "valid": true,
+   "public": [
+    "1",
+    "5616631384879556582244751215625974693571385545902380780444161943759060504503",
+    "12673402713858139051123948239646380444636481720854713755584167615244027463376",
+    "0",
+    "54445307",
+    "12176217594360754166066831554870358142107433802054299792507239457416844988027"
+   ]
+  },
+  "A2d_confidence": {
+   "note": "v6 has no confidence input; a class-0 contract whose real margin is below the floor cannot be proved",
+   "class0_but_unprovable": [
+    "SafeBank.sol",
+    "05_weak_access_control_safe.sol",
+    "07_tod_safe.sol",
+    "08_timestamp_safe.sol",
+    "09_mishandled_exception_safe.sol",
+    "10_gas_exception_vuln.sol",
+    "10_gas_exception_safe.sol",
+    "00_clean_token.sol",
+    "00_clean_voting.sol"
+   ]
+  }
+ }
+}

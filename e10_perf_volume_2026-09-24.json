@@ -1,0 +1,119 @@
+{
+  "artifact_sizes": {
+    "groth16_proof_raw_bytes": 256,
+    "groth16_proof_components": {
+      "pi_a_G1": 64,
+      "pi_b_G2": 128,
+      "pi_c_G1": 64
+    },
+    "public_signals_raw_bytes": 224,
+    "public_signals_count": 7,
+    "besu_ibft2_header_raw_field_bytes": 820,
+    "besu_ibft2_header_field_breakdown": {
+      "parentHash": 32,
+      "sha3Uncles": 32,
+      "miner": 20,
+      "stateRoot": 32,
+      "transactionsRoot": 32,
+      "receiptsRoot": 32,
+      "logsBloom": 256,
+      "difficulty": 0,
+      "number": 2,
+      "gasLimit": 7,
+      "gasUsed": 0,
+      "timestamp": 4,
+      "extraData": 331,
+      "mixHash": 32,
+      "nonce": 8
+    },
+    "registry_mpt_proof_raw_bytes": 3245,
+    "registry_mpt_proof_nodes": {
+      "accountProof": 4,
+      "storageProof": 7
+    },
+    "fabric_nested_inclusion_verifier_mpt_proof_hop3_raw_bytes": 1691,
+    "fabric_nested_inclusion_verifier_mpt_proof_hop3_nodes": {
+      "accountProof": 4,
+      "storageProof": 2
+    },
+    "fabric_nested_inclusion_verifier_mpt_proof_hop5_raw_bytes": 1774,
+    "fabric_nested_inclusion_verifier_mpt_proof_hop5_nodes": {
+      "accountProof": 4,
+      "storageProof": 3
+    },
+    "source_files": {
+      "groth16_proof": "~/pqc-hardhat/experiments/portability/x8_out/H_honest_own_features_proof.json",
+      "public_signals": "~/pqc-hardhat/experiments/portability/x8_out/H_honest_own_features_public.json",
+      "besu_header": "/tmp/e7_v7_header.json (real, fetched live this session, block 0x6f6a1)",
+      "registry_mpt_proof": "/tmp/e7_v7_registry_proof.json",
+      "hop3_mpt_proof": "/tmp/e9_h3_hop3_registry_proof.json",
+      "hop5_mpt_proof": "/tmp/e9_h3_hop5_registry_proof.json"
+    },
+    "methodology": "Byte length = hex string length / 2 for each field/proof node as returned by the real eth_getProof / eth_getBlockByNumber RPC calls against the live Besu network (chainId 1337); Groth16 proof/public-signal sizes = 32 bytes per BN254 field element, matching the on-chain verifier's calldata encoding. Not full JSON-file-on-disk sizes (those include formatting/hex-prefix overhead); these are the raw witness/payload bytes a verifier actually consumes."
+  },
+  "multihop_latency": [
+    {
+      "h": 1,
+      "total_latency_s": 2.158378839492798,
+      "per_hop_latency_s": [
+        2.158374309539795
+      ],
+      "mean_per_hop_s": 2.158374309539795
+    },
+    {
+      "h": 2,
+      "total_latency_s": 4.366736173629761,
+      "per_hop_latency_s": [
+        2.061419725418091,
+        2.3053112030029297
+      ],
+      "mean_per_hop_s": 2.1833654642105103
+    },
+    {
+      "h": 3,
+      "total_latency_s": 6.908914089202881,
+      "per_hop_latency_s": [
+        2.2969906330108643,
+        2.26326322555542,
+        2.348656415939331
+      ],
+      "mean_per_hop_s": 2.3029700915018716
+    },
+    {
+      "h": 5,
+      "total_latency_s": 11.296899795532227,
+      "per_hop_latency_s": [
+        2.2881875038146973,
+        2.275285482406616,
+        2.292293071746826,
+        2.2022416591644287,
+        2.2388856410980225
+      ],
+      "mean_per_hop_s": 2.259378671646118
+    },
+    {
+      "h": 10,
+      "total_latency_s": 22.02316117286682,
+      "per_hop_latency_s": [
+        2.135525703430176,
+        2.284126043319702,
+        2.194511890411377,
+        2.077726364135742,
+        2.239362955093384,
+        2.2734029293060303,
+        2.220341444015503,
+        2.2340097427368164,
+        2.105907917022705,
+        2.2582356929779053
+      ],
+      "mean_per_hop_s": 2.202315068244934
+    }
+  ],
+  "concurrency_n100": {
+    "N": 100,
+    "n_endorsed_ok": 100,
+    "n_committed": 100,
+    "wall_clock_s": 5.790066242218018,
+    "mean_ms_per_tx": 57.900662422180176
+  }
+}

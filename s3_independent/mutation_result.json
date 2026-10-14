@@ -1,0 +1,174 @@
+[
+ {
+  "mutation": "M00 unmodified (control)",
+  "kind": "control",
+  "adversary": {
+   "match": 480
+  },
+  "adversary_detected": false,
+  "sampler": {
+   "match": 5741
+  },
+  "sampler_detected": false
+ },
+ {
+  "mutation": "M01 cap check `>` -> `>=` (rejects at exactly the cap)",
+  "kind": "over-conservative",
+  "adversary": {
+   "match": 459,
+   "over_conservative": 21
+  },
+  "adversary_detected": true,
+  "sampler": {
+   "match": 5693,
+   "over_conservative": 48
+  },
+  "sampler_detected": true
+ },
+ {
+  "mutation": "M02 cap check allows cap+1",
+  "kind": "unsafe",
+  "adversary": {
+   "match": 446,
+   "unsafe_accept": 34
+  },
+  "adversary_detected": true,
+  "sampler": {
+   "match": 5684,
+   "unsafe_accept": 57
+  },
+  "sampler_detected": true
+ },
+ {
+  "mutation": "M03 obligation only above the full cap (skips the upper half)",
+  "kind": "unsafe",
+  "adversary": {
+   "unsafe_accept": 38,
+   "match": 442
+  },
+  "adversary_detected": true,
+  "sampler": {
+   "match": 5641,
+   "unsafe_accept": 100
+  },
+  "sampler_detected": true
+ },
+ {
+  "mutation": "M04 obligation from exactly half (`>=`)",
+  "kind": "over-conservative",
+  "adversary": {
+   "match": 472,
+   "over_conservative": 8
+  },
+  "adversary_detected": true,
+  "sampler": {
+   "match": 5709,
+   "over_conservative": 32
+  },
+  "sampler_detected": true
+ },
+ {
+  "mutation": "M05 obligation threshold uses a third instead of a half",
+  "kind": "over-conservative",
+  "adversary": {
+   "match": 459,
+   "over_conservative": 21
+  },
+  "adversary_detected": true,
+  "sampler": {
+   "match": 5674,
+   "over_conservative": 67
+  },
+  "sampler_detected": true
+ },
+ {
+  "mutation": "M06 second-approval flag ignored",
+  "kind": "unsafe",
+  "adversary": {
+   "unsafe_accept": 38,
+   "match": 442
+  },
+  "adversary_detected": true,
+  "sampler": {
+   "match": 5641,
+   "unsafe_accept": 100
+  },
+  "sampler_detected": true
+ },
+ {
+  "mutation": "M07 semBound attestation not checked",
+  "kind": "unsafe",
+  "adversary": {
+   "match": 471,
+   "unsafe_accept": 7,
+   "class_mismatch": 2
+  },
+  "adversary_detected": true,
+  "sampler": {
+   "match": 5140,
+   "class_mismatch": 533,
+   "unsafe_accept": 68
+  },
+  "sampler_detected": true
+ },
+ {
+  "mutation": "M08 evAssuranceOK attestation not checked",
+  "kind": "unsafe",
+  "adversary": {
+   "match": 472,
+   "unsafe_accept": 6,
+   "class_mismatch": 2
+  },
+  "adversary_detected": true,
+  "sampler": {
+   "match": 5088,
+   "unsafe_accept": 58,
+   "class_mismatch": 595
+  },
+  "sampler_detected": true
+ },
+ {
+  "mutation": "M09 replay check removed",
+  "kind": "unsafe",
+  "adversary": {
+   "match": 461,
+   "unsafe_accept": 17,
+   "class_mismatch": 2
+  },
+  "adversary_detected": true,
+  "sampler": {
+   "match": 5628,
+   "class_mismatch": 102,
+   "unsafe_accept": 11
+  },
+  "sampler_detected": true
+ },
+ {
+  "mutation": "M10 registry corrupted: gerente -> director",
+  "kind": "unsafe",
+  "adversary": {
+   "match": 462,
+   "unsafe_accept": 18
+  },
+  "adversary_detected": true,
+  "sampler": {
+   "match": 5667,
+   "unsafe_accept": 74
+  },
+  "sampler_detected": true
+ },
+ {
+  "mutation": "M11 policy data corrupted: clerk cap 100000",
+  "kind": "unsafe",
+  "adversary": {
+   "match": 459,
+   "unsafe_accept": 21
+  },
+  "adversary_detected": true,
+  "sampler": {
+   "match": 5660,
+   "unsafe_accept": 81
+  },
+  "sampler_detected": true
+ }
+]

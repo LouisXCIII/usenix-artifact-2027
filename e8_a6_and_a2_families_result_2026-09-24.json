@@ -1,0 +1,121 @@
+{
+  "chaincode_version": "2.10/seq22",
+  "A6_assurance_claim_continuity": [
+    {
+      "name": "real_laundered",
+      "function": "SubmitDecisionWithAssurance",
+      "decisionSigTier": "classical",
+      "destAssuranceRequirement": "PQDecisionAuth",
+      "expected": "REJECT",
+      "result": "REJECT",
+      "correct": true
+    },
+    {
+      "name": "ablated_laundered",
+      "function": "SubmitDecisionWithAssuranceNoCheck",
+      "decisionSigTier": "classical",
+      "destAssuranceRequirement": "PQDecisionAuth",
+      "expected": "accepted (incorrect, demonstrates A6 consequence)",
+      "result": "EXACT",
+      "correct": true
+    },
+    {
+      "name": "real_hybrid_control",
+      "function": "SubmitDecisionWithAssurance",
+      "decisionSigTier": "hybrid",
+      "destAssuranceRequirement": "PQDecisionAuth",
+      "expected": "accepted",
+      "result": "EXACT",
+      "correct": true
+    },
+    {
+      "name": "ablated_hybrid_control",
+      "function": "SubmitDecisionWithAssuranceNoCheck",
+      "decisionSigTier": "hybrid",
+      "destAssuranceRequirement": "PQDecisionAuth",
+      "expected": "accepted (agreement)",
+      "result": "EXACT",
+      "correct": true
+    }
+  ],
+  "A2_action_family": [
+    {
+      "name": "real_over_cap",
+      "function": "SubmitDecisionWithAction",
+      "actionLevel": 3,
+      "expected": "REJECT",
+      "result": "REJECT",
+      "correct": true
+    },
+    {
+      "name": "ablated_over_cap",
+      "function": "SubmitDecisionWithActionNoSemCheck",
+      "actionLevel": 3,
+      "expected": "accepted (incorrect)",
+      "result": "EXACT",
+      "correct": true
+    },
+    {
+      "name": "real_within_cap",
+      "function": "SubmitDecisionWithAction",
+      "actionLevel": 2,
+      "expected": "accepted",
+      "result": "EXACT",
+      "correct": true
+    }
+  ],
+  "A2_resource_family": [
+    {
+      "name": "real_wrong_id",
+      "function": "SubmitDecisionWithResource",
+      "resourceID": 99,
+      "expected": "REJECT",
+      "result": "REJECT",
+      "correct": true
+    },
+    {
+      "name": "ablated_wrong_id",
+      "function": "SubmitDecisionWithResourceNoSemCheck",
+      "resourceID": 99,
+      "expected": "accepted (incorrect)",
+      "result": "EXACT",
+      "correct": true
+    },
+    {
+      "name": "real_correct_id",
+      "function": "SubmitDecisionWithResource",
+      "resourceID": 2,
+      "expected": "accepted",
+      "result": "EXACT",
+      "correct": true
+    }
+  ],
+  "A2_context_family": [
+    {
+      "name": "real_context_fail",
+      "function": "SubmitDecisionWithContext",
+      "contextOK": false,
+      "expected": "REJECT",
+      "result": "REJECT",
+      "correct": true
+    },
+    {
+      "name": "ablated_context_fail",
+      "function": "SubmitDecisionWithContextNoSemCheck",
+      "contextOK": false,
+      "expected": "accepted (incorrect)",
+      "result": "EXACT",
+      "correct": true
+    },
+    {
+      "name": "real_context_ok",
+      "function": "SubmitDecisionWithContext",
+      "contextOK": true,
+      "expected": "accepted",
+      "result": "EXACT",
+      "correct": true
+    }
+  ],
+  "n_correct": 13,
+  "n_total": 13
+}

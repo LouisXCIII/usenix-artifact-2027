@@ -1,0 +1,22 @@
+{
+  "registry": "0x891aFA35016D434782CA036fd6DBfc56A64666bc",
+  "codeHash": "0x1ec384e18d2347802df160867c784cd5b40086e9f67b7c514e9b1b0772fa6809",
+  "decisions": {
+    "S_short": {
+      "hD": "0x528dd8fd7cedbe4ee04cba02809cee5df615f70e08ef7594eb006ca4bf3ebaa2",
+      "fields": {
+        "domain": "fabric:authchannel:authcc",
+        "intent": "approve-deployment-decision",
+        "codeHash": "0x1ec384e18d2347802df160867c784cd5b40086e9f67b7c514e9b1b0772fa6809",
+        "role": "clerk",
+        "amount": "5000",
+        "sourceLimit": "10000",
+        "epoch": "1",
+        "expiry": "1790014913",
+        "nonce": "0xe5728c82327f9c07b88645170efa7f7625323dc4d0dce2acb8102a4163fedddc"
+      },
+      "block": 401784,
+      "status": 1
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+ "hop": {
+  "semBound": true,
+  "evAssuranceOk": true,
+  "localAssuranceOk": true,
+  "relayedAtBlock": "72132"
+ },
+ "boolean_path": "SAFE",
+ "trustless_path": "REJECT",
+ "trustless_record": {
+  "decisionId": "x5a-trustless-direct",
+  "sourceDomain": "besu-main",
+  "role": "manager",
+  "amount": 300000,
+  "sourceLimit": 500000,
+  "semBound": false,
+  "evAssuranceOk": true,
+  "transferClass": "REJECT",
+  "destThreshold": 500000,
+  "zkVerified": true,
+  "zkVerificationDetail": "v5 proofs are not accepted: in that relation the model hash and the confidence are prover-declared",
+  "codeHash": "0x0f5ace7c2120bb64fbb7c620a484f72003aed206a79a02251ff8830f1f4179f8",
+  "lcVerified": true,
+  "lcDetail": "header of block 0x606cb reproduced from raw fields with 3/4 distinct pinned-validator commit seals; registry slots proven by Merkle-Patricia proofs under its stateRoot",
+  "sourceBlockNumber": "0x606cb",
+  "sourceBlockHash": "0x35eb03d0258601c174461803836e73aebb9c359158388b383062ea6fa3883fc2",
+  "provenApprovals": 2
+ },
+ "trustless_path_v6": "REJECT",
+ "trustless_record_v6": {
+  "decisionId": "x5a-trustless-direct-v6",
+  "sourceDomain": "besu-main",
+  "role": "manager",
+  "amount": 300000,
+  "sourceLimit": 500000,
+  "semBound": false,
+  "evAssuranceOk": true,
+  "transferClass": "REJECT",
+  "destThreshold": 500000,
+  "zkVerified": true,
+  "zkVerificationDetail": "proof verifies but its public solidityCodeHash differs from this decision's codeHash (proof substitution rejected)",
+  "codeHash": "0x0f5ace7c2120bb64fbb7c620a484f72003aed206a79a02251ff8830f1f4179f8",
+  "lcVerified": true,
+  "lcDetail": "header of block 0x606cb reproduced from raw fields with 3/4 distinct pinned-validator commit seals; registry slots proven by Merkle-Patricia proofs under its stateRoot",
+  "sourceBlockNumber": "0x606cb",
+  "sourceBlockHash": "0x35eb03d0258601c174461803836e73aebb9c359158388b383062ea6fa3883fc2",
+  "provenApprovals": 2
+ }
+}

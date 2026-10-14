@@ -1,0 +1,96 @@
+{
+  "n_total_known_vulnerable": 253,
+  "corpora": [
+    "smartbugs",
+    "weakaccess"
+  ],
+  "per_tier": {
+    "1": {
+      "floor": 54445422,
+      "k": 56,
+      "n": 253,
+      "fn_rate": 0.22134387351778656,
+      "cp95_lo": 0.17174789570411084,
+      "cp95_hi": 0.2775960987395036,
+      "table_fraction": 0.1,
+      "expected_exposure_fraction_of_cap": 0.022134387351778657
+    },
+    "2": {
+      "floor": 67108864,
+      "k": 26,
+      "n": 253,
+      "fn_rate": 0.10276679841897234,
+      "cp95_lo": 0.06823610610285233,
+      "cp95_hi": 0.14694493506487974,
+      "table_fraction": 0.5,
+      "expected_exposure_fraction_of_cap": 0.05138339920948617
+    },
+    "3": {
+      "floor": 83886080,
+      "k": 8,
+      "n": 253,
+      "fn_rate": 0.03162055335968379,
+      "cp95_lo": 0.013748437543221857,
+      "cp95_hi": 0.06135201342747428,
+      "table_fraction": 1.0,
+      "expected_exposure_fraction_of_cap": 0.03162055335968379
+    }
+  },
+  "fn_rate_monotonically_nonincreasing_in_tier": true,
+  "expected_exposure_monotonically_nonincreasing_in_tier": false,
+  "exposure_comparison_real_vs_naive_variants": {
+    "real (deployed)": {
+      "fraction_table": {
+        "1": 0.1,
+        "2": 0.5,
+        "3": 1.0
+      },
+      "expected_exposure_fraction_of_cap": {
+        "1": 0.022134387351778657,
+        "2": 0.05138339920948617,
+        "3": 0.03162055335968379
+      },
+      "max_expected_exposure_fraction_of_cap": 0.05138339920948617
+    },
+    "NV1_table_reversed": {
+      "fraction_table": {
+        "1": 1.0,
+        "2": 0.5,
+        "3": 0.1
+      },
+      "expected_exposure_fraction_of_cap": {
+        "1": 0.22134387351778656,
+        "2": 0.05138339920948617,
+        "3": 0.0031620553359683794
+      },
+      "max_expected_exposure_fraction_of_cap": 0.22134387351778656
+    },
+    "NV2_tier2_tier3_swapped": {
+      "fraction_table": {
+        "1": 0.1,
+        "2": 1.0,
+        "3": 0.5
+      },
+      "expected_exposure_fraction_of_cap": {
+        "1": 0.022134387351778657,
+        "2": 0.10276679841897234,
+        "3": 0.015810276679841896
+      },
+      "max_expected_exposure_fraction_of_cap": 0.10276679841897234
+    },
+    "NV4_off_by_one": {
+      "fraction_table": {
+        "1": 0.5,
+        "2": 1.0,
+        "3": 1.0
+      },
+      "expected_exposure_fraction_of_cap": {
+        "1": 0.11067193675889328,
+        "2": 0.10276679841897234,
+        "3": 0.03162055335968379
+      },
+      "max_expected_exposure_fraction_of_cap": 0.11067193675889328
+    }
+  },
+  "real_table_has_lower_max_exposure_than_every_naive_variant": true
+}

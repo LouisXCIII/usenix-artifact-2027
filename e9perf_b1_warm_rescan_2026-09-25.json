@@ -1,0 +1,210 @@
+{
+  "n_files": 22,
+  "model_load_ms": 985.5821132659912,
+  "median_ms": 4.086017608642578,
+  "p95_ms": 8.307695388793945,
+  "p99_ms": 9.49859619140625,
+  "mean_ms": 4.684805870056152,
+  "wall_samples_ms": [
+    2.5610923767089844,
+    2.7549266815185547,
+    2.9692649841308594,
+    3.1626224517822266,
+    3.5250186920166016,
+    3.594636917114258,
+    3.6306381225585938,
+    3.655672073364258,
+    3.801107406616211,
+    3.835439682006836,
+    4.066944122314453,
+    4.086017608642578,
+    4.19163703918457,
+    5.067110061645508,
+    5.175590515136719,
+    5.373477935791016,
+    5.385875701904297,
+    5.831480026245117,
+    6.003141403198242,
+    6.587743759155273,
+    8.307695388793945,
+    9.49859619140625
+  ],
+  "results": [
+    {
+      "file": "00_clean_token.sol",
+      "verdict": "PASS",
+      "confidence": 0.7383,
+      "model_inference_ms": 9.46,
+      "wall_ms": 9.49859619140625,
+      "class": "SAFE"
+    },
+    {
+      "file": "00_clean_voting.sol",
+      "verdict": "PASS",
+      "confidence": 0.9097,
+      "model_inference_ms": 8.28,
+      "wall_ms": 8.307695388793945,
+      "class": "SAFE"
+    },
+    {
+      "file": "02_integer_overflow_safe.sol",
+      "verdict": "WARN",
+      "confidence": 0.6072,
+      "model_inference_ms": 5.97,
+      "wall_ms": 6.003141403198242,
+      "class": "REJECT"
+    },
+    {
+      "file": "02_integer_overflow_vuln.sol",
+      "verdict": "WARN",
+      "confidence": 0.7943,
+      "model_inference_ms": 5.04,
+      "wall_ms": 5.067110061645508,
+      "class": "REJECT"
+    },
+    {
+      "file": "03_dos_safe.sol",
+      "verdict": "PASS",
+      "confidence": 0.9808,
+      "model_inference_ms": 4.16,
+      "wall_ms": 4.19163703918457,
+      "class": "SAFE"
+    },
+    {
+      "file": "03_dos_vuln.sol",
+      "verdict": "PASS",
+      "confidence": 0.996,
+      "model_inference_ms": 4.03,
+      "wall_ms": 4.066944122314453,
+      "class": "SAFE"
+    },
+    {
+      "file": "04_call_to_unknown_safe.sol",
+      "verdict": "PASS",
+      "confidence": 0.996,
+      "model_inference_ms": 4.06,
+      "wall_ms": 4.086017608642578,
+      "class": "SAFE"
+    },
+    {
+      "file": "04_call_to_unknown_vuln.sol",
+      "verdict": "BLOCK",
+      "confidence": 0.943,
+      "model_inference_ms": 2.53,
+      "wall_ms": 2.5610923767089844,
+      "class": "REJECT"
+    },
+    {
+      "file": "05_weak_access_control_safe.sol",
+      "verdict": "PASS",
+      "confidence": 0.6348,
+      "model_inference_ms": 3.57,
+      "wall_ms": 3.594636917114258,
+      "class": "SAFE"
+    },
+    {
+      "file": "05_weak_access_control_vuln.sol",
+      "verdict": "BLOCK",
+      "confidence": 0.9991,
+      "model_inference_ms": 2.94,
+      "wall_ms": 2.9692649841308594,
+      "class": "REJECT"
+    },
+    {
+      "file": "06_unused_return_safe.sol",
+      "verdict": "PASS",
+      "confidence": 0.9717,
+      "model_inference_ms": 3.63,
+      "wall_ms": 3.655672073364258,
+      "class": "SAFE"
+    },
+    {
+      "file": "06_unused_return_vuln.sol",
+      "verdict": "BLOCK",
+      "confidence": 0.9513,
+      "model_inference_ms": 3.14,
+      "wall_ms": 3.1626224517822266,
+      "class": "REJECT"
+    },
+    {
+      "file": "07_tod_safe.sol",
+      "verdict": "PASS",
+      "confidence": 0.8958,
+      "model_inference_ms": 5.15,
+      "wall_ms": 5.175590515136719,
+      "class": "SAFE"
+    },
+    {
+      "file": "07_tod_vuln.sol",
+      "verdict": "WARN",
+      "confidence": 0.6503,
+      "model_inference_ms": 3.5,
+      "wall_ms": 3.5250186920166016,
+      "class": "REJECT"
+    },
+    {
+      "file": "08_timestamp_safe.sol",
+      "verdict": "PASS",
+      "confidence": 0.8437,
+      "model_inference_ms": 6.56,
+      "wall_ms": 6.587743759155273,
+      "class": "SAFE"
+    },
+    {
+      "file": "08_timestamp_vuln.sol",
+      "verdict": "PASS",
+      "confidence": 0.9899,
+      "model_inference_ms": 3.81,
+      "wall_ms": 3.835439682006836,
+      "class": "SAFE"
+    },
+    {
+      "file": "09_mishandled_exception_safe.sol",
+      "verdict": "PASS",
+      "confidence": 0.8684,
+      "model_inference_ms": 5.36,
+      "wall_ms": 5.385875701904297,
+      "class": "SAFE"
+    },
+    {
+      "file": "09_mishandled_exception_vuln.sol",
+      "verdict": "PASS",
+      "confidence": 0.9624,
+      "model_inference_ms": 3.77,
+      "wall_ms": 3.801107406616211,
+      "class": "SAFE"
+    },
+    {
+      "file": "10_gas_exception_safe.sol",
+      "verdict": "PASS",
+      "confidence": 0.7251,
+      "model_inference_ms": 5.8,
+      "wall_ms": 5.831480026245117,
+      "class": "SAFE"
+    },
+    {
+      "file": "10_gas_exception_vuln.sol",
+      "verdict": "PASS",
+      "confidence": 0.5333,
+      "model_inference_ms": 3.6,
+      "wall_ms": 3.6306381225585938,
+      "class": "SAFE"
+    },
+    {
+      "file": "11_external_bug_safe.sol",
+      "verdict": "PASS",
+      "confidence": 0.5798,
+      "model_inference_ms": 5.34,
+      "wall_ms": 5.373477935791016,
+      "class": "SAFE"
+    },
+    {
+      "file": "11_external_bug_vuln.sol",
+      "verdict": "BLOCK",
+      "confidence": 0.957,
+      "model_inference_ms": 2.72,
+      "wall_ms": 2.7549266815185547,
+      "class": "REJECT"
+    }
+  ]
+}

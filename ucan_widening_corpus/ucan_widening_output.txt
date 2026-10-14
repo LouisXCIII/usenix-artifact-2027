@@ -1,0 +1,17 @@
+UCAN widening corpus-scale extension (real library: github.com/ucan-wg/go-ucan v1.2.0)
+Source limit = 2x destination threshold (same ratio as the paper's manager running example);
+amounts at 0.6x / 1.4x / 3.0x the destination threshold (same relative points as the running example).
+
+role=manager   bucket=in-bounds (<=dest)       amount=$300000    dest<=$500000    src<=$1000000   -> ALLOWED
+role=manager   bucket=widening (>dest, <=src)  amount=$700000    dest<=$500000    src<=$1000000   -> ALLOWED
+role=manager   bucket=control (>src)           amount=$1500000   dest<=$500000    src<=$1000000   -> REJECTED (the following UCAN policy is not satisfied: ["<=", ".amount", 1000000])
+role=director  bucket=in-bounds (<=dest)       amount=$1200000   dest<=$2000000   src<=$4000000   -> ALLOWED
+role=director  bucket=widening (>dest, <=src)  amount=$2800000   dest<=$2000000   src<=$4000000   -> ALLOWED
+role=director  bucket=control (>src)           amount=$6000000   dest<=$2000000   src<=$4000000   -> REJECTED (the following UCAN policy is not satisfied: ["<=", ".amount", 4000000])
+role=clerk     bucket=in-bounds (<=dest)       amount=$6000      dest<=$10000     src<=$20000     -> ALLOWED
+role=clerk     bucket=widening (>dest, <=src)  amount=$14000     dest<=$10000     src<=$20000     -> ALLOWED
+role=clerk     bucket=control (>src)           amount=$30000     dest<=$10000     src<=$20000     -> REJECTED (the following UCAN policy is not satisfied: ["<=", ".amount", 20000])
+
+in-bounds cases correctly ALLOWED by UCAN: 3/3
+widening cases WRONGLY ALLOWED by UCAN (exceed destination's own limit, UCAN cannot see it): 3/3
+control cases correctly REJECTED by UCAN (exceed even the source's own limit): 3/3

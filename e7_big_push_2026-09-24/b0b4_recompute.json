@@ -1,0 +1,14 @@
+{
+  "n_total": 190,
+  "n_unsafe": 126,
+  "n_safe": 59,
+  "n_reeval": 5,
+  "B2_far": 71,
+  "B2_frr": 0,
+  "B3_far": 1,
+  "B3_frr": 0,
+  "B2_accept": 130,
+  "B2_reeval": 22,
+  "B3_accept": 60,
+  "B3_reeval": 5
+}

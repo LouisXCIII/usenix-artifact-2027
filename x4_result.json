@@ -1,0 +1,38 @@
+{
+  "registry": "0x891aFA35016D434782CA036fd6DBfc56A64666bc",
+  "codeHash": "0x1ec384e18d2347802df160867c784cd5b40086e9f67b7c514e9b1b0772fa6809",
+  "decisions": {
+    "E_fresh": {
+      "hD": "0x3f94e3346441f8052b31db6c1dba1df1dfa1c9e68a2b309c312da5b954132adf",
+      "fields": {
+        "domain": "fabric:authchannel:authcc",
+        "intent": "approve-deployment-decision",
+        "codeHash": "0x1ec384e18d2347802df160867c784cd5b40086e9f67b7c514e9b1b0772fa6809",
+        "role": "clerk",
+        "amount": "5000",
+        "sourceLimit": "10000",
+        "epoch": "1",
+        "expiry": "1792606773",
+        "nonce": "0x550c895451dbfeb6c126f32090941e90faeb9742117b4fd26c28f19cb79d93be"
+      },
+      "block": 401764,
+      "status": 1
+    },
+    "E_expired": {
+      "hD": "0xf0a9fe384c8d15627ae05f2763d4c815ef28c082fc62f5ecc1ad5ec4428940aa",
+      "fields": {
+        "domain": "fabric:authchannel:authcc",
+        "intent": "approve-deployment-decision",
+        "codeHash": "0x1ec384e18d2347802df160867c784cd5b40086e9f67b7c514e9b1b0772fa6809",
+        "role": "clerk",
+        "amount": "5000",
+        "sourceLimit": "10000",
+        "epoch": "1",
+        "expiry": "1700000000",
+        "nonce": "0x5770452ab8ba18259ac70657ecb329b0c20792985685caf40aeccbb4e87b5422"
+      },
+      "block": 401765,
+      "status": 1
+    }
+  }
+}

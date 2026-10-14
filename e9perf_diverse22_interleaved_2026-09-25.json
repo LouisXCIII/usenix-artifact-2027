@@ -1,0 +1,470 @@
+{
+  "SubmitDecisionB0Timed": [
+    {
+      "name": "CellCounter27",
+      "wall_ms": 2.071183,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.694501,
+      "zkMs": 0.918551
+    },
+    {
+      "name": "LedgerCounter17",
+      "wall_ms": 1.790139,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.601065,
+      "zkMs": 0.87579
+    },
+    {
+      "name": "PlainCounter2",
+      "wall_ms": 3.144598,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.865835,
+      "zkMs": 1.963981
+    },
+    {
+      "name": "RealCounter7",
+      "wall_ms": 2.976546,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.668393,
+      "zkMs": 1.963565
+    },
+    {
+      "name": "SolidCounter12",
+      "wall_ms": 2.966832,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.640318,
+      "zkMs": 1.973116
+    },
+    {
+      "name": "StoreCounter22",
+      "wall_ms": 2.128899,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.770503,
+      "zkMs": 0.935494
+    },
+    {
+      "name": "AlphaEscrow",
+      "wall_ms": 3.665474,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.871707,
+      "zkMs": 1.599691
+    },
+    {
+      "name": "AnchorVault",
+      "wall_ms": 2.217751,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.807754,
+      "zkMs": 1.03836
+    },
+    {
+      "name": "ApexAuction",
+      "wall_ms": 2.063631,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.686641,
+      "zkMs": 0.995222
+    },
+    {
+      "name": "AsterFaucet",
+      "wall_ms": 2.160357,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.824971,
+      "zkMs": 0.933537
+    },
+    {
+      "name": "AstraVoting",
+      "wall_ms": 2.242731,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.757365,
+      "zkMs": 1.067154
+    },
+    {
+      "name": "BeaconCounter",
+      "wall_ms": 2.444022,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.963379,
+      "zkMs": 1.109181
+    },
+    {
+      "name": "BetaVoting",
+      "wall_ms": 3.414137,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.806526,
+      "zkMs": 2.188959
+    },
+    {
+      "name": "BridgeEscrow",
+      "wall_ms": 3.408753,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.898925,
+      "zkMs": 2.130307
+    },
+    {
+      "name": "CedarSubscription",
+      "wall_ms": 3.132662,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.767961,
+      "zkMs": 1.939959
+    },
+    {
+      "name": "CentralCounter",
+      "wall_ms": 1.746746,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.547605,
+      "zkMs": 0.859479
+    },
+    {
+      "name": "CivicEscrow",
+      "wall_ms": 1.763875,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.605055,
+      "zkMs": 0.894821
+    },
+    {
+      "name": "CrestFaucet",
+      "wall_ms": 2.257135,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.606063,
+      "zkMs": 1.393621
+    },
+    {
+      "name": "DeltaCounter",
+      "wall_ms": 1.827642,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.600792,
+      "zkMs": 0.881071
+    },
+    {
+      "name": "EastVoting",
+      "wall_ms": 1.895841,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.629142,
+      "zkMs": 0.88997
+    },
+    {
+      "name": "FederalFaucet",
+      "wall_ms": 2.881869,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.669099,
+      "zkMs": 1.951559
+    },
+    {
+      "name": "GammaVault",
+      "wall_ms": 1.882466,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.638223,
+      "zkMs": 0.971038
+    }
+  ],
+  "SubmitDecisionB3Timed": [
+    {
+      "name": "CellCounter27",
+      "wall_ms": 1.80742,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.591068,
+      "zkMs": 0.87332
+    },
+    {
+      "name": "LedgerCounter17",
+      "wall_ms": 2.378783,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.815224,
+      "zkMs": 1.187613
+    },
+    {
+      "name": "PlainCounter2",
+      "wall_ms": 1.855022,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.652505,
+      "zkMs": 0.870234
+    },
+    {
+      "name": "RealCounter7",
+      "wall_ms": 1.951032,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.68528,
+      "zkMs": 0.924059
+    },
+    {
+      "name": "SolidCounter12",
+      "wall_ms": 2.08978,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.793088,
+      "zkMs": 0.941797
+    },
+    {
+      "name": "StoreCounter22",
+      "wall_ms": 2.328541,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.723939,
+      "zkMs": 1.238906
+    },
+    {
+      "name": "AlphaEscrow",
+      "wall_ms": 1.941448,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.658832,
+      "zkMs": 0.991659
+    },
+    {
+      "name": "AnchorVault",
+      "wall_ms": 3.462699,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.758242,
+      "zkMs": 2.228318
+    },
+    {
+      "name": "ApexAuction",
+      "wall_ms": 2.703904,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.843114,
+      "zkMs": 1.47557
+    },
+    {
+      "name": "AsterFaucet",
+      "wall_ms": 3.32248,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.724767,
+      "zkMs": 2.19032
+    },
+    {
+      "name": "AstraVoting",
+      "wall_ms": 3.470877,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.828438,
+      "zkMs": 2.156389
+    },
+    {
+      "name": "BeaconCounter",
+      "wall_ms": 2.162003,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.700062,
+      "zkMs": 1.008657
+    },
+    {
+      "name": "BetaVoting",
+      "wall_ms": 2.2848,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.881278,
+      "zkMs": 1.027704
+    },
+    {
+      "name": "BridgeEscrow",
+      "wall_ms": 2.042003,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.812673,
+      "zkMs": 0.87074
+    },
+    {
+      "name": "CedarSubscription",
+      "wall_ms": 3.243776,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.928344,
+      "zkMs": 1.956116
+    },
+    {
+      "name": "CentralCounter",
+      "wall_ms": 1.814434,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.633145,
+      "zkMs": 0.865096
+    },
+    {
+      "name": "CivicEscrow",
+      "wall_ms": 1.981437,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.799645,
+      "zkMs": 0.862516
+    },
+    {
+      "name": "CrestFaucet",
+      "wall_ms": 1.744821,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.637645,
+      "zkMs": 0.866002
+    },
+    {
+      "name": "DeltaCounter",
+      "wall_ms": 1.970141,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.747937,
+      "zkMs": 0.886064
+    },
+    {
+      "name": "EastVoting",
+      "wall_ms": 3.128168,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.810478,
+      "zkMs": 1.936497
+    },
+    {
+      "name": "FederalFaucet",
+      "wall_ms": 2.006643,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.773809,
+      "zkMs": 0.860342
+    },
+    {
+      "name": "GammaVault",
+      "wall_ms": 1.93556,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.760597,
+      "zkMs": 0.850912
+    }
+  ],
+  "SubmitDecisionTrustlessTimed": [
+    {
+      "name": "CellCounter27",
+      "wall_ms": 2.487974,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.470333,
+      "zkMs": 1.564248
+    },
+    {
+      "name": "LedgerCounter17",
+      "wall_ms": 2.180718,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.469076,
+      "zkMs": 1.203181
+    },
+    {
+      "name": "PlainCounter2",
+      "wall_ms": 1.785367,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.455915,
+      "zkMs": 0.863157
+    },
+    {
+      "name": "RealCounter7",
+      "wall_ms": 1.810561,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.459317,
+      "zkMs": 0.876126
+    },
+    {
+      "name": "SolidCounter12",
+      "wall_ms": 2.10025,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.670077,
+      "zkMs": 0.942044
+    },
+    {
+      "name": "StoreCounter22",
+      "wall_ms": 2.082512,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.516368,
+      "zkMs": 0.997187
+    },
+    {
+      "name": "AlphaEscrow",
+      "wall_ms": 3.682106,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.739308,
+      "zkMs": 2.283974
+    },
+    {
+      "name": "AnchorVault",
+      "wall_ms": 2.269879,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.686455,
+      "zkMs": 1.075728
+    },
+    {
+      "name": "ApexAuction",
+      "wall_ms": 3.425526,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.710998,
+      "zkMs": 2.141589
+    },
+    {
+      "name": "AsterFaucet",
+      "wall_ms": 3.55873,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.715059,
+      "zkMs": 2.201197
+    },
+    {
+      "name": "AstraVoting",
+      "wall_ms": 2.028287,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.550012,
+      "zkMs": 1.026676
+    },
+    {
+      "name": "BeaconCounter",
+      "wall_ms": 1.977424,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.485537,
+      "zkMs": 0.898206
+    },
+    {
+      "name": "BetaVoting",
+      "wall_ms": 4.06643,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.783837,
+      "zkMs": 2.575946
+    },
+    {
+      "name": "BridgeEscrow",
+      "wall_ms": 1.776642,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.477534,
+      "zkMs": 0.885358
+    },
+    {
+      "name": "CedarSubscription",
+      "wall_ms": 2.468407,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.463669,
+      "zkMs": 1.321655
+    },
+    {
+      "name": "CentralCounter",
+      "wall_ms": 2.391433,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.468026,
+      "zkMs": 1.394193
+    },
+    {
+      "name": "CivicEscrow",
+      "wall_ms": 1.818787,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.462947,
+      "zkMs": 0.859252
+    },
+    {
+      "name": "CrestFaucet",
+      "wall_ms": 1.773385,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.444919,
+      "zkMs": 0.859347
+    },
+    {
+      "name": "DeltaCounter",
+      "wall_ms": 1.920767,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.466829,
+      "zkMs": 0.873278
+    },
+    {
+      "name": "EastVoting",
+      "wall_ms": 1.767963,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.453223,
+      "zkMs": 0.851606
+    },
+    {
+      "name": "FederalFaucet",
+      "wall_ms": 3.247598,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.467044,
+      "zkMs": 0.859212
+    },
+    {
+      "name": "GammaVault",
+      "wall_ms": 1.862057,
+      "class": "REJECT",
+      "sourceStateVerifyMs": 0.501441,
+      "zkMs": 0.856488
+    }
+  ]
+}

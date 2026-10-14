@@ -1,0 +1,226 @@
+{
+  "v5Addr": "0x9a2eA4A49c1ee2C70dc2ba283E0e1a0fb3BFa3E9",
+  "precompileAddr": "0x0000000000000000000000000000000000000101",
+  "precompileCodeLen": 2,
+  "nCases": 12,
+  "nCorrect": 24,
+  "nTotal": 24,
+  "results": [
+    {
+      "case": 0,
+      "kind": "valid",
+      "expected": "VERIFIED",
+      "observed": "VERIFIED",
+      "correct": true,
+      "txHash": "0xf8d5eeb43ec535cdd0de279e1175210044cb4029b02344c689295e2fc81157d5",
+      "err": null
+    },
+    {
+      "case": 0,
+      "kind": "tampered",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "correct": true,
+      "txHash": "0xfb3a240d45c9e4d221cf078aa5a863b040e6d7b96631e66fa681ffd40c25b02d",
+      "err": null
+    },
+    {
+      "case": 1,
+      "kind": "valid",
+      "expected": "VERIFIED",
+      "observed": "VERIFIED",
+      "correct": true,
+      "txHash": "0x464f3048460c238ec4abc188b0bb827d285e0663900f2969b686aed5ef4332ae",
+      "err": null
+    },
+    {
+      "case": 1,
+      "kind": "tampered",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "correct": true,
+      "txHash": "0x5e0158cf7c37ab036393bd9835752ec7622163f5f3c66b9a804a84bc7a172577",
+      "err": null
+    },
+    {
+      "case": 2,
+      "kind": "valid",
+      "expected": "VERIFIED",
+      "observed": "VERIFIED",
+      "correct": true,
+      "txHash": "0x0b11afbe233459db1f1298922f04ab7fdbab417988e572adcd3c266a97f2e202",
+      "err": null
+    },
+    {
+      "case": 2,
+      "kind": "tampered",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "correct": true,
+      "txHash": "0xefcb4727bcc3817e6172487eac78374518fdfa1a8043dff5d5f462d1df9f54d7",
+      "err": null
+    },
+    {
+      "case": 3,
+      "kind": "valid",
+      "expected": "VERIFIED",
+      "observed": "VERIFIED",
+      "correct": true,
+      "txHash": "0x6d17cab6a8d5023e8582916290b08f4638e6238b6d70188b48849f2cbd195537",
+      "err": null
+    },
+    {
+      "case": 3,
+      "kind": "tampered",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "correct": true,
+      "txHash": "0xfca3fe8bb57f846f56909646d1a6af32458792e2a6cf0175264e035bd3215854",
+      "err": null
+    },
+    {
+      "case": 4,
+      "kind": "valid",
+      "expected": "VERIFIED",
+      "observed": "VERIFIED",
+      "correct": true,
+      "txHash": "0x6fd71095e69c272d1656b2fd3032de7fc10c2c78093cff78407bc593cae84174",
+      "err": null
+    },
+    {
+      "case": 4,
+      "kind": "tampered",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "correct": true,
+      "txHash": "0x168efc0e8073771728d6ac4d22331eba188d248fe52b3801fd5c2b379e74de0c",
+      "err": null
+    },
+    {
+      "case": 5,
+      "kind": "valid",
+      "expected": "VERIFIED",
+      "observed": "VERIFIED",
+      "correct": true,
+      "txHash": "0xd0a1dfd7049355487e06fb33d0202ee059a97f59eca2748f80ecbcb416c39311",
+      "err": null
+    },
+    {
+      "case": 5,
+      "kind": "tampered",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "correct": true,
+      "txHash": "0x40285eca99e101991b4289952b1a5642f26480385273ff1d56c9b3a7db8095d8",
+      "err": null
+    },
+    {
+      "case": 6,
+      "kind": "valid",
+      "expected": "VERIFIED",
+      "observed": "VERIFIED",
+      "correct": true,
+      "txHash": "0x66c46f8b7c3b94851f112ca5593c09c3ce302da1f8911e8530fa219468ea68e0",
+      "err": null
+    },
+    {
+      "case": 6,
+      "kind": "tampered",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "correct": true,
+      "txHash": "0xd476e6bc1f7ac72dc1b5badd5a045feb60961ff21706e8b1c8c1045286255919",
+      "err": null
+    },
+    {
+      "case": 7,
+      "kind": "valid",
+      "expected": "VERIFIED",
+      "observed": "VERIFIED",
+      "correct": true,
+      "txHash": "0x746003bf33759566040a5c46425c8b336e3dae0ff852a2e8a41345d8704fc41a",
+      "err": null
+    },
+    {
+      "case": 7,
+      "kind": "tampered",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "correct": true,
+      "txHash": "0xdf7c8ebc943ab667c505db539c0607ca04d9926a410e57de651fb6c392cb5e7e",
+      "err": null
+    },
+    {
+      "case": 8,
+      "kind": "valid",
+      "expected": "VERIFIED",
+      "observed": "VERIFIED",
+      "correct": true,
+      "txHash": "0x90a2ede7ee484de90a8d873af794b0f738bfe803f6e4d32a6f6bde51980e7b64",
+      "err": null
+    },
+    {
+      "case": 8,
+      "kind": "tampered",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "correct": true,
+      "txHash": "0x5e63b40ac82b0a4d904e5b3ae59e2aa32a6116aa8267927222418364f8dbd47a",
+      "err": null
+    },
+    {
+      "case": 9,
+      "kind": "valid",
+      "expected": "VERIFIED",
+      "observed": "VERIFIED",
+      "correct": true,
+      "txHash": "0x4c7d2d3b4f27e7c06788097927859796cb0c09fa411e0cede9de3336bee1e12b",
+      "err": null
+    },
+    {
+      "case": 9,
+      "kind": "tampered",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "correct": true,
+      "txHash": "0xa857e5cd55db517aea3ae4bc68415e011ec2ee4690e6cd9095b2209e2a02f980",
+      "err": null
+    },
+    {
+      "case": 10,
+      "kind": "valid",
+      "expected": "VERIFIED",
+      "observed": "VERIFIED",
+      "correct": true,
+      "txHash": "0x3902f0d3c3ca3d23d83ec1278205bedf68e4c13a7ce5eea333885c9cfa12795f",
+      "err": null
+    },
+    {
+      "case": 10,
+      "kind": "tampered",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "correct": true,
+      "txHash": "0x79c8c52b4f805506986734757e1d259a914408e0bc55bbafbfe363ac9927d1ae",
+      "err": null
+    },
+    {
+      "case": 11,
+      "kind": "valid",
+      "expected": "VERIFIED",
+      "observed": "VERIFIED",
+      "correct": true,
+      "txHash": "0x616d1a124b9cd8db0bfadbcbdd94f914af623c1e9504000b5eb79c5ba2eee227",
+      "err": null
+    },
+    {
+      "case": 11,
+      "kind": "tampered",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "correct": true,
+      "txHash": "0x89279bc09b09453027c7f9d53cc0a260ec8db07543b8d312febc5b028812e414",
+      "err": null
+    }
+  ]
+}

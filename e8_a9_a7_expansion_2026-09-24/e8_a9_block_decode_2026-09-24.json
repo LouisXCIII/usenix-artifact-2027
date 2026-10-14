@@ -1,0 +1,90 @@
+{
+  "methodology": "Real block-level TRANSACTIONS_FILTER validation codes, decoded via qscc GetBlockByNumber + from-scratch protobuf walker (not the indirect ReadDecision-exists proxy used in the first pass, which was too coarse to distinguish MVCC-caught vs freshness-fail-closed-caught).",
+  "real_path_SubmitDecisionTrustless": {
+    "0": [
+      1015,
+      11,
+      "MVCC_READ_CONFLICT"
+    ],
+    "1": [
+      1016,
+      11,
+      "MVCC_READ_CONFLICT"
+    ],
+    "2": [
+      1017,
+      11,
+      "MVCC_READ_CONFLICT"
+    ],
+    "3": [
+      1018,
+      11,
+      "MVCC_READ_CONFLICT"
+    ],
+    "4": [
+      1019,
+      11,
+      "MVCC_READ_CONFLICT"
+    ],
+    "5": [
+      1020,
+      11,
+      "MVCC_READ_CONFLICT"
+    ],
+    "6": [
+      1021,
+      0,
+      "VALID (but decision content=REJECT via freshness fail-closed check, not MVCC)"
+    ],
+    "7": [
+      1022,
+      11,
+      "MVCC_READ_CONFLICT"
+    ]
+  },
+  "ablated_path_SubmitDecisionTrustlessCallerTimestamp": {
+    "0": [
+      1023,
+      0,
+      "VALID"
+    ],
+    "1": [
+      1024,
+      0,
+      "VALID"
+    ],
+    "2": [
+      1025,
+      0,
+      "VALID"
+    ],
+    "3": [
+      1026,
+      0,
+      "VALID"
+    ],
+    "4": [
+      1027,
+      0,
+      "VALID"
+    ],
+    "5": [
+      1028,
+      0,
+      "VALID"
+    ],
+    "6": [
+      1029,
+      0,
+      "VALID"
+    ],
+    "7": [
+      1030,
+      0,
+      "VALID"
+    ]
+  },
+  "real_path_decision_content_summary": "8/8 correctly REJECT / 0 unsafe accepts (7/8 via real MVCC_READ_CONFLICT, 1/8 via the ledger-clock freshness fail-closed check catching the case where block-internal tx ordering meant no MVCC conflict occurred)",
+  "ablated_path_decision_content_summary": "8/8 incorrectly SAFE (unsafe accept) -- confirmed via ReadDecision on all 8: semBound=true, evAssuranceOk=true, class=SAFE, lcDetail explicitly states caller timestamp used, never examines ledger clock at all",
+  "headline_real_result": "0/8 real-path unsafe accepts vs 8/8 ablated-path unsafe accepts -- a clean, fully mechanism-explained real contrast, mirroring E4s established two-layers-of-defense-in-depth framing"
+}

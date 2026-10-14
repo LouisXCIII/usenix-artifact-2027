@@ -1,0 +1,72 @@
+{
+  "n_correct": 6,
+  "n_total": 6,
+  "results": {
+    "S15_honest_classical_pq_channel": {
+      "case": {
+        "claimed_tier": "classical",
+        "verified_tier": "classical",
+        "transport_tier": "pq",
+        "dest_requirement": "PQDecisionAuth"
+      },
+      "expected": false,
+      "got": false,
+      "pass": true
+    },
+    "S16_fake_upgrade_claimed_hybrid": {
+      "case": {
+        "claimed_tier": "hybrid",
+        "verified_tier": "classical",
+        "transport_tier": "pq",
+        "dest_requirement": "PQDecisionAuth"
+      },
+      "expected": false,
+      "got": false,
+      "pass": true
+    },
+    "S16_fake_upgrade_claimed_pq": {
+      "case": {
+        "claimed_tier": "pq",
+        "verified_tier": "classical",
+        "transport_tier": "pq",
+        "dest_requirement": "PQDecisionAuth"
+      },
+      "expected": false,
+      "got": false,
+      "pass": true
+    },
+    "S16_fake_upgrade_unverifiable": {
+      "case": {
+        "claimed_tier": "pq",
+        "verified_tier": null,
+        "transport_tier": "pq",
+        "dest_requirement": "PQDecisionAuth"
+      },
+      "expected": false,
+      "got": false,
+      "pass": true
+    },
+    "positive_control_verified_hybrid": {
+      "case": {
+        "claimed_tier": "hybrid",
+        "verified_tier": "hybrid",
+        "transport_tier": "pq",
+        "dest_requirement": "PQDecisionAuth"
+      },
+      "expected": true,
+      "got": true,
+      "pass": true
+    },
+    "positive_control_classical_ok": {
+      "case": {
+        "claimed_tier": "classical",
+        "verified_tier": "classical",
+        "transport_tier": "hybrid",
+        "dest_requirement": "ClassicalDecisionAuth"
+      },
+      "expected": true,
+      "got": true,
+      "pass": true
+    }
+  }
+}

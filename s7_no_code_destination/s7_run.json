@@ -1,0 +1,845 @@
+{
+ "stamp": "1790602218",
+ "heightBefore": 3400,
+ "m1": [
+  {
+   "name": "00_clean_token.sol",
+   "decisionId": "s7-t-00_clean_token.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2109.6697180037154,
+   "tail": ""
+  },
+  {
+   "name": "00_clean_voting.sol",
+   "decisionId": "s7-t-00_clean_voting.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2097.3268349989667,
+   "tail": ""
+  },
+  {
+   "name": "02_integer_overflow_safe.sol",
+   "decisionId": "s7-t-02_integer_overflow_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2078.878441003326,
+   "tail": ""
+  },
+  {
+   "name": "02_integer_overflow_vuln.sol",
+   "decisionId": "s7-t-02_integer_overflow_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2084.070448996499,
+   "tail": ""
+  },
+  {
+   "name": "03_dos_safe.sol",
+   "decisionId": "s7-t-03_dos_safe.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "expected": "SAFE",
+   "wallMs": 2095.4506849957397,
+   "tail": ""
+  },
+  {
+   "name": "03_dos_vuln.sol",
+   "decisionId": "s7-t-03_dos_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "expected": "SAFE",
+   "wallMs": 2086.7822380023426,
+   "tail": ""
+  },
+  {
+   "name": "04_call_to_unknown_safe.sol",
+   "decisionId": "s7-t-04_call_to_unknown_safe.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "expected": "SAFE",
+   "wallMs": 2092.7120839987765,
+   "tail": ""
+  },
+  {
+   "name": "04_call_to_unknown_vuln.sol",
+   "decisionId": "s7-t-04_call_to_unknown_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2094.169334995968,
+   "tail": ""
+  },
+  {
+   "name": "05_weak_access_control_safe.sol",
+   "decisionId": "s7-t-05_weak_access_control_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2139.8859360051574,
+   "tail": ""
+  },
+  {
+   "name": "05_weak_access_control_vuln.sol",
+   "decisionId": "s7-t-05_weak_access_control_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2100.6704910032568,
+   "tail": ""
+  },
+  {
+   "name": "06_unused_return_safe.sol",
+   "decisionId": "s7-t-06_unused_return_safe.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "expected": "SAFE",
+   "wallMs": 2060.1403880064026,
+   "tail": ""
+  },
+  {
+   "name": "06_unused_return_vuln.sol",
+   "decisionId": "s7-t-06_unused_return_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2060.766077003791,
+   "tail": ""
+  },
+  {
+   "name": "07_tod_safe.sol",
+   "decisionId": "s7-t-07_tod_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2060.4699199975585,
+   "tail": ""
+  },
+  {
+   "name": "07_tod_vuln.sol",
+   "decisionId": "s7-t-07_tod_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2068.333909002831,
+   "tail": ""
+  },
+  {
+   "name": "08_timestamp_safe.sol",
+   "decisionId": "s7-t-08_timestamp_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2058.729520998895,
+   "tail": ""
+  },
+  {
+   "name": "08_timestamp_vuln.sol",
+   "decisionId": "s7-t-08_timestamp_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "expected": "SAFE",
+   "wallMs": 2085.91876400169,
+   "tail": ""
+  },
+  {
+   "name": "09_mishandled_exception_safe.sol",
+   "decisionId": "s7-t-09_mishandled_exception_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2106.0181139982888,
+   "tail": ""
+  },
+  {
+   "name": "09_mishandled_exception_vuln.sol",
+   "decisionId": "s7-t-09_mishandled_exception_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "expected": "SAFE",
+   "wallMs": 2099.3291389968363,
+   "tail": ""
+  },
+  {
+   "name": "10_gas_exception_safe.sol",
+   "decisionId": "s7-t-10_gas_exception_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2066.5103680003085,
+   "tail": ""
+  },
+  {
+   "name": "10_gas_exception_vuln.sol",
+   "decisionId": "s7-t-10_gas_exception_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2061.1107450022246,
+   "tail": ""
+  },
+  {
+   "name": "11_external_bug_safe.sol",
+   "decisionId": "s7-t-11_external_bug_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2079.283598002803,
+   "tail": ""
+  },
+  {
+   "name": "11_external_bug_vuln.sol",
+   "decisionId": "s7-t-11_external_bug_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "expected": "REJECT",
+   "wallMs": 2096.19548900082,
+   "tail": ""
+  }
+ ],
+ "positiveControlB1": {
+  "name": "03_dos_safe.sol",
+  "decisionId": "s7-ctl-b1-03_dos_safe.sol-1790602218",
+  "ok": true,
+  "class": "SAFE",
+  "wallMs": 2093.2258989996626,
+  "tail": ""
+ },
+ "negatives": [
+  {
+   "category": "N1_proof_substitution",
+   "name": "03_dos_safe.sol",
+   "other": "03_dos_vuln.sol",
+   "decisionId": "s7-n1-03_dos_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N1_proof_substitution",
+   "name": "03_dos_vuln.sol",
+   "other": "04_call_to_unknown_safe.sol",
+   "decisionId": "s7-n1-03_dos_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N1_proof_substitution",
+   "name": "04_call_to_unknown_safe.sol",
+   "other": "06_unused_return_safe.sol",
+   "decisionId": "s7-n1-04_call_to_unknown_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N1_proof_substitution",
+   "name": "06_unused_return_safe.sol",
+   "other": "08_timestamp_vuln.sol",
+   "decisionId": "s7-n1-06_unused_return_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N1_proof_substitution",
+   "name": "08_timestamp_vuln.sol",
+   "other": "09_mishandled_exception_vuln.sol",
+   "decisionId": "s7-n1-08_timestamp_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N1_proof_substitution",
+   "name": "09_mishandled_exception_vuln.sol",
+   "other": "03_dos_safe.sol",
+   "decisionId": "s7-n1-09_mishandled_exception_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N2_tampered_proof",
+   "name": "03_dos_safe.sol",
+   "other": "03_dos_vuln.sol",
+   "decisionId": "s7-n2-03_dos_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N2_tampered_proof",
+   "name": "03_dos_vuln.sol",
+   "other": "04_call_to_unknown_safe.sol",
+   "decisionId": "s7-n2-03_dos_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N2_tampered_proof",
+   "name": "04_call_to_unknown_safe.sol",
+   "other": "06_unused_return_safe.sol",
+   "decisionId": "s7-n2-04_call_to_unknown_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N2_tampered_proof",
+   "name": "06_unused_return_safe.sol",
+   "other": "08_timestamp_vuln.sol",
+   "decisionId": "s7-n2-06_unused_return_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N2_tampered_proof",
+   "name": "08_timestamp_vuln.sol",
+   "other": "09_mishandled_exception_vuln.sol",
+   "decisionId": "s7-n2-08_timestamp_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N2_tampered_proof",
+   "name": "09_mishandled_exception_vuln.sol",
+   "other": "03_dos_safe.sol",
+   "decisionId": "s7-n2-09_mishandled_exception_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N3_forged_featureHash",
+   "name": "03_dos_safe.sol",
+   "other": "03_dos_vuln.sol",
+   "decisionId": "s7-n3-03_dos_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N3_forged_featureHash",
+   "name": "03_dos_vuln.sol",
+   "other": "04_call_to_unknown_safe.sol",
+   "decisionId": "s7-n3-03_dos_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N3_forged_featureHash",
+   "name": "04_call_to_unknown_safe.sol",
+   "other": "06_unused_return_safe.sol",
+   "decisionId": "s7-n3-04_call_to_unknown_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N3_forged_featureHash",
+   "name": "06_unused_return_safe.sol",
+   "other": "08_timestamp_vuln.sol",
+   "decisionId": "s7-n3-06_unused_return_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N3_forged_featureHash",
+   "name": "08_timestamp_vuln.sol",
+   "other": "09_mishandled_exception_vuln.sol",
+   "decisionId": "s7-n3-08_timestamp_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N3_forged_featureHash",
+   "name": "09_mishandled_exception_vuln.sol",
+   "other": "03_dos_safe.sol",
+   "decisionId": "s7-n3-09_mishandled_exception_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N4_wrong_feature_proof",
+   "name": "03_dos_safe.sol",
+   "other": "03_dos_vuln.sol",
+   "decisionId": "s7-n4-03_dos_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N4_wrong_feature_proof",
+   "name": "03_dos_vuln.sol",
+   "other": "04_call_to_unknown_safe.sol",
+   "decisionId": "s7-n4-03_dos_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N4_wrong_feature_proof",
+   "name": "04_call_to_unknown_safe.sol",
+   "other": "06_unused_return_safe.sol",
+   "decisionId": "s7-n4-04_call_to_unknown_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N4_wrong_feature_proof",
+   "name": "06_unused_return_safe.sol",
+   "other": "08_timestamp_vuln.sol",
+   "decisionId": "s7-n4-06_unused_return_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N4_wrong_feature_proof",
+   "name": "08_timestamp_vuln.sol",
+   "other": "09_mishandled_exception_vuln.sol",
+   "decisionId": "s7-n4-08_timestamp_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N4_wrong_feature_proof",
+   "name": "09_mishandled_exception_vuln.sol",
+   "other": "03_dos_safe.sol",
+   "decisionId": "s7-n4-09_mishandled_exception_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N5_amount_over_threshold",
+   "name": "03_dos_safe.sol",
+   "other": "03_dos_vuln.sol",
+   "decisionId": "s7-n5-03_dos_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N5_amount_over_threshold",
+   "name": "03_dos_vuln.sol",
+   "other": "04_call_to_unknown_safe.sol",
+   "decisionId": "s7-n5-03_dos_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N5_amount_over_threshold",
+   "name": "04_call_to_unknown_safe.sol",
+   "other": "06_unused_return_safe.sol",
+   "decisionId": "s7-n5-04_call_to_unknown_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N5_amount_over_threshold",
+   "name": "06_unused_return_safe.sol",
+   "other": "08_timestamp_vuln.sol",
+   "decisionId": "s7-n5-06_unused_return_safe.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N5_amount_over_threshold",
+   "name": "08_timestamp_vuln.sol",
+   "other": "09_mishandled_exception_vuln.sol",
+   "decisionId": "s7-n5-08_timestamp_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N5_amount_over_threshold",
+   "name": "09_mishandled_exception_vuln.sol",
+   "other": "03_dos_safe.sol",
+   "decisionId": "s7-n5-09_mishandled_exception_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "REJECT",
+   "committed": "REJECT",
+   "tail": ""
+  },
+  {
+   "category": "N6_replay",
+   "name": "03_dos_safe.sol",
+   "decisionId": "s7-t-03_dos_safe.sol-1790602218",
+   "ok": false,
+   "returned": null,
+   "committed": "SAFE",
+   "recordUnchanged": true,
+   "tail": "Error: endorsement failure during invoke. response: status:500 message:\"decision s7-t-03_dos_safe.sol-1790602218 already recorded (replay rejected)\""
+  },
+  {
+   "category": "N6_replay",
+   "name": "03_dos_vuln.sol",
+   "decisionId": "s7-t-03_dos_vuln.sol-1790602218",
+   "ok": false,
+   "returned": null,
+   "committed": "SAFE",
+   "recordUnchanged": true,
+   "tail": "Error: endorsement failure during invoke. response: status:500 message:\"decision s7-t-03_dos_vuln.sol-1790602218 already recorded (replay rejected)\""
+  },
+  {
+   "category": "N6_replay",
+   "name": "04_call_to_unknown_safe.sol",
+   "decisionId": "s7-t-04_call_to_unknown_safe.sol-1790602218",
+   "ok": false,
+   "returned": null,
+   "committed": "SAFE",
+   "recordUnchanged": true,
+   "tail": "Error: endorsement failure during invoke. response: status:500 message:\"decision s7-t-04_call_to_unknown_safe.sol-1790602218 already recorded (replay rejected)\""
+  },
+  {
+   "category": "N6_replay",
+   "name": "06_unused_return_safe.sol",
+   "decisionId": "s7-t-06_unused_return_safe.sol-1790602218",
+   "ok": false,
+   "returned": null,
+   "committed": "SAFE",
+   "recordUnchanged": true,
+   "tail": "Error: endorsement failure during invoke. response: status:500 message:\"decision s7-t-06_unused_return_safe.sol-1790602218 already recorded (replay rejected)\""
+  },
+  {
+   "category": "N6_replay",
+   "name": "08_timestamp_vuln.sol",
+   "decisionId": "s7-t-08_timestamp_vuln.sol-1790602218",
+   "ok": false,
+   "returned": null,
+   "committed": "SAFE",
+   "recordUnchanged": true,
+   "tail": "Error: endorsement failure during invoke. response: status:500 message:\"decision s7-t-08_timestamp_vuln.sol-1790602218 already recorded (replay rejected)\""
+  },
+  {
+   "category": "N6_replay",
+   "name": "09_mishandled_exception_vuln.sol",
+   "decisionId": "s7-t-09_mishandled_exception_vuln.sol-1790602218",
+   "ok": false,
+   "returned": null,
+   "committed": "SAFE",
+   "recordUnchanged": true,
+   "tail": "Error: endorsement failure during invoke. response: status:500 message:\"decision s7-t-09_mishandled_exception_vuln.sol-1790602218 already recorded (replay rejected)\""
+  }
+ ],
+ "b0": [
+  {
+   "category": "B0_N1_proof_substitution",
+   "name": "03_dos_safe.sol",
+   "decisionId": "s7-b0n1-03_dos_safe.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "tail": ""
+  },
+  {
+   "category": "B0_N5_amount_over_threshold",
+   "name": "03_dos_safe.sol",
+   "decisionId": "s7-b0n5-03_dos_safe.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "tail": ""
+  },
+  {
+   "category": "B0_N1_proof_substitution",
+   "name": "03_dos_vuln.sol",
+   "decisionId": "s7-b0n1-03_dos_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "tail": ""
+  },
+  {
+   "category": "B0_N5_amount_over_threshold",
+   "name": "03_dos_vuln.sol",
+   "decisionId": "s7-b0n5-03_dos_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "tail": ""
+  },
+  {
+   "category": "B0_N1_proof_substitution",
+   "name": "04_call_to_unknown_safe.sol",
+   "decisionId": "s7-b0n1-04_call_to_unknown_safe.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "tail": ""
+  },
+  {
+   "category": "B0_N5_amount_over_threshold",
+   "name": "04_call_to_unknown_safe.sol",
+   "decisionId": "s7-b0n5-04_call_to_unknown_safe.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "tail": ""
+  },
+  {
+   "category": "B0_N1_proof_substitution",
+   "name": "06_unused_return_safe.sol",
+   "decisionId": "s7-b0n1-06_unused_return_safe.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "tail": ""
+  },
+  {
+   "category": "B0_N5_amount_over_threshold",
+   "name": "06_unused_return_safe.sol",
+   "decisionId": "s7-b0n5-06_unused_return_safe.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "tail": ""
+  },
+  {
+   "category": "B0_N1_proof_substitution",
+   "name": "08_timestamp_vuln.sol",
+   "decisionId": "s7-b0n1-08_timestamp_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "tail": ""
+  },
+  {
+   "category": "B0_N5_amount_over_threshold",
+   "name": "08_timestamp_vuln.sol",
+   "decisionId": "s7-b0n5-08_timestamp_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "tail": ""
+  },
+  {
+   "category": "B0_N1_proof_substitution",
+   "name": "09_mishandled_exception_vuln.sol",
+   "decisionId": "s7-b0n1-09_mishandled_exception_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "tail": ""
+  },
+  {
+   "category": "B0_N5_amount_over_threshold",
+   "name": "09_mishandled_exception_vuln.sol",
+   "decisionId": "s7-b0n5-09_mishandled_exception_vuln.sol-1790602218",
+   "ok": true,
+   "returned": "SAFE",
+   "committed": "SAFE",
+   "tail": ""
+  }
+ ],
+ "c3": {
+  "stdout": "",
+  "stderr": "Error: endorsement failure during query. response: status:500 message:\"malformed verification request: feature vector must have 256 entries\""
+ },
+ "argBytes": [
+  {
+   "name": "00_clean_token.sol",
+   "treatmentBytes": 14938,
+   "b1StoreFormBytes": 14788,
+   "xBytes": 866
+  },
+  {
+   "name": "00_clean_voting.sol",
+   "treatmentBytes": 15323,
+   "b1StoreFormBytes": 15171,
+   "xBytes": 865
+  },
+  {
+   "name": "02_integer_overflow_safe.sol",
+   "treatmentBytes": 14821,
+   "b1StoreFormBytes": 14671,
+   "xBytes": 868
+  },
+  {
+   "name": "02_integer_overflow_vuln.sol",
+   "treatmentBytes": 14814,
+   "b1StoreFormBytes": 14659,
+   "xBytes": 864
+  },
+  {
+   "name": "03_dos_safe.sol",
+   "treatmentBytes": 14815,
+   "b1StoreFormBytes": 14659,
+   "xBytes": 868
+  },
+  {
+   "name": "03_dos_vuln.sol",
+   "treatmentBytes": 15093,
+   "b1StoreFormBytes": 14938,
+   "xBytes": 870
+  },
+  {
+   "name": "04_call_to_unknown_safe.sol",
+   "treatmentBytes": 14848,
+   "b1StoreFormBytes": 14690,
+   "xBytes": 866
+  },
+  {
+   "name": "04_call_to_unknown_vuln.sol",
+   "treatmentBytes": 14512,
+   "b1StoreFormBytes": 14379,
+   "xBytes": 884
+  },
+  {
+   "name": "05_weak_access_control_safe.sol",
+   "treatmentBytes": 14721,
+   "b1StoreFormBytes": 14571,
+   "xBytes": 869
+  },
+  {
+   "name": "05_weak_access_control_vuln.sol",
+   "treatmentBytes": 14754,
+   "b1StoreFormBytes": 14621,
+   "xBytes": 887
+  },
+  {
+   "name": "06_unused_return_safe.sol",
+   "treatmentBytes": 14588,
+   "b1StoreFormBytes": 14438,
+   "xBytes": 872
+  },
+  {
+   "name": "06_unused_return_vuln.sol",
+   "treatmentBytes": 14619,
+   "b1StoreFormBytes": 14477,
+   "xBytes": 878
+  },
+  {
+   "name": "07_tod_safe.sol",
+   "treatmentBytes": 14740,
+   "b1StoreFormBytes": 14597,
+   "xBytes": 871
+  },
+  {
+   "name": "07_tod_vuln.sol",
+   "treatmentBytes": 14925,
+   "b1StoreFormBytes": 14785,
+   "xBytes": 876
+  },
+  {
+   "name": "08_timestamp_safe.sol",
+   "treatmentBytes": 15008,
+   "b1StoreFormBytes": 14849,
+   "xBytes": 860
+  },
+  {
+   "name": "08_timestamp_vuln.sol",
+   "treatmentBytes": 15271,
+   "b1StoreFormBytes": 15101,
+   "xBytes": 857
+  },
+  {
+   "name": "09_mishandled_exception_safe.sol",
+   "treatmentBytes": 14851,
+   "b1StoreFormBytes": 14692,
+   "xBytes": 861
+  },
+  {
+   "name": "09_mishandled_exception_vuln.sol",
+   "treatmentBytes": 14598,
+   "b1StoreFormBytes": 14451,
+   "xBytes": 876
+  },
+  {
+   "name": "10_gas_exception_safe.sol",
+   "treatmentBytes": 14821,
+   "b1StoreFormBytes": 14662,
+   "xBytes": 861
+  },
+  {
+   "name": "10_gas_exception_vuln.sol",
+   "treatmentBytes": 14753,
+   "b1StoreFormBytes": 14605,
+   "xBytes": 869
+  },
+  {
+   "name": "11_external_bug_safe.sol",
+   "treatmentBytes": 14691,
+   "b1StoreFormBytes": 14537,
+   "xBytes": 865
+  },
+  {
+   "name": "11_external_bug_vuln.sol",
+   "treatmentBytes": 14767,
+   "b1StoreFormBytes": 14631,
+   "xBytes": 882
+  }
+ ],
+ "heightAfter": 3465
+}

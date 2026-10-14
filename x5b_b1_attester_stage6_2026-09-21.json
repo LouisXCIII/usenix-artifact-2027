@@ -1,0 +1,29 @@
+{
+  "attester": "0x102d294E708c829547ED47B0cB7cBfE0f9C574f4",
+  "b0Block": "0x607e7",
+  "deployBlock": 72460,
+  "results": {
+    "honest": {
+      "status": 1,
+      "block": 72464,
+      "gasUsed": "889442"
+    },
+    "dishonest": {
+      "status": 0,
+      "block": 72468,
+      "gasUsed": "736949"
+    },
+    "laundering": {
+      "status": 0,
+      "block": 72472
+    }
+  },
+  "attested": {
+    "honest": true,
+    "dishonest": false
+  },
+  "codeHashes": {
+    "honest": "0x1ec384e18d2347802df160867c784cd5b40086e9f67b7c514e9b1b0772fa6809",
+    "dishonest": "0x060cf724b0b79ad7b5c7a76b2097821d45c8a21128912662469c0847ed0aa41a"
+  }
+}

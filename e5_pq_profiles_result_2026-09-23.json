@@ -1,0 +1,18 @@
+{
+  "validCase": {
+    "txHash": "0x473ddad18410056a1f0d8ea340bde2f4c4c796929f4366bf2a54a9b5686ad033",
+    "transferId": "0x62fa6602557a755ef098efbef5c601ae3465a37e6689d9094b1ec9662dfc9b01",
+    "status": 1,
+    "offChainVerifiedOnChain": true,
+    "payloadHash": "0xd972d70d56a99c88257e26472940a04bffedc3dcc33a73da9834054ed7354b9a",
+    "note": "real, independently-verified ML-DSA-65 decision signature"
+  },
+  "tamperedCase": {
+    "txHash": "0xf2c5ac47aed748858e67a44dd49bbe8c0640fc32099aa44f18f087e62bdba308",
+    "transferId": "0x80c851b32e7355aa8efb2d89ed50d715fb4e5397e135810a0541113403e96bd4",
+    "status": 2,
+    "offChainVerifiedOnChain": false,
+    "rejectionReason": "Off-chain Dilithium3 signature verification failed",
+    "note": "real tampered ML-DSA-65 signature, real off-chain re-verification reports INVALID"
+  }
+}

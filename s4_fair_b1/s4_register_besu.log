@@ -1,0 +1,24 @@
+FeatureCommitRegistry #2 (SHA-256 commitments) at 0xc425C8245052eb0F5D2bD041632cf9c9567836CA block 534749
+00_clean_token.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+00_clean_voting.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+02_integer_overflow_safe.sol {"mlScanPassed":false,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+02_integer_overflow_vuln.sol {"mlScanPassed":false,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+03_dos_safe.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: true
+03_dos_vuln.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: true
+04_call_to_unknown_safe.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: true
+04_call_to_unknown_vuln.sol {"mlScanPassed":false,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+05_weak_access_control_safe.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+05_weak_access_control_vuln.sol {"mlScanPassed":false,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+06_unused_return_safe.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: true
+06_unused_return_vuln.sol {"mlScanPassed":false,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+07_tod_safe.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+07_tod_vuln.sol {"mlScanPassed":false,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+08_timestamp_safe.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+08_timestamp_vuln.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: true
+09_mishandled_exception_safe.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+09_mishandled_exception_vuln.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: true
+10_gas_exception_safe.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+10_gas_exception_vuln.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+11_external_bug_safe.sol {"mlScanPassed":true,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+11_external_bug_vuln.sol {"mlScanPassed":false,"approvalCount":2,"featureHashPoseidonMatches":true,"featureHashShaMatches":true} expected pass: false
+done

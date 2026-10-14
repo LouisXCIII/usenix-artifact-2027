@@ -1,0 +1,66 @@
+{
+  "gateAddr": "0xe0172ef2C2A9661d34d3f8A409ab94289D792Cd0",
+  "results": [
+    {
+      "name": "S11_race_attacker_not_owner",
+      "expected": "SAFE",
+      "observed": "SAFE",
+      "decisionId": "0x50e42578bfcbd8f78f7ce91fcb0b140f073d89838246889d125d56b790d6a9ee",
+      "txHash": "0x1930a9c6a3aed3e432e9ef3ed1aa6507be10d4ea7b23d3a91d0ee813ee033c48",
+      "correct": true
+    },
+    {
+      "name": "S11_real_toctou_blocked",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "decisionId": "0xa5c798fab0ee3eaa5316a6233a570217c5dfe1809cd7229445b5a5edfbbb0fa8",
+      "txHash": "0x102ad5a156ab43405613e6b80633fdbc1886a275c4eb41ff45c28c422ac52ec2",
+      "correct": true
+    },
+    {
+      "name": "S15_classical_pq_channel_no_upgrade",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "detail": "S15: classical decision + PQ channel does not itself satisfy PQ decision-authentication",
+      "decisionId": "0xd943845c3ea85040ac4273fd0ff2d1119662e59936be992be322827b5bcbed56",
+      "txHash": "0x032098aa96f0a20cdcd5abf0d219e91257285fa046f13bbd48d168fc6cfaff14",
+      "correct": true
+    },
+    {
+      "name": "S16_fake_assurance_upgrade",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "detail": "S16: fake assurance upgrade -- claimed tier grants PQ auth but verified tier does not",
+      "decisionId": "0x81640aa802e424bb55480a04f60bcaca476be01b36b9935f8bd4899dab708aa0",
+      "txHash": "0x5dae5d32c196543f215f1032c75caf32af3dd84e3123850dbae78462c73675ba",
+      "correct": true
+    },
+    {
+      "name": "assurance_positive_control_genuine_pq",
+      "expected": "SAFE",
+      "observed": "SAFE",
+      "detail": "genuine PQ decision-authentication, independently verified",
+      "decisionId": "0x194f7a4d9965d043843dc1c7b7c18ae9b3f557420d4c0d51c61853d4e9a1c051",
+      "txHash": "0x70e939c3694d0e4af725d8c41790e96661936a245b28a6c76e878bd3e89f7700",
+      "correct": true
+    },
+    {
+      "name": "S18_injected_loss_rejected",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "detail": "S18: composed check correctly rejects an injected-loss chain that pairwise-local-only would have wrongly accepted",
+      "decisionId": "0x04552dd18204ac01672f2c02f4d03a6342aa7c96a23a3b903cf161c5d7e6aa47",
+      "txHash": "0x733917e7aa940c3bfdbf5a56b3c7a31957824585fa5425ec0f783f6a3e55d8ca",
+      "correct": true
+    },
+    {
+      "name": "S18_positive_control_preserved",
+      "expected": "SAFE",
+      "observed": "SAFE",
+      "detail": "S18: composed multi-hop context genuinely preserved end-to-end",
+      "decisionId": "0x97acf37f059c1cdf49bb00297cbf453b4be43681a56496f1e79538bde8819dd2",
+      "txHash": "0xdea65a1d179a6363244698859cc941f2ffe00a0642d5572c1d1276cc5e91bd2f",
+      "correct": true
+    }
+  ]
+}

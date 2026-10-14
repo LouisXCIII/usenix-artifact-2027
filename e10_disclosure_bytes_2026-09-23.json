@@ -1,0 +1,7 @@
+{
+  "tac_raw_binary_bytes": 97,
+  "tac_raw_binary_breakdown": "32-byte Keccak-256 digest + 65-byte ECDSA signature (r,s,v)",
+  "full_case_context_json_bytes": {"min": 560, "max": 625, "mean": 588.9},
+  "disclosure_reduction_ratio_mean": 6.07,
+  "source": "TAC from evidence/s19_tac_substitution_result_2026-09-23.json; full context from e1_generator.py case objects (N=2000, same corpus as E1)"
+}

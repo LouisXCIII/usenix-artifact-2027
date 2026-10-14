@@ -1,0 +1,467 @@
+{
+  "regression": {
+    "n_mismatches": 0,
+    "mismatches": [],
+    "n_sound_new": 24,
+    "table": {
+      "equivalent|identity": {
+        "pair_type": "equivalent",
+        "mapping_type": "identity",
+        "sound": true,
+        "witness": null
+      },
+      "equivalent|renaming": {
+        "pair_type": "equivalent",
+        "mapping_type": "renaming",
+        "sound": true,
+        "witness": null
+      },
+      "equivalent|role_refinement": {
+        "pair_type": "equivalent",
+        "mapping_type": "role_refinement",
+        "sound": false,
+        "witness": {
+          "src_role": "2",
+          "amt": "10001"
+        }
+      },
+      "equivalent|role_widening": {
+        "pair_type": "equivalent",
+        "mapping_type": "role_widening",
+        "sound": true,
+        "witness": null
+      },
+      "equivalent|action_restriction": {
+        "pair_type": "equivalent",
+        "mapping_type": "action_restriction",
+        "sound": true,
+        "witness": null
+      },
+      "equivalent|action_expansion": {
+        "pair_type": "equivalent",
+        "mapping_type": "action_expansion",
+        "sound": false,
+        "witness": {
+          "src_action": "2"
+        }
+      },
+      "equivalent|resource_substitution": {
+        "pair_type": "equivalent",
+        "mapping_type": "resource_substitution",
+        "sound": true,
+        "witness": null
+      },
+      "equivalent|context_preservation": {
+        "pair_type": "equivalent",
+        "mapping_type": "context_preservation",
+        "sound": true,
+        "witness": null
+      },
+      "equivalent|context_loss": {
+        "pair_type": "equivalent",
+        "mapping_type": "context_loss",
+        "sound": false,
+        "witness": {
+          "ctx": "True"
+        }
+      },
+      "equivalent|context_strengthening": {
+        "pair_type": "equivalent",
+        "mapping_type": "context_strengthening",
+        "sound": true,
+        "witness": null
+      },
+      "source_stricter|identity": {
+        "pair_type": "source_stricter",
+        "mapping_type": "identity",
+        "sound": true,
+        "witness": null
+      },
+      "source_stricter|renaming": {
+        "pair_type": "source_stricter",
+        "mapping_type": "renaming",
+        "sound": true,
+        "witness": null
+      },
+      "source_stricter|role_refinement": {
+        "pair_type": "source_stricter",
+        "mapping_type": "role_refinement",
+        "sound": false,
+        "witness": {
+          "src_role": "3",
+          "amt": "500001"
+        }
+      },
+      "source_stricter|role_widening": {
+        "pair_type": "source_stricter",
+        "mapping_type": "role_widening",
+        "sound": true,
+        "witness": null
+      },
+      "source_stricter|action_restriction": {
+        "pair_type": "source_stricter",
+        "mapping_type": "action_restriction",
+        "sound": true,
+        "witness": null
+      },
+      "source_stricter|action_expansion": {
+        "pair_type": "source_stricter",
+        "mapping_type": "action_expansion",
+        "sound": true,
+        "witness": null
+      },
+      "source_stricter|resource_substitution": {
+        "pair_type": "source_stricter",
+        "mapping_type": "resource_substitution",
+        "sound": true,
+        "witness": null
+      },
+      "source_stricter|context_preservation": {
+        "pair_type": "source_stricter",
+        "mapping_type": "context_preservation",
+        "sound": true,
+        "witness": null
+      },
+      "source_stricter|context_loss": {
+        "pair_type": "source_stricter",
+        "mapping_type": "context_loss",
+        "sound": true,
+        "witness": null
+      },
+      "source_stricter|context_strengthening": {
+        "pair_type": "source_stricter",
+        "mapping_type": "context_strengthening",
+        "sound": true,
+        "witness": null
+      },
+      "destination_stricter|identity": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "identity",
+        "sound": false,
+        "witness": {
+          "src_role": "1",
+          "amt": "10001"
+        }
+      },
+      "destination_stricter|renaming": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "renaming",
+        "sound": false,
+        "witness": {
+          "src_role": "1",
+          "amt": "10001"
+        }
+      },
+      "destination_stricter|role_refinement": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "role_refinement",
+        "sound": false,
+        "witness": {
+          "src_role": "1",
+          "amt": "10001"
+        }
+      },
+      "destination_stricter|role_widening": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "role_widening",
+        "sound": true,
+        "witness": null
+      },
+      "destination_stricter|action_restriction": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "action_restriction",
+        "sound": false,
+        "witness": {
+          "src_action": "3"
+        }
+      },
+      "destination_stricter|action_expansion": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "action_expansion",
+        "sound": false,
+        "witness": {
+          "src_action": "2"
+        }
+      },
+      "destination_stricter|resource_substitution": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "resource_substitution",
+        "sound": true,
+        "witness": null
+      },
+      "destination_stricter|context_preservation": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "context_preservation",
+        "sound": true,
+        "witness": null
+      },
+      "destination_stricter|context_loss": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "context_loss",
+        "sound": false,
+        "witness": {
+          "ctx": "True"
+        }
+      },
+      "destination_stricter|context_strengthening": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "context_strengthening",
+        "sound": true,
+        "witness": null
+      },
+      "incomparable|identity": {
+        "pair_type": "incomparable",
+        "mapping_type": "identity",
+        "sound": false,
+        "witness": {
+          "src_role": "1",
+          "amt": "10001"
+        }
+      },
+      "incomparable|renaming": {
+        "pair_type": "incomparable",
+        "mapping_type": "renaming",
+        "sound": false,
+        "witness": {
+          "src_role": "2",
+          "amt": "500001"
+        }
+      },
+      "incomparable|role_refinement": {
+        "pair_type": "incomparable",
+        "mapping_type": "role_refinement",
+        "sound": false,
+        "witness": {
+          "src_role": "2",
+          "amt": "500001"
+        }
+      },
+      "incomparable|role_widening": {
+        "pair_type": "incomparable",
+        "mapping_type": "role_widening",
+        "sound": true,
+        "witness": null
+      },
+      "incomparable|action_restriction": {
+        "pair_type": "incomparable",
+        "mapping_type": "action_restriction",
+        "sound": false,
+        "witness": {
+          "src_action": "3"
+        }
+      },
+      "incomparable|action_expansion": {
+        "pair_type": "incomparable",
+        "mapping_type": "action_expansion",
+        "sound": false,
+        "witness": {
+          "src_action": "3"
+        }
+      },
+      "incomparable|resource_substitution": {
+        "pair_type": "incomparable",
+        "mapping_type": "resource_substitution",
+        "sound": false,
+        "witness": {
+          "res": "2"
+        }
+      },
+      "incomparable|context_preservation": {
+        "pair_type": "incomparable",
+        "mapping_type": "context_preservation",
+        "sound": false,
+        "witness": {
+          "ctx": "True"
+        }
+      },
+      "incomparable|context_loss": {
+        "pair_type": "incomparable",
+        "mapping_type": "context_loss",
+        "sound": true,
+        "witness": null
+      },
+      "incomparable|context_strengthening": {
+        "pair_type": "incomparable",
+        "mapping_type": "context_strengthening",
+        "sound": false,
+        "witness": {
+          "ctx": "True"
+        }
+      },
+      "contradictory|identity": {
+        "pair_type": "contradictory",
+        "mapping_type": "identity",
+        "sound": false,
+        "witness": {
+          "src_role": "1",
+          "amt": "2000001"
+        }
+      },
+      "contradictory|renaming": {
+        "pair_type": "contradictory",
+        "mapping_type": "renaming",
+        "sound": false,
+        "witness": {
+          "src_role": "1",
+          "amt": "2000001"
+        }
+      },
+      "contradictory|role_refinement": {
+        "pair_type": "contradictory",
+        "mapping_type": "role_refinement",
+        "sound": false,
+        "witness": {
+          "src_role": "1",
+          "amt": "2000001"
+        }
+      },
+      "contradictory|role_widening": {
+        "pair_type": "contradictory",
+        "mapping_type": "role_widening",
+        "sound": false,
+        "witness": {
+          "src_role": "1",
+          "amt": "2000001"
+        }
+      },
+      "contradictory|action_restriction": {
+        "pair_type": "contradictory",
+        "mapping_type": "action_restriction",
+        "sound": true,
+        "witness": null
+      },
+      "contradictory|action_expansion": {
+        "pair_type": "contradictory",
+        "mapping_type": "action_expansion",
+        "sound": true,
+        "witness": null
+      },
+      "contradictory|resource_substitution": {
+        "pair_type": "contradictory",
+        "mapping_type": "resource_substitution",
+        "sound": false,
+        "witness": {
+          "res": "2"
+        }
+      },
+      "contradictory|context_preservation": {
+        "pair_type": "contradictory",
+        "mapping_type": "context_preservation",
+        "sound": false,
+        "witness": {
+          "ctx": "True"
+        }
+      },
+      "contradictory|context_loss": {
+        "pair_type": "contradictory",
+        "mapping_type": "context_loss",
+        "sound": false,
+        "witness": {
+          "ctx": "True"
+        }
+      },
+      "contradictory|context_strengthening": {
+        "pair_type": "contradictory",
+        "mapping_type": "context_strengthening",
+        "sound": false,
+        "witness": {
+          "ctx": "True"
+        }
+      }
+    }
+  },
+  "obligation_mechanism_strength": {
+    "sound": true,
+    "witness": null
+  },
+  "real_registry_mapping": {
+    "gerente->manager": {
+      "dest_cap": 500000,
+      "sound": false,
+      "witness": {
+        "amt": "500001",
+        "src_cap": "500001"
+      },
+      "note": "models a hypothetical naive design where the destination trusts a source-claimed cap unchecked; the REAL deployed system does not do this (RoleThreshold is destination-local, Section sec:semantics) -- this query quantifies exactly why that naive design would be unsound."
+    },
+    "gerente_senior->director": {
+      "dest_cap": 2000000,
+      "sound": false,
+      "witness": {
+        "amt": "2000001",
+        "src_cap": "2000001"
+      },
+      "note": "models a hypothetical naive design where the destination trusts a source-claimed cap unchecked; the REAL deployed system does not do this (RoleThreshold is destination-local, Section sec:semantics) -- this query quantifies exactly why that naive design would be unsound."
+    }
+  },
+  "naive_mapping_variants": {
+    "V1_trust_source_cap_unchecked[gerente]": {
+      "widening_found": true,
+      "widening_witness": {
+        "amt": "500001",
+        "src_cap": "500001"
+      },
+      "over_conservative_found": true,
+      "over_conservative_witness": {
+        "amt": "2",
+        "src_cap": "1"
+      },
+      "note": "destination trusts a source-claimed cap instead of re-checking its own"
+    },
+    "V1_trust_source_cap_unchecked[gerente_senior]": {
+      "widening_found": true,
+      "widening_witness": {
+        "amt": "2000001",
+        "src_cap": "2000001"
+      },
+      "over_conservative_found": true,
+      "over_conservative_witness": {
+        "amt": "2",
+        "src_cap": "1"
+      },
+      "note": "destination trusts a source-claimed cap instead of re-checking its own"
+    },
+    "V2_reversed_comparison": {
+      "widening_found": true,
+      "widening_witness": {
+        "role": "1",
+        "amt": "10001"
+      },
+      "over_conservative_found": true,
+      "over_conservative_witness": {
+        "role": "1",
+        "amt": "1"
+      },
+      "note": "comparison operator flipped (classic sign/direction bug)"
+    },
+    "V3_off_by_one_role_shift": {
+      "widening_found": false,
+      "widening_witness": null,
+      "over_conservative_found": true,
+      "over_conservative_witness": {
+        "role3": "3",
+        "amt3": "500001"
+      },
+      "note": "role-refinement mapping misapplied where identity was intended"
+    },
+    "V4_ignores_empty_profile_edge_case": {
+      "widening_found": false,
+      "widening_witness": null,
+      "over_conservative_found": true,
+      "over_conservative_witness": {
+        "profile_idx": "0"
+      },
+      "note": "always demands at least notification-level, even when the source required nothing"
+    },
+    "V5_trust_caller_claim_unchecked_S11b_pattern": {
+      "widening_found": false,
+      "widening_witness": null,
+      "over_conservative_found": true,
+      "over_conservative_witness": {
+        "profile_idx": "0",
+        "claimed_ok": "False"
+      },
+      "note": "modeled on the pre-fix S11b vulnerability pattern (trusting a caller-supplied claim instead of re-deriving it). No widening is found in THIS fragment because the ordinal mapped>=required check is a tautology under the real identity mapping (mapped_identity always equals required's own strength), so there is no profile where the real check correctly rejects to diverge from -- this is a real limit of what the strength-ordinal fragment can express, not a safety result. S11b's actual vulnerability was a separate boolean field (obligationDischarged/ enforcementWitnessVerified, binary event-authenticity), outside this numeric fragment's scope; it is the second-key co-signature work (Appendix, evidence/qd2_domain_attestation_2026-10-08.md) that closes that gap, not this checker."
+    }
+  }
+}

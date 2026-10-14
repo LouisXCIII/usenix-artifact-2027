@@ -1,0 +1,93 @@
+[
+  {
+    "i": 1,
+    "file": "SafeBank.sol",
+    "solidityCodeHash": "0x1f662143accd713b1945eb27c7a8f89ef2b6c28b0e637eff72774ed184f53026",
+    "confidence_pct": 0.7739,
+    "inferenceClass": "NonVulnerable"
+  },
+  {
+    "i": 4,
+    "file": "03_dos_vuln.sol",
+    "solidityCodeHash": "0x1f85a21356832406c97f0d719371e3cc2d79c692b52f57f9086e7196454523a1",
+    "confidence_pct": 0.996,
+    "inferenceClass": "NonVulnerable"
+  },
+  {
+    "i": 5,
+    "file": "03_dos_safe.sol",
+    "solidityCodeHash": "0x1ec384e18d2347802df160867c784cd5b40086e9f67b7c514e9b1b0772fa6809",
+    "confidence_pct": 0.9808,
+    "inferenceClass": "NonVulnerable"
+  },
+  {
+    "i": 7,
+    "file": "04_call_to_unknown_safe.sol",
+    "solidityCodeHash": "0xcdca6b375e2a354c612465c59140e334b1eb37b84d23ed9fc0635b3e821ce89",
+    "confidence_pct": 0.996,
+    "inferenceClass": "NonVulnerable"
+  },
+  {
+    "i": 11,
+    "file": "06_unused_return_safe.sol",
+    "solidityCodeHash": "0x553d36c5a4e5dc6e747d07e81df1097783f9f78c67145f43160a35d8987cf1",
+    "confidence_pct": 0.9717,
+    "inferenceClass": "NonVulnerable"
+  },
+  {
+    "i": 13,
+    "file": "07_tod_safe.sol",
+    "solidityCodeHash": "0x4398d7fae5887034f5312aff504fcf64aa451e39af86fe121e1d41d76982ae1",
+    "confidence_pct": 0.8958,
+    "inferenceClass": "NonVulnerable"
+  },
+  {
+    "i": 14,
+    "file": "08_timestamp_vuln.sol",
+    "solidityCodeHash": "0x1d20a41c2138db7643794990a4c9f0ef10b1f1ae661cba427f81f2d57da02f57",
+    "confidence_pct": 0.9899,
+    "inferenceClass": "NonVulnerable"
+  },
+  {
+    "i": 15,
+    "file": "08_timestamp_safe.sol",
+    "solidityCodeHash": "0x8da8b7c10f330bbdf241a655d06a8104fd53b3333eeae8beeb87043a053c910",
+    "confidence_pct": 0.8437,
+    "inferenceClass": "NonVulnerable"
+  },
+  {
+    "i": 16,
+    "file": "09_mishandled_exception_vuln.sol",
+    "solidityCodeHash": "0x144286592d83a0e678bcbb98f4de6094032f3da966fcd071c55d1a3e63313ec9",
+    "confidence_pct": 0.9624,
+    "inferenceClass": "NonVulnerable"
+  },
+  {
+    "i": 17,
+    "file": "09_mishandled_exception_safe.sol",
+    "solidityCodeHash": "0xacd0e87ba736464f1c852b33b9ebbb5e6f00c1cb0fe9343a6f04eb1c3c09f42",
+    "confidence_pct": 0.8684,
+    "inferenceClass": "NonVulnerable"
+  },
+  {
+    "i": 19,
+    "file": "10_gas_exception_safe.sol",
+    "solidityCodeHash": "0x3e709c758cc65c605ff6ec086bc3a5449ec29371cd47a4d9802bb1b02392201",
+    "confidence_pct": 0.7251,
+    "inferenceClass": "NonVulnerable"
+  },
+  {
+    "i": 22,
+    "file": "00_clean_token.sol",
+    "solidityCodeHash": "0x37cf1e7831386cc47dc18533519c82335e12f41344598bd9bdb2109c34633a1",
+    "confidence_pct": 0.7383,
+    "inferenceClass": "NonVulnerable"
+  },
+  {
+    "i": 23,
+    "file": "00_clean_voting.sol",
+    "solidityCodeHash": "0x15c2a4d171cb8f91a9e0824f026655ba4851b426b353f26c98017d39a7a376b6",
+    "confidence_pct": 0.9097,
+    "inferenceClass": "NonVulnerable"
+  }
+]

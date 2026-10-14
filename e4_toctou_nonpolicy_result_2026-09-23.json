@@ -1,0 +1,42 @@
+{
+  "experiment": "non-policy-relevant TOCTOU control",
+  "decision_id": "e4-toctou-nonpolicy-1790179111",
+  "concurrent_calls": [
+    {
+      "function": "SubmitDecisionDynamicPolicy",
+      "args": {
+        "decisionID": "e4-toctou-nonpolicy-1790179111",
+        "sourceDomain": "besu-mainnet",
+        "role": "manager",
+        "amount": 200000,
+        "sourceLimit": 500000,
+        "semBound": true,
+        "evAssuranceOK": true
+      },
+      "endorsed_status": 200,
+      "endorsed_payload": "SAFE"
+    },
+    {
+      "function": "SetRoleThreshold",
+      "args": {
+        "role": "director",
+        "newThreshold": 9999999
+      },
+      "endorsed_status": 200
+    }
+  ],
+  "block": 335,
+  "num_txs": 2,
+  "transactions_filter": [
+    0,
+    0
+  ],
+  "validation_code_legend": {
+    "0": "VALID"
+  },
+  "tx_ids": [
+    "0d43fc817c00",
+    "f608ed3c27fa"
+  ],
+  "interpretation": "both transactions committed VALID despite being genuinely concurrent, because SubmitDecisionDynamicPolicy(role=manager) only reads thresholdStateKey(\"manager\"), disjoint from thresholdStateKey(\"director\") written by the concurrent SetRoleThreshold call -- proves the read-set is correctly scoped (not spuriously broad), complementing the 2026-09-21 same-key result which proves the read-set is not too narrow (same-key concurrent write does conflict)."
+}

@@ -1,0 +1,143 @@
+{
+  "gateAddr": "0xDC0248b0571913688765d1df7dE0783008877069",
+  "results": [
+    {
+      "name": "S1_strict_safe_containment",
+      "expected": "SAFE",
+      "observed": "SAFE",
+      "detail": "S1/S2/S4: mapped, contained, no direct reuse",
+      "decisionId": "0xec923da39b475ca8a3dc298d3d19602b93dc8e341cb238e0d57a737fa1e25249",
+      "txHash": "0xf906d74591837d4937801a75f6618f1260fba12aacfa098d2bdfb349ea3d4d1d",
+      "correct": true
+    },
+    {
+      "name": "S4_action_widening",
+      "expected": "SAFE",
+      "observed": "SAFE",
+      "detail": "S1/S2/S4: mapped, contained, no direct reuse",
+      "decisionId": "0xcdc983dd6e5399b3cdb765d8cf8b8e9af028caa486593d9e1839bf3f37050252",
+      "txHash": "0xaf38d786b1f2fd04dd5f91d2086e34228be1de6bfc00c22019fcce87fa9f1dc0",
+      "correct": true
+    },
+    {
+      "name": "S5_obligation_stripped",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "detail": "S5: obligation stripped",
+      "decisionId": "0x100929db84e4304aa09436a012abc11a8408ddf25d52e4d2374ad40a9a363793",
+      "txHash": "0x4afd846519540308307f5996c4369c28622b724ed31dbae0cbcf30212ce73d99",
+      "correct": true
+    },
+    {
+      "name": "S6_obligation_weakened",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "detail": "S6: obligation weakened",
+      "decisionId": "0xfaa1b0caabdc8604214ce56cf719ba48ba1ae7e15b1875bf358c9c86ab284990",
+      "txHash": "0x0b1044205f2672c2c9b62bdf78978bce27e4bed38d6128d03c525dd1fd793192",
+      "correct": true
+    },
+    {
+      "name": "S7_obligation_laundered",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "detail": "S7: obligation laundered (no enforcement witness)",
+      "decisionId": "0x571489931cdd5763645aea1cb4fa3d1990809dd50394a6d02d25bdbbc281a744",
+      "txHash": "0x2861bc504c265e8587c56d2a0dbd83d483a17d37929642344e12d57b79c20590",
+      "correct": true
+    },
+    {
+      "name": "obligation_positive_control",
+      "expected": "EXACT",
+      "observed": "EXACT",
+      "detail": "S0: identity, direct reuse",
+      "decisionId": "0xfa7d073b08762c5ad1f80af174dc40aa024a0ffd98bc09f1dd97ecf356aceeac",
+      "txHash": "0x9d21f22e3622748be8403c2a8441141b3d21c162458dd2c30a21d0700c541f68",
+      "correct": true,
+      "note": "test-design correction: role=director is an identity match (not mapped), so EXACT is the correct real outcome, not SAFE -- the contract logic was correct, the test authors initial expectation was wrong, corrected here rather than changing the contract"
+    },
+    {
+      "name": "S8_S12_stale_expired",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "detail": "S8/S12: decision expired/stale",
+      "decisionId": "0x9713898104b66bb2969bfe30daea995e11c309e01af3f8346122b3827921c9ab",
+      "txHash": "0xff9fbf7c9938f446b0e9010af4f5a3cc8f118ec33a2331017cdce4cb8f462715",
+      "correct": true
+    },
+    {
+      "name": "S9_revoked_credential",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "detail": "S9: credential revoked",
+      "decisionId": "0x71b0e2ae4f02283f1940cd5911d0e1c4a8f73144da52e5857430c7bc983eb608",
+      "txHash": "0x5e218059d24e2369351f4e9f8d46a3def83f74c51ae1939fec89c37c29fb5cdb",
+      "correct": true
+    },
+    {
+      "name": "S10_state_changed_after_decision",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "detail": "S10: bound state changed after decision",
+      "decisionId": "0x9d2f23c5526ffe236da6f98bd11750367fd284677ae01bfc43624c3b259337d2",
+      "txHash": "0xc196c381fa618dd7b35c182db5457ce4237c1a62f95919fb27c3ddd89bb0c1b0",
+      "correct": true
+    },
+    {
+      "name": "S13_epoch_mismatch",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "detail": "S13: mapping epoch mismatch",
+      "decisionId": "0x1521de079050dd4387b3da4c5858f91a6b4489c2cd8c40c451e642d345b38bae",
+      "txHash": "0x4dfd8d84781bb5397f67642c852dd25a93f209b3bac462bc2311c8541f3c7372",
+      "correct": true
+    },
+    {
+      "name": "S14_finality_deficit",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "detail": "S14: insufficient finality (below quorum)",
+      "decisionId": "0xdcdf46cd976da7ee38bb8eb7f81448dc2dcf357b95f4ea19880f0e253660faad",
+      "txHash": "0xc0c9055aab4c166f8ec51f734fefa23a0fba5c726a498167351037ef635ee956",
+      "correct": true
+    },
+    {
+      "name": "S14_finality_positive_control",
+      "expected": "EXACT",
+      "observed": "EXACT",
+      "detail": "S0: identity, direct reuse",
+      "decisionId": "0x019f505e4635e47158814155d5ab041d3ad9983476fad349527e537b4d52cfd7",
+      "txHash": "0x0eeb2628cd2058d859f6884a8ecf5fda68ddcb10c5cfcffe51ef6d926d0e85b6",
+      "correct": true
+    },
+    {
+      "name": "S17a_unauthenticated_mapping_before_proposal",
+      "expected": "REEVALUATE",
+      "observed": "REEVALUATE",
+      "detail": "base classify (S0/S1/S2/S3/S4 mechanism)",
+      "decisionId": "0x0b73911b186701129a83fa9bb5577d4d5f00218b6da2d810b7486a010b8c5fb9",
+      "txHash": "0xc37de986938ccac4aaa8b69bdab12404222301866f2b5a257594545c5cf21c15",
+      "correct": true
+    },
+    {
+      "name": "S17b_unauthenticated_mapping_single_admin_only",
+      "expected": "REEVALUATE",
+      "observed": "REEVALUATE",
+      "detail": "base classify (S0/S1/S2/S3/S4 mechanism)",
+      "decisionId": "0x61e6e96992b90b220765e0f2be1c4fa1ece58884f71924af08dd7c7cecdf5b5e",
+      "txHash": "0xb82e8d3d298e7e1ec31a9bedebd9ab17b64cfae8e6bbd245165379895700f582",
+      "correct": true
+    },
+    {
+      "name": "S17c_mapping_activated_after_real_2of3_governance",
+      "expected": "SAFE",
+      "observed": "SAFE",
+      "detail": "S1/S2/S4: mapped, contained, no direct reuse",
+      "decisionId": "0x66f6d9ba237ed4c95e57e464b3ed36eabec514a77aafe5a4ef5f7ecf9f2d793c",
+      "txHash": "0x79da8502fd1e29f8a84194a1928b37108bf43fabd65648b5b42fcc5978242e48",
+      "correct": true
+    }
+  ],
+  "nCorrect": 15,
+  "nTotal": 15
+}

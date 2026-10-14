@@ -1,0 +1,150 @@
+{
+  "n": 20,
+  "median": 4318,
+  "p95": 4432,
+  "mean": 4319.75,
+  "totalBatchMs": 86642,
+  "allOk": true,
+  "results": [
+    {
+      "block": "3056",
+      "envIdx": 0,
+      "txHash": "0x396eb9effc1034d58947f6c7d4762807c5510c9b26921f9de3c63667193596f2",
+      "fullyProvenTx": true,
+      "wallMs": 4336
+    },
+    {
+      "block": "3056",
+      "envIdx": 1,
+      "txHash": "0x103128c04a79024813a452740887c10064d0e704500c71038b072de50b2db1f3",
+      "fullyProvenTx": true,
+      "wallMs": 4295
+    },
+    {
+      "block": "3056",
+      "envIdx": 2,
+      "txHash": "0x19f3615c6268fab4061e671fc2c162fbbd9ba0830dfa7ef79d23f4838585d981",
+      "fullyProvenTx": true,
+      "wallMs": 4289
+    },
+    {
+      "block": "3056",
+      "envIdx": 3,
+      "txHash": "0xd307e5e922da73d15f118a6337ad99b1f6146804941e9e412a87871656b11b56",
+      "fullyProvenTx": true,
+      "wallMs": 4275
+    },
+    {
+      "block": "3056",
+      "envIdx": 4,
+      "txHash": "0x6cedf5f5a4c1b5b8ee83ea9661a397d5422ea2c0bb23c06aac2f96d28c585aa5",
+      "fullyProvenTx": true,
+      "wallMs": 4319
+    },
+    {
+      "block": "3056",
+      "envIdx": 5,
+      "txHash": "0x434c8c20a25c68dd2d62045f413360979f020337592194c6475df0f335aa7f8f",
+      "fullyProvenTx": true,
+      "wallMs": 4410
+    },
+    {
+      "block": "3056",
+      "envIdx": 6,
+      "txHash": "0x42ab593268cf38384a7ae8d15b71fead725bd099a22c74409723294705034b10",
+      "fullyProvenTx": true,
+      "wallMs": 4432
+    },
+    {
+      "block": "3056",
+      "envIdx": 7,
+      "txHash": "0x73047acb06b4e66ce6b9f4d72c262e706b4ad45cd3c52a6821a0f5b6ffdbb753",
+      "fullyProvenTx": true,
+      "wallMs": 4317
+    },
+    {
+      "block": "3056",
+      "envIdx": 8,
+      "txHash": "0x78b9b50964a06d76c34864e506e09ac3627d6d2823e9993c7c4cfe8c978c619f",
+      "fullyProvenTx": true,
+      "wallMs": 4318
+    },
+    {
+      "block": "3056",
+      "envIdx": 9,
+      "txHash": "0x4cad633aa4729d94e8d4aad764549ab55dd769d77b7b9955fbc41ccab7fb0d57",
+      "fullyProvenTx": true,
+      "wallMs": 4302
+    },
+    {
+      "block": "3057",
+      "envIdx": 0,
+      "txHash": "0xce9d24edd33461fcdced301d3dd492ba5460c2eedc4fc15d49ed9d23069a7ee8",
+      "fullyProvenTx": true,
+      "wallMs": 4344
+    },
+    {
+      "block": "3057",
+      "envIdx": 1,
+      "txHash": "0x58bd671e9bae5ab24b3560a3b94c7e01b4f7effec7e99e0c4b8f4516514c9a58",
+      "fullyProvenTx": true,
+      "wallMs": 4319
+    },
+    {
+      "block": "3057",
+      "envIdx": 2,
+      "txHash": "0xac0f72c543a112679842603981ec2147afcb92559f28f861d60c88b4aad1555c",
+      "fullyProvenTx": true,
+      "wallMs": 4322
+    },
+    {
+      "block": "3057",
+      "envIdx": 3,
+      "txHash": "0x115991338dd5b47eb832f6a0dcc6636cceafcca9ef02fcb2d7a3e1089200d8b7",
+      "fullyProvenTx": true,
+      "wallMs": 4330
+    },
+    {
+      "block": "3057",
+      "envIdx": 4,
+      "txHash": "0xdf7c1986d51427d0e9420bb5466b16314a9722c49f6cc6205c296222f9e64da7",
+      "fullyProvenTx": true,
+      "wallMs": 4315
+    },
+    {
+      "block": "3057",
+      "envIdx": 5,
+      "txHash": "0xb268c4781d2ac3fafd700614f3c7da89b6251acfb7f25a68586bf09884db5d60",
+      "fullyProvenTx": true,
+      "wallMs": 4292
+    },
+    {
+      "block": "3057",
+      "envIdx": 6,
+      "txHash": "0x3f5faf849b8438f4450cc219ff78281dd75b4aa40cc1cb77aec5330ced695823",
+      "fullyProvenTx": true,
+      "wallMs": 4270
+    },
+    {
+      "block": "3057",
+      "envIdx": 7,
+      "txHash": "0x7d3270b5a1197ffc19cc64c24b2263fc2190d650293b17b23141ee51ad1a6ac5",
+      "fullyProvenTx": true,
+      "wallMs": 4313
+    },
+    {
+      "block": "3057",
+      "envIdx": 8,
+      "txHash": "0x83d2c75aba93f27389d96c72bf8942343995d7e72f9a03ba0f87eeed433dcb37",
+      "fullyProvenTx": true,
+      "wallMs": 4320
+    },
+    {
+      "block": "3057",
+      "envIdx": 9,
+      "txHash": "0x4760081de4518b22c929be8955b3ddc8b02eb1eca41e69cad5d85035ccbea4f6",
+      "fullyProvenTx": true,
+      "wallMs": 4277
+    }
+  ]
+}

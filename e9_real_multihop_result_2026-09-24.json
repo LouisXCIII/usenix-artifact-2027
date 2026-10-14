@@ -1,0 +1,189 @@
+{
+  "n_correct": 56,
+  "n_total": 56,
+  "results": {
+    "1": {
+      "preservation_control": {
+        "composed": "SAFE",
+        "pairwise": "SAFE",
+        "correct": true
+      },
+      "injected_loss": [
+        {
+          "position": 0,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        }
+      ]
+    },
+    "3": {
+      "preservation_control": {
+        "composed": "SAFE",
+        "pairwise": "SAFE",
+        "correct": true
+      },
+      "injected_loss": [
+        {
+          "position": 0,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 1,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 2,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        }
+      ]
+    },
+    "4": {
+      "preservation_control": {
+        "composed": "SAFE",
+        "pairwise": "SAFE",
+        "correct": true
+      },
+      "injected_loss": [
+        {
+          "position": 0,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 1,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 2,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 3,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        }
+      ]
+    },
+    "5": {
+      "preservation_control": {
+        "composed": "SAFE",
+        "pairwise": "SAFE",
+        "correct": true
+      },
+      "injected_loss": [
+        {
+          "position": 0,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 1,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 2,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 3,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 4,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        }
+      ]
+    },
+    "10": {
+      "preservation_control": {
+        "composed": "SAFE",
+        "pairwise": "SAFE",
+        "correct": true
+      },
+      "injected_loss": [
+        {
+          "position": 0,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 1,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 2,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 3,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 4,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 5,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 6,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 7,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 8,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        },
+        {
+          "position": 9,
+          "composed": "REJECT",
+          "pairwise": "SAFE",
+          "correct": true
+        }
+      ]
+    }
+  }
+}

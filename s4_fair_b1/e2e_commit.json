@@ -1,0 +1,794 @@
+[
+ {
+  "name": "00_clean_token.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2055.248559001484,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "00_clean_token.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2050.5249589987216,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "00_clean_token.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2069.965187998605,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "00_clean_token.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2048.671699998522,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "00_clean_voting.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2052.7906879979128,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "00_clean_voting.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2049.7829060004733,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "00_clean_voting.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2068.5972399987804,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "00_clean_voting.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2045.0500810002268,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "02_integer_overflow_safe.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2047.9839029976574,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "02_integer_overflow_safe.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2048.917606000032,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "02_integer_overflow_safe.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2069.170358001429,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "02_integer_overflow_safe.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2045.477972002118,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "02_integer_overflow_vuln.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2052.537276998919,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "02_integer_overflow_vuln.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2045.94904500118,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "02_integer_overflow_vuln.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2071.7775619996246,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "02_integer_overflow_vuln.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2045.1330360010616,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "03_dos_safe.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2049.4866320004803,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "03_dos_safe.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2051.3278209982673,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "03_dos_safe.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2071.481085000414,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "03_dos_safe.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2048.6446880022413,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "03_dos_vuln.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2044.0085289992567,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "03_dos_vuln.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2057.8151929985324,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "03_dos_vuln.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2076.1940390002565,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "03_dos_vuln.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2045.0992209989636,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "04_call_to_unknown_safe.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2048.7322980006866,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "04_call_to_unknown_safe.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2051.4698090009915,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "04_call_to_unknown_safe.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2070.5871589998424,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "04_call_to_unknown_safe.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2049.4099150018883,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "04_call_to_unknown_vuln.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2051.2934750004206,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "04_call_to_unknown_vuln.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2056.7497290030587,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "04_call_to_unknown_vuln.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2074.34636799735,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "04_call_to_unknown_vuln.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2047.4455379990104,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "05_weak_access_control_safe.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2049.127694001072,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "05_weak_access_control_safe.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2053.9151640005,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "05_weak_access_control_safe.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2068.34255299691,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "05_weak_access_control_safe.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2043.2287009971333,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "05_weak_access_control_vuln.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2047.035831001267,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "05_weak_access_control_vuln.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2047.5470689998474,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "05_weak_access_control_vuln.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2069.2932060010207,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "05_weak_access_control_vuln.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2047.994470998674,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "06_unused_return_safe.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2047.9333879993646,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "06_unused_return_safe.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2047.8348760007066,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "06_unused_return_safe.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2070.3304580019903,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "06_unused_return_safe.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2045.742500002234,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "06_unused_return_vuln.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2049.5308009994915,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "06_unused_return_vuln.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2052.211731999705,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "06_unused_return_vuln.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2070.9945260023233,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "06_unused_return_vuln.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2048.021078000602,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "07_tod_safe.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2047.8875039989362,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "07_tod_safe.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2051.234302998637,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "07_tod_safe.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2070.74224200187,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "07_tod_safe.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2048.318819000997,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "07_tod_vuln.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2048.5408479980833,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "07_tod_vuln.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2048.2102329988265,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "07_tod_vuln.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2068.241726999986,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "07_tod_vuln.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2043.7830890004989,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "08_timestamp_safe.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2047.0471850021568,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "08_timestamp_safe.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2048.707360001572,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "08_timestamp_safe.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2064.7663669988106,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "08_timestamp_safe.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2044.427598000766,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "08_timestamp_vuln.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2048.8039960000606,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "08_timestamp_vuln.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2049.733838000975,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "08_timestamp_vuln.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2066.4640969989705,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "08_timestamp_vuln.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2045.9682209984749,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "09_mishandled_exception_safe.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2046.7013479974412,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "09_mishandled_exception_safe.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2052.6144159994146,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "09_mishandled_exception_safe.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2065.802909000922,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "09_mishandled_exception_safe.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2047.6148890011245,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "09_mishandled_exception_vuln.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2047.7672639972297,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "09_mishandled_exception_vuln.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2047.75610499928,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "09_mishandled_exception_vuln.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2071.904738997546,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "09_mishandled_exception_vuln.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2050.0022739979613,
+  "class": "SAFE",
+  "committedClass": "SAFE",
+  "tail": ""
+ },
+ {
+  "name": "10_gas_exception_safe.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2046.3744510016113,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "10_gas_exception_safe.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2049.6477510023396,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "10_gas_exception_safe.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2074.2171269994287,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "10_gas_exception_safe.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2048.6813530005747,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "10_gas_exception_vuln.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2049.7590209997725,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "10_gas_exception_vuln.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2050.4384550004033,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "10_gas_exception_vuln.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2072.2540040005697,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "10_gas_exception_vuln.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2048.8788499969814,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "11_external_bug_safe.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2048.251837997668,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "11_external_bug_safe.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2046.6685200008214,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "11_external_bug_safe.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2072.9554110002937,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "11_external_bug_safe.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2047.5831090006977,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "11_external_bug_vuln.sol",
+  "variant": "b4-groth16",
+  "ok": true,
+  "wallMs": 2049.3258890019206,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "11_external_bug_vuln.sol",
+  "variant": "b1-store",
+  "ok": true,
+  "wallMs": 2046.5463929976977,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "11_external_bug_vuln.sol",
+  "variant": "b1-nostore",
+  "ok": true,
+  "wallMs": 2066.637826999795,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ },
+ {
+  "name": "11_external_bug_vuln.sol",
+  "variant": "b1-sha",
+  "ok": true,
+  "wallMs": 2049.3284049989597,
+  "class": "REJECT",
+  "committedClass": "REJECT",
+  "tail": ""
+ }
+]

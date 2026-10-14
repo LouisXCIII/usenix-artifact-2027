@@ -1,0 +1,243 @@
+{
+  "safe_checks": {
+    "CellCounter27": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "LedgerCounter17": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "PlainCounter2": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "RealCounter7": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "SolidCounter12": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "StoreCounter22": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "AlphaEscrow": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "AnchorVault": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "ApexAuction": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "AsterFaucet": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "AstraVoting": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "BeaconCounter": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "BetaVoting": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "BridgeEscrow": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "CedarSubscription": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "CentralCounter": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "CivicEscrow": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "CrestFaucet": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "DeltaCounter": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "EastVoting": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "FederalFaucet": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "GammaVault": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "GateSubscription": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "GroveCounter": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "HarborAuction": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "HavenFaucet": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "MapleEscrow": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "MeadowAuction": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "MetroSubscription": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "NorthSubscription": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "NovaSubscription": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "OakVoting": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "OmegaAuction": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "PathVoting": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "PeakEscrow": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "PineVault": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "PortFaucet": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "PrimeCounter": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "PublicVoting": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "RidgeVoting": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "RouteVault": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "SigmaFaucet": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "SouthEscrow": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "SummitSubscription": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "TerraEscrow": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "TrackCounter": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    },
+    "TrailAuction": {
+      "snarkjs_verify": true,
+      "codeHash_matches_source": true,
+      "policy_maxVulnClass_is_0": true
+    }
+  },
+  "n_safe_ok": 47,
+  "n_safe_total": 47,
+  "n_sub_ok": 96,
+  "n_sub_total": 96
+}

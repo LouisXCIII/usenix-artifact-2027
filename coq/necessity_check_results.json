@@ -1,0 +1,120 @@
+{
+  "ADPRelationalSoundness.v": [
+    {
+      "hypothesis": "A1_A2",
+      "lines": "77-77",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "destlocal_sound",
+      "lines": "114-114",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "RP_contract",
+      "lines": "121-123",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "guard_covered",
+      "lines": "129-131",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    }
+  ],
+  "ADPMultiHopComposition.v": [
+    {
+      "hypothesis": "A1_A2",
+      "lines": "125-125",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "destlocal_sound",
+      "lines": "128-129",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "RP_contract",
+      "lines": "130-132",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "guard_covered",
+      "lines": "133-134",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "R_ADP_sem",
+      "lines": "135-135",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "TransRel",
+      "lines": "136-137",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "I_d_is_MI",
+      "lines": "138-138",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "continuity_intent",
+      "lines": "173-174",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "scope_member_origin",
+      "lines": "182-182",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "scope_compatible",
+      "lines": "183-184",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "fields_preserved_holds",
+      "lines": "199-199",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "obligations_hold_origin",
+      "lines": "210-210",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "obligations_propagate",
+      "lines": "211-213",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "assurance_hold",
+      "lines": "214-214",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    },
+    {
+      "hypothesis": "temporal_hold",
+      "lines": "215-215",
+      "compiled_without_it": false,
+      "verdict": "LOAD-BEARING (broke proof -- expected)"
+    }
+  ]
+}

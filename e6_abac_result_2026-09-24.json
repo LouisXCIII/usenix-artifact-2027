@@ -1,0 +1,57 @@
+{
+  "results": [
+    {
+      "name": "director_org1_within_org1_cap",
+      "expected": "SAFE",
+      "observed": "SAFE",
+      "submitterOrg": "Org1",
+      "decisionID": "e6-abac-director_org1_within_org1_cap-1790252812186-8e247o",
+      "correct": true,
+      "record": {
+        "decisionId": "e6-abac-director_org1_within_org1_cap-1790252812186-8e247o",
+        "sourceDomain": "besu-mainnet",
+        "role": "director",
+        "callerMsp": "Org1MSP",
+        "amount": 1800000,
+        "transferClass": "SAFE",
+        "destThreshold": 2000000
+      }
+    },
+    {
+      "name": "director_org2_same_amount_exceeds_org2_cap",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "submitterOrg": "Org2",
+      "decisionID": "e6-abac-director_org2_same_amount_exceeds_org2_cap-1790252812186-orkero",
+      "correct": true,
+      "record": {
+        "decisionId": "e6-abac-director_org2_same_amount_exceeds_org2_cap-1790252812186-orkero",
+        "sourceDomain": "besu-mainnet",
+        "role": "director",
+        "callerMsp": "Org2MSP",
+        "amount": 1800000,
+        "transferClass": "REJECT",
+        "destThreshold": 200000
+      }
+    },
+    {
+      "name": "director_org2_within_org2_cap",
+      "expected": "SAFE",
+      "observed": "SAFE",
+      "submitterOrg": "Org2",
+      "decisionID": "e6-abac-director_org2_within_org2_cap-1790252812186-hxsqde",
+      "correct": true,
+      "record": {
+        "decisionId": "e6-abac-director_org2_within_org2_cap-1790252812186-hxsqde",
+        "sourceDomain": "besu-mainnet",
+        "role": "director",
+        "callerMsp": "Org2MSP",
+        "amount": 150000,
+        "transferClass": "SAFE",
+        "destThreshold": 200000
+      }
+    }
+  ],
+  "nCorrect": 3,
+  "nTotal": 3
+}

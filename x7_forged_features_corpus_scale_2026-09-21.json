@@ -1,0 +1,90 @@
+[
+ {
+  "i": 0,
+  "file": "VulnerableBank.sol",
+  "real_margin": 2.611,
+  "honest_proof_exists": false,
+  "honest": "REJECT",
+  "forged": "SAFE"
+ },
+ {
+  "i": 2,
+  "file": "02_integer_overflow_vuln.sol",
+  "real_margin": 1.383,
+  "honest_proof_exists": false,
+  "honest": "REJECT",
+  "forged": "SAFE"
+ },
+ {
+  "i": 4,
+  "file": "03_dos_vuln.sol",
+  "real_margin": 5.509,
+  "honest_proof_exists": true,
+  "honest": "SAFE",
+  "forged": "SAFE"
+ },
+ {
+  "i": 6,
+  "file": "04_call_to_unknown_vuln.sol",
+  "real_margin": 2.982,
+  "honest_proof_exists": false,
+  "honest": "REJECT",
+  "forged": "SAFE"
+ },
+ {
+  "i": 8,
+  "file": "05_weak_access_control_vuln.sol",
+  "real_margin": 7.126,
+  "honest_proof_exists": false,
+  "honest": "REJECT",
+  "forged": "SAFE"
+ },
+ {
+  "i": 10,
+  "file": "06_unused_return_vuln.sol",
+  "real_margin": 3.032,
+  "honest_proof_exists": false,
+  "honest": "REJECT",
+  "forged": "SAFE"
+ },
+ {
+  "i": 12,
+  "file": "07_tod_vuln.sol",
+  "real_margin": 0.667,
+  "honest_proof_exists": false,
+  "honest": "REJECT",
+  "forged": "SAFE"
+ },
+ {
+  "i": 14,
+  "file": "08_timestamp_vuln.sol",
+  "real_margin": 4.568,
+  "honest_proof_exists": true,
+  "honest": "SAFE",
+  "forged": "SAFE"
+ },
+ {
+  "i": 16,
+  "file": "09_mishandled_exception_vuln.sol",
+  "real_margin": 3.22,
+  "honest_proof_exists": false,
+  "honest": "REJECT",
+  "forged": "SAFE"
+ },
+ {
+  "i": 18,
+  "file": "10_gas_exception_vuln.sol",
+  "real_margin": 0.103,
+  "honest_proof_exists": false,
+  "honest": "REJECT",
+  "forged": "SAFE"
+ },
+ {
+  "i": 20,
+  "file": "11_external_bug_vuln.sol",
+  "real_margin": 3.143,
+  "honest_proof_exists": false,
+  "honest": "REJECT",
+  "forged": "SAFE"
+ }
+]

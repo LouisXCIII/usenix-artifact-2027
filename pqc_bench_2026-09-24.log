@@ -1,0 +1,19 @@
+--- warmup (15 iterations each, discarded) ---
+warmup done
+
+=== BouncyCastle 1.80 real ML-DSA-65 (n=100) ===
+BC KeyGen: mean=0.240 ms  median=0.216  stddev=0.055  min=0.191  max=0.488
+BC Sign: mean=0.608 ms  median=0.515  stddev=0.366  min=0.252  max=2.241
+BC Verify: mean=0.209 ms  median=0.187  stddev=0.066  min=0.167  max=0.532
+BC pubkey encoded len: 1974 bytes
+BC signature len: 3309 bytes
+
+=== Liboqs JNI ML-DSA-65 (n=100) ===
+JNI KeyGen: mean=0.041 ms  median=0.040  stddev=0.004  min=0.039  max=0.071
+JNI Sign: mean=0.112 ms  median=0.093  stddev=0.061  min=0.048  max=0.351
+JNI Verify: mean=0.037 ms  median=0.037  stddev=0.001  min=0.037  max=0.044
+JNI pubkey raw len: 1952 bytes
+JNI signature len: 3309 bytes
+
+Sign speedup (BC/JNI): 5.45x
+Verify speedup (BC/JNI): 5.60x

@@ -1,0 +1,9 @@
+UCAN baseline (real library: github.com/ucan-wg/go-ucan v1.2.0)
+Running example from Manuscriptsp2_Full_v1.tex, subsec:motivation-auth-vs-admissibility
+
+IN-BOUNDS case ($300K, within both source and destination limits): amount=$300000, source policy <=$1,000,000, destination's OWN rule (not known to UCAN) <=$500,000
+  go-ucan v1.2.0 Token.ExecutionAllowed() -> ALLOWED (UCAN's own verifier accepts this invocation)
+WIDENING case ($700K, within source's $1M limit, exceeds destination's $500K limit): amount=$700000, source policy <=$1,000,000, destination's OWN rule (not known to UCAN) <=$500,000
+  go-ucan v1.2.0 Token.ExecutionAllowed() -> ALLOWED (UCAN's own verifier accepts this invocation)
+CONTROL: exceeds even the SOURCE's own $1M limit (checks the verifier is not a rubber stamp): amount=$1500000, source policy <=$1,000,000, destination's OWN rule (not known to UCAN) <=$500,000
+  go-ucan v1.2.0 Token.ExecutionAllowed() -> REJECTED by UCAN: the following UCAN policy is not satisfied: ["<=", ".amount", 1000000]

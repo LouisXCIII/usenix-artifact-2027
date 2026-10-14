@@ -1,0 +1,632 @@
+[
+  {
+    "id": 0,
+    "role": "clerk",
+    "tier": 0,
+    "amount": 1,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 1,
+    "role": "clerk",
+    "tier": 0,
+    "amount": 10000,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 2,
+    "role": "clerk",
+    "tier": 1,
+    "amount": 999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 3,
+    "role": "clerk",
+    "tier": 1,
+    "amount": 1000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 4,
+    "role": "clerk",
+    "tier": 1,
+    "amount": 1001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 5,
+    "role": "clerk",
+    "tier": 2,
+    "amount": 4999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 6,
+    "role": "clerk",
+    "tier": 2,
+    "amount": 5000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 7,
+    "role": "clerk",
+    "tier": 2,
+    "amount": 5001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 8,
+    "role": "clerk",
+    "tier": 3,
+    "amount": 9999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 9,
+    "role": "clerk",
+    "tier": 3,
+    "amount": 10000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 10,
+    "role": "clerk",
+    "tier": 3,
+    "amount": 10001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 11,
+    "role": "clerk",
+    "tier": 1,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 12,
+    "role": "clerk",
+    "tier": 2,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 13,
+    "role": "clerk",
+    "tier": 3,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 14,
+    "role": "manager",
+    "tier": 0,
+    "amount": 1,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 15,
+    "role": "manager",
+    "tier": 0,
+    "amount": 500000,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 16,
+    "role": "manager",
+    "tier": 1,
+    "amount": 49999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 17,
+    "role": "manager",
+    "tier": 1,
+    "amount": 50000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 18,
+    "role": "manager",
+    "tier": 1,
+    "amount": 50001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 19,
+    "role": "manager",
+    "tier": 2,
+    "amount": 249999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 20,
+    "role": "manager",
+    "tier": 2,
+    "amount": 250000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 21,
+    "role": "manager",
+    "tier": 2,
+    "amount": 250001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 22,
+    "role": "manager",
+    "tier": 3,
+    "amount": 499999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 23,
+    "role": "manager",
+    "tier": 3,
+    "amount": 500000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 24,
+    "role": "manager",
+    "tier": 3,
+    "amount": 500001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 25,
+    "role": "manager",
+    "tier": 1,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 26,
+    "role": "manager",
+    "tier": 2,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 27,
+    "role": "manager",
+    "tier": 3,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 28,
+    "role": "director",
+    "tier": 0,
+    "amount": 1,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 29,
+    "role": "director",
+    "tier": 0,
+    "amount": 2000000,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 30,
+    "role": "director",
+    "tier": 1,
+    "amount": 199999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 31,
+    "role": "director",
+    "tier": 1,
+    "amount": 200000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 32,
+    "role": "director",
+    "tier": 1,
+    "amount": 200001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 33,
+    "role": "director",
+    "tier": 2,
+    "amount": 999999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 34,
+    "role": "director",
+    "tier": 2,
+    "amount": 1000000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 35,
+    "role": "director",
+    "tier": 2,
+    "amount": 1000001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 36,
+    "role": "director",
+    "tier": 3,
+    "amount": 1999999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 37,
+    "role": "director",
+    "tier": 3,
+    "amount": 2000000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 38,
+    "role": "director",
+    "tier": 3,
+    "amount": 2000001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 39,
+    "role": "director",
+    "tier": 1,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 40,
+    "role": "director",
+    "tier": 2,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 41,
+    "role": "director",
+    "tier": 3,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 42,
+    "role": "gerente",
+    "tier": 0,
+    "amount": 1,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 43,
+    "role": "gerente",
+    "tier": 0,
+    "amount": 500000,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 44,
+    "role": "gerente",
+    "tier": 1,
+    "amount": 49999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 45,
+    "role": "gerente",
+    "tier": 1,
+    "amount": 50000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 46,
+    "role": "gerente",
+    "tier": 1,
+    "amount": 50001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 47,
+    "role": "gerente",
+    "tier": 2,
+    "amount": 249999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 48,
+    "role": "gerente",
+    "tier": 2,
+    "amount": 250000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 49,
+    "role": "gerente",
+    "tier": 2,
+    "amount": 250001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 50,
+    "role": "gerente",
+    "tier": 3,
+    "amount": 499999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 51,
+    "role": "gerente",
+    "tier": 3,
+    "amount": 500000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 52,
+    "role": "gerente",
+    "tier": 3,
+    "amount": 500001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 53,
+    "role": "gerente",
+    "tier": 1,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 54,
+    "role": "gerente",
+    "tier": 2,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 55,
+    "role": "gerente",
+    "tier": 3,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 56,
+    "role": "gerente_senior",
+    "tier": 0,
+    "amount": 1,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 57,
+    "role": "gerente_senior",
+    "tier": 0,
+    "amount": 2000000,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 58,
+    "role": "gerente_senior",
+    "tier": 1,
+    "amount": 199999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 59,
+    "role": "gerente_senior",
+    "tier": 1,
+    "amount": 200000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 60,
+    "role": "gerente_senior",
+    "tier": 1,
+    "amount": 200001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 61,
+    "role": "gerente_senior",
+    "tier": 2,
+    "amount": 999999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 62,
+    "role": "gerente_senior",
+    "tier": 2,
+    "amount": 1000000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 63,
+    "role": "gerente_senior",
+    "tier": 2,
+    "amount": 1000001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 64,
+    "role": "gerente_senior",
+    "tier": 3,
+    "amount": 1999999,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 65,
+    "role": "gerente_senior",
+    "tier": 3,
+    "amount": 2000000,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 66,
+    "role": "gerente_senior",
+    "tier": 3,
+    "amount": 2000001,
+    "expected": "DENY",
+    "naive_cedar": "DENY",
+    "hardened_cedar": "DENY"
+  },
+  {
+    "id": 67,
+    "role": "gerente_senior",
+    "tier": 1,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 68,
+    "role": "gerente_senior",
+    "tier": 2,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  },
+  {
+    "id": 69,
+    "role": "gerente_senior",
+    "tier": 3,
+    "amount": 1,
+    "expected": "GRANT",
+    "naive_cedar": "GRANT",
+    "hardened_cedar": "GRANT"
+  }
+]

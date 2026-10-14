@@ -1,0 +1,60 @@
+{
+ "queried": "2026-09-28T02:32:46.148Z",
+ "note": "read-only eth_call view functions via public RPC",
+ "data": {
+  "ethereum": {
+   "address": "0xdAbad81aF85554E9ae636395611C58F7eC1aAEc5",
+   "level1": {
+    "executor": "0x5300A1a15135EA4dc7aD5a167152C01EFc9b192A",
+    "delay_seconds": 86400,
+    "delay_days": "1.00"
+   },
+   "level2": {
+    "executor": "0x17Dd33Ed0e3dD2a80E37489B8A63063161BE6957",
+    "delay_seconds": 604800,
+    "delay_days": "7.00"
+   },
+   "guardian": "0xCe52ab41C40575B072A18C9700091Ccbe4A06710",
+   "guardian_is_contract": true,
+   "owner": "0x5300A1a15135EA4dc7aD5a167152C01EFc9b192A",
+   "owner_is_contract": true,
+   "min_delay_days": "1.00"
+  },
+  "polygon": {
+   "address": "0x401B5D0294E23637c18fcc38b1Bca814CDa2637C",
+   "level1": {
+    "executor": "0xDf7d0e6454DB638881302729F5ba99936EaAB233",
+    "delay_seconds": 86400,
+    "delay_days": "1.00"
+   },
+   "level2": {
+    "executor": "0x0000000000000000000000000000000000000000",
+    "delay_seconds": 0,
+    "delay_days": "0.00"
+   },
+   "guardian": "0x1A0581dd5C7C3DA4Ba1CDa7e0BcA7286afc4973b",
+   "guardian_is_contract": true,
+   "owner": "0xDf7d0e6454DB638881302729F5ba99936EaAB233",
+   "owner_is_contract": true,
+   "min_delay_days": "1.00"
+  },
+  "arbitrum": {
+   "address": "0x89644CA1bB8064760312AE4F03ea41b05dA3637C",
+   "level1": {
+    "executor": "0xFF1137243698CaA18EE364Cc966CF0e02A4e6327",
+    "delay_seconds": 86400,
+    "delay_days": "1.00"
+   },
+   "level2": {
+    "executor": "0x0000000000000000000000000000000000000000",
+    "delay_seconds": 0,
+    "delay_days": "0.00"
+   },
+   "guardian": "0x1A0581dd5C7C3DA4Ba1CDa7e0BcA7286afc4973b",
+   "guardian_is_contract": true,
+   "owner": "0xFF1137243698CaA18EE364Cc966CF0e02A4e6327",
+   "owner_is_contract": true,
+   "min_delay_days": "1.00"
+  }
+ }
+}

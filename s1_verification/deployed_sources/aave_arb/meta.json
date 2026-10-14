@@ -1,0 +1,54 @@
+{
+ "label": "aave_arb",
+ "explorer": "https://arbitrum.blockscout.com",
+ "queried": [
+  {
+   "address": "0x89644CA1bB8064760312AE4F03ea41b05dA3637C",
+   "name": "TransparentUpgradeableProxy",
+   "verified": true,
+   "compiler": "0.8.10+commit.fc410830",
+   "proxy_type": "eip1967",
+   "implementations": [
+    "0x118DFD5418890c0332042ab05173Db4A2C1d283c"
+   ],
+   "files": [
+    "0x89644CA1__src__contracts__transparent-proxy__TransparentUpgradeableProxy.sol",
+    "0x89644CA1__src__contracts__oz-common__Address.sol",
+    "0x89644CA1__src__contracts__oz-common__StorageSlot.sol",
+    "0x89644CA1__src__contracts__transparent-proxy__ERC1967Proxy.sol",
+    "0x89644CA1__src__contracts__transparent-proxy__ERC1967Upgrade.sol",
+    "0x89644CA1__src__contracts__transparent-proxy__Proxy.sol"
+   ]
+  },
+  {
+   "address": "0x118DFD5418890c0332042ab05173Db4A2C1d283c",
+   "name": "PayloadsController",
+   "verified": true,
+   "compiler": "0.8.19+commit.7dd6d404",
+   "proxy_type": null,
+   "implementations": [],
+   "files": [
+    "0x118DFD54__src__contracts__payloads__PayloadsController.sol",
+    "0x118DFD54__lib__aave-crosschain-infra__src__contracts__interfaces__IBaseReceiverPortal.sol",
+    "0x118DFD54__lib__solidity-utils__src__contracts__access-control__OwnableWithGuardian.sol",
+    "0x118DFD54__lib__solidity-utils__src__contracts__access-control__interfaces__IWithGuardian.sol",
+    "0x118DFD54__lib__solidity-utils__src__contracts__oz-common__Address.sol",
+    "0x118DFD54__lib__solidity-utils__src__contracts__oz-common__Context.sol",
+    "0x118DFD54__lib__solidity-utils__src__contracts__oz-common__Ownable.sol",
+    "0x118DFD54__lib__solidity-utils__src__contracts__oz-common__SafeCast.sol",
+    "0x118DFD54__lib__solidity-utils__src__contracts__oz-common__SafeERC20.sol",
+    "0x118DFD54__lib__solidity-utils__src__contracts__oz-common__interfaces__IERC20.sol",
+    "0x118DFD54__lib__solidity-utils__src__contracts__oz-common__interfaces__draft-IERC20Permit.sol",
+    "0x118DFD54__lib__solidity-utils__src__contracts__transparent-proxy__Initializable.sol",
+    "0x118DFD54__lib__solidity-utils__src__contracts__utils__Rescuable.sol",
+    "0x118DFD54__lib__solidity-utils__src__contracts__utils__interfaces__IRescuable.sol",
+    "0x118DFD54__src__contracts__libraries__Errors.sol",
+    "0x118DFD54__src__contracts__payloads__PayloadsControllerCore.sol",
+    "0x118DFD54__src__contracts__payloads__PayloadsControllerUtils.sol",
+    "0x118DFD54__src__contracts__payloads__interfaces__IExecutor.sol",
+    "0x118DFD54__src__contracts__payloads__interfaces__IPayloadsController.sol",
+    "0x118DFD54__src__contracts__payloads__interfaces__IPayloadsControllerCore.sol"
+   ]
+  }
+ ]
+}

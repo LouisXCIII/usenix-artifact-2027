@@ -1,0 +1,111 @@
+[
+ {
+  "mutation": "M00 unmodified (control)",
+  "kind": "control",
+  "mech": {
+   "match": 360
+  },
+  "mech_detected": false
+ },
+ {
+  "mutation": "M01 cap check `>` -> `>=` (rejects at exactly the cap)",
+  "kind": "over-conservative",
+  "mech": {
+   "match": 350,
+   "over_conservative": 10
+  },
+  "mech_detected": true
+ },
+ {
+  "mutation": "M02 cap check allows cap+1",
+  "kind": "unsafe",
+  "mech": {
+   "match": 350,
+   "unsafe_accept": 10
+  },
+  "mech_detected": true
+ },
+ {
+  "mutation": "M03 obligation only above the full cap (skips the upper half)",
+  "kind": "unsafe",
+  "mech": {
+   "match": 345,
+   "unsafe_accept": 15
+  },
+  "mech_detected": true
+ },
+ {
+  "mutation": "M04 obligation from exactly half (`>=`)",
+  "kind": "over-conservative",
+  "mech": {
+   "match": 355,
+   "over_conservative": 5
+  },
+  "mech_detected": true
+ },
+ {
+  "mutation": "M05 obligation threshold uses a third instead of a half",
+  "kind": "over-conservative",
+  "mech": {
+   "match": 350,
+   "over_conservative": 10
+  },
+  "mech_detected": true
+ },
+ {
+  "mutation": "M06 second-approval flag ignored",
+  "kind": "unsafe",
+  "mech": {
+   "match": 345,
+   "unsafe_accept": 15
+  },
+  "mech_detected": true
+ },
+ {
+  "mutation": "M07 semBound attestation not checked",
+  "kind": "unsafe",
+  "mech": {
+   "match": 290,
+   "unsafe_accept": 60,
+   "class_mismatch": 10
+  },
+  "mech_detected": true
+ },
+ {
+  "mutation": "M08 evAssuranceOK attestation not checked",
+  "kind": "unsafe",
+  "mech": {
+   "match": 290,
+   "unsafe_accept": 60,
+   "class_mismatch": 10
+  },
+  "mech_detected": true
+ },
+ {
+  "mutation": "M09 replay check removed",
+  "kind": "unsafe",
+  "mech": {
+   "match": 350,
+   "class_mismatch": 10
+  },
+  "mech_detected": true
+ },
+ {
+  "mutation": "M10 registry corrupted: gerente -> director",
+  "kind": "unsafe",
+  "mech": {
+   "match": 353,
+   "unsafe_accept": 7
+  },
+  "mech_detected": true
+ },
+ {
+  "mutation": "M11 policy data corrupted: clerk cap 100000",
+  "kind": "unsafe",
+  "mech": {
+   "match": 353,
+   "unsafe_accept": 7
+  },
+  "mech_detected": true
+ }
+]

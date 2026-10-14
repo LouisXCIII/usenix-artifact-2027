@@ -1,0 +1,47 @@
+{
+  "B0": {
+    "far_num": 19,
+    "far_den": 19,
+    "frr_num": 0,
+    "frr_den": 5,
+    "direct": 24,
+    "reeval": 0,
+    "n": 24
+  },
+  "B1": {
+    "far_num": 0,
+    "far_den": 19,
+    "frr_num": 0,
+    "frr_den": 5,
+    "direct": 5,
+    "reeval": 5,
+    "n": 24
+  },
+  "B2": {
+    "far_num": 7,
+    "far_den": 19,
+    "frr_num": 0,
+    "frr_den": 5,
+    "direct": 12,
+    "reeval": 6,
+    "n": 24
+  },
+  "B3": {
+    "far_num": 1,
+    "far_den": 19,
+    "frr_num": 0,
+    "frr_den": 5,
+    "direct": 6,
+    "reeval": 5,
+    "n": 24
+  },
+  "B4": {
+    "far_num": 0,
+    "far_den": 19,
+    "frr_num": 0,
+    "frr_den": 5,
+    "direct": 5,
+    "reeval": 5,
+    "n": 24
+  }
+}

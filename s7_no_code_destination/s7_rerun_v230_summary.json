@@ -1,0 +1,54 @@
+{
+ "chaincodeVersion": "authcc_2.30/seq42 (b1fair.go/poseidon_opt.go/s4_b1_entrypoints.go/b1_model_weights.json absent)",
+ "M1": {
+  "n": 22,
+  "committed_match_expected": 22,
+  "committed_match_original_run": 22
+ },
+ "negatives": {
+  "N1_proof_substitution": {
+   "n": 6,
+   "accepted": 0,
+   "errors": 0
+  },
+  "N2_tampered_proof": {
+   "n": 6,
+   "accepted": 0,
+   "errors": 0
+  },
+  "N3_forged_featureHash": {
+   "n": 6,
+   "accepted": 0,
+   "errors": 0
+  },
+  "N4_wrong_feature_proof": {
+   "n": 6,
+   "accepted": 0,
+   "errors": 0
+  },
+  "N5_amount_over_threshold": {
+   "n": 6,
+   "accepted": 0,
+   "errors": 0
+  },
+  "N6_replay": {
+   "n": 6,
+   "accepted": 0,
+   "errors": 0
+  }
+ },
+ "b0": {
+  "B0_N1_proof_substitution": {
+   "n": 6,
+   "accepted": 6
+  },
+  "B0_N5_amount_over_threshold": {
+   "n": 6,
+   "accepted": 6
+  }
+ },
+ "blocks": {
+  "n": 64,
+  "x_hits": 0
+ }
+}

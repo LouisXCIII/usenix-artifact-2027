@@ -1,0 +1,20 @@
+{
+ "negative_controls": [
+  {
+   "variant": "composed",
+   "hop0": "SAFE",
+   "skip_hop_refused": true,
+   "skip_error": "Error: endorsement failure during invoke. response: status:500 message:\"previous hop 1 of chain s6-neg-composed-1790587608 not found -- state-binding continuity broken\"",
+   "replay_refused": true,
+   "replay_error": "Error: endorsement failure during invoke. response: status:500 message:\"hop 0 of chain s6-neg-composed-1790587608 already recorded (replay rejected)\""
+  },
+  {
+   "variant": "local",
+   "hop0": "SAFE",
+   "skip_hop_refused": true,
+   "skip_error": "Error: endorsement failure during invoke. response: status:500 message:\"previous hop 1 of chain s6-neg-local-1790587608 not found -- state-binding continuity broken\"",
+   "replay_refused": true,
+   "replay_error": "Error: endorsement failure during invoke. response: status:500 message:\"hop 0 of chain s6-neg-local-1790587608 already recorded (replay rejected)\""
+  }
+ ]
+}

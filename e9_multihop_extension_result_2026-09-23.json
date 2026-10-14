@@ -1,0 +1,568 @@
+{
+  "hops": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    10
+  ],
+  "totalCases": 31,
+  "nPreservedRejectedComposed": 0,
+  "nUnsafeAcceptedComposed": 0,
+  "nUnsafeAcceptedPairwise": 25,
+  "results": [
+    {
+      "family": "preservation_control",
+      "h": 1,
+      "injectionHop": 0,
+      "localClasses": [
+        "SAFE"
+      ],
+      "endToEndClassComposed": "SAFE",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x08e4a3ee79f24b4e0bd16fe32ca3af425475cc968f81b97e30913e0cec0a6d04",
+      "unsafeAcceptedByPairwise": false
+    },
+    {
+      "family": "injected_loss",
+      "h": 1,
+      "injectionHop": 1,
+      "localClasses": [
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x81b136f0561e538225bee60a42e6cdfa6d212e36520152f2fabb9a54e17aebfd",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "preservation_control",
+      "h": 2,
+      "injectionHop": 0,
+      "localClasses": [
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "SAFE",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0xd61bcd948018dd8e9d850c7cf379e7068740de406ec012fdbfd0301e97e927e8",
+      "unsafeAcceptedByPairwise": false
+    },
+    {
+      "family": "injected_loss",
+      "h": 2,
+      "injectionHop": 1,
+      "localClasses": [
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0xe5c4ac5a46af307ac49d3800e10d5dbe379ed095ce0bdd4343dc8a0b3757eb9c",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 2,
+      "injectionHop": 2,
+      "localClasses": [
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0xc84efdcbde074c919f67c8502857f18dfaad025efb904b1103a9b2030e01e448",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "preservation_control",
+      "h": 3,
+      "injectionHop": 0,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "SAFE",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x2b05dba931b6b5b69d3f48f41e776104c3a5da9ed738a2994693b6fd3f241686",
+      "unsafeAcceptedByPairwise": false
+    },
+    {
+      "family": "injected_loss",
+      "h": 3,
+      "injectionHop": 1,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x4914a53828212eec9acc196e4b2975c5e1739cae561cbac137d019938d0c71e7",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 3,
+      "injectionHop": 2,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0xa4fd082d8c5313bc4fbb5cac47cc5e70e86aaea8775ec9a77781a8dee874f0f2",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 3,
+      "injectionHop": 3,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x00729f76c541fa3e9a2a09dcb3cd23c4fdfad8d8afab7a26a62b7d08dc36be3c",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "preservation_control",
+      "h": 4,
+      "injectionHop": 0,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "SAFE",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0xd2dc9dead5a682421fa7d518257f1159d15e1ccffa89d04d5508506b5829761c",
+      "unsafeAcceptedByPairwise": false
+    },
+    {
+      "family": "injected_loss",
+      "h": 4,
+      "injectionHop": 1,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x0137aad397353063d71aaf13148f23e79488ee0fcde2a23db4f7d3d55116a934",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 4,
+      "injectionHop": 2,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x62ff509fc2551f0aea8358b87e93989e090de58fcc92fe67120f43771f642edd",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 4,
+      "injectionHop": 3,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x5e3608fd541b95c2e076b122a39c9bb98059953caa558846faddc026800606dd",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 4,
+      "injectionHop": 4,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x6daae1c93cb267a426b955f02974208d8fbd0cb000e1daad76d060922dc6e7be",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "preservation_control",
+      "h": 5,
+      "injectionHop": 0,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "SAFE",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0xe200ce5d79f955f179ec0c80d323e38a4c48147cde609d9a95ad94b3db829bfe",
+      "unsafeAcceptedByPairwise": false
+    },
+    {
+      "family": "injected_loss",
+      "h": 5,
+      "injectionHop": 1,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x370823a69c41fe29db927cd89d7cad0430191dbf9689fd2bc8111be260350130",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 5,
+      "injectionHop": 2,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0xc32e23b8f5d8b6e301ee89f1212f45d52d5eab9579ef72378fbba332e4125afd",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 5,
+      "injectionHop": 3,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x4ca5ec4be51d97d6e5cf2510c7a461f91920e33100c48c300a5b1ffd3763eeb2",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 5,
+      "injectionHop": 4,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0xd1cb5ff6e0318546e2208ac195af344e8f4121a206a2ac5b582037243828153c",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 5,
+      "injectionHop": 5,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x55ca34570af6eb75b92535ee8ecd47938ef66fb22e63c7ee59ff3462d67f28ae",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "preservation_control",
+      "h": 10,
+      "injectionHop": 0,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "SAFE",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x4d299f8dfb815682e7b6268cbdc400f9a97ddcc9be5a90386fde8a29f0c6e361",
+      "unsafeAcceptedByPairwise": false
+    },
+    {
+      "family": "injected_loss",
+      "h": 10,
+      "injectionHop": 1,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x13d3bc06d4a6d7cd4681a26b0f38763eda1a41100d057fba6ce527fa23d56539",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 10,
+      "injectionHop": 2,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0xe60afa9f3be49c445f15598dbcfa4b979ca5dc999795047f3f20b5c0f36ceb51",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 10,
+      "injectionHop": 3,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x242c913741a1479f6ad0044a505db27b10d0e0da9d7a339a0fa2fccabf0d772f",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 10,
+      "injectionHop": 4,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x027398fd82dfb20068437089dea90ec501a5f6b67a4a5253bf939241df51accd",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 10,
+      "injectionHop": 5,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x8aa8834807e5dd2f5a8d27b2c586db32a56d55dffc466e133199166534c013b8",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 10,
+      "injectionHop": 6,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x865958653d1834560506ce6aa101cf9d281a90ab66b4ad5c8927a6909dc12a66",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 10,
+      "injectionHop": 7,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0xd783d8c7abbbbb13a800478c5d8110e61cb2d6288acdc3cee815a9c72b199926",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 10,
+      "injectionHop": 8,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0xfe6052ae025bd43c0f483cb08f44ada0022ec6116ff5b19af4b0d9a3fe0526ce",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 10,
+      "injectionHop": 9,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0x7198b0393ce26307f80b49cc45f55eeda5d62781d1461a80bc81b244d649918c",
+      "unsafeAcceptedByPairwise": true
+    },
+    {
+      "family": "injected_loss",
+      "h": 10,
+      "injectionHop": 10,
+      "localClasses": [
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE",
+        "SAFE"
+      ],
+      "endToEndClassComposed": "REJECT",
+      "endToEndClassPairwise": "SAFE",
+      "firstFailedHopPairwise": null,
+      "finalCommit": "0xfdd3f0b6ef928f4dc05e5b1baf8b88e57438d8b26a20ea9e9ad861e692e5cabc",
+      "unsafeAcceptedByPairwise": true
+    }
+  ]
+}

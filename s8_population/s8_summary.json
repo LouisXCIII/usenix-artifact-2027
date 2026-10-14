@@ -1,0 +1,104 @@
+{
+ "L1": {
+  "n": 173,
+  "invoked_ok": 173,
+  "committed_match": 173,
+  "safe": 113,
+  "reject": 60,
+  "mismatches": [],
+  "median_wall_ms": 2096.9262970029376
+ },
+ "L2": {
+  "N1_proof_substitution": {
+   "n": 113,
+   "accepted": 0,
+   "errors": 0,
+   "reject_or_reeval": 113,
+   "cp95_upper": 0.026162575993197268
+  },
+  "N2_tampered_proof": {
+   "n": 113,
+   "accepted": 0,
+   "errors": 0,
+   "reject_or_reeval": 113,
+   "cp95_upper": 0.026162575993197268
+  },
+  "N3_forged_featureHash": {
+   "n": 113,
+   "accepted": 3,
+   "errors": 0,
+   "reject_or_reeval": 110,
+   "cp95_upper": null
+  },
+  "N4_wrong_feature_proof": {
+   "n": 113,
+   "accepted": 0,
+   "errors": 0,
+   "reject_or_reeval": 113,
+   "cp95_upper": 0.026162575993197268
+  },
+  "N5_amount_over_threshold": {
+   "n": 113,
+   "accepted": 0,
+   "errors": 0,
+   "reject_or_reeval": 113,
+   "cp95_upper": 0.026162575993197268
+  },
+  "N6_replay": {
+   "n": 113,
+   "accepted": 0,
+   "errors": 113,
+   "reject_or_reeval": 0,
+   "cp95_upper": 0.026162575993197268
+  }
+ },
+ "L3_B0": {
+  "B0_N1_proof_substitution": {
+   "n": 113,
+   "accepted": 113,
+   "errors": 0
+  },
+  "B0_N5_amount_over_threshold": {
+   "n": 113,
+   "accepted": 113,
+   "errors": 0
+  }
+ },
+ "controls": [
+  {
+   "name": "03_dos_safe.sol",
+   "ok": true,
+   "class": "SAFE"
+  },
+  {
+   "name": "c377",
+   "ok": true,
+   "class": "SAFE"
+  },
+  {
+   "name": "c617",
+   "ok": true,
+   "class": "SAFE"
+  }
+ ],
+ "L4": {
+  "blocks": 244,
+  "control_blocks": [
+   3510
+  ],
+  "controls_expected": [
+   "03_dos_safe.sol",
+   "c377",
+   "c617"
+  ],
+  "control_x_found_for": [
+   "03_dos_safe.sol",
+   "c377",
+   "c616",
+   "c617"
+  ],
+  "treatment_blocks": 243,
+  "treatment_x_hits": 0,
+  "treatment_W_hits": 0
+ }
+}

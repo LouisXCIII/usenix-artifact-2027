@@ -1,0 +1,119 @@
+{
+ "donor": "test_contracts/04_call_to_unknown_safe.sol",
+ "donor_margin": 5.532,
+ "forged_featureHash": "9848828568939613589249784427450526953350173817207750534539447091794969474997",
+ "modelWeightsHash": "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+ "minMargin_quantized": 54445307,
+ "variants": [
+  {
+   "i": 0,
+   "file": "VulnerableBank.sol",
+   "codeHash": "0x05e0a3d6930ef091830f9076debaca169de0f7996d38fa451b5045068de5427f",
+   "real_class_idx": 8,
+   "real_margin": 2.611,
+   "featureHash_honest": "14670222105227217869282785938662313221601743112466906459010411433184016834192",
+   "honest_proof_valid": false,
+   "forged_proof_valid": true
+  },
+  {
+   "i": 2,
+   "file": "02_integer_overflow_vuln.sol",
+   "codeHash": "0x0f475b984a4d592fa3c0e6398d9f4d85436177aec1f49d81456fc8be9193e78e",
+   "real_class_idx": 8,
+   "real_margin": 1.383,
+   "featureHash_honest": "15453544520016572046053069417716949727911831708624394348094584917291047043582",
+   "honest_proof_valid": false,
+   "forged_proof_valid": true
+  },
+  {
+   "i": 4,
+   "file": "03_dos_vuln.sol",
+   "codeHash": "0x01718f7b4b2a11736db1d58cc287da9b713a757e5aa16884965ba0baa3cfa1bf",
+   "real_class_idx": 0,
+   "real_margin": 5.509,
+   "featureHash_honest": "11989368135075316440060848895770637087816085371224075809557542338406478748634",
+   "honest_proof_valid": true,
+   "forged_proof_valid": true
+  },
+  {
+   "i": 6,
+   "file": "04_call_to_unknown_vuln.sol",
+   "codeHash": "0x033c555f450acbb1dada3d77a7f422ede5fcf524bc3350f5d3153c790733dc87",
+   "real_class_idx": 8,
+   "real_margin": 2.982,
+   "featureHash_honest": "13360485834007732376325399626861155905649509639683808760227090749222966737308",
+   "honest_proof_valid": false,
+   "forged_proof_valid": true
+  },
+  {
+   "i": 8,
+   "file": "05_weak_access_control_vuln.sol",
+   "codeHash": "0x1145736e247579059b97e5580d3c00f204e5a9fe6784bc2b44828f5d375f2f22",
+   "real_class_idx": 8,
+   "real_margin": 7.126,
+   "featureHash_honest": "8411927292519338796877515393948189264448742922517873239408684611167664806081",
+   "honest_proof_valid": false,
+   "forged_proof_valid": true
+  },
+  {
+   "i": 10,
+   "file": "06_unused_return_vuln.sol",
+   "codeHash": "0x1c737b9a21b26aae85330be735cb873c46d36386bc51414a41de210d92173a5f",
+   "real_class_idx": 8,
+   "real_margin": 3.032,
+   "featureHash_honest": "1294072495393485650549126567650595208922139860535178757458774429328075087726",
+   "honest_proof_valid": false,
+   "forged_proof_valid": true
+  },
+  {
+   "i": 12,
+   "file": "07_tod_vuln.sol",
+   "codeHash": "0x151373f2ff8ab65e9939832fee92ecc5b0f275f8d676752036c092bf8b6a1ba2",
+   "real_class_idx": 8,
+   "real_margin": 0.667,
+   "featureHash_honest": "4393127703274954398260727944068651595501111216788302769756233873607397786906",
+   "honest_proof_valid": false,
+   "forged_proof_valid": true
+  },
+  {
+   "i": 14,
+   "file": "08_timestamp_vuln.sol",
+   "codeHash": "0x01058eeb816a2a8e4bbc5c16d3f0644beae943f2a6f94c9b76a45cd52f2c9f1b",
+   "real_class_idx": 0,
+   "real_margin": 4.568,
+   "featureHash_honest": "164923579778468831860852182848588797539607833798170893494965821772558757698",
+   "honest_proof_valid": true,
+   "forged_proof_valid": true
+  },
+  {
+   "i": 16,
+   "file": "09_mishandled_exception_vuln.sol",
+   "codeHash": "0x0f7f9a3efc715e9cb01e0e6fe0dec43a74fc211ce08cadeb332cc21ccbca10bf",
+   "real_class_idx": 0,
+   "real_margin": 3.22,
+   "featureHash_honest": "6824636160529566748765233148817190090777754097959708552376215959836937353991",
+   "honest_proof_valid": false,
+   "forged_proof_valid": true
+  },
+  {
+   "i": 18,
+   "file": "10_gas_exception_vuln.sol",
+   "codeHash": "0x1fabda5a58e14491d46028537e9e7dcf2b47570b030741fbbb26c0de4e117e5d",
+   "real_class_idx": 0,
+   "real_margin": 0.103,
+   "featureHash_honest": "861307794118853164069147698631513690386449358082501712929432858928695471306",
+   "honest_proof_valid": false,
+   "forged_proof_valid": true
+  },
+  {
+   "i": 20,
+   "file": "11_external_bug_vuln.sol",
+   "codeHash": "0x11bbfd4d00c716ff55bfbb9294d3705d94eaa19e34757fa6af7570c6218edad1",
+   "real_class_idx": 8,
+   "real_margin": 3.143,
+   "featureHash_honest": "5565027170816652751371568450308207635006645056472533625824408488769452164374",
+   "honest_proof_valid": false,
+   "forged_proof_valid": true
+  }
+ ]
+}

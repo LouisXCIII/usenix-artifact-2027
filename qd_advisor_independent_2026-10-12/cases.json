@@ -1,0 +1,113 @@
+{
+  "note": "6 ca thử nghiệm cho việc xác nhận độc lập. Không chứa đáp án. Áp dụng đặc tả trong dac_ta_quy_tac_nghia_vu.md cho từng ca, tự kết luận 'covered' true/false.",
+  "cases": [
+    {
+      "caseId": "qd-adv-01",
+      "decisionId": "qd-adv-case-01",
+      "sourceDomain": "BankA",
+      "role": "manager",
+      "amount": 300000,
+      "obligationProfile": "audit",
+      "mappedMechanism": "audit",
+      "obligationDischargeRef": "discharge-rec-01",
+      "referencedDischargeRecord": {
+        "obligationDischarged": true,
+        "sourceDomain": "BankA",
+        "role": "manager",
+        "amount": 300000,
+        "alreadyCitedByAnotherDecision": false
+      },
+      "enforcementWitnessVerified": true
+    },
+    {
+      "caseId": "qd-adv-02",
+      "decisionId": "qd-adv-case-02",
+      "sourceDomain": "BankA",
+      "role": "manager",
+      "amount": 300000,
+      "obligationProfile": "dual_approval",
+      "mappedMechanism": "",
+      "obligationDischargeRef": "discharge-rec-02",
+      "referencedDischargeRecord": {
+        "obligationDischarged": true,
+        "sourceDomain": "BankA",
+        "role": "manager",
+        "amount": 300000,
+        "alreadyCitedByAnotherDecision": false
+      },
+      "enforcementWitnessVerified": true
+    },
+    {
+      "caseId": "qd-adv-03",
+      "decisionId": "qd-adv-case-03",
+      "sourceDomain": "BankA",
+      "role": "manager",
+      "amount": 300000,
+      "obligationProfile": "combined",
+      "mappedMechanism": "notification",
+      "obligationDischargeRef": "discharge-rec-03",
+      "referencedDischargeRecord": {
+        "obligationDischarged": true,
+        "sourceDomain": "BankA",
+        "role": "manager",
+        "amount": 300000,
+        "alreadyCitedByAnotherDecision": false
+      },
+      "enforcementWitnessVerified": true
+    },
+    {
+      "caseId": "qd-adv-04",
+      "decisionId": "qd-adv-case-04",
+      "sourceDomain": "BankA",
+      "role": "manager",
+      "amount": 300000,
+      "obligationProfile": "audit",
+      "mappedMechanism": "audit",
+      "obligationDischargeRef": "discharge-rec-04",
+      "referencedDischargeRecord": {
+        "obligationDischarged": true,
+        "sourceDomain": "BankA",
+        "role": "manager",
+        "amount": 300000,
+        "alreadyCitedByAnotherDecision": false
+      },
+      "enforcementWitnessVerified": false
+    },
+    {
+      "caseId": "qd-adv-05",
+      "decisionId": "qd-adv-case-05",
+      "sourceDomain": "BankA",
+      "role": "manager",
+      "amount": 300000,
+      "obligationProfile": "audit",
+      "mappedMechanism": "audit",
+      "obligationDischargeRef": "discharge-rec-05",
+      "referencedDischargeRecord": {
+        "obligationDischarged": true,
+        "sourceDomain": "BankA",
+        "role": "manager",
+        "amount": 700000,
+        "alreadyCitedByAnotherDecision": false
+      },
+      "enforcementWitnessVerified": true
+    },
+    {
+      "caseId": "qd-adv-06",
+      "decisionId": "qd-adv-case-06",
+      "sourceDomain": "BankA",
+      "role": "manager",
+      "amount": 300000,
+      "obligationProfile": "audit",
+      "mappedMechanism": "audit",
+      "obligationDischargeRef": "discharge-rec-06",
+      "referencedDischargeRecord": {
+        "obligationDischarged": true,
+        "sourceDomain": "BankA",
+        "role": "manager",
+        "amount": 300000,
+        "alreadyCitedByAnotherDecision": true
+      },
+      "enforcementWitnessVerified": true
+    }
+  ]
+}

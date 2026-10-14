@@ -1,0 +1,15 @@
+{
+ "n": 22,
+ "bytes_vs_src_bytes": {
+  "rho": 0.4484609046382516,
+  "p": 0.03631858827674959
+ },
+ "bytes_vs_registration_order": {
+  "rho": -0.26941543011643077,
+  "p": 0.22532718415601832
+ },
+ "registration_order_vs_src_bytes_confound": {
+  "rho": 0.0536420101637493,
+  "p": 0.8125892965812409
+ }
+}

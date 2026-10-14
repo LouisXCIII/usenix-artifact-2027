@@ -1,0 +1,257 @@
+{
+ "seed": 20260929,
+ "mlRegistry": "0x4BDF7d0CC77F907FeDfc1Ab6B39fa9f4336869c7",
+ "featureRegistry": "0x7Cb4419EebEE62Cd823DD119407C424e835537AE",
+ "sample": [
+  {
+   "idx": 8,
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/access_control/parity_wallet_bug_1.sol",
+   "codeHash": "4716553283778478643432828767160847672116482536651763535640142033259210460873"
+  },
+  {
+   "idx": 38,
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/bad_randomness/old_blockhash.sol",
+   "codeHash": "12969968477288467861379653203769856192341462204693210404461786646640011784423"
+  },
+  {
+   "idx": 46,
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/denial_of_service/send_loop.sol",
+   "codeHash": "9496455149242939727367496907914153231678663310404129119438142913022277738482"
+  },
+  {
+   "idx": 83,
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/reentrancy/simple_dao.sol",
+   "codeHash": "452163349690247520246796220430042644450627434809861428540855323201387760357"
+  },
+  {
+   "idx": 85,
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/short_addresses/short_address_example.sol",
+   "codeHash": "7776431941908382117491649172502621619309083974653635440387651666012436365869"
+  },
+  {
+   "idx": 86,
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/time_manipulation/ether_lotto.sol",
+   "codeHash": "6568214817809362355703619440692906960398032214440903624565023394740489776818"
+  },
+  {
+   "idx": 94,
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol",
+   "codeHash": "11652661494604459149097051255444539053541753909261252719824173960637735291584"
+  },
+  {
+   "idx": 95,
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+   "codeHash": "10875049555204493886850591896806423650482067967837765004606395137857830205846"
+  },
+  {
+   "idx": 125,
+   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+   "codeHash": "12019078619581762377502486357425587962825655319155678279686266989729092936577"
+  },
+  {
+   "idx": 154,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_arb/0x118DFD54__lib__solidity-utils__src__contracts__utils__interfaces__IRescuable.sol",
+   "codeHash": "3932583424848681241363929783509900392931389447690183047328553765955468597928"
+  },
+  {
+   "idx": 163,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_arb/0x89644CA1__src__contracts__transparent-proxy__ERC1967Proxy.sol",
+   "codeHash": "13624475036933969071016192683940314982588399743732732558145048680488353880761"
+  },
+  {
+   "idx": 187,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__deploy__Create2.sol",
+   "codeHash": "1954660867029701881735906873291135776145163152480352652366712833582327493663"
+  },
+  {
+   "idx": 202,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__governance__AxelarServiceGovernance.sol",
+   "codeHash": "5861745228486801130969942279203909099443954048926077610423878679125521788245"
+  },
+  {
+   "idx": 204,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__governance__BaseWeightedMultisig.sol",
+   "codeHash": "8969800257604997207923703980552462227816906142901798680013567845520152212432"
+  },
+  {
+   "idx": 239,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IMulticall.sol",
+   "codeHash": "12059245820260211946935337223033655215471384249352774481805602593524217271726"
+  },
+  {
+   "idx": 245,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IRoles.sol",
+   "codeHash": "7663010577839624166758163231470063720607414864480691926636897039845747718708"
+  },
+  {
+   "idx": 251,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__libs__Bytes32String.sol",
+   "codeHash": "4295244588709441770640658271729047687271155261891959350186410524051077033740"
+  },
+  {
+   "idx": 281,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__libs__LibsTest.sol",
+   "codeHash": "10950871781477537898452255950495242717066007336541423425939691703063363220067"
+  },
+  {
+   "idx": 292,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__InvalidProxyImplementation.sol",
+   "codeHash": "10343697414703352919651504329382126229224687605033606375310279669240288678341"
+  },
+  {
+   "idx": 293,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__InvalidSetupProxyImplementation.sol",
+   "codeHash": "3625815180722727645566530852231122248431701073402019601118499550828902149328"
+  },
+  {
+   "idx": 300,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__TestProxy.sol",
+   "codeHash": "12866716586790361657810049652680115538069135403346296260762845602078654692719"
+  },
+  {
+   "idx": 308,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__utils__TestRoles.sol",
+   "codeHash": "12998482838569172593995447868450039636127485579342948188965536724022895262859"
+  },
+  {
+   "idx": 312,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__types__WeightedMultisigTypes.sol",
+   "codeHash": "5975785590426304765885848392400762853735673887918308826971154527588431958530"
+  },
+  {
+   "idx": 314,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__upgradable__FinalProxy.sol",
+   "codeHash": "13054796421733287326981905089099582266838000747261659783532348125849313843892"
+  },
+  {
+   "idx": 317,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__upgradable__InitProxy.sol",
+   "codeHash": "7262440816509539122395329824723846870946369782466902889939122682599090915405"
+  },
+  {
+   "idx": 331,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/comp_arb/0x42480C37__contracts__bridges__BaseBridgeReceiver.sol",
+   "codeHash": "3970285025713454355971729639045527802217445757660129549147800246722776188623"
+  },
+  {
+   "idx": 333,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/comp_arb/0x42480C37__contracts__bridges__arbitrum__AddressAliasHelper.sol",
+   "codeHash": "10149728279867008025057199604101462353836445180326483979834309494506505591441"
+  },
+  {
+   "idx": 338,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/comp_poly/0x18281dfC__contracts__bridges__polygon__PolygonBridgeReceiver.sol",
+   "codeHash": "3998494821586006620130098331744810676677042195149366866888124702782764906796"
+  },
+  {
+   "idx": 343,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__@openzeppelin__contracts-upgradeable__access__OwnableUpgradeable.sol",
+   "codeHash": "14359456483939408453364798703087864046209283213858961331787492001559711033832"
+  },
+  {
+   "idx": 344,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__@openzeppelin__contracts-upgradeable__proxy__utils__Initializable.sol",
+   "codeHash": "1252513464290484312410033732781605108438956572382907907565214854595709416011"
+  },
+  {
+   "idx": 346,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__@openzeppelin__contracts-upgradeable__utils__ContextUpgradeable.sol",
+   "codeHash": "14337974879603016062947390424000426267909887760505374172776184457344997892820"
+  },
+  {
+   "idx": 353,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__contracts__Mailbox.sol",
+   "codeHash": "4820629662912757492603321374028812754999557339957676169162518577263980801379"
+  },
+  {
+   "idx": 370,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__contracts__libs__MinimalProxy.sol",
+   "codeHash": "1553791931699712151061502925212217399446043994430516466908403845306321140268"
+  },
+  {
+   "idx": 393,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/op_l2cdm/0x250AF3f4__src__libraries__Hashing.sol",
+   "codeHash": "9764354433727417681460834736375320122735485999363431863705102636630287533336"
+  },
+  {
+   "idx": 400,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/op_l2cdm/0x250AF3f4__src__universal__ProxyAdminOwnedBase.sol",
+   "codeHash": "12071844746375559279635035020903854555677031291013718996853596513441352656920"
+  },
+  {
+   "idx": 405,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_sources/aave-deliv/src__contracts__CrossChainReceiver.sol",
+   "codeHash": "12467503862757320858449646049426098907458000285806132877829795784569430411418"
+  },
+  {
+   "idx": 427,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_sources/nitro/src__bridge__Inbox.sol",
+   "codeHash": "494888426416767693663508106093483369599585015021990041186251277602806439849"
+  },
+  {
+   "idx": 461,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/GridRegistry29.sol",
+   "codeHash": "11167358105664892815159943267497149785530529737073425394520872887910368527069"
+  },
+  {
+   "idx": 472,
+   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/NodeRegistry19.sol",
+   "codeHash": "1815547948535491561593558353743470429943930839505087035972342520877031020748"
+  },
+  {
+   "idx": 510,
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/002.sol",
+   "codeHash": "6214905184476110757465859437522510907870037814279975004935349944045580016370"
+  },
+  {
+   "idx": 512,
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x0208a56ea43c3ff6c2611071948794c2674a16b9_2.sol",
+   "codeHash": "37769332193173334946881430449348873470734843674650732532885289908431205563"
+  },
+  {
+   "idx": 516,
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x0d0edbcf2c0da25ac9a79c9466989e46a8f96221_1.sol",
+   "codeHash": "2023463124262102542667540613807995359417524420841009138233173125205420939753"
+  },
+  {
+   "idx": 532,
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x310b15ad0a8b282ee8011d91c79feba80cb179c8.sol",
+   "codeHash": "3556068748689457856211196095464068189819791595106331313552939997355874301424"
+  },
+  {
+   "idx": 535,
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x3933e1bd030c3c14407f8eecce81493e066ab5e1_1.sol",
+   "codeHash": "11948153524857877698855545061867510939996880733899451041867611688482643807820"
+  },
+  {
+   "idx": 556,
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x612f1bdbe93523b7f5036efa87493b76341726e3.sol",
+   "codeHash": "12082729160018098774729060960890489427658583503816803351761853874403290360723"
+  },
+  {
+   "idx": 573,
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xEe045942b043B92cca0c454a553649EaA80873ea.sol",
+   "codeHash": "11381135905118699770604595344190345565382709417809077025327936890466343743159"
+  },
+  {
+   "idx": 579,
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xb5630e5dfd604b3b88965f2a5103bbf5e31a7340.sol",
+   "codeHash": "8496998106815323224793918728247074628754042900555432992555626073164940848172"
+  },
+  {
+   "idx": 580,
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xb5c0e43a6330b9eb904ec57ea24d70269ae4652e.sol",
+   "codeHash": "14122461702647531154494515234833873106829681422351705970706807168788510336976"
+  },
+  {
+   "idx": 583,
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xcd8f866ae90cef4c046101a1bc032cebecfaaa42_1.sol",
+   "codeHash": "10656646548897520396534315021587875890914731739140712375516022080307725703743"
+  },
+  {
+   "idx": 589,
+   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xdcd03c274982b15341b570f39e0f72e730d11f32_1.sol",
+   "codeHash": "14197150544072731546760604776042472882703437550878927416825760056386666683841"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "label": "comp_op",
+ "explorer": "https://explorer.optimism.io",
+ "queried": [
+  {
+   "address": "0xC3a73A70d1577CD5B02da0bA91C0Afc8fA434DAF",
+   "name": "OptimismBridgeReceiver",
+   "verified": true,
+   "compiler": "v0.8.15+commit.e14f2714",
+   "proxy_type": null,
+   "implementations": [],
+   "files": [
+    "0xC3a73A70__contracts__bridges__optimism__OptimismBridgeReceiver.sol",
+    "0xC3a73A70__contracts__ITimelock.sol",
+    "0xC3a73A70__contracts__bridges__BaseBridgeReceiver.sol",
+    "0xC3a73A70__contracts__bridges__SweepableBridgeReceiver.sol",
+    "0xC3a73A70__contracts__bridges__optimism__IOvmL2CrossDomainMessengerInterface.sol",
+    "0xC3a73A70__contracts__IERC20NonStandard.sol"
+   ]
+  }
+ ]
+}

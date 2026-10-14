@@ -1,0 +1,586 @@
+[
+  {
+    "group": "A6-real",
+    "name": "classical_ClassicalDecisionAuth",
+    "function": "SubmitDecisionWithAssurance",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "classical",
+      "ClassicalDecisionAuth"
+    ],
+    "decisionId": "e8sweep-A6-real-classical_ClassicalDecisionAuth-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A6-real",
+    "name": "classical_PQDecisionAuth",
+    "function": "SubmitDecisionWithAssurance",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "classical",
+      "PQDecisionAuth"
+    ],
+    "decisionId": "e8sweep-A6-real-classical_PQDecisionAuth-1790214536",
+    "expected": "REJECT",
+    "result": "REJECT",
+    "correct": true
+  },
+  {
+    "group": "A6-real",
+    "name": "hybrid_ClassicalDecisionAuth",
+    "function": "SubmitDecisionWithAssurance",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "hybrid",
+      "ClassicalDecisionAuth"
+    ],
+    "decisionId": "e8sweep-A6-real-hybrid_ClassicalDecisionAuth-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A6-real",
+    "name": "hybrid_PQDecisionAuth",
+    "function": "SubmitDecisionWithAssurance",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "hybrid",
+      "PQDecisionAuth"
+    ],
+    "decisionId": "e8sweep-A6-real-hybrid_PQDecisionAuth-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A6-real",
+    "name": "pq_ClassicalDecisionAuth",
+    "function": "SubmitDecisionWithAssurance",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "pq",
+      "ClassicalDecisionAuth"
+    ],
+    "decisionId": "e8sweep-A6-real-pq_ClassicalDecisionAuth-1790214536",
+    "expected": "REJECT",
+    "result": "REJECT",
+    "correct": true
+  },
+  {
+    "group": "A6-real",
+    "name": "pq_PQDecisionAuth",
+    "function": "SubmitDecisionWithAssurance",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "pq",
+      "PQDecisionAuth"
+    ],
+    "decisionId": "e8sweep-A6-real-pq_PQDecisionAuth-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A6-ablated",
+    "name": "classical_PQDecisionAuth",
+    "function": "SubmitDecisionWithAssuranceNoCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "classical",
+      "PQDecisionAuth"
+    ],
+    "decisionId": "e8sweep-A6-ablated-classical_PQDecisionAuth-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A6-ablated",
+    "name": "pq_ClassicalDecisionAuth",
+    "function": "SubmitDecisionWithAssuranceNoCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "pq",
+      "ClassicalDecisionAuth"
+    ],
+    "decisionId": "e8sweep-A6-ablated-pq_ClassicalDecisionAuth-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2act-real",
+    "name": "level0",
+    "function": "SubmitDecisionWithAction",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "0"
+    ],
+    "decisionId": "e8sweep-A2act-real-level0-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2act-real",
+    "name": "level1",
+    "function": "SubmitDecisionWithAction",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "1"
+    ],
+    "decisionId": "e8sweep-A2act-real-level1-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2act-real",
+    "name": "level2",
+    "function": "SubmitDecisionWithAction",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "2"
+    ],
+    "decisionId": "e8sweep-A2act-real-level2-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2act-real",
+    "name": "level3",
+    "function": "SubmitDecisionWithAction",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "3"
+    ],
+    "decisionId": "e8sweep-A2act-real-level3-1790214536",
+    "expected": "REJECT",
+    "result": "REJECT",
+    "correct": true
+  },
+  {
+    "group": "A2act-real",
+    "name": "level4",
+    "function": "SubmitDecisionWithAction",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "4"
+    ],
+    "decisionId": "e8sweep-A2act-real-level4-1790214536",
+    "expected": "REJECT",
+    "result": "REJECT",
+    "correct": true
+  },
+  {
+    "group": "A2act-ablated",
+    "name": "level0",
+    "function": "SubmitDecisionWithActionNoSemCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "0"
+    ],
+    "decisionId": "e8sweep-A2act-ablated-level0-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2act-ablated",
+    "name": "level1",
+    "function": "SubmitDecisionWithActionNoSemCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "1"
+    ],
+    "decisionId": "e8sweep-A2act-ablated-level1-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2act-ablated",
+    "name": "level2",
+    "function": "SubmitDecisionWithActionNoSemCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "2"
+    ],
+    "decisionId": "e8sweep-A2act-ablated-level2-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2act-ablated",
+    "name": "level3",
+    "function": "SubmitDecisionWithActionNoSemCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "3"
+    ],
+    "decisionId": "e8sweep-A2act-ablated-level3-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2act-ablated",
+    "name": "level4",
+    "function": "SubmitDecisionWithActionNoSemCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "4"
+    ],
+    "decisionId": "e8sweep-A2act-ablated-level4-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2res-real",
+    "name": "id0",
+    "function": "SubmitDecisionWithResource",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "0"
+    ],
+    "decisionId": "e8sweep-A2res-real-id0-1790214536",
+    "expected": "REJECT",
+    "result": "REJECT",
+    "correct": true
+  },
+  {
+    "group": "A2res-real",
+    "name": "id1",
+    "function": "SubmitDecisionWithResource",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "1"
+    ],
+    "decisionId": "e8sweep-A2res-real-id1-1790214536",
+    "expected": "REJECT",
+    "result": "REJECT",
+    "correct": true
+  },
+  {
+    "group": "A2res-real",
+    "name": "id2",
+    "function": "SubmitDecisionWithResource",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "2"
+    ],
+    "decisionId": "e8sweep-A2res-real-id2-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2res-real",
+    "name": "id3",
+    "function": "SubmitDecisionWithResource",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "3"
+    ],
+    "decisionId": "e8sweep-A2res-real-id3-1790214536",
+    "expected": "REJECT",
+    "result": "REJECT",
+    "correct": true
+  },
+  {
+    "group": "A2res-real",
+    "name": "id99",
+    "function": "SubmitDecisionWithResource",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "99"
+    ],
+    "decisionId": "e8sweep-A2res-real-id99-1790214536",
+    "expected": "REJECT",
+    "result": "REJECT",
+    "correct": true
+  },
+  {
+    "group": "A2res-ablated",
+    "name": "id0",
+    "function": "SubmitDecisionWithResourceNoSemCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "0"
+    ],
+    "decisionId": "e8sweep-A2res-ablated-id0-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2res-ablated",
+    "name": "id1",
+    "function": "SubmitDecisionWithResourceNoSemCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "1"
+    ],
+    "decisionId": "e8sweep-A2res-ablated-id1-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2res-ablated",
+    "name": "id2",
+    "function": "SubmitDecisionWithResourceNoSemCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "2"
+    ],
+    "decisionId": "e8sweep-A2res-ablated-id2-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2res-ablated",
+    "name": "id3",
+    "function": "SubmitDecisionWithResourceNoSemCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "3"
+    ],
+    "decisionId": "e8sweep-A2res-ablated-id3-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2res-ablated",
+    "name": "id99",
+    "function": "SubmitDecisionWithResourceNoSemCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "99"
+    ],
+    "decisionId": "e8sweep-A2res-ablated-id99-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2ctx-real",
+    "name": "ctx_true",
+    "function": "SubmitDecisionWithContext",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "true"
+    ],
+    "decisionId": "e8sweep-A2ctx-real-ctx_true-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2ctx-ablated",
+    "name": "ctx_true",
+    "function": "SubmitDecisionWithContextNoSemCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "true"
+    ],
+    "decisionId": "e8sweep-A2ctx-ablated-ctx_true-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  },
+  {
+    "group": "A2ctx-real",
+    "name": "ctx_false",
+    "function": "SubmitDecisionWithContext",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "false"
+    ],
+    "decisionId": "e8sweep-A2ctx-real-ctx_false-1790214536",
+    "expected": "REJECT",
+    "result": "REJECT",
+    "correct": true
+  },
+  {
+    "group": "A2ctx-ablated",
+    "name": "ctx_false",
+    "function": "SubmitDecisionWithContextNoSemCheck",
+    "args": [
+      "besu-mainnet",
+      "manager",
+      "200000",
+      "500000",
+      "true",
+      "true",
+      "false"
+    ],
+    "decisionId": "e8sweep-A2ctx-ablated-ctx_false-1790214536",
+    "expected": "EXACT",
+    "result": "EXACT",
+    "correct": true
+  }
+]

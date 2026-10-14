@@ -1,0 +1,13 @@
+{
+  "n": 2000,
+  "gt_encoding_mismatches": 0,
+  "gt_encoding_mismatch_sample": [],
+  "far": 0.0,
+  "far_num": 0,
+  "far_den": 1850,
+  "frr": 0.0,
+  "frr_num": 0,
+  "frr_den": 150,
+  "accuracy": 1.0,
+  "n_correct": 2000
+}

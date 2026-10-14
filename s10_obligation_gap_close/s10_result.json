@@ -1,0 +1,81 @@
+{
+  "stamp": "1791098285",
+  "chaincodeVersion": "authcc_2.31/seq43",
+  "fixture": "03_dos_safe.sol",
+  "heightBefore": 4029,
+  "A_agreement": {
+    "v7_alone": {
+      "kind": "A1_v7_genuine",
+      "decisionId": "s10-a1-v7-1791098285",
+      "ok": true,
+      "returned": "SAFE",
+      "committed": "SAFE",
+      "wallMs": 2054.827120000027,
+      "tail": ""
+    },
+    "v7_obligation": {
+      "kind": "A2_v7obl_genuine",
+      "decisionId": "s10-a2-v7obl-1791098285",
+      "ok": true,
+      "returned": "SAFE",
+      "committed": "SAFE",
+      "wallMs": 2047.840879999967,
+      "tail": ""
+    }
+  },
+  "B_divergence_obligation_stripped": {
+    "v7_alone": {
+      "kind": "B1_v7_alone_blind_to_obligation",
+      "decisionId": "s10-b1-v7-1791098285",
+      "ok": true,
+      "returned": "SAFE",
+      "committed": "SAFE",
+      "wallMs": 2047.4921429999995,
+      "tail": ""
+    },
+    "v7_obligation": {
+      "kind": "B2_v7obl_catches_stripped_obligation",
+      "decisionId": "s10-b2-v7obl-1791098285",
+      "ok": true,
+      "returned": "REJECT",
+      "committed": "REJECT",
+      "wallMs": 2047.4866600002315,
+      "tail": ""
+    },
+    "gap_demonstrated": true
+  },
+  "C_divergence_claim_trust": {
+    "obligationV2_fooled": {
+      "kind": "C1_obligationV2_trusts_fake_claim",
+      "decisionId": "s10-c1-oblv2-1791098285",
+      "ok": true,
+      "returned": "EXACT",
+      "committed": "EXACT",
+      "wallMs": 2046.0648319999564,
+      "tail": ""
+    },
+    "v7_obligation_not_fooled": {
+      "kind": "C2_v7obl_rejects_tampered_proof",
+      "decisionId": "s10-c2-v7obl-1791098285",
+      "ok": true,
+      "returned": "REJECT",
+      "committed": "REJECT",
+      "wallMs": 2052.50252299993,
+      "tail": ""
+    },
+    "gap_demonstrated": true
+  },
+  "D_replay": {
+    "attempt": {
+      "kind": "D1_replay_rejected",
+      "decisionId": "s10-a2-v7obl-1791098285",
+      "ok": false,
+      "returned": null,
+      "committed": null,
+      "wallMs": 39.29532200027097,
+      "tail": "Error: endorsement failure during invoke. response: status:500 message:\"decision s10-a2-v7obl-1791098285 already recorded (replay rejected)\""
+    },
+    "recordUnchanged": true
+  },
+  "heightAfter": 4035
+}

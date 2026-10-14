@@ -1,0 +1,19 @@
+{
+  "contractAddress": "0x3c2a98d5A4CFF1776bC812322678A31C4999420e",
+  "decisionQueried": "decision-001",
+  "decisionContent": "{\"decisionId\":\"decision-001\",\"sourceDomain\":\"besu-mainnet\",\"role\":\"manager\",\"amount\":700000,\"sourceLimit\":1000000,\"semBound\":true,\"evAssuranceOk\":true,\"transferClass\":\"REJECT\",\"destThreshold\":500000}",
+  "results": {
+    "positive_control_both_real_signatures": {
+      "txHash": "0x0173ddf5467951868d6d2b81f29bc5b1d3bf0881a84a89382a62649bb69fed39",
+      "endorsementPolicyMet": true
+    },
+    "negative_control_only_org1": {
+      "txHash": "0x2d44977b919a61410f9100f205d1def4f9c559ddc89283aa84a53ca1e9b7ba4c",
+      "endorsementPolicyMet": false
+    },
+    "negative_control_tampered_org2_sig": {
+      "txHash": "0xc61960bdce31daa96c2de7b37473b9cd453ee9b655745c1f173340b5ecebd26a",
+      "endorsementPolicyMet": false
+    }
+  }
+}

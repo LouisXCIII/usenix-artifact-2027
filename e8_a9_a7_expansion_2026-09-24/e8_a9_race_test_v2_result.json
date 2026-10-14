@@ -1,0 +1,86 @@
+{
+  "real_races": [
+    {
+      "did": "a9v2-real-race-1790231423-0",
+      "exists": false,
+      "caught_by_race": true
+    },
+    {
+      "did": "a9v2-real-race-1790231423-1",
+      "exists": false,
+      "caught_by_race": true
+    },
+    {
+      "did": "a9v2-real-race-1790231423-2",
+      "exists": false,
+      "caught_by_race": true
+    },
+    {
+      "did": "a9v2-real-race-1790231423-3",
+      "exists": false,
+      "caught_by_race": true
+    },
+    {
+      "did": "a9v2-real-race-1790231423-4",
+      "exists": false,
+      "caught_by_race": true
+    },
+    {
+      "did": "a9v2-real-race-1790231423-5",
+      "exists": false,
+      "caught_by_race": true
+    },
+    {
+      "did": "a9v2-real-race-1790231423-6",
+      "exists": true,
+      "caught_by_race": false
+    },
+    {
+      "did": "a9v2-real-race-1790231423-7",
+      "exists": false,
+      "caught_by_race": true
+    }
+  ],
+  "ablated_races": [
+    {
+      "did": "a9v2-ablated-race-1790231423-0",
+      "exists": true,
+      "unaffected_by_race": true
+    },
+    {
+      "did": "a9v2-ablated-race-1790231423-1",
+      "exists": true,
+      "unaffected_by_race": true
+    },
+    {
+      "did": "a9v2-ablated-race-1790231423-2",
+      "exists": true,
+      "unaffected_by_race": true
+    },
+    {
+      "did": "a9v2-ablated-race-1790231423-3",
+      "exists": true,
+      "unaffected_by_race": true
+    },
+    {
+      "did": "a9v2-ablated-race-1790231423-4",
+      "exists": true,
+      "unaffected_by_race": true
+    },
+    {
+      "did": "a9v2-ablated-race-1790231423-5",
+      "exists": true,
+      "unaffected_by_race": true
+    },
+    {
+      "did": "a9v2-ablated-race-1790231423-6",
+      "exists": true,
+      "unaffected_by_race": true
+    },
+    {
+      "did": "a9v2-ablated-race-1790231423-7",
+      "exists": true,
+      "unaffected_by_race": true
+    }
+  ]
+}

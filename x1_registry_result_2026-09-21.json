@@ -1,0 +1,25 @@
+{
+  "registry": "0x4BDF7d0CC77F907FeDfc1Ab6B39fa9f4336869c7",
+  "codeHash": "0x0c6ae694ca15a24ba8f65a83e8d3ec53184686d916acc7c7718627b6f5548fb7",
+  "attackerAddress": "0x234f036B2d38f4cf87FF677D46360Ca0276a27C7",
+  "attackerIsAdmin": false,
+  "txs": {
+    "recordByNonAdmin": {
+      "hash": "0x04067913f6562d1e32ec474f1974a17eaa62d23b151c01a6596bc960fbc37f18",
+      "block": 393499,
+      "status": 1
+    },
+    "approveA": {
+      "hash": "0x1a5fdb2341f66a4e4bb2272f18cfae8ecf1d1fe8ba14373543f55fc88284ce50",
+      "block": 393500
+    },
+    "approveB": {
+      "hash": "0x7b9f31b83e0aa801bc5a40095ab170cc7988ec5e8de2e953d9d0f9b847b35e62",
+      "block": 393502
+    }
+  },
+  "onChain": {
+    "mlScanPassed": true,
+    "approvalCount": 2
+  }
+}

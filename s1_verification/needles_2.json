@@ -1,0 +1,54 @@
+{
+ "uni_bnb": {
+  "R9 emitter check": "require(messageSender == vm.emitterAddress, \"Invalid Emitter Address!\");",
+  "R9 arbitrary call": "targets[i].call{value: values[i]}(calldatas[i]);",
+  "R9 validity window 2 days": "uint256 public constant MESSAGE_TIME_OUT_SECONDS = 2 days;"
+ },
+ "maker_arb": {
+  "R12 L1 counterpart only": "onlyL1Counterpart(l1GovernanceRelay)",
+  "R12 delegatecall arbitrary": "target.delegatecall(targetData)"
+ },
+ "aave_eth": {
+  "R11 origin check": "originSender == MESSAGE_ORIGINATOR && originChainId == ORIGIN_CHAIN_ID",
+  "R11 level >= required": "accessLevel >= payload.maximumAccessLevelRequired",
+  "R11 timelock": "require(block.timestamp > executionTime, Errors.TIMELOCK_NOT_FINISHED);",
+  "R11 guardian cancel": "function cancelPayload( uint40 payloadId ) external virtual onlyGuardian",
+  "R11 executor per level": "_accessLevelToExecutorConfig[actions[i].accessLevel].executor != address(0)"
+ },
+ "aave_poly": {
+  "R11 origin check": "originSender == MESSAGE_ORIGINATOR && originChainId == ORIGIN_CHAIN_ID",
+  "R11 level >= required": "accessLevel >= payload.maximumAccessLevelRequired",
+  "R11 timelock": "require(block.timestamp > executionTime, Errors.TIMELOCK_NOT_FINISHED);",
+  "R11 guardian cancel": "function cancelPayload( uint40 payloadId ) external virtual onlyGuardian",
+  "R11 executor per level": "_accessLevelToExecutorConfig[actions[i].accessLevel].executor != address(0)"
+ },
+ "aave_arb": {
+  "R11 origin check": "originSender == MESSAGE_ORIGINATOR && originChainId == ORIGIN_CHAIN_ID",
+  "R11 level >= required": "accessLevel >= payload.maximumAccessLevelRequired",
+  "R11 timelock": "require(block.timestamp > executionTime, Errors.TIMELOCK_NOT_FINISHED);",
+  "R11 guardian cancel": "function cancelPayload( uint40 payloadId ) external virtual onlyGuardian",
+  "R11 executor per level": "_accessLevelToExecutorConfig[actions[i].accessLevel].executor != address(0)"
+ },
+ "aave_ccc_eth": {
+  "R11 allowed adapters": "require(isReceiverBridgeAdapterAllowed(msg.sender, chainId), Errors.CALLER_NOT_APPROVED_BRIDGE);",
+  "R11 required confirmations": "configuration.requiredConfirmation > 0 &&"
+ },
+ "hl_ica_eth": {
+  "R2 ICA multicall": "ica.multicall{value: msg.value}(calls);",
+  "R2 delegatecall path in CallLib": "Address.functionDelegateCall(",
+  "R2 only owner may multicall": "function multicall( CallLib.Call[] calldata calls ) external payable onlyOwner",
+  "R2 owner check": "require(msg.sender == owner, \"!owner\");"
+ },
+ "hl_ica_arb": {
+  "R2 ICA multicall": "ica.multicall{value: msg.value}(calls);",
+  "R2 delegatecall path in CallLib": "Address.functionDelegateCall(",
+  "R2 only owner may multicall": "function multicall( CallLib.Call[] calldata calls ) external payable onlyOwner",
+  "R2 owner check": "require(msg.sender == owner, \"!owner\");"
+ },
+ "axl_eth": {
+  "R4 governance origin check": ") revert NotGovernance();",
+  "R4 arbitrary _call": "_call(target, callData, nativeValue);",
+  "R4 target != 0 only": "if (target == address(0)) revert InvalidTarget();",
+  "R4 min timelock": "uint256 minimumEta = block.timestamp + minimumTimeLockDelay;"
+ }
+}

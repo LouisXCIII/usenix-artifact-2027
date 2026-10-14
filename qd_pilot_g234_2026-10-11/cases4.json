@@ -1,0 +1,338 @@
+[
+  {
+    "case_id": 0,
+    "source_role": "gerente",
+    "amount": -1,
+    "real_grant": false
+  },
+  {
+    "case_id": 1,
+    "source_role": "gerente",
+    "amount": 0,
+    "real_grant": false
+  },
+  {
+    "case_id": 2,
+    "source_role": "gerente",
+    "amount": 1,
+    "real_grant": true
+  },
+  {
+    "case_id": 3,
+    "source_role": "gerente",
+    "amount": 499999,
+    "real_grant": true
+  },
+  {
+    "case_id": 4,
+    "source_role": "gerente",
+    "amount": 500000,
+    "real_grant": true
+  },
+  {
+    "case_id": 5,
+    "source_role": "gerente",
+    "amount": 500001,
+    "real_grant": false
+  },
+  {
+    "case_id": 6,
+    "source_role": "gerente",
+    "amount": 1000000,
+    "real_grant": false
+  },
+  {
+    "case_id": 7,
+    "source_role": "gerente_senior",
+    "amount": -1,
+    "real_grant": false
+  },
+  {
+    "case_id": 8,
+    "source_role": "gerente_senior",
+    "amount": 0,
+    "real_grant": false
+  },
+  {
+    "case_id": 9,
+    "source_role": "gerente_senior",
+    "amount": 1,
+    "real_grant": true
+  },
+  {
+    "case_id": 10,
+    "source_role": "gerente_senior",
+    "amount": 1999999,
+    "real_grant": true
+  },
+  {
+    "case_id": 11,
+    "source_role": "gerente_senior",
+    "amount": 2000000,
+    "real_grant": true
+  },
+  {
+    "case_id": 12,
+    "source_role": "gerente_senior",
+    "amount": 2000001,
+    "real_grant": false
+  },
+  {
+    "case_id": 13,
+    "source_role": "gerente_senior",
+    "amount": 4000000,
+    "real_grant": false
+  },
+  {
+    "case_id": 14,
+    "source_role": "funcionario",
+    "amount": -1,
+    "real_grant": false
+  },
+  {
+    "case_id": 15,
+    "source_role": "funcionario",
+    "amount": 0,
+    "real_grant": false
+  },
+  {
+    "case_id": 16,
+    "source_role": "funcionario",
+    "amount": 1,
+    "real_grant": true
+  },
+  {
+    "case_id": 17,
+    "source_role": "funcionario",
+    "amount": 9999,
+    "real_grant": true
+  },
+  {
+    "case_id": 18,
+    "source_role": "funcionario",
+    "amount": 10000,
+    "real_grant": true
+  },
+  {
+    "case_id": 19,
+    "source_role": "funcionario",
+    "amount": 10001,
+    "real_grant": false
+  },
+  {
+    "case_id": 20,
+    "source_role": "funcionario",
+    "amount": 20000,
+    "real_grant": false
+  },
+  {
+    "case_id": 21,
+    "source_role": "diretor",
+    "amount": -1,
+    "real_grant": false
+  },
+  {
+    "case_id": 22,
+    "source_role": "diretor",
+    "amount": 0,
+    "real_grant": false
+  },
+  {
+    "case_id": 23,
+    "source_role": "diretor",
+    "amount": 1,
+    "real_grant": true
+  },
+  {
+    "case_id": 24,
+    "source_role": "diretor",
+    "amount": 1999999,
+    "real_grant": true
+  },
+  {
+    "case_id": 25,
+    "source_role": "diretor",
+    "amount": 2000000,
+    "real_grant": true
+  },
+  {
+    "case_id": 26,
+    "source_role": "diretor",
+    "amount": 2000001,
+    "real_grant": false
+  },
+  {
+    "case_id": 27,
+    "source_role": "diretor",
+    "amount": 4000000,
+    "real_grant": false
+  },
+  {
+    "case_id": 28,
+    "source_role": "supervisor",
+    "amount": -1,
+    "real_grant": false
+  },
+  {
+    "case_id": 29,
+    "source_role": "supervisor",
+    "amount": 0,
+    "real_grant": false
+  },
+  {
+    "case_id": 30,
+    "source_role": "supervisor",
+    "amount": 1,
+    "real_grant": true
+  },
+  {
+    "case_id": 31,
+    "source_role": "supervisor",
+    "amount": 499999,
+    "real_grant": true
+  },
+  {
+    "case_id": 32,
+    "source_role": "supervisor",
+    "amount": 500000,
+    "real_grant": true
+  },
+  {
+    "case_id": 33,
+    "source_role": "supervisor",
+    "amount": 500001,
+    "real_grant": false
+  },
+  {
+    "case_id": 34,
+    "source_role": "supervisor",
+    "amount": 1000000,
+    "real_grant": false
+  },
+  {
+    "case_id": 35,
+    "source_role": "estagiario",
+    "amount": 1,
+    "real_grant": false
+  },
+  {
+    "case_id": 36,
+    "source_role": "estagiario",
+    "amount": 10000,
+    "real_grant": false
+  },
+  {
+    "case_id": 37,
+    "source_role": "estagiario",
+    "amount": 500000,
+    "real_grant": false
+  },
+  {
+    "case_id": 38,
+    "source_role": "estagiario",
+    "amount": 2000000,
+    "real_grant": false
+  },
+  {
+    "case_id": 39,
+    "source_role": "estagiario",
+    "amount": 4000000,
+    "real_grant": false
+  },
+  {
+    "case_id": 40,
+    "source_role": "estagiario",
+    "amount": 0,
+    "real_grant": false
+  },
+  {
+    "case_id": 41,
+    "source_role": "estagiario",
+    "amount": -1,
+    "real_grant": false
+  },
+  {
+    "case_id": 42,
+    "source_role": "manager",
+    "amount": 1,
+    "real_grant": false
+  },
+  {
+    "case_id": 43,
+    "source_role": "manager",
+    "amount": 10000,
+    "real_grant": false
+  },
+  {
+    "case_id": 44,
+    "source_role": "manager",
+    "amount": 500000,
+    "real_grant": false
+  },
+  {
+    "case_id": 45,
+    "source_role": "manager",
+    "amount": 2000000,
+    "real_grant": false
+  },
+  {
+    "case_id": 46,
+    "source_role": "manager",
+    "amount": 4000000,
+    "real_grant": false
+  },
+  {
+    "case_id": 47,
+    "source_role": "manager",
+    "amount": 0,
+    "real_grant": false
+  },
+  {
+    "case_id": 48,
+    "source_role": "manager",
+    "amount": -1,
+    "real_grant": false
+  },
+  {
+    "case_id": 49,
+    "source_role": "",
+    "amount": 1,
+    "real_grant": false
+  },
+  {
+    "case_id": 50,
+    "source_role": "",
+    "amount": 10000,
+    "real_grant": false
+  },
+  {
+    "case_id": 51,
+    "source_role": "",
+    "amount": 500000,
+    "real_grant": false
+  },
+  {
+    "case_id": 52,
+    "source_role": "",
+    "amount": 2000000,
+    "real_grant": false
+  },
+  {
+    "case_id": 53,
+    "source_role": "",
+    "amount": 4000000,
+    "real_grant": false
+  },
+  {
+    "case_id": 54,
+    "source_role": "",
+    "amount": 0,
+    "real_grant": false
+  },
+  {
+    "case_id": 55,
+    "source_role": "",
+    "amount": -1,
+    "real_grant": false
+  }
+]

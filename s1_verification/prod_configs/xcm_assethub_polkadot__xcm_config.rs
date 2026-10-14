@@ -1,0 +1,945 @@
+// Copyright (C) Parity Technologies (UK) Ltd.
+// SPDX-License-Identifier: Apache-2.0
+
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+// 	http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+use cumulus_primitives_core::ParaId;
+pub use TreasuryAccount as RelayTreasuryPalletAccount;
+
+use super::{
+	treasury, AccountId, AllExceptReapStash, AllPalletsWithSystem, AssetConversion, Assets,
+	Balance, Balances, DotWeightToFee as WeightToFee, FellowshipAdmin, ForeignAssets, GeneralAdmin,
+	NativeAndAssets, ParachainInfo, ParachainSystem, PolkadotXcm, PoolAssets,
+	PriceForParentDelivery, ProsperityEmergency, Runtime, RuntimeCall, RuntimeEvent,
+	RuntimeHoldReason, RuntimeOrigin, StakingAdmin, TechnicalMaintenance, ToKusamaXcmRouter,
+	Treasurer, XcmpQueue,
+};
+use alloc::{collections::BTreeSet, vec, vec::Vec};
+use assets_common::{
+	matching::{
+		FromNetwork, IsForeignConcreteAsset, NonTeleportableAssetFromTrustedReserve,
+		ParentLocation, RemoteAssetFromLocation, TeleportableAssetWithTrustedReserve,
+	},
+	TrustBackedAssetsAsLocation,
+};
+use frame_support::{
+	parameter_types,
+	traits::{
+		fungible::HoldConsideration,
+		tokens::imbalance::{ResolveAssetTo, ResolveTo},
+		ConstU32, Contains, ContainsPair, Equals, Everything, LinearStoragePrice, PalletInfoAccess,
+	},
+};
+use frame_system::EnsureRoot;
+use pallet_xcm::{AuthorizedAliasers, XcmPassthrough};
+use parachains_common::xcm_config::{
+	AllSiblingSystemParachains, ConcreteAssetFromSystem, ParentRelayOrSiblingParachains,
+	RelayOrOtherSystemParachains,
+};
+use polkadot_parachain_primitives::primitives::{IsSystem, Sibling};
+use polkadot_runtime_constants::{
+	fellowship::{IsFellowshipVoice, ARCHITECTS_RANK},
+	system_parachain,
+	xcm::body::{FELLOWSHIP_ADMIN_INDEX, PROSPERITY_EMERGENCY_INDEX, TECHNICAL_MAINTENANCE_INDEX},
+};
+use snowbridge_outbound_queue_primitives::v2::exporter::PausableExporter;
+use sp_runtime::traits::{AccountIdConversion, TryConvertInto};
+use xcm::latest::prelude::*;
+use xcm_builder::{
+	AccountId32Aliases, AliasChildLocation, AliasOriginRootUsingFilter,
+	AllowExplicitUnpaidExecutionFrom, AllowKnownQueryResponses, AllowSubscriptionsFrom,
+	AllowTopLevelPaidExecutionFrom, DenyReserveTransferToRelayChain, DenyThenTry,
+	DescribeAllTerminal, DescribeFamily, EnsureXcmOrigin, ExternalConsensusLocationsConverterFor,
+	FrameTransactionalProcessor, FungibleAdapter, FungiblesAdapter, HashedDescription, IsConcrete,
+	IsSiblingSystemParachain, LocalMint, MatchedConvertedConcreteId, MintLocation, NoChecking,
+	OriginToPluralityVoice, ParentAsSuperuser, ParentIsPreset, RelayChainAsNative,
+	SendXcmFeeToAccount, SiblingParachainAsNative, SiblingParachainConvertsVia,
+	SignedAccountId32AsNative, SignedToAccountId32, SingleAssetExchangeAdapter,
+	SovereignSignedViaLocation, StartsWith, StartsWithExplicitGlobalConsensus, TakeWeightCredit,
+	TrailingSetTopicAsId, UnpaidRemoteExporter, UsingComponents, WeightInfoBounds,
+	WithComputedOrigin, WithLatestLocationConverter, WithUniqueTopic, XcmFeeManagerFromComponents,
+};
+use xcm_executor::{traits::ConvertLocation, XcmExecutor};
+
+use crate::staking::DapStagingAccount;
+use system_parachains_constants::polkadot::account::ACCUMULATE_FORWARD_PALLET_ID;
+pub use system_parachains_constants::polkadot::locations::{AssetHubLocation, RelayChainLocation};
+
+parameter_types! {
+	pub const RootLocation: Location = Location::here();
+	pub const DotLocation: Location = Location::parent();
+	pub const RelayNetwork: Option<NetworkId> = Some(NetworkId::Polkadot);
+	pub RelayChainOrigin: RuntimeOrigin = cumulus_pallet_xcm::Origin::Relay.into();
+	pub UniversalLocation: InteriorLocation =
+		[GlobalConsensus(RelayNetwork::get().unwrap()), Parachain(ParachainInfo::parachain_id().into())].into();
+	pub UniversalLocationNetworkId: NetworkId = UniversalLocation::get().global_consensus().unwrap();
+	pub TrustBackedAssetsPalletIndex: u8 = <Assets as PalletInfoAccess>::index() as u8;
+	pub TrustBackedAssetsPalletLocation: Location =
+		PalletInstance(TrustBackedAssetsPalletIndex::get()).into();
+	pub CheckingAccount: AccountId = PolkadotXcm::check_account();
+	pub FellowshipLocation: Location = Location::new(1, Parachain(system_parachain::COLLECTIVES_ID));
+	pub RelayTreasuryLocation: Location = (Parent, PalletInstance(polkadot_runtime_constants::TREASURY_PALLET_ID)).into();
+	pub PoolAssetsPalletLocation: Location =
+		PalletInstance(<PoolAssets as PalletInfoAccess>::index() as u8).into();
+	pub PostMigrationTreasuryAccount: AccountId = treasury::TreasuryAccount::get();
+	/// The Checking Account along with the indication that the local chain is able to mint tokens.
+	pub SelfParaId: ParaId = ParachainInfo::parachain_id();
+	/// The Checking Account along with the indication that the local chain is able to mint tokens.
+	pub TeleportTracking: Option<(AccountId, MintLocation)> = Some((CheckingAccount::get(), MintLocation::Local));
+	pub const Here: Location = Location::here();
+	// Test [`crate::tests::treasury_pallet_account_not_none`] ensures that the result of location
+	// conversion is not `None`.
+	// Account address: `14xmwinmCEz6oRrFdczHKqHgWNMiCysE2KrA4jXXAAM1Eogk`
+	pub PreMigrationRelayTreasuryPalletAccount: AccountId =
+		LocationToAccountId::convert_location(&RelayTreasuryLocation::get())
+			.unwrap_or(treasury::TreasuryAccount::get());
+}
+
+/// Treasury account that changes once migration ends.
+pub type TreasuryAccount = PostMigrationTreasuryAccount;
+
+/// Type for specifying how a `Location` can be converted into an `AccountId`.
+///
+/// This is used when determining ownership of accounts for asset transacting and when attempting to
+/// use XCM `Transact` in order to determine the dispatch Origin.
+pub type LocationToAccountId = (
+	// The parent (Relay-chain) origin converts to the parent `AccountId`.
+	ParentIsPreset<AccountId>,
+	// Sibling parachain origins convert to AccountId via the `ParaId::into`.
+	SiblingParachainConvertsVia<Sibling, AccountId>,
+	// Straight up local `AccountId32` origins just alias directly to `AccountId`.
+	AccountId32Aliases<RelayNetwork, AccountId>,
+	// Foreign locations alias into accounts according to a hash of their standard description.
+	HashedDescription<AccountId, DescribeFamily<DescribeAllTerminal>>,
+	// Different global consensus locations sovereign accounts.
+	ExternalConsensusLocationsConverterFor<UniversalLocation, AccountId>,
+);
+
+/// Means for transacting the native currency on this chain.
+pub type FungibleTransactor = FungibleAdapter<
+	// Use this currency:
+	Balances,
+	// Use this currency when it is a fungible asset matching the given location or name:
+	IsConcrete<DotLocation>,
+	// Convert an XCM `Location` into a local account ID:
+	LocationToAccountId,
+	// Our chain's account ID type (we can't get away without mentioning it explicitly):
+	AccountId,
+	// Teleports tracking is managed by `AhMigrator`: no tracking before, track after.
+	TeleportTracking,
+>;
+
+/// `AssetId`/`Balance` converter for `TrustBackedAssets`.
+pub type TrustBackedAssetsConvertedConcreteId =
+	assets_common::TrustBackedAssetsConvertedConcreteId<TrustBackedAssetsPalletLocation, Balance>;
+
+/// Means for transacting assets besides the native currency on this chain.
+pub type FungiblesTransactor = FungiblesAdapter<
+	// Use this fungibles implementation:
+	Assets,
+	// Use this currency when it is a fungible asset matching the given location or name:
+	TrustBackedAssetsConvertedConcreteId,
+	// Convert an XCM `Location` into a local account ID:
+	LocationToAccountId,
+	// Our chain's account ID type (we can't get away without mentioning it explicitly):
+	AccountId,
+	// We only want to allow teleports of known assets. We use non-zero issuance as an indication
+	// that this asset is known.
+	LocalMint<parachains_common::impls::NonZeroIssuance<AccountId, Assets>>,
+	// The account to use for tracking teleports.
+	CheckingAccount,
+>;
+
+/// `AssetId`/`Balance` converter for `ForeignAssets`
+pub type ForeignAssetsConvertedConcreteId = assets_common::ForeignAssetsConvertedConcreteId<
+	(
+		// Ignore `TrustBackedAssets` explicitly
+		StartsWith<TrustBackedAssetsPalletLocation>,
+		// Ignore assets that start explicitly with our `GlobalConsensus(NetworkId)`, means:
+		// - foreign assets from our consensus should be: `Location {parents: 1, X*(Parachain(xyz),
+		//   ..)}`
+		// - foreign assets outside our consensus with the same `GlobalConsensus(NetworkId)` won't
+		//   be accepted here
+		StartsWithExplicitGlobalConsensus<UniversalLocationNetworkId>,
+	),
+	Balance,
+	Location,
+>;
+
+/// Means for transacting foreign assets from different global consensus.
+pub type ForeignFungiblesTransactor = FungiblesAdapter<
+	// Use this fungibles implementation:
+	ForeignAssets,
+	// Use this currency when it is a fungible asset matching the given location or name:
+	ForeignAssetsConvertedConcreteId,
+	// Convert an XCM `Location` into a local account ID:
+	LocationToAccountId,
+	// Our chain's account ID type (we can't get away without mentioning it explicitly):
+	AccountId,
+	// We dont need to check teleports here.
+	NoChecking,
+	// The account to use for tracking teleports.
+	CheckingAccount,
+>;
+
+/// `AssetId`/`Balance` converter for `PoolAssets`.
+pub type PoolAssetsConvertedConcreteId =
+	assets_common::PoolAssetsConvertedConcreteId<PoolAssetsPalletLocation, Balance>;
+
+/// Means for transacting assets on this chain.
+pub type AssetTransactors = (FungibleTransactor, FungiblesTransactor, ForeignFungiblesTransactor);
+
+/// Asset converter for pool assets.
+/// Used to convert one asset to another, when there is a pool available between the two.
+/// This type thus allows paying delivery fees with any asset as long as there is a pool between
+/// said asset and the asset required for fee payment.
+pub type PoolAssetsExchanger = SingleAssetExchangeAdapter<
+	AssetConversion,
+	NativeAndAssets,
+	(
+		TrustBackedAssetsAsLocation<TrustBackedAssetsPalletLocation, Balance, Location>,
+		ForeignAssetsConvertedConcreteId,
+		// `ForeignAssetsConvertedConcreteId` doesn't include Relay token, so we handle it
+		// explicitly here.
+		MatchedConvertedConcreteId<
+			Location,
+			Balance,
+			Equals<ParentLocation>,
+			WithLatestLocationConverter<Location>,
+			TryConvertInto,
+		>,
+	),
+	AccountId,
+>;
+
+/// This is the type we use to convert an (incoming) XCM origin into a local `Origin` instance,
+/// ready for dispatching a transaction with Xcm's `Transact`.
+///
+/// There is an `OriginKind` which can biases the kind of local `Origin` it will become.
+pub type XcmOriginToTransactDispatchOrigin = (
+	// Sovereign account converter; this attempts to derive an `AccountId` from the origin location
+	// using `LocationToAccountId` and then turn that into the usual `Signed` origin. Useful for
+	// foreign chains who want to have a local sovereign account on this chain which they control.
+	SovereignSignedViaLocation<LocationToAccountId, RuntimeOrigin>,
+	// Native converter for Relay-chain (Parent) location; will convert to a `Relay` origin when
+	// recognised.
+	RelayChainAsNative<RelayChainOrigin, RuntimeOrigin>,
+	// Native converter for sibling Parachains; will convert to a `SiblingPara` origin when
+	// recognised.
+	SiblingParachainAsNative<cumulus_pallet_xcm::Origin, RuntimeOrigin>,
+	// Superuser converter for the Relay-chain (Parent) location. This will allow it to issue a
+	// transaction from the Root origin.
+	ParentAsSuperuser<RuntimeOrigin>,
+	// Native signed account converter; this just converts an `AccountId32` origin into a normal
+	// `RuntimeOrigin::Signed` origin of the same 32-byte value.
+	SignedAccountId32AsNative<RelayNetwork, RuntimeOrigin>,
+	// Xcm origins can be represented natively under the Xcm pallet's Xcm origin.
+	XcmPassthrough<RuntimeOrigin>,
+);
+
+parameter_types! {
+	pub const MaxInstructions: u32 = 100;
+	pub const MaxAssetsIntoHolding: u32 = 64;
+}
+
+/// Fellowship Treasury and Salary pallet locations.
+/// These pallets send XCM directly via `PayOverXcm` for treasury payouts and salary payments.
+pub struct FellowshipTreasuryPaymasterEntities;
+impl Contains<Location> for FellowshipTreasuryPaymasterEntities {
+	fn contains(location: &Location) -> bool {
+		matches!(
+			location.unpack(),
+			(
+				1,
+				[
+					Parachain(system_parachain::COLLECTIVES_ID),
+					PalletInstance(
+						collectives_polkadot_runtime_constants::FELLOWSHIP_SALARY_PALLET_INDEX
+					)
+				]
+			) | (
+				1,
+				[
+					Parachain(system_parachain::COLLECTIVES_ID),
+					PalletInstance(
+						collectives_polkadot_runtime_constants::FELLOWSHIP_TREASURY_PALLET_INDEX
+					)
+				]
+			)
+		)
+	}
+}
+
+/// Location types for Technical Fellowship origins in XCM barriers and fee waiving.
+/// Includes both the Fellowship voice origins (for governance) and the Treasury/Salary
+/// pallet origins (for `PayOverXcm` payouts).
+pub type FellowshipEntities =
+	(IsFellowshipVoice<FellowshipLocation>, FellowshipTreasuryPaymasterEntities);
+
+/// Location type to determine the Ambassador Collective
+/// pallets for use in XCM.
+pub struct AmbassadorEntities;
+impl Contains<Location> for AmbassadorEntities {
+	fn contains(location: &Location) -> bool {
+		matches!(
+			location.unpack(),
+			(
+				1,
+				[
+					Parachain(system_parachain::COLLECTIVES_ID),
+					PalletInstance(
+						collectives_polkadot_runtime_constants::AMBASSADOR_SALARY_PALLET_INDEX
+					)
+				]
+			) | (
+				1,
+				[
+					Parachain(system_parachain::COLLECTIVES_ID),
+					PalletInstance(
+						collectives_polkadot_runtime_constants::AMBASSADOR_TREASURY_PALLET_INDEX
+					)
+				]
+			)
+		)
+	}
+}
+
+/// Allows the Fellowship Architects origin (or higher rank) from Collectives to alias into
+/// the Fellowship Treasury or Fellowship Salary pallet locations.
+///
+/// This allows rank 4+ Fellowship members (Architects, Masters, etc.) on the Collectives chain to
+/// manage the fellowship treasury and salary here on Asset Hub. The origin is converted
+/// to `[Plurality { id: BodyId::Technical, part: BodyPart::Voice }, GeneralIndex(rank)]`
+/// via `ArchitectsToLocation` (or equivalent) before being sent over XCM.
+pub struct FellowshipArchitectsAliases;
+impl ContainsPair<Location, Location> for FellowshipArchitectsAliases {
+	fn contains(origin: &Location, target: &Location) -> bool {
+		matches!(
+			origin.unpack(),
+			(
+				1,
+				[
+					Parachain(system_parachain::COLLECTIVES_ID),
+					Plurality { id: BodyId::Technical, part: BodyPart::Voice },
+					GeneralIndex(rank)
+				]
+			) if *rank >= ARCHITECTS_RANK
+		) && matches!(
+			target.unpack(),
+			(
+				1,
+				[
+					Parachain(system_parachain::COLLECTIVES_ID),
+					PalletInstance(
+						collectives_polkadot_runtime_constants::FELLOWSHIP_TREASURY_PALLET_INDEX
+					)
+				]
+			) | (
+				1,
+				[
+					Parachain(system_parachain::COLLECTIVES_ID),
+					PalletInstance(
+						collectives_polkadot_runtime_constants::FELLOWSHIP_SALARY_PALLET_INDEX
+					)
+				]
+			)
+		)
+	}
+}
+
+pub struct ParentOrParentsPlurality;
+impl Contains<Location> for ParentOrParentsPlurality {
+	fn contains(location: &Location) -> bool {
+		matches!(location.unpack(), (1, []) | (1, [Plurality { .. }]))
+	}
+}
+
+pub struct LocalPlurality;
+impl Contains<Location> for LocalPlurality {
+	fn contains(loc: &Location) -> bool {
+		matches!(loc.unpack(), (0, [Plurality { .. }]))
+	}
+}
+
+/// The `pallet-accumulate-and-forward` account on the relay chain or on a sibling system parachain.
+pub struct SystemChainAccumulationAccounts;
+impl Contains<Location> for SystemChainAccumulationAccounts {
+	fn contains(location: &Location) -> bool {
+		let accumulation_account: [u8; 32] = ACCUMULATE_FORWARD_PALLET_ID.into_account_truncating();
+		match location.unpack() {
+			(1, [AccountId32 { id, .. }]) => *id == accumulation_account,
+			(1, [Parachain(id), AccountId32 { id: account_id, .. }]) =>
+				ParaId::from(*id).is_system() &&
+					matches!(
+						*id,
+						system_parachain::COLLECTIVES_ID |
+							system_parachain::BRIDGE_HUB_ID |
+							system_parachain::PEOPLE_ID |
+							system_parachain::BROKER_ID |
+							system_parachain::BULLETIN_ID
+					) && *account_id == accumulation_account,
+			_ => false,
+		}
+	}
+}
+
+pub type Barrier = TrailingSetTopicAsId<
+	DenyThenTry<
+		DenyReserveTransferToRelayChain,
+		(
+			TakeWeightCredit,
+			// Expected responses are OK.
+			AllowKnownQueryResponses<PolkadotXcm>,
+			// Allow XCMs with some computed origins to pass through.
+			WithComputedOrigin<
+				(
+					// If the message is one that immediately attempts to pay for execution, then
+					// allow it.
+					AllowTopLevelPaidExecutionFrom<Everything>,
+					// The locations listed below get free execution.
+					// Parent, its pluralities (i.e. governance bodies), the Fellows plurality and
+					// sibling bridge hub get free execution.
+					AllowExplicitUnpaidExecutionFrom<
+						(
+							ParentOrParentsPlurality,
+							FellowshipEntities,
+							Equals<RelayTreasuryLocation>,
+							Equals<bridging::SiblingBridgeHub>,
+							AmbassadorEntities,
+							IsSiblingSystemParachain<ParaId, parachain_info::Pallet<Runtime>>,
+							// System chains forward their burns to the DAP staging account without
+							// paying fees.
+							SystemChainAccumulationAccounts,
+						),
+						// Barriers run before any fee is taken: this must stay computation-only.
+						// Do not pass `TrustedAliasers` here.
+						CheapTrustedAliasers,
+					>,
+					// Subscriptions for version tracking are OK.
+					AllowSubscriptionsFrom<ParentRelayOrSiblingParachains>,
+				),
+				UniversalLocation,
+				ConstU32<8>,
+			>,
+		),
+	>,
+>;
+
+/// Locations that will not be charged fees in the executor,
+/// either execution or delivery.
+/// We only waive fees for system functions, which these locations represent.
+pub type WaivedLocations = (
+	Equals<RootLocation>,
+	RelayOrOtherSystemParachains<AllSiblingSystemParachains, Runtime>,
+	Equals<RelayTreasuryLocation>,
+	FellowshipEntities,
+	AmbassadorEntities,
+	LocalPlurality,
+);
+
+/// Asset Hub accepts incoming reserve transfers only for "Foreign Assets" and only from locations
+/// explicitly set by the asset's owner.
+pub type TrustedReserves = (
+	IsForeignConcreteAsset<
+		NonTeleportableAssetFromTrustedReserve<SelfParaId, crate::ForeignAssets>,
+	>,
+);
+
+/// Cases where a remote origin is accepted as trusted Teleporter for a given asset:
+///
+/// - DOT with the parent Relay Chain and sibling system parachains; and
+/// - Sibling parachains' assets according to their configured trusted reserves (teleportable when
+///   `Here` and `origin` are both trusted reserve locations).
+pub type TrustedTeleporters = (
+	ConcreteAssetFromSystem<DotLocation>,
+	IsForeignConcreteAsset<TeleportableAssetWithTrustedReserve<SelfParaId, crate::ForeignAssets>>,
+);
+
+/// Defines all global consensus locations that Kusama Asset Hub is allowed to alias into.
+pub struct KusamaGlobalConsensus;
+impl Contains<Location> for KusamaGlobalConsensus {
+	fn contains(location: &Location) -> bool {
+		matches!(location.unpack(), (2, [GlobalConsensus(network_id)]) | (2, [GlobalConsensus(network_id), ..])
+				if matches!(*network_id, NetworkId::Kusama))
+	}
+}
+
+/// Aliasing rules that are pure computation, so the `AllowExplicitUnpaidExecutionFrom` barrier can
+/// evaluate them before any fee is charged.
+///
+/// Do not add storage-reading filters here: the barrier calls this once per `AliasOrigin` (up to 5)
+/// on keys the message chooses, and may then reject the message without taking a fee. That is why
+/// `AuthorizedAliasers` belongs to [`TrustedAliasers`] alone.
+///
+/// - Allow any origin to alias into a child sub-location (equivalent to DescendOrigin),
+/// - Allow cousin Kusama Asset Hub to alias into Kusama (bridged) origins.
+/// - Allow Technical Fellowship Architects to alias into Fellowship Treasury and Salary pallets.
+pub type CheapTrustedAliasers = (
+	AliasChildLocation,
+	AliasOriginRootUsingFilter<bridging::to_kusama::AssetHubKusama, KusamaGlobalConsensus>,
+	FellowshipArchitectsAliases,
+);
+
+/// Defines origin aliasing rules for this chain, used by `xcm_executor::Config::Aliasers` at
+/// execution time: everything in [`CheapTrustedAliasers`], plus origins explicitly authorized by
+/// the alias target location.
+pub type TrustedAliasers = (CheapTrustedAliasers, AuthorizedAliasers<Runtime>);
+
+pub struct XcmConfig;
+impl xcm_executor::Config for XcmConfig {
+	type RuntimeCall = RuntimeCall;
+	type XcmSender = XcmRouter;
+	type XcmRecorder = PolkadotXcm;
+	type AssetTransactor = AssetTransactors;
+	type OriginConverter = XcmOriginToTransactDispatchOrigin;
+	type IsReserve = TrustedReserves;
+	type IsTeleporter = TrustedTeleporters;
+	type UniversalLocation = UniversalLocation;
+	type Barrier = Barrier;
+	type Weigher = WeightInfoBounds<
+		crate::weights::xcm::AssetHubPolkadotXcmWeight<RuntimeCall>,
+		RuntimeCall,
+		MaxInstructions,
+	>;
+	type Trader = (
+		UsingComponents<
+			WeightToFee<Runtime>,
+			DotLocation,
+			AccountId,
+			Balances,
+			ResolveTo<DapStagingAccount, Balances>,
+		>,
+		// This trader allows to pay with any assets exchangeable to DOT with
+		// [`AssetConversion`].
+		cumulus_primitives_utility::SwapFirstAssetTrader<
+			DotLocation,
+			AssetConversion,
+			WeightToFee<Runtime>,
+			NativeAndAssets,
+			(
+				TrustBackedAssetsAsLocation<TrustBackedAssetsPalletLocation, Balance, Location>,
+				ForeignAssetsConvertedConcreteId,
+			),
+			ResolveAssetTo<DapStagingAccount, NativeAndAssets>,
+			AccountId,
+		>,
+	);
+	type ResponseHandler = PolkadotXcm;
+	type AssetTrap = PolkadotXcm;
+	type SubscriptionService = PolkadotXcm;
+	type PalletInstancesInfo = AllPalletsWithSystem;
+	type MaxAssetsIntoHolding = MaxAssetsIntoHolding;
+	type AssetLocker = ();
+	type AssetExchanger = PoolAssetsExchanger;
+	type FeeManager = XcmFeeManagerFromComponents<
+		WaivedLocations,
+		SendXcmFeeToAccount<Self::AssetTransactor, DapStagingAccount>,
+	>;
+	type MessageExporter = ();
+	type UniversalAliases =
+		(bridging::to_kusama::UniversalAliases, bridging::to_ethereum::UniversalAliases);
+	type CallDispatcher = RuntimeCall;
+	type SafeCallFilter = AllExceptReapStash;
+	type Aliasers = TrustedAliasers;
+	type TransactionalProcessor = FrameTransactionalProcessor;
+	type HrmpNewChannelOpenRequestHandler = ();
+	type HrmpChannelAcceptedHandler = ();
+	type HrmpChannelClosingHandler = ();
+	type XcmEventEmitter = PolkadotXcm;
+}
+
+parameter_types! {
+	// `GeneralAdmin` pluralistic body.
+	pub const GeneralAdminBodyId: BodyId = BodyId::Administration;
+	// StakingAdmin pluralistic body.
+	pub const StakingAdminBodyId: BodyId = BodyId::Defense;
+	// FellowshipAdmin pluralistic body.
+	pub const FellowshipAdminBodyId: BodyId = BodyId::Index(FELLOWSHIP_ADMIN_INDEX);
+	// `Treasurer` pluralistic body.
+	pub const TreasurerBodyId: BodyId = BodyId::Treasury;
+	// `TechnicalMaintenance` pluralistic body.
+	pub const TechnicalMaintenanceBodyId: BodyId = BodyId::Index(TECHNICAL_MAINTENANCE_INDEX);
+	// `ProsperityEmergency` pluralistic body.
+	pub const ProsperityEmergencyBodyId: BodyId = BodyId::Index(PROSPERITY_EMERGENCY_INDEX);
+}
+
+/// Type to convert the `GeneralAdmin` origin to a Plurality `Location` value.
+pub type GeneralAdminToPlurality =
+	OriginToPluralityVoice<RuntimeOrigin, GeneralAdmin, GeneralAdminBodyId>;
+
+/// Type to convert the `StakingAdmin` origin to a Plurality `Location` value.
+pub type StakingAdminToPlurality =
+	OriginToPluralityVoice<RuntimeOrigin, StakingAdmin, StakingAdminBodyId>;
+
+/// Type to convert the `FellowshipAdmin` origin to a Plurality `Location` value.
+pub type FellowshipAdminToPlurality =
+	OriginToPluralityVoice<RuntimeOrigin, FellowshipAdmin, FellowshipAdminBodyId>;
+
+/// Type to convert the `Treasurer` origin to a Plurality `Location` value.
+pub type TreasurerToPlurality = OriginToPluralityVoice<RuntimeOrigin, Treasurer, TreasurerBodyId>;
+
+/// Type to convert the `TechnicalMaintenance` origin to a Plurality `Location` value.
+pub type TechnicalMaintenanceToPlurality =
+	OriginToPluralityVoice<RuntimeOrigin, TechnicalMaintenance, TechnicalMaintenanceBodyId>;
+
+/// Type to convert the `ProsperityEmergency` origin to a Plurality `Location` value.
+pub type ProsperityEmergencyToPlurality =
+	OriginToPluralityVoice<RuntimeOrigin, ProsperityEmergency, ProsperityEmergencyBodyId>;
+
+/// Converts a local signed origin into an XCM `Location`.
+/// Forms the basis for local origins sending/executing XCMs.
+pub type LocalSignedOriginToLocation = SignedToAccountId32<RuntimeOrigin, AccountId, RelayNetwork>;
+
+/// Type to convert a pallet `Origin` type value into a `Location` value which represents an
+/// interior location of this chain for a destination chain.
+pub type LocalPalletOrSignedOriginToLocation = (
+	// GeneralAdmin origin to be used in XCM as a corresponding Plurality `Location` value.
+	GeneralAdminToPlurality,
+	// StakingAdmin origin to be used in XCM as a corresponding Plurality `Location` value.
+	StakingAdminToPlurality,
+	// FellowshipAdmin origin to be used in XCM as a corresponding Plurality `Location` value.
+	FellowshipAdminToPlurality,
+	// `Treasurer` origin to be used in XCM as a corresponding Plurality `Location` value.
+	TreasurerToPlurality,
+	// `TechnicalMaintenance` origin to be used in XCM as a corresponding Plurality `Location`
+	// value.
+	TechnicalMaintenanceToPlurality,
+	// `ProsperityEmergency` origin to be used in XCM as a corresponding Plurality `Location`
+	// value.
+	ProsperityEmergencyToPlurality,
+	// And a usual Signed origin to be used in XCM as a corresponding `AccountId32`.
+	SignedToAccountId32<RuntimeOrigin, AccountId, RelayNetwork>,
+);
+
+/// For routing XCM messages which do not cross local consensus boundary.
+pub(crate) type LocalXcmRouter = (
+	// Two routers - use UMP to communicate with the relay chain:
+	cumulus_primitives_utility::ParentAsUmp<ParachainSystem, PolkadotXcm, PriceForParentDelivery>,
+	// ..and XCMP to communicate with the sibling chains.
+	XcmpQueue,
+);
+
+/// The means for routing XCM messages which are not for local execution into the right message
+/// queues.
+pub type XcmRouter = WithUniqueTopic<(
+	// The means for routing XCM messages which are not for local execution into the right message
+	// queues.
+	LocalXcmRouter,
+	// Router which wraps and sends xcm to BridgeHub to be delivered to the Kusama
+	// GlobalConsensus
+	ToKusamaXcmRouter,
+	// Router which wraps and sends xcm to BridgeHub to be delivered to the Ethereum
+	// GlobalConsensus
+	PausableExporter<
+		crate::SnowbridgeSystemFrontend,
+		(
+			UnpaidRemoteExporter<
+				(
+					bridging::to_ethereum::EthereumNetworkExportTableV2,
+					bridging::to_ethereum::EthereumNetworkExportTableV1,
+				),
+				XcmpQueue,
+				UniversalLocation,
+			>,
+		),
+	>,
+)>;
+
+parameter_types! {
+	pub const DepositPerItem: Balance = crate::system_para_deposit(1, 0);
+	pub const DepositPerByte: Balance = crate::system_para_deposit(0, 1);
+	pub const AuthorizeAliasHoldReason: RuntimeHoldReason =
+		RuntimeHoldReason::PolkadotXcm(pallet_xcm::HoldReason::AuthorizeAlias);
+}
+
+impl pallet_xcm::Config for Runtime {
+	type RuntimeEvent = RuntimeEvent;
+	// Any local signed origin can send XCM messages.
+	type SendXcmOrigin = EnsureXcmOrigin<RuntimeOrigin, LocalPalletOrSignedOriginToLocation>;
+	type XcmRouter = XcmRouter;
+	// Any local signed origin can execute XCM messages.
+	type ExecuteXcmOrigin = EnsureXcmOrigin<RuntimeOrigin, LocalSignedOriginToLocation>;
+	type XcmExecuteFilter = Everything;
+	type XcmExecutor = XcmExecutor<XcmConfig>;
+	type XcmTeleportFilter = Everything;
+	type XcmReserveTransferFilter = Everything;
+	type Weigher = WeightInfoBounds<
+		crate::weights::xcm::AssetHubPolkadotXcmWeight<RuntimeCall>,
+		RuntimeCall,
+		MaxInstructions,
+	>;
+	type UniversalLocation = UniversalLocation;
+	type RuntimeOrigin = RuntimeOrigin;
+	type RuntimeCall = RuntimeCall;
+	const VERSION_DISCOVERY_QUEUE_SIZE: u32 = 100;
+	type AdvertisedXcmVersion = pallet_xcm::CurrentXcmVersion;
+	type Currency = Balances;
+	type CurrencyMatcher = ();
+	type TrustedLockers = ();
+	type SovereignAccountOf = LocationToAccountId;
+	type MaxLockers = ConstU32<8>;
+	type WeightInfo = crate::weights::pallet_xcm::WeightInfo<Runtime>;
+	type AdminOrigin = EnsureRoot<AccountId>;
+	type MaxRemoteLockConsumers = ConstU32<0>;
+	type RemoteLockConsumerIdentifier = ();
+	// xcm_executor::Config::Aliasers includes pallet_xcm::AuthorizedAliasers.
+	type AuthorizedAliasConsideration = HoldConsideration<
+		AccountId,
+		Balances,
+		AuthorizeAliasHoldReason,
+		LinearStoragePrice<DepositPerItem, DepositPerByte, Balance>,
+	>;
+}
+
+impl cumulus_pallet_xcm::Config for Runtime {
+	type RuntimeEvent = RuntimeEvent;
+	type XcmExecutor = XcmExecutor<XcmConfig>;
+}
+
+/// All configuration related to bridging
+pub mod bridging {
+	use super::*;
+	use xcm_builder::NetworkExportTableItem;
+
+	parameter_types! {
+		/// Base price of every Polkadot -> Kusama message. Can be adjusted via
+		/// governance `set_storage` call.
+		pub storage XcmBridgeHubRouterBaseFee: Balance = bp_bridge_hub_polkadot::estimate_polkadot_to_kusama_message_fee(
+			bp_bridge_hub_kusama::BridgeHubKusamaBaseDeliveryFeeInKsms::get()
+		);
+		/// Price of every byte of the Polkadot -> Kusama message. Can be adjusted via
+		/// governance `set_storage` call.
+		pub storage XcmBridgeHubRouterByteFee: Balance = bp_bridge_hub_polkadot::estimate_polkadot_to_kusama_byte_fee();
+
+		pub SiblingBridgeHubParaId: u32 = bp_bridge_hub_polkadot::BRIDGE_HUB_POLKADOT_PARACHAIN_ID;
+		pub SiblingBridgeHub: Location = Location::new(1, Parachain(SiblingBridgeHubParaId::get()));
+		/// Router expects payment with this `AssetId`.
+		/// (`AssetId` has to be aligned with `BridgeTable`)
+		pub XcmBridgeHubRouterFeeAssetId: AssetId = DotLocation::get().into();
+
+		pub BridgeTable: Vec<NetworkExportTableItem> =
+			Vec::new().into_iter()
+			.chain(to_kusama::BridgeTable::get())
+			.collect();
+	}
+
+	pub type NetworkExportTable = xcm_builder::NetworkExportTable<BridgeTable>;
+
+	pub mod to_kusama {
+		use super::*;
+
+		parameter_types! {
+			pub SiblingBridgeHubWithBridgeHubKusamaInstance: Location = Location::new(
+				1,
+				[
+					Parachain(SiblingBridgeHubParaId::get()),
+					PalletInstance(bp_bridge_hub_polkadot::WITH_BRIDGE_POLKADOT_TO_KUSAMA_MESSAGES_PALLET_INDEX),
+				]
+			);
+
+			pub const KusamaNetwork: NetworkId = NetworkId::Kusama;
+			pub AssetHubKusama: Location = Location::new(
+				2,
+				[
+					GlobalConsensus(KusamaNetwork::get()),
+					Parachain(kusama_runtime_constants::system_parachain::ASSET_HUB_ID),
+				],
+			);
+			pub KsmLocation: Location = Location::new(2, GlobalConsensus(KusamaNetwork::get()));
+
+			/// Set up exporters configuration.
+			/// `Option<Asset>` represents static "base fee" which is used for total delivery fee calculation.
+			pub BridgeTable: Vec<NetworkExportTableItem> = vec![
+				NetworkExportTableItem::new(
+					KusamaNetwork::get(),
+					Some(vec![
+						AssetHubKusama::get().interior.split_global().expect("invalid configuration for AssetHubPolkadot").1,
+					]),
+					SiblingBridgeHub::get(),
+					// base delivery fee to local `BridgeHub`
+					Some((
+						XcmBridgeHubRouterFeeAssetId::get(),
+						XcmBridgeHubRouterBaseFee::get(),
+					).into())
+				)
+			];
+
+			/// Universal aliases
+			pub UniversalAliases: BTreeSet<(Location, Junction)> = BTreeSet::from_iter(
+				vec![
+					(SiblingBridgeHubWithBridgeHubKusamaInstance::get(), GlobalConsensus(KusamaNetwork::get()))
+				]
+			);
+		}
+
+		impl Contains<(Location, Junction)> for UniversalAliases {
+			fn contains(alias: &(Location, Junction)) -> bool {
+				UniversalAliases::get().contains(alias)
+			}
+		}
+		/// Allow any asset native to the Kusama ecosystem if it comes from Kusama Asset Hub.
+		pub type KusamaAssetFromAssetHubKusama =
+			RemoteAssetFromLocation<StartsWith<KsmLocation>, AssetHubKusama>;
+	}
+
+	pub mod to_ethereum {
+		use super::*;
+		pub use bp_bridge_hub_polkadot::snowbridge::{EthereumLocation, EthereumNetwork};
+		use bp_bridge_hub_polkadot::snowbridge::{
+			InboundQueuePalletInstance, InboundQueueV2PalletInstance,
+		};
+
+		parameter_types! {
+			/// User fee for transfers from Polkadot to Ethereum.
+			/// The fee is set to max Balance to disable the bridge until a fee is set by
+			/// governance.
+			pub const DefaultBridgeHubEthereumBaseFee: Balance = Balance::MAX;
+			pub const DefaultBridgeHubEthereumBaseFeeV2: Balance = Balance::MAX;
+			pub storage BridgeHubEthereumBaseFee: Balance = DefaultBridgeHubEthereumBaseFee::get();
+			pub storage BridgeHubEthereumBaseFeeV2: Balance = DefaultBridgeHubEthereumBaseFeeV2::get();
+			pub SiblingBridgeHubWithEthereumInboundQueueInstance: Location = Location::new(
+				1,
+				[
+					Parachain(SiblingBridgeHubParaId::get()),
+					PalletInstance(InboundQueuePalletInstance::get()),
+				]
+			);
+			pub SiblingBridgeHubWithEthereumInboundQueueV2Instance: Location = Location::new(
+				1,
+				[
+					Parachain(SiblingBridgeHubParaId::get()),
+					PalletInstance(InboundQueueV2PalletInstance::get()),
+				]
+			);
+
+			/// Set up exporters configuration.
+			/// `Option<MultiAsset>` represents static "base fee" which is used for total delivery fee calculation.
+			pub EthereumBridgeTableV1: Vec<NetworkExportTableItem> = vec![
+				NetworkExportTableItem::new(
+					EthereumNetwork::get(),
+					Some(vec![crate::Junctions::Here]),
+					SiblingBridgeHub::get(),
+					Some((
+						XcmBridgeHubRouterFeeAssetId::get(),
+						BridgeHubEthereumBaseFee::get(),
+					).into())
+				),
+			];
+
+			pub EthereumBridgeTableV2: Vec<NetworkExportTableItem> = vec![
+				NetworkExportTableItem::new(
+					EthereumNetwork::get(),
+					Some(vec![crate::Junctions::Here]),
+					SiblingBridgeHub::get(),
+					Some((
+						XcmBridgeHubRouterFeeAssetId::get(),
+						BridgeHubEthereumBaseFeeV2::get(),
+					).into())
+				),
+			];
+
+			/// Universal aliases
+			pub UniversalAliases: BTreeSet<(Location, Junction)> = BTreeSet::from_iter(
+				vec![
+					(SiblingBridgeHubWithEthereumInboundQueueV2Instance::get(), GlobalConsensus(EthereumNetwork::get())),
+					(SiblingBridgeHubWithEthereumInboundQueueInstance::get(), GlobalConsensus(EthereumNetwork::get())),
+				]
+			);
+		}
+
+		pub type EthereumNetworkExportTableV1 =
+			xcm_builder::NetworkExportTable<EthereumBridgeTableV1>;
+
+		pub type EthereumNetworkExportTableV2 =
+			snowbridge_outbound_queue_primitives::v2::XcmFilterExporter<
+				xcm_builder::NetworkExportTable<EthereumBridgeTableV2>,
+				snowbridge_outbound_queue_primitives::v2::XcmForSnowbridgeV2,
+			>;
+
+		pub type EthereumAssetFromEthereum =
+			IsForeignConcreteAsset<FromNetwork<UniversalLocation, EthereumNetwork>>;
+
+		impl Contains<(Location, Junction)> for UniversalAliases {
+			fn contains(alias: &(Location, Junction)) -> bool {
+				UniversalAliases::get().contains(alias)
+			}
+		}
+	}
+
+	/// Benchmarks helper for bridging configuration.
+	#[cfg(feature = "runtime-benchmarks")]
+	pub struct BridgingBenchmarksHelper;
+
+	#[cfg(feature = "runtime-benchmarks")]
+	impl BridgingBenchmarksHelper {
+		pub fn prepare_universal_alias() -> Option<(Location, Junction)> {
+			let alias =
+				to_kusama::UniversalAliases::get().into_iter().find_map(|(location, junction)| {
+					match to_kusama::SiblingBridgeHubWithBridgeHubKusamaInstance::get()
+						.eq(&location)
+					{
+						true => Some((location, junction)),
+						false => None,
+					}
+				});
+			Some(alias.expect("we expect here BridgeHubPolkadot to Kusama mapping at least"))
+		}
+	}
+}
+
+#[test]
+fn foreign_pallet_has_correct_local_account() {
+	use sp_core::crypto::{Ss58AddressFormat, Ss58Codec};
+	use xcm_executor::traits::ConvertLocation;
+
+	const COLLECTIVES_PARAID: u32 = 1001;
+	const FELLOWSHIP_SALARY_PALLET_ID: u8 =
+		collectives_polkadot_runtime_constants::FELLOWSHIP_SALARY_PALLET_INDEX;
+	let fellowship_salary =
+		(Parent, Parachain(COLLECTIVES_PARAID), PalletInstance(FELLOWSHIP_SALARY_PALLET_ID));
+	let account = LocationToAccountId::convert_location(&fellowship_salary.into()).unwrap();
+	let polkadot = Ss58AddressFormat::try_from("polkadot").unwrap();
+	let address = Ss58Codec::to_ss58check_with_version(&account, polkadot);
+	assert_eq!(address, "13w7NdvSR1Af8xsQTArDtZmVvjE8XhWNdL4yed3iFHrUNCnS");
+}
+
+#[test]
+fn system_chain_accumulation_accounts_match_only_forwarder_origins() {
+	use polkadot_parachain_primitives::primitives::LOWEST_PUBLIC_ID;
+	use system_parachain::{BRIDGE_HUB_ID, BROKER_ID, BULLETIN_ID, COLLECTIVES_ID, PEOPLE_ID};
+
+	let account: [u8; 32] = ACCUMULATE_FORWARD_PALLET_ID.into_account_truncating();
+	let on_parachain =
+		|para_id, id| Location::new(1, [Parachain(para_id), AccountId32 { network: None, id }]);
+
+	// The relay chain and every system parachain that forwards its burns.
+	assert!(SystemChainAccumulationAccounts::contains(&Location::new(
+		1,
+		[AccountId32 { network: None, id: account }]
+	)));
+	for para_id in [COLLECTIVES_ID, BRIDGE_HUB_ID, PEOPLE_ID, BROKER_ID, BULLETIN_ID] {
+		assert!(SystemChainAccumulationAccounts::contains(&on_parachain(para_id, account)));
+	}
+	// Another account on a system chain.
+	assert!(!SystemChainAccumulationAccounts::contains(&on_parachain(BROKER_ID, [0u8; 32])));
+	// The accumulation account on a non-system parachain.
+	assert!(!SystemChainAccumulationAccounts::contains(&on_parachain(
+		LOWEST_PUBLIC_ID.into(),
+		account
+	)));
+	// The accumulation account as a local origin.
+	assert!(!SystemChainAccumulationAccounts::contains(&Location::new(
+		0,
+		[AccountId32 { network: None, id: account }]
+	)));
+}

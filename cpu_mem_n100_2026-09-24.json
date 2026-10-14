@@ -1,0 +1,26 @@
+{
+  "sampling": "docker stats, 14 samples at 0.5s intervals during a real N=100 concurrent SubmitDecision burst",
+  "authcc-orderer.example.com": {
+    "cpu_peak_pct": 0.14,
+    "cpu_mean_pct": 0.1,
+    "mem_peak_MiB": 65.8,
+    "mem_mean_MiB": 65.5
+  },
+  "authcc-peer0.org1.example.com": {
+    "cpu_peak_pct": 3.96,
+    "cpu_mean_pct": 2.66,
+    "mem_peak_MiB": 146.8,
+    "mem_mean_MiB": 146.1
+  },
+  "authcc-peer0.org2.example.com": {
+    "cpu_peak_pct": 4.23,
+    "cpu_mean_pct": 2.58,
+    "mem_peak_MiB": 146.8,
+    "mem_mean_MiB": 146.2
+  },
+  "combined_peer_peak": {
+    "cpu_peak_pct": 4.23,
+    "mem_peak_MiB": 146.8
+  },
+  "host": "Intel i7-13620H 16 threads, 31GiB RAM -- peak utilization is a small fraction of host capacity"
+}

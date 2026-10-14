@@ -1,0 +1,662 @@
+{
+ "00_clean_token.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 1780347
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 2729815
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 22568483
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 981157
+  }
+ },
+ "00_clean_voting.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 1912691
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 4016223
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 21110719
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 1979009
+  }
+ },
+ "02_integer_overflow_safe.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 2845346
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 4587495
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 20950298
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 1235167
+  }
+ },
+ "02_integer_overflow_vuln.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 1798864
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 2609069
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 22190915
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 1093198
+  }
+ },
+ "03_dos_safe.sol": {
+  "b4-groth16": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 3355680
+  },
+  "b1-store": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 2539257
+  },
+  "b1-nostore": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 21190360
+  },
+  "b1-sha": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "SHA-256 commitment proven to match the supplied features",
+   "error": null,
+   "totalNs": 1287983
+  }
+ },
+ "03_dos_vuln.sol": {
+  "b4-groth16": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 2035628
+  },
+  "b1-store": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 5789483
+  },
+  "b1-nostore": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 23359295
+  },
+  "b1-sha": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "SHA-256 commitment proven to match the supplied features",
+   "error": null,
+   "totalNs": 1273620
+  }
+ },
+ "04_call_to_unknown_safe.sol": {
+  "b4-groth16": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 1899834
+  },
+  "b1-store": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 4465371
+  },
+  "b1-nostore": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 22223566
+  },
+  "b1-sha": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "SHA-256 commitment proven to match the supplied features",
+   "error": null,
+   "totalNs": 986495
+  }
+ },
+ "04_call_to_unknown_vuln.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 1843647
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 2584132
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 22429084
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 908275
+  }
+ },
+ "05_weak_access_control_safe.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 2197467
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 2635768
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 22810128
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 1050034
+  }
+ },
+ "05_weak_access_control_vuln.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 3312054
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "predicted class 8 exceeds the accepted maximum 0",
+   "error": null,
+   "totalNs": 3212356
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "predicted class 8 exceeds the accepted maximum 0",
+   "error": null,
+   "totalNs": 26879385
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 1454183
+  }
+ },
+ "06_unused_return_safe.sol": {
+  "b4-groth16": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 2773396
+  },
+  "b1-store": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 3733490
+  },
+  "b1-nostore": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 22171120
+  },
+  "b1-sha": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "SHA-256 commitment proven to match the supplied features",
+   "error": null,
+   "totalNs": 1291973
+  }
+ },
+ "06_unused_return_vuln.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 3268391
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 4197591
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 22554903
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 1020344
+  }
+ },
+ "07_tod_safe.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 3107129
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 2712777
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 21631054
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 1295177
+  }
+ },
+ "07_tod_vuln.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 3107309
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 2491719
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 21014127
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 1046175
+  }
+ },
+ "08_timestamp_safe.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 1854823
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 2619853
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 22269288
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 1088866
+  }
+ },
+ "08_timestamp_vuln.sol": {
+  "b4-groth16": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 1787333
+  },
+  "b1-store": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 3234564
+  },
+  "b1-nostore": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 24570612
+  },
+  "b1-sha": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "SHA-256 commitment proven to match the supplied features",
+   "error": null,
+   "totalNs": 961009
+  }
+ },
+ "09_mishandled_exception_safe.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 1854744
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 2644611
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 20986395
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 1055365
+  }
+ },
+ "09_mishandled_exception_vuln.sol": {
+  "b4-groth16": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 1853135
+  },
+  "b1-store": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 5436576
+  },
+  "b1-nostore": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "featureHash proven to match the pinned scanner authority's on-chain commitment",
+   "error": null,
+   "totalNs": 23038586
+  },
+  "b1-sha": {
+   "class": "SAFE",
+   "verifyOk": true,
+   "detail": "SHA-256 commitment proven to match the supplied features",
+   "error": null,
+   "totalNs": 988036
+  }
+ },
+ "10_gas_exception_safe.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 1859383
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 2603991
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 24388375
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 1166614
+  }
+ },
+ "10_gas_exception_vuln.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 1819465
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 2885340
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 20945194
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 942883
+  }
+ },
+ "11_external_bug_safe.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 2809677
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 2593315
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 21665028
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 1077689
+  }
+ },
+ "11_external_bug_vuln.sol": {
+  "b4-groth16": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "proof verifies, but was produced for maxVulnClass=11; destination policy requires exactly 0",
+   "error": null,
+   "totalNs": 3191571
+  },
+  "b1-store": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 2932639
+  },
+  "b1-nostore": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "margin below the required minimum",
+   "error": null,
+   "totalNs": 20977234
+  },
+  "b1-sha": {
+   "class": "REJECT",
+   "verifyOk": false,
+   "detail": "relation not satisfied",
+   "error": null,
+   "totalNs": 1020301
+  }
+ }
+}

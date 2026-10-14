@@ -1,0 +1,159 @@
+{
+  "fragment_a": "SemBound proof-policy (zkverify.go / verifySemBoundProof)",
+  "fragment_b": "Feature-binding (featurebind.go / verifyFeatureBinding, SubmitDecisionTrustlessV7)",
+  "fragment_a_self_check": {
+    "sound": true,
+    "witness": null
+  },
+  "fragment_a_naive_variants_NV2_NV6": {
+    "NV2_omit_model_weights_hash_check": {
+      "widening_found": true,
+      "widening_witness": {
+        "scanPassed": "True",
+        "maxVulnClass": "0",
+        "minMargin": "140946255",
+        "modelHashMatchesPinned": "False"
+      },
+      "over_conservative_found": false,
+      "over_conservative_witness": null,
+      "note": "destination never checks modelWeightsHash==pinned -- formal analogue of X1's real A3 attack (substituted weights)"
+    },
+    "NV3_omit_margin_check": {
+      "widening_found": true,
+      "widening_witness": {
+        "scanPassed": "True",
+        "maxVulnClass": "0",
+        "minMargin": "-975616510",
+        "modelHashMatchesPinned": "True"
+      },
+      "over_conservative_found": false,
+      "over_conservative_witness": null,
+      "note": "destination never checks minMargin -- a borderline verdict would be accepted as if it met the destination's confidence floor"
+    },
+    "NV4_maxVulnClass_off_by_one": {
+      "widening_found": true,
+      "widening_witness": {
+        "scanPassed": "True",
+        "maxVulnClass": "1",
+        "minMargin": "93498433",
+        "modelHashMatchesPinned": "True"
+      },
+      "over_conservative_found": false,
+      "over_conservative_witness": null,
+      "note": "comparison relaxed to <=1 instead of ==0, silently accepting a class-1 verdict"
+    },
+    "NV5_margin_comparison_reversed": {
+      "widening_found": true,
+      "widening_witness": {
+        "scanPassed": "True",
+        "maxVulnClass": "0",
+        "minMargin": "-979638780",
+        "modelHashMatchesPinned": "True"
+      },
+      "over_conservative_found": true,
+      "over_conservative_witness": {
+        "scanPassed": "True",
+        "maxVulnClass": "0",
+        "minMargin": "176212380",
+        "modelHashMatchesPinned": "True"
+      },
+      "note": "comparison operator flipped on the margin floor (classic sign/direction bug)"
+    },
+    "NV6_omit_scanPassed_check": {
+      "widening_found": true,
+      "widening_witness": {
+        "scanPassed": "False",
+        "maxVulnClass": "0",
+        "minMargin": "93498433",
+        "modelHashMatchesPinned": "True"
+      },
+      "over_conservative_found": false,
+      "over_conservative_witness": null,
+      "note": "destination never checks the circuit's own scanPassed output signal"
+    }
+  },
+  "naive_variant_NV1_real_empirical_v5": {
+    "available": true,
+    "source_file": "experiments/portability/x1_out/x1_summary.json",
+    "relevant_attacks": {
+      "A2_forged_features": {
+        "note": "x from 00_clean_token, solidityCodeHash of V' (vulnerable)",
+        "valid_proof": true,
+        "declared_class_idx": 0,
+        "declared_confidence": 0.7383,
+        "public": [
+          "1",
+          "5616631384879556582244751215625974693571385545902380780444161943759060504503",
+          "15686676987348066010455978813060970460431274002592364449248842395569131184194",
+          "0",
+          "7000"
+        ],
+        "solidityCodeHash": "0xc6ae694ca15a24ba8f65a83e8d3ec53184686d916acc7c7718627b6f5548fb7"
+      },
+      "A3_substituted_weights": {
+        "note": "W=0, b favours class 0, modelWeightsHash recomputed; V' own features",
+        "valid_proof": true,
+        "declared_class_idx": 0,
+        "declared_confidence": 0.9999,
+        "public": [
+          "1",
+          "5616631384879556582244751215625974693571385545902380780444161943759060504503",
+          "402408139585968222939477814715908726361469801497203471138689348719013198784",
+          "0",
+          "7000"
+        ],
+        "solidityCodeHash": "0xc6ae694ca15a24ba8f65a83e8d3ec53184686d916acc7c7718627b6f5548fb7"
+      },
+      "A2d_forged_confidence": {
+        "note": "same features, declared confidence 0.9999",
+        "valid_proof": true,
+        "declared_class_idx": 0,
+        "declared_confidence": 0.9999,
+        "public": [
+          "1",
+          "13513441603139467254475352720480410578547421291056901840916665031121853987506",
+          "14152484367631917848199918910851754881319068363881907888793781814168559197255",
+          "0",
+          "7000"
+        ],
+        "solidityCodeHash": "0x1de0563f1cface67e0f072783d75ef0dc691f9752b4cdb9fb83860f0ba7fbab2"
+      }
+    },
+    "all_dishonest_attacks_produced_valid_proofs": true,
+    "note": "Under the v5 relation, forged-feature (A2), substituted-weights (A3), and forged-confidence (A2d) dishonest inputs all produced a pairing-verifying proof -- the real, measured instance of the same failure mode NV2/NV3 above demonstrate symbolically for the v6/v7 policy. This is why allowLegacyV5 defaults to false in production."
+  },
+  "naive_variant_NV_FB_symbolic": {
+    "widening_found": true,
+    "widening_witness": {
+      "scanPassed": "True",
+      "maxVulnClass": "0",
+      "minMargin": "93498433",
+      "modelHashMatchesPinned": "True",
+      "featureHashMatchesRegistry": "False"
+    },
+    "over_conservative_found": false,
+    "over_conservative_witness": null,
+    "note": "destination accepts based on fragment A alone, never comparing the proof's featureHash to FeatureCommitRegistry.featureHash[codeHash] -- the exact omission X7 (v6) and X9 (v7 self-consistency only) measured as real, exploitable forged-feature widening, see x7_x9_naive_feature_binding_empirical below"
+  },
+  "naive_variant_NV_FB_real_empirical_X7_X9": {
+    "available": true,
+    "x7_v6_no_feature_binding": {
+      "available": true,
+      "source_file": "evidence/x7_forged_features_corpus_scale_2026-09-21.json",
+      "n_corpus_contracts": 11,
+      "forged_classified_SAFE": 11,
+      "honest_classified_REJECT": 9,
+      "note": "11/11 real corpus-scale forged-feature proofs classify SAFE under the real v6 policy (fragment A alone), 9 of them for contracts whose honest classification is REJECT -- real widening."
+    },
+    "x9_v7_self_consistency_only": {
+      "available": true,
+      "source_file": "evidence/x9_summary.json",
+      "n_variants": 11,
+      "forged_proof_valid_count": 11,
+      "honest_proof_valid_false_count": 9,
+      "note": "11/11 forged v7 proofs are valid under circuit-internal self-consistency alone (featureHash matches the forged x, but not the registry's honest commitment for the real codeHash) -- confirming the registry comparison (fragment B), not the circuit's own signal, is what closes the gap."
+    }
+  },
+  "widening_count_total": 7,
+  "total_variants": 7
+}

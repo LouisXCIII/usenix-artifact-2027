@@ -1,0 +1,17 @@
+[
+{"decisionId":"maprec-c1-real-safe","sourceDomain":"","role":"clerk","amount":5000,"sourceLimit":0,"semBound":true,"evAssuranceOk":true,"transferClass":"SAFE","destThreshold":10000,"mapRecVerified":true,"mapRecSigner":"0xf94d8b83004c9adaeefd8696a70cf864ca79053e","mapRecDetail":"MapRec governance signature verified (signer 0xf94d8b83004c9adaeefd8696a70cf864ca79053e); cap table trusted","mapRecChecked":true}
+,
+{"decisionId":"maprec-c1-real-reject","sourceDomain":"","role":"clerk","amount":15000,"sourceLimit":0,"semBound":true,"evAssuranceOk":true,"transferClass":"REJECT","destThreshold":10000,"mapRecVerified":true,"mapRecSigner":"0xf94d8b83004c9adaeefd8696a70cf864ca79053e","mapRecDetail":"MapRec governance signature verified (signer 0xf94d8b83004c9adaeefd8696a70cf864ca79053e); cap table trusted","mapRecChecked":true}
+,
+{"decisionId":"maprec-c1-forged-rejected","sourceDomain":"","role":"clerk","amount":15000,"sourceLimit":0,"semBound":true,"evAssuranceOk":true,"transferClass":"REJECT","destThreshold":0,"mapRecSigner":"0x4b8c7af62dcb1eaffa6d64c793c5c55ddb53842a","mapRecDetail":"MapRec governance signature recovered to 0x4b8c7af62dcb1eaffa6d64c793c5c55ddb53842a, not the pinned mapping-governance authority 0xf94d8b83004c9adaeefd8696a70cf864ca79053e -- MapRec rejected, cap table NOT trusted","mapRecChecked":true}
+,
+{"decisionId":"maprec-c1-forged-unsafe-accept","sourceDomain":"","role":"clerk","amount":15000,"sourceLimit":0,"semBound":true,"evAssuranceOk":true,"transferClass":"SAFE","destThreshold":2000000,"mapRecDetail":"ABLATED: MapRec governance signature never checked (Ab7 as formally defined)","mapRecChecked":true}
+,
+{"decisionId":"maprec-c2-real-safe","sourceDomain":"","role":"director","amount":1500000,"sourceLimit":0,"semBound":true,"evAssuranceOk":true,"transferClass":"SAFE","destThreshold":2000000,"mapRecVerified":true,"mapRecSigner":"0xf94d8b83004c9adaeefd8696a70cf864ca79053e","mapRecDetail":"MapRec governance signature verified (signer 0xf94d8b83004c9adaeefd8696a70cf864ca79053e); cap table trusted","mapRecChecked":true}
+,
+{"decisionId":"maprec-c2-real-reject","sourceDomain":"","role":"director","amount":2500000,"sourceLimit":0,"semBound":true,"evAssuranceOk":true,"transferClass":"REJECT","destThreshold":2000000,"mapRecVerified":true,"mapRecSigner":"0xf94d8b83004c9adaeefd8696a70cf864ca79053e","mapRecDetail":"MapRec governance signature verified (signer 0xf94d8b83004c9adaeefd8696a70cf864ca79053e); cap table trusted","mapRecChecked":true}
+,
+{"decisionId":"maprec-c2-forged-rejected","sourceDomain":"","role":"director","amount":2500000,"sourceLimit":0,"semBound":true,"evAssuranceOk":true,"transferClass":"REJECT","destThreshold":0,"mapRecSigner":"0x4b8c7af62dcb1eaffa6d64c793c5c55ddb53842a","mapRecDetail":"MapRec governance signature recovered to 0x4b8c7af62dcb1eaffa6d64c793c5c55ddb53842a, not the pinned mapping-governance authority 0xf94d8b83004c9adaeefd8696a70cf864ca79053e -- MapRec rejected, cap table NOT trusted","mapRecChecked":true}
+,
+{"decisionId":"maprec-c2-forged-unsafe-accept","sourceDomain":"","role":"director","amount":2500000,"sourceLimit":0,"semBound":true,"evAssuranceOk":true,"transferClass":"SAFE","destThreshold":50000000,"mapRecDetail":"ABLATED: MapRec governance signature never checked (Ab7 as formally defined)","mapRecChecked":true}
+]

@@ -1,0 +1,13 @@
+[
+{"decisionId":"tier4-c1-tier3-safe","sourceDomain":"","role":"director","amount":1800000,"sourceLimit":0,"semBound":false,"evAssuranceOk":false,"transferClass":"SAFE","destThreshold":0,"riskTierAchieved":3,"riskTierFractionBps":10000,"riskTierDetail":"Groth16 v6 proof verified; achieved risk tier 3 from declared floor 83886080; role=director real cap=2000000, tier fraction=10000 bps, adjusted cap=2000000, amount=1800000","riskTierChecked":true}
+,
+{"decisionId":"tier4-c2-tier3-reject","sourceDomain":"","role":"director","amount":2500000,"sourceLimit":0,"semBound":false,"evAssuranceOk":false,"transferClass":"REJECT","destThreshold":0,"riskTierAchieved":3,"riskTierFractionBps":10000,"riskTierDetail":"Groth16 v6 proof verified; achieved risk tier 3 from declared floor 83886080; role=director real cap=2000000, tier fraction=10000 bps, adjusted cap=2000000, amount=2500000","riskTierChecked":true}
+,
+{"decisionId":"tier4-c3-tier2-same-amount-reject","sourceDomain":"","role":"director","amount":1800000,"sourceLimit":0,"semBound":false,"evAssuranceOk":false,"transferClass":"REJECT","destThreshold":0,"riskTierAchieved":2,"riskTierFractionBps":5000,"riskTierDetail":"Groth16 v6 proof verified; achieved risk tier 2 from declared floor 67108864; role=director real cap=2000000, tier fraction=5000 bps, adjusted cap=1000000, amount=1800000","riskTierChecked":true}
+,
+{"decisionId":"tier4-c4-tier2-safe","sourceDomain":"","role":"director","amount":900000,"sourceLimit":0,"semBound":false,"evAssuranceOk":false,"transferClass":"SAFE","destThreshold":0,"riskTierAchieved":2,"riskTierFractionBps":5000,"riskTierDetail":"Groth16 v6 proof verified; achieved risk tier 2 from declared floor 67108864; role=director real cap=2000000, tier fraction=5000 bps, adjusted cap=1000000, amount=900000","riskTierChecked":true}
+,
+{"decisionId":"tier4-c5-tier1-safe","sourceDomain":"","role":"director","amount":150000,"sourceLimit":0,"semBound":false,"evAssuranceOk":false,"transferClass":"SAFE","destThreshold":0,"riskTierAchieved":1,"riskTierFractionBps":1000,"riskTierDetail":"Groth16 v6 proof verified; achieved risk tier 1 from declared floor 54445422; role=director real cap=2000000, tier fraction=1000 bps, adjusted cap=200000, amount=150000","riskTierChecked":true}
+,
+{"decisionId":"tier4-c6-tier1-reject","sourceDomain":"","role":"director","amount":250000,"sourceLimit":0,"semBound":false,"evAssuranceOk":false,"transferClass":"REJECT","destThreshold":0,"riskTierAchieved":1,"riskTierFractionBps":1000,"riskTierDetail":"Groth16 v6 proof verified; achieved risk tier 1 from declared floor 54445422; role=director real cap=2000000, tier fraction=1000 bps, adjusted cap=200000, amount=250000","riskTierChecked":true}
+]

@@ -1,0 +1,7 @@
+{
+  "decisionId": "s10-forged-feature-A2-1791100461",
+  "args_summary": {
+    "codeHash": "0xcdca6b375e2a354c612465c59140e334b1eb37b84d23ed9fc0635b3e821ce89"
+  },
+  "readDecision": "{\"decisionId\":\"s10-forged-feature-A2-1791100461\",\"sourceDomain\":\"besu-mainnet\",\"role\":\"manager\",\"amount\":100000,\"sourceLimit\":1000000,\"semBound\":false,\"evAssuranceOk\":true,\"transferClass\":\"REJECT\",\"destThreshold\":500000,\"zkVerified\":true,\"zkVerificationDetail\":\"proof's public featureHash does not match the pinned scanner authority's on-chain commitment for this codeHash (forged-feature attack rejected)\",\"codeHash\":\"0cdca6b375e2a354c612465c59140e334b1eb37b84d23ed9fc0635b3e821ce89\",\"lcVerified\":true,\"lcDetail\":\"header of block 0x94456 reproduced from raw fields with 3/4 distinct pinned-validator commit seals; registry slots proven by Merkle-Patricia proofs under its stateRoot\",\"sourceBlockNumber\":\"0x94456\",\"sourceBlockHash\":\"0x11b13a6f6ef91b6b689afdc53a141bf557ec819de38ec64cd8519f2bd3007cb1\",\"provenApprovals\":2,\"provenMlScanPassed\":true,\"obligationProfile\":\"audit\",\"mappedMechanism\":\"audit\",\"obligationCoveredV2\":true,\"obligationDetailV2\":\"obligation genuinely covered: correct mechanism, sufficient strength, discharged, independently witnessed\",\"obligationV2Checked\":true}\n"
+}

@@ -1,0 +1,14 @@
+{
+  "relay": "0x61b882974D80BD9D51C5Ed067bFfaac53319AddE",
+  "attacker": "0x98aAac9091CFa7Ff5ff0BB9a8e45a4dd28cC5341",
+  "decisionId": "0xd551ed649423d73c18f88c4daf0bac6cedae691c644758f632e9c471d7d3529d",
+  "tx": "0x2eb588d4ba7677677e07de6e5a291eec43b93eb1a8cbd41359cc4b95a38be5b4",
+  "block": 72132,
+  "status": 1,
+  "hop": {
+    "semBound": true,
+    "evAssuranceOk": true,
+    "localAssuranceOk": true,
+    "relayedAtBlock": "72132"
+  }
+}

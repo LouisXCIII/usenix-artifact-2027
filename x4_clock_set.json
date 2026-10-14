@@ -1,0 +1,5 @@
+{
+ "set_clock_org1_admin": "ERR: \u001b[34m2026-09-22 01:17:49.796 +07 0001 INFO\u001b[0m [chaincodeCmd] \u001b[34;1mchaincodeInvokeOrQuery\u001b[0m -> Chaincode invoke successful. result: status:200",
+ "set_clock_backwards": "ERR: Error: endorsement failure during invoke. response: status:500 message:\"clock may not move backwards (1790014569 < 1790014669)\"",
+ "ledger_clock_after_set": "1790014669"
+}

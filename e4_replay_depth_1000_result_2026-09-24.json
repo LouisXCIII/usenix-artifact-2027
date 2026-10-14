@@ -1,0 +1,25 @@
+{
+  "decisionId": "e4-replay-depth1000-1790242663",
+  "original_ms": 68,
+  "original_ok": 1,
+  "n_replay_attempts": 1000,
+  "n_explicit_rejected": 991,
+  "not_explicit_rejected_attempt_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "replay_latency_mean_ms": 61.502,
+  "replay_latency_min_ms": 42,
+  "replay_latency_max_ms": 133,
+  "fresh_nonce_id": "e4-fresh1000-1790242729",
+  "fresh_ms": 82,
+  "fresh_ok": 1,
+  "final_ledger_record": "{\"decisionId\":\"e4-replay-depth1000-1790242663\",\"sourceDomain\":\"besu-mainnet\",\"role\":\"manager\",\"amount\":200000,\"sourceLimit\":500000,\"semBound\":true,\"evAssuranceOk\":true,\"transferClass\":\"SAFE\",\"destThreshold\":500000}"
+}

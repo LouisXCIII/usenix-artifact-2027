@@ -1,0 +1,36 @@
+{
+  "ablation": "A10: TAC/context binding removed",
+  "results": [
+    {
+      "name": "positive_control_unmodified",
+      "observedValid": true,
+      "reason": "signature valid (NO field-binding check performed)"
+    },
+    {
+      "name": "decision_substitution",
+      "observedValid": true,
+      "reason": "signature valid (NO field-binding check performed)"
+    },
+    {
+      "name": "destination_substitution",
+      "observedValid": true,
+      "reason": "signature valid (NO field-binding check performed)"
+    },
+    {
+      "name": "state_substitution",
+      "observedValid": true,
+      "reason": "signature valid (NO field-binding check performed)"
+    },
+    {
+      "name": "mapping_substitution",
+      "observedValid": true,
+      "reason": "signature valid (NO field-binding check performed)"
+    },
+    {
+      "name": "assurance_profile_substitution",
+      "observedValid": true,
+      "reason": "signature valid (NO field-binding check performed)"
+    }
+  ],
+  "nSubstitutionsSucceeding": 5
+}

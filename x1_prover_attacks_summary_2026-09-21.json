@@ -1,0 +1,76 @@
+{
+ "policy_minConfidence": 7000,
+ "codeHash_Vprime": "0xc6ae694ca15a24ba8f65a83e8d3ec53184686d916acc7c7718627b6f5548fb7",
+ "attacks": {
+  "H0_honest_vprime": {
+   "note": "honest prover, real features of V'",
+   "valid_proof": false,
+   "declared_class_idx": 8,
+   "declared_confidence": 0.9992
+  },
+  "A2_forged_features": {
+   "note": "x from 00_clean_token, solidityCodeHash of V' (vulnerable)",
+   "valid_proof": true,
+   "declared_class_idx": 0,
+   "declared_confidence": 0.7383,
+   "public": [
+    "1",
+    "5616631384879556582244751215625974693571385545902380780444161943759060504503",
+    "15686676987348066010455978813060970460431274002592364449248842395569131184194",
+    "0",
+    "7000"
+   ],
+   "solidityCodeHash": "0xc6ae694ca15a24ba8f65a83e8d3ec53184686d916acc7c7718627b6f5548fb7"
+  },
+  "A3_substituted_weights": {
+   "note": "W=0, b favours class 0, modelWeightsHash recomputed; V' own features",
+   "valid_proof": true,
+   "declared_class_idx": 0,
+   "declared_confidence": 0.9999,
+   "public": [
+    "1",
+    "5616631384879556582244751215625974693571385545902380780444161943759060504503",
+    "402408139585968222939477814715908726361469801497203471138689348719013198784",
+    "0",
+    "7000"
+   ],
+   "solidityCodeHash": "0xc6ae694ca15a24ba8f65a83e8d3ec53184686d916acc7c7718627b6f5548fb7"
+  },
+  "H1_honest_lowconf": {
+   "note": "honest prover, real confidence (below the floor)",
+   "valid_proof": false,
+   "declared_class_idx": 0,
+   "declared_confidence": 0.6348
+  },
+  "A2d_forged_confidence": {
+   "note": "same features, declared confidence 0.9999",
+   "valid_proof": true,
+   "declared_class_idx": 0,
+   "declared_confidence": 0.9999,
+   "public": [
+    "1",
+    "13513441603139467254475352720480410578547421291056901840916665031121853987506",
+    "14152484367631917848199918910851754881319068363881907888793781814168559197255",
+    "0",
+    "7000"
+   ],
+   "solidityCodeHash": "0x1de0563f1cface67e0f072783d75ef0dc691f9752b4cdb9fb83860f0ba7fbab2"
+  }
+ },
+ "V_prime_honest_scan": {
+  "class": "Timestamp",
+  "confidence": 0.9992,
+  "quantized_argmax": 8
+ },
+ "clean_contract_scan": {
+  "class": "NonVulnerable",
+  "confidence": 0.7383,
+  "quantized_argmax": 0
+ },
+ "A3_weights_hash_differs_from_committed": true,
+ "lowconf_contract_scan": {
+  "class": "NonVulnerable",
+  "confidence": 0.6348,
+  "quantized_argmax": 0
+ }
+}

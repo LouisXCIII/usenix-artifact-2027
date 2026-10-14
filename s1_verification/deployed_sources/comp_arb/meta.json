@@ -1,0 +1,22 @@
+{
+ "label": "comp_arb",
+ "explorer": "https://arbitrum.blockscout.com",
+ "queried": [
+  {
+   "address": "0x42480C37B249e33aABaf4c22B20235656bd38068",
+   "name": "ArbitrumBridgeReceiver",
+   "verified": true,
+   "compiler": "0.8.15+commit.e14f2714",
+   "proxy_type": null,
+   "implementations": [],
+   "files": [
+    "0x42480C37__contracts__bridges__arbitrum__ArbitrumBridgeReceiver.sol",
+    "0x42480C37__contracts__IERC20NonStandard.sol",
+    "0x42480C37__contracts__ITimelock.sol",
+    "0x42480C37__contracts__bridges__BaseBridgeReceiver.sol",
+    "0x42480C37__contracts__bridges__SweepableBridgeReceiver.sol",
+    "0x42480C37__contracts__bridges__arbitrum__AddressAliasHelper.sol"
+   ]
+  }
+ ]
+}

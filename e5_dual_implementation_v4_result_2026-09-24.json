@@ -1,0 +1,216 @@
+{
+  "oracleLiboqs": "0x65c2711D0fD586368f33b962cFa243E6A431E78B",
+  "oracleCircl": "0x7cc4379C14D6f23F80C040bEC295390c6BB525aE",
+  "v4": "0x4E2fe97Be70CbF61ccE96D850d476b86b7c8E47a",
+  "circlVerifierIdentity": "0x46F11E22Bdc41066EE421053f32Eb8a30E40C852",
+  "N_PAIRS": 12,
+  "nNewCases": 24,
+  "nDisagree": 0,
+  "nUnsafeAccept": 0,
+  "results": [
+    {
+      "pair": 0,
+      "valid": {
+        "txHash": "0xa8065863641cd58b5fe748cc7bcd61f69eb1bed4aa592641b6349502e8d1793c",
+        "liboqsVerified": true,
+        "circlVerified": true,
+        "disagree": false,
+        "status": "VERIFIED"
+      },
+      "tampered": {
+        "txHash": "0xc85c58c325cc4b2adfd2646521947533bbd2e2e8eb22525594f7cd4f2f73b68a",
+        "liboqsVerified": false,
+        "circlVerified": false,
+        "disagree": false,
+        "status": "REJECTED"
+      }
+    },
+    {
+      "pair": 1,
+      "valid": {
+        "txHash": "0xa93fa73bac019e4ef342d3f2a79f61323a8042127a97e2a55420751768497925",
+        "liboqsVerified": true,
+        "circlVerified": true,
+        "disagree": false,
+        "status": "VERIFIED"
+      },
+      "tampered": {
+        "txHash": "0x5897e4b77dd64e0c15e1a0a6c7c623c7bcc6ed86e7ae1ad8fcf4f99e26f6080b",
+        "liboqsVerified": false,
+        "circlVerified": false,
+        "disagree": false,
+        "status": "REJECTED"
+      }
+    },
+    {
+      "pair": 2,
+      "valid": {
+        "txHash": "0x8d12217f934e31bcfe1c1a2dc0b4fa529b84a30e33627c29da2afee9d631c47b",
+        "liboqsVerified": true,
+        "circlVerified": true,
+        "disagree": false,
+        "status": "VERIFIED"
+      },
+      "tampered": {
+        "txHash": "0xfc4b369544a2cab8f55613d3dfbb9ee3c617cd880f0ec43e8193abb73fdf022a",
+        "liboqsVerified": false,
+        "circlVerified": false,
+        "disagree": false,
+        "status": "REJECTED"
+      }
+    },
+    {
+      "pair": 3,
+      "valid": {
+        "txHash": "0x64baff9163ccb7fdd2aa738e6af1d0967dff9a68724be22faddd24409f8b578a",
+        "liboqsVerified": true,
+        "circlVerified": true,
+        "disagree": false,
+        "status": "VERIFIED"
+      },
+      "tampered": {
+        "txHash": "0xc297996d1e8a2e29cc21c43163888aed4fd9a0e604b01ae7e6c4168b8022e447",
+        "liboqsVerified": false,
+        "circlVerified": false,
+        "disagree": false,
+        "status": "REJECTED"
+      }
+    },
+    {
+      "pair": 4,
+      "valid": {
+        "txHash": "0xa6534b8ebed2f310d7fe26a35ac5bab67fe5e7eaf0d1fbf674f4bd8011ca2351",
+        "liboqsVerified": true,
+        "circlVerified": true,
+        "disagree": false,
+        "status": "VERIFIED"
+      },
+      "tampered": {
+        "txHash": "0x20c9894f488a0551d21a56031366a8ddf2ceb9698db4fe83afd54295f577c2d0",
+        "liboqsVerified": false,
+        "circlVerified": false,
+        "disagree": false,
+        "status": "REJECTED"
+      }
+    },
+    {
+      "pair": 5,
+      "valid": {
+        "txHash": "0x9cc53485abe3e5c55414abd18484ea512823b9dd243760032a14c21a7a6311c6",
+        "liboqsVerified": true,
+        "circlVerified": true,
+        "disagree": false,
+        "status": "VERIFIED"
+      },
+      "tampered": {
+        "txHash": "0x9c4f116f09e49327f456ffa8358008402169e617425b9fcd182276b6db1fde4b",
+        "liboqsVerified": false,
+        "circlVerified": false,
+        "disagree": false,
+        "status": "REJECTED"
+      }
+    },
+    {
+      "pair": 6,
+      "valid": {
+        "txHash": "0xf45e62cf4e9fcaf1031406ba732d2f08065e16d1d44189e4e3627e95b8c7d564",
+        "liboqsVerified": true,
+        "circlVerified": true,
+        "disagree": false,
+        "status": "VERIFIED"
+      },
+      "tampered": {
+        "txHash": "0xec086d70b840ac5a0110396bc9d5ac375555a8403fd5df7f4e67e2dafed29bcb",
+        "liboqsVerified": false,
+        "circlVerified": false,
+        "disagree": false,
+        "status": "REJECTED"
+      }
+    },
+    {
+      "pair": 7,
+      "valid": {
+        "txHash": "0xbc1f8b2cc9afefa1bf65ee4b86915f89a587a292f27a1bc6edbd9f1587c16064",
+        "liboqsVerified": true,
+        "circlVerified": true,
+        "disagree": false,
+        "status": "VERIFIED"
+      },
+      "tampered": {
+        "txHash": "0x1a7f0c0f5b5fbedf32de7fb34b4a2ce643a97b9fdb513fc009772bd85456fddf",
+        "liboqsVerified": false,
+        "circlVerified": false,
+        "disagree": false,
+        "status": "REJECTED"
+      }
+    },
+    {
+      "pair": 8,
+      "valid": {
+        "txHash": "0x5eb76ea172fec887e11c065d6fbcb36c8e6e2801757c1c4809f8b2ffeff76486",
+        "liboqsVerified": true,
+        "circlVerified": true,
+        "disagree": false,
+        "status": "VERIFIED"
+      },
+      "tampered": {
+        "txHash": "0x0b61477ba4b24c7d02d4347470a590f4ba7a0d5d4d27c6253f7e745446a0ea3f",
+        "liboqsVerified": false,
+        "circlVerified": false,
+        "disagree": false,
+        "status": "REJECTED"
+      }
+    },
+    {
+      "pair": 9,
+      "valid": {
+        "txHash": "0xe1d0e41a310c866eada8e6808de2439b4b93ca1bf8486e62ee400e21b77b80ab",
+        "liboqsVerified": true,
+        "circlVerified": true,
+        "disagree": false,
+        "status": "VERIFIED"
+      },
+      "tampered": {
+        "txHash": "0x8e83b1f27bfe278e6e77245f6ba548b6f00b60b3acd28b104682ef15c563da23",
+        "liboqsVerified": false,
+        "circlVerified": false,
+        "disagree": false,
+        "status": "REJECTED"
+      }
+    },
+    {
+      "pair": 10,
+      "valid": {
+        "txHash": "0x9b6a82f13a8f4e9850c707579599ddb894560bf38a74ec7a514d5e9488d0fb37",
+        "liboqsVerified": true,
+        "circlVerified": true,
+        "disagree": false,
+        "status": "VERIFIED"
+      },
+      "tampered": {
+        "txHash": "0xf57179a713fd9b67c1f4257d40852c7e6bbd687428afaf06a401bb12144c6692",
+        "liboqsVerified": false,
+        "circlVerified": false,
+        "disagree": false,
+        "status": "REJECTED"
+      }
+    },
+    {
+      "pair": 11,
+      "valid": {
+        "txHash": "0x131ce7eb518c37a7e943c0b6a405d80f15cdb9bac0c2191437ad7f25aa728cf9",
+        "liboqsVerified": true,
+        "circlVerified": true,
+        "disagree": false,
+        "status": "VERIFIED"
+      },
+      "tampered": {
+        "txHash": "0x7c60220fcfeb5b14f197c11324ab316b21ad860149fe6f006585b8f509c248c9",
+        "liboqsVerified": false,
+        "circlVerified": false,
+        "disagree": false,
+        "status": "REJECTED"
+      }
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "CellCounter27": {
+    "decisionID": "e7bp-safe-CellCounter27-1790234990807",
+    "role": "director",
+    "amount": 1500000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "LedgerCounter17": {
+    "decisionID": "e7bp-safe-LedgerCounter17-1790234990939",
+    "role": "clerk",
+    "amount": 8000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "PlainCounter2": {
+    "decisionID": "e7bp-safe-PlainCounter2-1790234991057",
+    "role": "manager",
+    "amount": 450000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "RealCounter7": {
+    "decisionID": "e7bp-safe-RealCounter7-1790234991168",
+    "role": "director",
+    "amount": 900000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "SolidCounter12": {
+    "decisionID": "e7bp-safe-SolidCounter12-1790234991293",
+    "role": "clerk",
+    "amount": 5000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "StoreCounter22": {
+    "decisionID": "e7bp-safe-StoreCounter22-1790234991414",
+    "role": "manager",
+    "amount": 200000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "AlphaEscrow": {
+    "decisionID": "e7bp-safe-AlphaEscrow-1790234991551",
+    "role": "director",
+    "amount": 1500000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "AnchorVault": {
+    "decisionID": "e7bp-safe-AnchorVault-1790234991675",
+    "role": "clerk",
+    "amount": 8000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "ApexAuction": {
+    "decisionID": "e7bp-safe-ApexAuction-1790234991809",
+    "role": "manager",
+    "amount": 450000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "AsterFaucet": {
+    "decisionID": "e7bp-safe-AsterFaucet-1790234991921",
+    "role": "director",
+    "amount": 900000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "AstraVoting": {
+    "decisionID": "e7bp-safe-AstraVoting-1790234992038",
+    "role": "clerk",
+    "amount": 5000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "BeaconCounter": {
+    "decisionID": "e7bp-safe-BeaconCounter-1790234992204",
+    "role": "manager",
+    "amount": 200000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "BetaVoting": {
+    "decisionID": "e7bp-safe-BetaVoting-1790234992352",
+    "role": "director",
+    "amount": 1500000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "BridgeEscrow": {
+    "decisionID": "e7bp-safe-BridgeEscrow-1790234992509",
+    "role": "clerk",
+    "amount": 8000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "CedarSubscription": {
+    "decisionID": "e7bp-safe-CedarSubscription-1790234992631",
+    "role": "manager",
+    "amount": 450000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "CentralCounter": {
+    "decisionID": "e7bp-safe-CentralCounter-1790234992744",
+    "role": "director",
+    "amount": 900000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "CivicEscrow": {
+    "decisionID": "e7bp-safe-CivicEscrow-1790234992847",
+    "role": "clerk",
+    "amount": 5000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "CrestFaucet": {
+    "decisionID": "e7bp-safe-CrestFaucet-1790234992995",
+    "role": "manager",
+    "amount": 200000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "DeltaCounter": {
+    "decisionID": "e7bp-safe-DeltaCounter-1790234993139",
+    "role": "director",
+    "amount": 1500000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "EastVoting": {
+    "decisionID": "e7bp-safe-EastVoting-1790234993292",
+    "role": "clerk",
+    "amount": 8000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "FederalFaucet": {
+    "decisionID": "e7bp-safe-FederalFaucet-1790234993441",
+    "role": "manager",
+    "amount": 450000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "GammaVault": {
+    "decisionID": "e7bp-safe-GammaVault-1790234993570",
+    "role": "director",
+    "amount": 900000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "GateSubscription": {
+    "decisionID": "e7bp-safe-GateSubscription-1790234993718",
+    "role": "clerk",
+    "amount": 5000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "GroveCounter": {
+    "decisionID": "e7bp-safe-GroveCounter-1790234993842",
+    "role": "manager",
+    "amount": 200000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "HarborAuction": {
+    "decisionID": "e7bp-safe-HarborAuction-1790234993946",
+    "role": "director",
+    "amount": 1500000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "HavenFaucet": {
+    "decisionID": "e7bp-safe-HavenFaucet-1790234994086",
+    "role": "clerk",
+    "amount": 8000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "MapleEscrow": {
+    "decisionID": "e7bp-safe-MapleEscrow-1790234994210",
+    "role": "manager",
+    "amount": 450000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "MeadowAuction": {
+    "decisionID": "e7bp-safe-MeadowAuction-1790234994324",
+    "role": "director",
+    "amount": 900000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "MetroSubscription": {
+    "decisionID": "e7bp-safe-MetroSubscription-1790234994456",
+    "role": "clerk",
+    "amount": 5000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "NorthSubscription": {
+    "decisionID": "e7bp-safe-NorthSubscription-1790234994575",
+    "role": "manager",
+    "amount": 200000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "NovaSubscription": {
+    "decisionID": "e7bp-safe-NovaSubscription-1790234994678",
+    "role": "director",
+    "amount": 1500000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "OakVoting": {
+    "decisionID": "e7bp-safe-OakVoting-1790234994781",
+    "role": "clerk",
+    "amount": 8000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "OmegaAuction": {
+    "decisionID": "e7bp-safe-OmegaAuction-1790234994884",
+    "role": "manager",
+    "amount": 450000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "PathVoting": {
+    "decisionID": "e7bp-safe-PathVoting-1790234994989",
+    "role": "director",
+    "amount": 900000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "PeakEscrow": {
+    "decisionID": "e7bp-safe-PeakEscrow-1790234995095",
+    "role": "clerk",
+    "amount": 5000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "PineVault": {
+    "decisionID": "e7bp-safe-PineVault-1790234995202",
+    "role": "manager",
+    "amount": 200000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "PortFaucet": {
+    "decisionID": "e7bp-safe-PortFaucet-1790234995310",
+    "role": "director",
+    "amount": 1500000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "PrimeCounter": {
+    "decisionID": "e7bp-safe-PrimeCounter-1790234995418",
+    "role": "clerk",
+    "amount": 8000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "PublicVoting": {
+    "decisionID": "e7bp-safe-PublicVoting-1790234995525",
+    "role": "manager",
+    "amount": 450000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "RidgeVoting": {
+    "decisionID": "e7bp-safe-RidgeVoting-1790234995635",
+    "role": "director",
+    "amount": 900000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "RouteVault": {
+    "decisionID": "e7bp-safe-RouteVault-1790234995748",
+    "role": "clerk",
+    "amount": 5000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "SigmaFaucet": {
+    "decisionID": "e7bp-safe-SigmaFaucet-1790234995860",
+    "role": "manager",
+    "amount": 200000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "SouthEscrow": {
+    "decisionID": "e7bp-safe-SouthEscrow-1790234995978",
+    "role": "director",
+    "amount": 1500000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "SummitSubscription": {
+    "decisionID": "e7bp-safe-SummitSubscription-1790234996091",
+    "role": "clerk",
+    "amount": 8000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "TerraEscrow": {
+    "decisionID": "e7bp-safe-TerraEscrow-1790234996199",
+    "role": "manager",
+    "amount": 450000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "TrackCounter": {
+    "decisionID": "e7bp-safe-TrackCounter-1790234996323",
+    "role": "director",
+    "amount": 900000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  },
+  "TrailAuction": {
+    "decisionID": "e7bp-safe-TrailAuction-1790234996443",
+    "role": "clerk",
+    "amount": 5000,
+    "class": "SAFE",
+    "semBound": true,
+    "evAssuranceOk": true
+  }
+}

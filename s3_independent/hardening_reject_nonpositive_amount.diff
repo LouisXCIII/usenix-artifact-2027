@@ -1,0 +1,25 @@
+--- authchaincode.go (deployed)
++++ authchaincode.go (hardened, NOT deployed)
+@@ -186,6 +186,9 @@
+ // EvSecure are each independently necessary), then the non-widening /
+ // threshold check.
+ func classify(semBound bool, evAssuranceOK bool, amount int64, threshold int64, roleKnown bool) string {
++	if amount <= 0 {
++		return "REJECT" // input validation: non-positive amounts are never portable
++	}
+ 	// Theorem T0 (Semantic Non-Fabrication): no evidence-channel assurance
+ 	// level compensates for an unbound semantic relation.
+ 	if !semBound {
+@@ -397,6 +400,12 @@
+ 		return "", fmt.Errorf("decision %s already recorded (replay rejected)", decisionID)
+ 	}
+ 
++	// Input validation: a non-positive amount is never a portable decision.
++	if amount <= 0 {
++		return c.recordFull(ctx, decisionID, sourceDomain, role, amount, sourceLimit,
++			semBound, evAssuranceOK, "REJECT", 0, false, false)
++	}
++
+ 	// Theorem T0 first, exactly as classify() orders it.
+ 	if !semBound {
+ 		return c.recordFull(ctx, decisionID, sourceDomain, role, amount, sourceLimit,

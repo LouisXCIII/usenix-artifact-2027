@@ -1,0 +1,54 @@
+{
+ "label": "op_l2cdm",
+ "explorer": "https://explorer.optimism.io",
+ "queried": [
+  {
+   "address": "0x4200000000000000000000000000000000000007",
+   "name": "Proxy",
+   "verified": true,
+   "compiler": "0.8.15+commit.e14f2714",
+   "proxy_type": "eip1967",
+   "implementations": [
+    "0x250AF3f400cf8Aac8D410c90f1ba3968dD87DF96"
+   ],
+   "files": [
+    "0x42000000__Proxy.sol"
+   ]
+  },
+  {
+   "address": "0x250AF3f400cf8Aac8D410c90f1ba3968dD87DF96",
+   "name": "L2CrossDomainMessenger",
+   "verified": true,
+   "compiler": "v0.8.15+commit.e14f2714",
+   "proxy_type": null,
+   "implementations": [],
+   "files": [
+    "0x250AF3f4__src__L2__L2CrossDomainMessenger.sol",
+    "0x250AF3f4__interfaces__L1__IResourceMetering.sol",
+    "0x250AF3f4__interfaces__L2__IL2ToL1MessagePasser.sol",
+    "0x250AF3f4__interfaces__legacy__IAddressManager.sol",
+    "0x250AF3f4__interfaces__universal__IOwnable.sol",
+    "0x250AF3f4__interfaces__universal__IProxyAdmin.sol",
+    "0x250AF3f4__interfaces__universal__ISemver.sol",
+    "0x250AF3f4__lib__forge-std__src__Vm.sol",
+    "0x250AF3f4__lib__openzeppelin-contracts-upgradeable__contracts__proxy__utils__Initializable.sol",
+    "0x250AF3f4__lib__openzeppelin-contracts-upgradeable__contracts__utils__AddressUpgradeable.sol",
+    "0x250AF3f4__lib__openzeppelin-contracts__contracts__utils__math__Math.sol",
+    "0x250AF3f4__lib__solady__src__utils__LibString.sol",
+    "0x250AF3f4__scripts__libraries__Config.sol",
+    "0x250AF3f4__src__libraries__Constants.sol",
+    "0x250AF3f4__src__libraries__DevFeatures.sol",
+    "0x250AF3f4__src__libraries__Encoding.sol",
+    "0x250AF3f4__src__libraries__Hashing.sol",
+    "0x250AF3f4__src__libraries__Predeploys.sol",
+    "0x250AF3f4__src__libraries__SafeCall.sol",
+    "0x250AF3f4__src__libraries__Storage.sol",
+    "0x250AF3f4__src__libraries__Types.sol",
+    "0x250AF3f4__src__libraries__rlp__RLPWriter.sol",
+    "0x250AF3f4__src__universal__CrossDomainMessenger.sol",
+    "0x250AF3f4__src__universal__ProxyAdminOwnedBase.sol",
+    "0x250AF3f4__src__vendor__AddressAliasHelper.sol"
+   ]
+  }
+ ]
+}

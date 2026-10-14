@@ -1,0 +1,64 @@
+{
+  "methodology": "Exact one-sided 95% Clopper-Pearson upper bound for x=0 observed events in n trials: 1 - 0.05**(1/n). Wilson score 95% two-sided interval used for non-zero small-sample proportions (B2/B3 baselines).",
+  "E1_formal_benchmark": {
+    "FAR": {
+      "x": 0,
+      "n": 1850,
+      "upper_95pct": 0.0016
+    },
+    "FRR": {
+      "x": 0,
+      "n": 150,
+      "upper_95pct": 0.0198
+    }
+  },
+  "E7_baselines": {
+    "B4_FAR": {
+      "x": 0,
+      "n": 19,
+      "upper_95pct": 0.1459
+    },
+    "B4_FRR": {
+      "x": 0,
+      "n": 5,
+      "upper_95pct": 0.4507
+    },
+    "B3_FAR": {
+      "x": 1,
+      "n": 19,
+      "wilson_95pct": [
+        0.0094,
+        0.2464
+      ]
+    },
+    "B2_FAR": {
+      "x": 7,
+      "n": 19,
+      "wilson_95pct": [
+        0.1915,
+        0.5896
+      ]
+    }
+  },
+  "E9_multihop": {
+    "composed_unsafe_accept": {
+      "x": 0,
+      "n": 25,
+      "upper_95pct": 0.1129
+    },
+    "real_onchain_56tx": {
+      "x": 0,
+      "n": 56,
+      "upper_95pct": 0.0521
+    }
+  },
+  "E4_replay": {
+    "N100_miss": {
+      "x": 0,
+      "n": 100,
+      "upper_95pct": 0.0295
+    }
+  },
+  "finding": "STALE as of 2026-09-24: originally flagged E7 (n=19-24, FAR upper 14.59%) as the widest bound in the paper. Since then: E7 grown to n=190 (FAR upper 2.35%), A9/A7 grown to n=16/n=8 (31.3%), E5 grown to n=31 (9.21%, dual-implementation). Current widest real bounds as of this date: S19 (n=5, 45.07%), E8 A1/A3/A4/A5/A8 real analogs (n=5, 45.07%), A10 (n=5, 45.07%) -- see e5_s19_e8_ci_2026-09-24.json and e8_a9_a7_expansion_2026-09-24/README.md.",
+  "E5_pqc_STALE_SUPERSEDED": null
+}

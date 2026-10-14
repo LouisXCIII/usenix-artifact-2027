@@ -1,0 +1,52 @@
+{
+  "realDecisionId": "0x62fa6602557a755ef098efbef5c601ae3465a37e6689d9094b1ec9662dfc9b01",
+  "realProofTx": "0x473ddad18410056a1f0d8ea340bde2f4c4c796929f4366bf2a54a9b5686ad033",
+  "issuer": "0x0250812142577b93a70190D88403DB730D0A16De",
+  "tacDigest": "0xf119cae498ee93b0f02c7610f045c8a122ac61a66b9735ce74e18880ac36e148",
+  "tacSig": "0x5c2d731d7cc429c7922c664b1162ea627ca963a6d969c947ccad0400242c249c1f8a933035f4d5894db90739d5d67d3c5f03979273ceb35e60d740077f78cffa1b",
+  "results": [
+    {
+      "name": "positive_control_unmodified",
+      "expectValid": true,
+      "observedValid": true,
+      "reason": "all bindings match, signature valid",
+      "pass": true
+    },
+    {
+      "name": "decision_substitution",
+      "expectValid": false,
+      "observedValid": false,
+      "reason": "bound field mismatch (substitution detected)",
+      "pass": true
+    },
+    {
+      "name": "destination_substitution",
+      "expectValid": false,
+      "observedValid": false,
+      "reason": "bound field mismatch (substitution detected)",
+      "pass": true
+    },
+    {
+      "name": "state_substitution",
+      "expectValid": false,
+      "observedValid": false,
+      "reason": "bound field mismatch (substitution detected)",
+      "pass": true
+    },
+    {
+      "name": "mapping_substitution",
+      "expectValid": false,
+      "observedValid": false,
+      "reason": "bound field mismatch (substitution detected)",
+      "pass": true
+    },
+    {
+      "name": "assurance_profile_substitution",
+      "expectValid": false,
+      "observedValid": false,
+      "reason": "bound field mismatch (substitution detected)",
+      "pass": true
+    }
+  ],
+  "allPass": true
+}

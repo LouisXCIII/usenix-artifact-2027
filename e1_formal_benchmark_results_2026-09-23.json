@@ -1,0 +1,1067 @@
+{
+  "n_total": 2000,
+  "n_pair_types": 5,
+  "n_mapping_types": 10,
+  "n_combinations": 50,
+  "n_per_combo": 40,
+  "seed": 20260923,
+  "far": 0.0,
+  "far_num_unsafe_accepted": 0,
+  "far_den_unsafe_total": 1850,
+  "frr": 0.0,
+  "frr_num_safe_rejected": 0,
+  "frr_den_safe_total": 150,
+  "five_class_accuracy": 1.0,
+  "n_correct": 2000,
+  "ground_truth_class_totals": {
+    "EXACT": 13,
+    "CONDITIONAL": 95,
+    "REJECT": 1660,
+    "REEVALUATE": 95,
+    "SAFE": 137
+  },
+  "confusion_matrix": {
+    "EXACT": {
+      "EXACT": 13
+    },
+    "CONDITIONAL": {
+      "CONDITIONAL": 95
+    },
+    "REJECT": {
+      "REJECT": 1660
+    },
+    "REEVALUATE": {
+      "REEVALUATE": 95
+    },
+    "SAFE": {
+      "SAFE": 137
+    }
+  },
+  "n_mismatches": 0,
+  "mismatches_sample": [],
+  "oracle_class_level_soundness": {
+    "n_combinations": 50,
+    "n_sound": 24,
+    "n_unsound": 26,
+    "table": {
+      "equivalent|identity": {
+        "pair_type": "equivalent",
+        "mapping_type": "identity",
+        "sem_covered": true,
+        "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+      },
+      "equivalent|renaming": {
+        "pair_type": "equivalent",
+        "mapping_type": "renaming",
+        "sem_covered": true,
+        "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+      },
+      "equivalent|role_refinement": {
+        "pair_type": "equivalent",
+        "mapping_type": "role_refinement",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_role=2, amt=10001"
+      },
+      "equivalent|role_widening": {
+        "pair_type": "equivalent",
+        "mapping_type": "role_widening",
+        "sem_covered": true,
+        "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+      },
+      "equivalent|action_restriction": {
+        "pair_type": "equivalent",
+        "mapping_type": "action_restriction",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "equivalent|action_expansion": {
+        "pair_type": "equivalent",
+        "mapping_type": "action_expansion",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_action=2"
+      },
+      "equivalent|resource_substitution": {
+        "pair_type": "equivalent",
+        "mapping_type": "resource_substitution",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "equivalent|context_preservation": {
+        "pair_type": "equivalent",
+        "mapping_type": "context_preservation",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "equivalent|context_loss": {
+        "pair_type": "equivalent",
+        "mapping_type": "context_loss",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+      },
+      "equivalent|context_strengthening": {
+        "pair_type": "equivalent",
+        "mapping_type": "context_strengthening",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "source_stricter|identity": {
+        "pair_type": "source_stricter",
+        "mapping_type": "identity",
+        "sem_covered": true,
+        "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+      },
+      "source_stricter|renaming": {
+        "pair_type": "source_stricter",
+        "mapping_type": "renaming",
+        "sem_covered": true,
+        "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+      },
+      "source_stricter|role_refinement": {
+        "pair_type": "source_stricter",
+        "mapping_type": "role_refinement",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_role=3, amt=500001"
+      },
+      "source_stricter|role_widening": {
+        "pair_type": "source_stricter",
+        "mapping_type": "role_widening",
+        "sem_covered": true,
+        "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+      },
+      "source_stricter|action_restriction": {
+        "pair_type": "source_stricter",
+        "mapping_type": "action_restriction",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "source_stricter|action_expansion": {
+        "pair_type": "source_stricter",
+        "mapping_type": "action_expansion",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "source_stricter|resource_substitution": {
+        "pair_type": "source_stricter",
+        "mapping_type": "resource_substitution",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "source_stricter|context_preservation": {
+        "pair_type": "source_stricter",
+        "mapping_type": "context_preservation",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "source_stricter|context_loss": {
+        "pair_type": "source_stricter",
+        "mapping_type": "context_loss",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "source_stricter|context_strengthening": {
+        "pair_type": "source_stricter",
+        "mapping_type": "context_strengthening",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "destination_stricter|identity": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "identity",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_role=1, amt=10001"
+      },
+      "destination_stricter|renaming": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "renaming",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_role=1, amt=10001"
+      },
+      "destination_stricter|role_refinement": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "role_refinement",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_role=1, amt=10001"
+      },
+      "destination_stricter|role_widening": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "role_widening",
+        "sem_covered": true,
+        "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+      },
+      "destination_stricter|action_restriction": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "action_restriction",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_action=3"
+      },
+      "destination_stricter|action_expansion": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "action_expansion",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_action=2"
+      },
+      "destination_stricter|resource_substitution": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "resource_substitution",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "destination_stricter|context_preservation": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "context_preservation",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "destination_stricter|context_loss": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "context_loss",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+      },
+      "destination_stricter|context_strengthening": {
+        "pair_type": "destination_stricter",
+        "mapping_type": "context_strengthening",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "incomparable|identity": {
+        "pair_type": "incomparable",
+        "mapping_type": "identity",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_role=1, amt=10001"
+      },
+      "incomparable|renaming": {
+        "pair_type": "incomparable",
+        "mapping_type": "renaming",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_role=1, amt=10001"
+      },
+      "incomparable|role_refinement": {
+        "pair_type": "incomparable",
+        "mapping_type": "role_refinement",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_role=2, amt=2000000"
+      },
+      "incomparable|role_widening": {
+        "pair_type": "incomparable",
+        "mapping_type": "role_widening",
+        "sem_covered": true,
+        "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+      },
+      "incomparable|action_restriction": {
+        "pair_type": "incomparable",
+        "mapping_type": "action_restriction",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_action=3"
+      },
+      "incomparable|action_expansion": {
+        "pair_type": "incomparable",
+        "mapping_type": "action_expansion",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_action=3"
+      },
+      "incomparable|resource_substitution": {
+        "pair_type": "incomparable",
+        "mapping_type": "resource_substitution",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: resource id not in destination-accepted equivalence set"
+      },
+      "incomparable|context_preservation": {
+        "pair_type": "incomparable",
+        "mapping_type": "context_preservation",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+      },
+      "incomparable|context_loss": {
+        "pair_type": "incomparable",
+        "mapping_type": "context_loss",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "incomparable|context_strengthening": {
+        "pair_type": "incomparable",
+        "mapping_type": "context_strengthening",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+      },
+      "contradictory|identity": {
+        "pair_type": "contradictory",
+        "mapping_type": "identity",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_role=1, amt=2000001"
+      },
+      "contradictory|renaming": {
+        "pair_type": "contradictory",
+        "mapping_type": "renaming",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_role=1, amt=2000001"
+      },
+      "contradictory|role_refinement": {
+        "pair_type": "contradictory",
+        "mapping_type": "role_refinement",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_role=1, amt=2000001"
+      },
+      "contradictory|role_widening": {
+        "pair_type": "contradictory",
+        "mapping_type": "role_widening",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: src_role=1, amt=2000001"
+      },
+      "contradictory|action_restriction": {
+        "pair_type": "contradictory",
+        "mapping_type": "action_restriction",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "contradictory|action_expansion": {
+        "pair_type": "contradictory",
+        "mapping_type": "action_expansion",
+        "sem_covered": true,
+        "z3_note": "UNSAT -> sound"
+      },
+      "contradictory|resource_substitution": {
+        "pair_type": "contradictory",
+        "mapping_type": "resource_substitution",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: resource id not in destination-accepted equivalence set"
+      },
+      "contradictory|context_preservation": {
+        "pair_type": "contradictory",
+        "mapping_type": "context_preservation",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+      },
+      "contradictory|context_loss": {
+        "pair_type": "contradictory",
+        "mapping_type": "context_loss",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+      },
+      "contradictory|context_strengthening": {
+        "pair_type": "contradictory",
+        "mapping_type": "context_strengthening",
+        "sem_covered": false,
+        "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+      }
+    }
+  },
+  "per_combo_breakdown": {
+    "equivalent|identity": {
+      "n": 40,
+      "ground_truth": {
+        "EXACT": 7,
+        "CONDITIONAL": 2,
+        "REJECT": 29,
+        "REEVALUATE": 2
+      },
+      "predicted": {
+        "EXACT": 7,
+        "CONDITIONAL": 2,
+        "REJECT": 29,
+        "REEVALUATE": 2
+      },
+      "far_num": 0,
+      "far_den": 33
+    },
+    "equivalent|renaming": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 26,
+        "EXACT": 6,
+        "CONDITIONAL": 7,
+        "REEVALUATE": 1
+      },
+      "predicted": {
+        "REJECT": 26,
+        "EXACT": 6,
+        "CONDITIONAL": 7,
+        "REEVALUATE": 1
+      },
+      "far_num": 0,
+      "far_den": 34
+    },
+    "equivalent|role_refinement": {
+      "n": 40,
+      "ground_truth": {
+        "SAFE": 5,
+        "REJECT": 31,
+        "REEVALUATE": 3,
+        "CONDITIONAL": 1
+      },
+      "predicted": {
+        "SAFE": 5,
+        "REJECT": 31,
+        "REEVALUATE": 3,
+        "CONDITIONAL": 1
+      },
+      "far_num": 0,
+      "far_den": 35
+    },
+    "equivalent|role_widening": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "equivalent|action_restriction": {
+      "n": 40,
+      "ground_truth": {
+        "REEVALUATE": 4,
+        "REJECT": 24,
+        "SAFE": 8,
+        "CONDITIONAL": 4
+      },
+      "predicted": {
+        "REEVALUATE": 4,
+        "REJECT": 24,
+        "SAFE": 8,
+        "CONDITIONAL": 4
+      },
+      "far_num": 0,
+      "far_den": 32
+    },
+    "equivalent|action_expansion": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "equivalent|resource_substitution": {
+      "n": 40,
+      "ground_truth": {
+        "SAFE": 5,
+        "REJECT": 33,
+        "REEVALUATE": 1,
+        "CONDITIONAL": 1
+      },
+      "predicted": {
+        "SAFE": 5,
+        "REJECT": 33,
+        "REEVALUATE": 1,
+        "CONDITIONAL": 1
+      },
+      "far_num": 0,
+      "far_den": 35
+    },
+    "equivalent|context_preservation": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 27,
+        "REEVALUATE": 4,
+        "SAFE": 4,
+        "CONDITIONAL": 5
+      },
+      "predicted": {
+        "REJECT": 27,
+        "REEVALUATE": 4,
+        "SAFE": 4,
+        "CONDITIONAL": 5
+      },
+      "far_num": 0,
+      "far_den": 36
+    },
+    "equivalent|context_loss": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 37,
+        "REEVALUATE": 3
+      },
+      "predicted": {
+        "REJECT": 37,
+        "REEVALUATE": 3
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "equivalent|context_strengthening": {
+      "n": 40,
+      "ground_truth": {
+        "CONDITIONAL": 4,
+        "REJECT": 23,
+        "REEVALUATE": 4,
+        "SAFE": 9
+      },
+      "predicted": {
+        "CONDITIONAL": 4,
+        "REJECT": 23,
+        "REEVALUATE": 4,
+        "SAFE": 9
+      },
+      "far_num": 0,
+      "far_den": 31
+    },
+    "source_stricter|identity": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 24,
+        "SAFE": 10,
+        "CONDITIONAL": 4,
+        "REEVALUATE": 2
+      },
+      "predicted": {
+        "REJECT": 24,
+        "SAFE": 10,
+        "CONDITIONAL": 4,
+        "REEVALUATE": 2
+      },
+      "far_num": 0,
+      "far_den": 30
+    },
+    "source_stricter|renaming": {
+      "n": 40,
+      "ground_truth": {
+        "CONDITIONAL": 7,
+        "REJECT": 30,
+        "SAFE": 2,
+        "REEVALUATE": 1
+      },
+      "predicted": {
+        "CONDITIONAL": 7,
+        "REJECT": 30,
+        "SAFE": 2,
+        "REEVALUATE": 1
+      },
+      "far_num": 0,
+      "far_den": 38
+    },
+    "source_stricter|role_refinement": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 31,
+        "CONDITIONAL": 3,
+        "SAFE": 5,
+        "REEVALUATE": 1
+      },
+      "predicted": {
+        "REJECT": 31,
+        "CONDITIONAL": 3,
+        "SAFE": 5,
+        "REEVALUATE": 1
+      },
+      "far_num": 0,
+      "far_den": 35
+    },
+    "source_stricter|role_widening": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "source_stricter|action_restriction": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 28,
+        "SAFE": 5,
+        "CONDITIONAL": 6,
+        "REEVALUATE": 1
+      },
+      "predicted": {
+        "REJECT": 28,
+        "SAFE": 5,
+        "CONDITIONAL": 6,
+        "REEVALUATE": 1
+      },
+      "far_num": 0,
+      "far_den": 35
+    },
+    "source_stricter|action_expansion": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "source_stricter|resource_substitution": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 26,
+        "CONDITIONAL": 7,
+        "SAFE": 5,
+        "REEVALUATE": 2
+      },
+      "predicted": {
+        "REJECT": 26,
+        "CONDITIONAL": 7,
+        "SAFE": 5,
+        "REEVALUATE": 2
+      },
+      "far_num": 0,
+      "far_den": 35
+    },
+    "source_stricter|context_preservation": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 26,
+        "SAFE": 5,
+        "REEVALUATE": 6,
+        "CONDITIONAL": 3
+      },
+      "predicted": {
+        "REJECT": 26,
+        "SAFE": 5,
+        "REEVALUATE": 6,
+        "CONDITIONAL": 3
+      },
+      "far_num": 0,
+      "far_den": 35
+    },
+    "source_stricter|context_loss": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 28,
+        "SAFE": 6,
+        "REEVALUATE": 1,
+        "CONDITIONAL": 5
+      },
+      "predicted": {
+        "REJECT": 28,
+        "SAFE": 6,
+        "REEVALUATE": 1,
+        "CONDITIONAL": 5
+      },
+      "far_num": 0,
+      "far_den": 34
+    },
+    "source_stricter|context_strengthening": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 25,
+        "SAFE": 8,
+        "REEVALUATE": 3,
+        "CONDITIONAL": 4
+      },
+      "predicted": {
+        "REJECT": 25,
+        "SAFE": 8,
+        "REEVALUATE": 3,
+        "CONDITIONAL": 4
+      },
+      "far_num": 0,
+      "far_den": 32
+    },
+    "destination_stricter|identity": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 34,
+        "CONDITIONAL": 2,
+        "REEVALUATE": 3,
+        "SAFE": 1
+      },
+      "predicted": {
+        "REJECT": 34,
+        "CONDITIONAL": 2,
+        "REEVALUATE": 3,
+        "SAFE": 1
+      },
+      "far_num": 0,
+      "far_den": 39
+    },
+    "destination_stricter|renaming": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 31,
+        "SAFE": 6,
+        "CONDITIONAL": 1,
+        "REEVALUATE": 2
+      },
+      "predicted": {
+        "REJECT": 31,
+        "SAFE": 6,
+        "CONDITIONAL": 1,
+        "REEVALUATE": 2
+      },
+      "far_num": 0,
+      "far_den": 34
+    },
+    "destination_stricter|role_refinement": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 34,
+        "REEVALUATE": 6
+      },
+      "predicted": {
+        "REJECT": 34,
+        "REEVALUATE": 6
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "destination_stricter|role_widening": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "destination_stricter|action_restriction": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 32,
+        "REEVALUATE": 1,
+        "SAFE": 3,
+        "CONDITIONAL": 4
+      },
+      "predicted": {
+        "REJECT": 32,
+        "REEVALUATE": 1,
+        "SAFE": 3,
+        "CONDITIONAL": 4
+      },
+      "far_num": 0,
+      "far_den": 37
+    },
+    "destination_stricter|action_expansion": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "destination_stricter|resource_substitution": {
+      "n": 40,
+      "ground_truth": {
+        "REEVALUATE": 2,
+        "REJECT": 24,
+        "SAFE": 9,
+        "CONDITIONAL": 5
+      },
+      "predicted": {
+        "REEVALUATE": 2,
+        "REJECT": 24,
+        "SAFE": 9,
+        "CONDITIONAL": 5
+      },
+      "far_num": 0,
+      "far_den": 31
+    },
+    "destination_stricter|context_preservation": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 29,
+        "SAFE": 5,
+        "CONDITIONAL": 3,
+        "REEVALUATE": 3
+      },
+      "predicted": {
+        "REJECT": 29,
+        "SAFE": 5,
+        "CONDITIONAL": 3,
+        "REEVALUATE": 3
+      },
+      "far_num": 0,
+      "far_den": 35
+    },
+    "destination_stricter|context_loss": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 33,
+        "REEVALUATE": 7
+      },
+      "predicted": {
+        "REJECT": 33,
+        "REEVALUATE": 7
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "destination_stricter|context_strengthening": {
+      "n": 40,
+      "ground_truth": {
+        "SAFE": 13,
+        "REJECT": 21,
+        "REEVALUATE": 1,
+        "CONDITIONAL": 5
+      },
+      "predicted": {
+        "SAFE": 13,
+        "REJECT": 21,
+        "REEVALUATE": 1,
+        "CONDITIONAL": 5
+      },
+      "far_num": 0,
+      "far_den": 27
+    },
+    "incomparable|identity": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 29,
+        "SAFE": 6,
+        "REEVALUATE": 3,
+        "CONDITIONAL": 2
+      },
+      "predicted": {
+        "REJECT": 29,
+        "SAFE": 6,
+        "REEVALUATE": 3,
+        "CONDITIONAL": 2
+      },
+      "far_num": 0,
+      "far_den": 34
+    },
+    "incomparable|renaming": {
+      "n": 40,
+      "ground_truth": {
+        "REEVALUATE": 5,
+        "REJECT": 30,
+        "SAFE": 4,
+        "CONDITIONAL": 1
+      },
+      "predicted": {
+        "REEVALUATE": 5,
+        "REJECT": 30,
+        "SAFE": 4,
+        "CONDITIONAL": 1
+      },
+      "far_num": 0,
+      "far_den": 36
+    },
+    "incomparable|role_refinement": {
+      "n": 40,
+      "ground_truth": {
+        "REEVALUATE": 6,
+        "REJECT": 31,
+        "SAFE": 3
+      },
+      "predicted": {
+        "REEVALUATE": 6,
+        "REJECT": 31,
+        "SAFE": 3
+      },
+      "far_num": 0,
+      "far_den": 37
+    },
+    "incomparable|role_widening": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "incomparable|action_restriction": {
+      "n": 40,
+      "ground_truth": {
+        "CONDITIONAL": 6,
+        "REEVALUATE": 5,
+        "REJECT": 25,
+        "SAFE": 4
+      },
+      "predicted": {
+        "CONDITIONAL": 6,
+        "REEVALUATE": 5,
+        "REJECT": 25,
+        "SAFE": 4
+      },
+      "far_num": 0,
+      "far_den": 36
+    },
+    "incomparable|action_expansion": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "incomparable|resource_substitution": {
+      "n": 40,
+      "ground_truth": {
+        "REEVALUATE": 4,
+        "REJECT": 36
+      },
+      "predicted": {
+        "REEVALUATE": 4,
+        "REJECT": 36
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "incomparable|context_preservation": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 36,
+        "REEVALUATE": 4
+      },
+      "predicted": {
+        "REJECT": 36,
+        "REEVALUATE": 4
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "incomparable|context_loss": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 29,
+        "CONDITIONAL": 3,
+        "SAFE": 6,
+        "REEVALUATE": 2
+      },
+      "predicted": {
+        "REJECT": 29,
+        "CONDITIONAL": 3,
+        "SAFE": 6,
+        "REEVALUATE": 2
+      },
+      "far_num": 0,
+      "far_den": 34
+    },
+    "incomparable|context_strengthening": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 38,
+        "REEVALUATE": 2
+      },
+      "predicted": {
+        "REJECT": 38,
+        "REEVALUATE": 2
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "contradictory|identity": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "contradictory|renaming": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "contradictory|role_refinement": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "contradictory|role_widening": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "contradictory|action_restriction": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "contradictory|action_expansion": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "contradictory|resource_substitution": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "contradictory|context_preservation": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "contradictory|context_loss": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    },
+    "contradictory|context_strengthening": {
+      "n": 40,
+      "ground_truth": {
+        "REJECT": 40
+      },
+      "predicted": {
+        "REJECT": 40
+      },
+      "far_num": 0,
+      "far_den": 40
+    }
+  }
+}

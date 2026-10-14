@@ -1,0 +1,14 @@
+{
+  "naive_opa": {
+    "widening_found": false,
+    "widening_witness": null,
+    "over_conservative_found": false,
+    "over_conservative_witness": null
+  },
+  "naive_cedar": {
+    "widening_found": false,
+    "widening_witness": null,
+    "over_conservative_found": false,
+    "over_conservative_witness": null
+  }
+}

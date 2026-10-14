@@ -1,0 +1,80 @@
+{
+  "chaincode_version": "2.11/seq23",
+  "A3_obligation": {
+    "note": "director/1,500,000 (threshold=2,000,000, half=1,000,000, so amount>half -> obligation required)",
+    "real_conditional": {
+      "secondApprovalObtained": false,
+      "expected": "CONDITIONAL",
+      "result": "CONDITIONAL"
+    },
+    "ablated_incorrect_accept": {
+      "secondApprovalObtained": false,
+      "expected": "accepted (incorrect)",
+      "result": "EXACT"
+    },
+    "real_approved_control": {
+      "secondApprovalObtained": true,
+      "expected": "accepted",
+      "result": "EXACT"
+    },
+    "real_below_half_control": {
+      "amount": 500000,
+      "expected": "accepted (no obligation needed)",
+      "result": "EXACT"
+    }
+  },
+  "A8_replay": {
+    "real_clean": {
+      "original": "REJECT/600000 committed",
+      "resubmit_after_commit": "correctly rejected: 'already recorded (replay rejected)'",
+      "readback": "unchanged, still 600000/REJECT"
+    },
+    "ablated_clean": {
+      "original": "REJECT/600000 committed",
+      "resubmit_after_commit": "SAFE (accepted)",
+      "readback": "OVERWRITTEN to 200000/SAFE -- original silently lost"
+    },
+    "note": "an earlier rapid-fire (no wait) attempt showed a benign endorsement-time race (same mechanism as E4's 91/9 split) resolved by re-testing with a real wait between submissions -- not a genuine A8 failure"
+  },
+  "A1_state_correspondence": {
+    "real_fabricated_header": {
+      "result": "REJECT",
+      "lcDetail": "header not verified against the pinned validator set: malformed IBFT2 extraData: <nil>"
+    },
+    "ablated_fabricated_header": {
+      "result": "SAFE",
+      "lcDetail": "A1 ablated: header NOT cryptographically verified... StateRoot trusted as claimed"
+    },
+    "note": "fabricated header used the REAL StateRoot (from a genuinely verified block) but fake hash/parentHash/extraData -- real path rejects at extraData parse before any seal check; ablated path never looks at extraData/seals at all"
+  },
+  "A4_freshness": {
+    "real_216h_stale_header": {
+      "result": "REJECT",
+      "lcVerified": false,
+      "lcDetail": "header rejected: header is 780030s old, exceeds the 86400s freshness bound"
+    },
+    "ablated_216h_stale_header": {
+      "result": "REJECT (for an unrelated reason -- see note)",
+      "lcVerified": true,
+      "lcDetail": "A4 ablated: header age NOT checked... 3/4 distinct pinned-validator commit seals",
+      "provenApprovals": 2,
+      "provenMlScanPassed": true
+    },
+    "note": "overall class stayed REJECT under the ablated path too, but for a DIFFERENT, unrelated reason (the accompanying v7 ZK proof's codeHash did not match this old registry's codeHash -- unavoidable since Besu prunes historical state, so no fresh v7-compatible proof exists for this specific 216h-old block). The correct comparison is lcVerified/lcDetail: real=false/rejected-for-age, ablated=true/genuinely-verified-but-age-ignored -- this isolates A4's real effect at the light-client layer independent of the ZK layer."
+  },
+  "A5_finality_quorum": {
+    "real_truncated_to_1_seal": {
+      "result": "REJECT",
+      "lcDetail": "only 1 distinct validator commit seals, quorum is 3"
+    },
+    "ablated_weak_quorum_1": {
+      "result": "SAFE",
+      "lcDetail": "A5 ablated: quorum required=1... 1/4 distinct pinned-validator commit seals"
+    },
+    "note": "seals were truncated from a REAL header's REAL 3 valid signatures down to 1 (still a genuine, cryptographically valid signature, not forged) via RLP decode/truncate/re-encode; the block hash is unaffected since seals are not part of the hashed fields"
+  },
+  "A7_A9_architectural_note": {
+    "A7": "mapping/governance authentication's real analog is Fabric's chaincode-lifecycle governance itself: RoleMapping/RoleThreshold are compiled into the chaincode, so changing them requires the channel's real 2-of-2 (Org1MSP+Org2MSP) endorsement policy for chaincode commit -- already exercised for real 11+ times this session (v2.1 through v2.11, each requiring both orgs' approval, visible via querycommitted). Not ablatable per-transaction: it is deployment-time governance, not application logic.",
+    "A9": "TOCTOU protection is Fabric's own platform-level optimistic concurrency control (MVCC read-set validation at commit), automatic for every GetState call -- already demonstrated real (2026-09-21 concurrency_toctou_experiment.md; 2026-09-23 E4 non-policy-relevant control). Not ablatable per-transaction without disabling Fabric's own commit-time validation entirely, a channel-level setting outside any chaincode's control."
+  }
+}

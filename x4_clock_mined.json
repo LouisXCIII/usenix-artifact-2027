@@ -1,0 +1,14 @@
+{
+ "E_fresh": {
+  "class": "SAFE",
+  "commitVerified": true,
+  "semBound": true,
+  "detail": "decision content recomputed into hD and proven committed on the source by the pinned policy authority"
+ },
+ "E_expired": {
+  "class": "REJECT",
+  "commitVerified": null,
+  "semBound": true,
+  "detail": "decision expired at 1700000000, transaction time 1790014935"
+ }
+}

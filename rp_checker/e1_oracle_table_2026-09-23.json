@@ -1,0 +1,302 @@
+{
+  "equivalent|identity": {
+    "pair_type": "equivalent",
+    "mapping_type": "identity",
+    "sem_covered": true,
+    "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+  },
+  "equivalent|renaming": {
+    "pair_type": "equivalent",
+    "mapping_type": "renaming",
+    "sem_covered": true,
+    "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+  },
+  "equivalent|role_refinement": {
+    "pair_type": "equivalent",
+    "mapping_type": "role_refinement",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_role=2, amt=10001"
+  },
+  "equivalent|role_widening": {
+    "pair_type": "equivalent",
+    "mapping_type": "role_widening",
+    "sem_covered": true,
+    "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+  },
+  "equivalent|action_restriction": {
+    "pair_type": "equivalent",
+    "mapping_type": "action_restriction",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "equivalent|action_expansion": {
+    "pair_type": "equivalent",
+    "mapping_type": "action_expansion",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_action=2"
+  },
+  "equivalent|resource_substitution": {
+    "pair_type": "equivalent",
+    "mapping_type": "resource_substitution",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "equivalent|context_preservation": {
+    "pair_type": "equivalent",
+    "mapping_type": "context_preservation",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "equivalent|context_loss": {
+    "pair_type": "equivalent",
+    "mapping_type": "context_loss",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+  },
+  "equivalent|context_strengthening": {
+    "pair_type": "equivalent",
+    "mapping_type": "context_strengthening",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "source_stricter|identity": {
+    "pair_type": "source_stricter",
+    "mapping_type": "identity",
+    "sem_covered": true,
+    "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+  },
+  "source_stricter|renaming": {
+    "pair_type": "source_stricter",
+    "mapping_type": "renaming",
+    "sem_covered": true,
+    "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+  },
+  "source_stricter|role_refinement": {
+    "pair_type": "source_stricter",
+    "mapping_type": "role_refinement",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_role=3, amt=500001"
+  },
+  "source_stricter|role_widening": {
+    "pair_type": "source_stricter",
+    "mapping_type": "role_widening",
+    "sem_covered": true,
+    "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+  },
+  "source_stricter|action_restriction": {
+    "pair_type": "source_stricter",
+    "mapping_type": "action_restriction",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "source_stricter|action_expansion": {
+    "pair_type": "source_stricter",
+    "mapping_type": "action_expansion",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "source_stricter|resource_substitution": {
+    "pair_type": "source_stricter",
+    "mapping_type": "resource_substitution",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "source_stricter|context_preservation": {
+    "pair_type": "source_stricter",
+    "mapping_type": "context_preservation",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "source_stricter|context_loss": {
+    "pair_type": "source_stricter",
+    "mapping_type": "context_loss",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "source_stricter|context_strengthening": {
+    "pair_type": "source_stricter",
+    "mapping_type": "context_strengthening",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "destination_stricter|identity": {
+    "pair_type": "destination_stricter",
+    "mapping_type": "identity",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_role=1, amt=10001"
+  },
+  "destination_stricter|renaming": {
+    "pair_type": "destination_stricter",
+    "mapping_type": "renaming",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_role=1, amt=10001"
+  },
+  "destination_stricter|role_refinement": {
+    "pair_type": "destination_stricter",
+    "mapping_type": "role_refinement",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_role=1, amt=10001"
+  },
+  "destination_stricter|role_widening": {
+    "pair_type": "destination_stricter",
+    "mapping_type": "role_widening",
+    "sem_covered": true,
+    "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+  },
+  "destination_stricter|action_restriction": {
+    "pair_type": "destination_stricter",
+    "mapping_type": "action_restriction",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_action=3"
+  },
+  "destination_stricter|action_expansion": {
+    "pair_type": "destination_stricter",
+    "mapping_type": "action_expansion",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_action=2"
+  },
+  "destination_stricter|resource_substitution": {
+    "pair_type": "destination_stricter",
+    "mapping_type": "resource_substitution",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "destination_stricter|context_preservation": {
+    "pair_type": "destination_stricter",
+    "mapping_type": "context_preservation",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "destination_stricter|context_loss": {
+    "pair_type": "destination_stricter",
+    "mapping_type": "context_loss",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+  },
+  "destination_stricter|context_strengthening": {
+    "pair_type": "destination_stricter",
+    "mapping_type": "context_strengthening",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "incomparable|identity": {
+    "pair_type": "incomparable",
+    "mapping_type": "identity",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_role=1, amt=10001"
+  },
+  "incomparable|renaming": {
+    "pair_type": "incomparable",
+    "mapping_type": "renaming",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_role=1, amt=10001"
+  },
+  "incomparable|role_refinement": {
+    "pair_type": "incomparable",
+    "mapping_type": "role_refinement",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_role=2, amt=2000000"
+  },
+  "incomparable|role_widening": {
+    "pair_type": "incomparable",
+    "mapping_type": "role_widening",
+    "sem_covered": true,
+    "z3_note": "UNSAT(counterexample search) -> sound for all instances"
+  },
+  "incomparable|action_restriction": {
+    "pair_type": "incomparable",
+    "mapping_type": "action_restriction",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_action=3"
+  },
+  "incomparable|action_expansion": {
+    "pair_type": "incomparable",
+    "mapping_type": "action_expansion",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_action=3"
+  },
+  "incomparable|resource_substitution": {
+    "pair_type": "incomparable",
+    "mapping_type": "resource_substitution",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: resource id not in destination-accepted equivalence set"
+  },
+  "incomparable|context_preservation": {
+    "pair_type": "incomparable",
+    "mapping_type": "context_preservation",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+  },
+  "incomparable|context_loss": {
+    "pair_type": "incomparable",
+    "mapping_type": "context_loss",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "incomparable|context_strengthening": {
+    "pair_type": "incomparable",
+    "mapping_type": "context_strengthening",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+  },
+  "contradictory|identity": {
+    "pair_type": "contradictory",
+    "mapping_type": "identity",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_role=1, amt=2000001"
+  },
+  "contradictory|renaming": {
+    "pair_type": "contradictory",
+    "mapping_type": "renaming",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_role=1, amt=2000001"
+  },
+  "contradictory|role_refinement": {
+    "pair_type": "contradictory",
+    "mapping_type": "role_refinement",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_role=1, amt=2000001"
+  },
+  "contradictory|role_widening": {
+    "pair_type": "contradictory",
+    "mapping_type": "role_widening",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: src_role=1, amt=2000001"
+  },
+  "contradictory|action_restriction": {
+    "pair_type": "contradictory",
+    "mapping_type": "action_restriction",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "contradictory|action_expansion": {
+    "pair_type": "contradictory",
+    "mapping_type": "action_expansion",
+    "sem_covered": true,
+    "z3_note": "UNSAT -> sound"
+  },
+  "contradictory|resource_substitution": {
+    "pair_type": "contradictory",
+    "mapping_type": "resource_substitution",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: resource id not in destination-accepted equivalence set"
+  },
+  "contradictory|context_preservation": {
+    "pair_type": "contradictory",
+    "mapping_type": "context_preservation",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+  },
+  "contradictory|context_loss": {
+    "pair_type": "contradictory",
+    "mapping_type": "context_loss",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+  },
+  "contradictory|context_strengthening": {
+    "pair_type": "contradictory",
+    "mapping_type": "context_strengthening",
+    "sem_covered": false,
+    "z3_note": "SAT counterexample: context flag lost/mismatched relative to destination requirement"
+  }
+}

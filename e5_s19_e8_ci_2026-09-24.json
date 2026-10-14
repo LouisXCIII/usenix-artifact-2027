@@ -1,0 +1,178 @@
+{
+  "methodology": "Exact one-sided 95% Clopper-Pearson upper bound (1-0.05^(1/n)) for x=0 events; Wilson score 95% two-sided interval for non-zero proportions.",
+  "E5_pqc": {
+    "N_false_upgrade_combined": {
+      "x": 0,
+      "n": 31,
+      "upper_95pct": 0.09211405994732369,
+      "note": "updated 2026-09-24 after E5 dual-implementation depth pass (n=7 -> n=31); see e5_dual_implementation_v4_2026-09-24.md"
+    },
+    "independent_verifier_negative_controls_HISTORICAL": {
+      "x": 0,
+      "n": 2,
+      "upper_95pct": 0.7763932022500211
+    }
+  },
+  "S19_tac_substitution": {
+    "x": 0,
+    "n": 50,
+    "upper_95pct": 0.058155079116972264,
+    "note": "updated 2026-09-24: real on-chain TACVerifier guard, 10 certs x 5 substitution types; see s19_a10_onchain_2026-09-24.md",
+    "HISTORICAL_standalone": {
+      "x": 0,
+      "n": 5,
+      "upper_95pct": 0.4507197283469412
+    }
+  },
+  "E8_ablations": {
+    "A2_real_onchain_family_sweep": {
+      "x": 0,
+      "n": 37,
+      "upper_95pct": 0.07777471100513789
+    },
+    "A6_real_onchain_truth_table": {
+      "x": 0,
+      "n": 12,
+      "upper_95pct": 0.22092219194555585
+    },
+    "A1_A3_A4_A5_A8_real_analogs": {
+      "x": 0,
+      "n": 5,
+      "upper_95pct": 0.4507197283469412
+    },
+    "A7_real_governance": {
+      "x": 0,
+      "n": 4,
+      "upper_95pct": 0.5271291954984121
+    },
+    "A9_real_toctou_race": {
+      "x": 0,
+      "n": 2,
+      "upper_95pct": 0.7763932022500211
+    },
+    "A10_field_binding_removed": {
+      "x": 50,
+      "n": 50,
+      "complementary_upper_95pct": 0.058155079116972264,
+      "note": "updated 2026-09-24: real on-chain ablated TACVerifier guard, 10 certs x 5 substitution types",
+      "HISTORICAL_standalone": {
+        "x": 5,
+        "n": 5,
+        "complementary_upper_95pct": 0.4507197283469412
+      }
+    },
+    "A0_A9_formal_n2000_wilson": {
+      "A0": {
+        "x": 0,
+        "wilson_95pct": null,
+        "upper_95pct": 0.0014967448951882512
+      },
+      "A1": {
+        "x": 14,
+        "wilson_95pct": [
+          0.004174307221708975,
+          0.01171597073239678
+        ],
+        "upper_95pct": null
+      },
+      "A2": {
+        "x": 79,
+        "wilson_95pct": [
+          0.03180878133836805,
+          0.04895688397170437
+        ],
+        "upper_95pct": null
+      },
+      "A3": {
+        "x": 50,
+        "wilson_95pct": [
+          0.019014328222153373,
+          0.032806933498333926
+        ],
+        "upper_95pct": null
+      },
+      "A4": {
+        "x": 72,
+        "wilson_95pct": [
+          0.02868448710149568,
+          0.04509459803178032
+        ],
+        "upper_95pct": null
+      },
+      "A5": {
+        "x": 26,
+        "wilson_95pct": [
+          0.00888683405424848,
+          0.01898043848865112
+        ],
+        "upper_95pct": null
+      },
+      "A6": {
+        "x": 92,
+        "wilson_95pct": [
+          0.03765688480093504,
+          0.056083857980330706
+        ],
+        "upper_95pct": null
+      },
+      "A7": {
+        "x": 64,
+        "wilson_95pct": [
+          0.02513901392440653,
+          0.040655408149673576
+        ],
+        "upper_95pct": null
+      },
+      "A8": {
+        "x": 14,
+        "wilson_95pct": [
+          0.004174307221708975,
+          0.01171597073239678
+        ],
+        "upper_95pct": null
+      },
+      "A9": {
+        "x": 18,
+        "wilson_95pct": [
+          0.005700452646339955,
+          0.014182156837363747
+        ],
+        "upper_95pct": null
+      }
+    },
+    "A1_A3_A5_A8_combined": {
+      "x": 0,
+      "n": 72,
+      "upper_95pct": 0.04075368623063991,
+      "per_mechanism": {
+        "A1": {
+          "n": 10,
+          "upper_95pct": 0.2588655508930523
+        },
+        "A3": {
+          "n": 36,
+          "upper_95pct": 0.07984650951989436
+        },
+        "A5": {
+          "n": 10,
+          "upper_95pct": 0.2588655508930523
+        },
+        "A8": {
+          "n": 16,
+          "upper_95pct": 0.17074972298248092
+        }
+      },
+      "note": "updated 2026-09-24: real per-mechanism sweeps, see a1_a3_a5_a8_deepening_2026-09-24.md",
+      "HISTORICAL_joint": {
+        "x": 0,
+        "n": 5,
+        "upper_95pct": 0.4507197283469412
+      }
+    },
+    "A4_freshness_UNCHANGED": {
+      "x": 0,
+      "n": 1,
+      "note": "deliberately not swept -- Besu pruning constraint, disclosed in a1_a3_a5_a8_deepening_2026-09-24.md"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+ "pairs": [
+  {
+   "name": "00_clean_token.sol",
+   "b4_median_ms": 2.060277,
+   "b1perf_ms": 9.49859619140625,
+   "reusegain": 0.7830966851855422
+  },
+  {
+   "name": "00_clean_voting.sol",
+   "b4_median_ms": 1.891991,
+   "b1perf_ms": 8.307695388793945,
+   "reusegain": 0.7722604270551299
+  },
+  {
+   "name": "02_integer_overflow_safe.sol",
+   "b4_median_ms": 2.0381115,
+   "b1perf_ms": 6.003141403198242,
+   "reusegain": 0.6604925049884428
+  },
+  {
+   "name": "02_integer_overflow_vuln.sol",
+   "b4_median_ms": 1.934273,
+   "b1perf_ms": 5.067110061645508,
+   "reusegain": 0.6182689982123936
+  },
+  {
+   "name": "03_dos_safe.sol",
+   "b4_median_ms": 2.0741675,
+   "b1perf_ms": 4.19163703918457,
+   "reusegain": 0.5051652896922814
+  },
+  {
+   "name": "03_dos_vuln.sol",
+   "b4_median_ms": 2.063811,
+   "b1perf_ms": 4.066944122314453,
+   "reusegain": 0.49254011416672533
+  },
+  {
+   "name": "04_call_to_unknown_safe.sol",
+   "b4_median_ms": 2.067458,
+   "b1perf_ms": 4.086017608642578,
+   "reusegain": 0.49401637535114956
+  },
+  {
+   "name": "04_call_to_unknown_vuln.sol",
+   "b4_median_ms": 1.9056715,
+   "b1perf_ms": 2.5610923767089844,
+   "reusegain": 0.25591457874362317
+  },
+  {
+   "name": "05_weak_access_control_safe.sol",
+   "b4_median_ms": 2.042453,
+   "b1perf_ms": 3.594636917114258,
+   "reusegain": 0.43180547935849306
+  },
+  {
+   "name": "05_weak_access_control_vuln.sol",
+   "b4_median_ms": 1.9807565,
+   "b1perf_ms": 2.9692649841308594,
+   "reusegain": 0.33291352890830256
+  },
+  {
+   "name": "06_unused_return_safe.sol",
+   "b4_median_ms": 2.075407,
+   "b1perf_ms": 3.655672073364258,
+   "reusegain": 0.432277578965108
+  },
+  {
+   "name": "06_unused_return_vuln.sol",
+   "b4_median_ms": 1.9330705,
+   "b1perf_ms": 3.1626224517822266,
+   "reusegain": 0.38877607761537886
+  },
+  {
+   "name": "07_tod_safe.sol",
+   "b4_median_ms": 2.0435065,
+   "b1perf_ms": 5.175590515136719,
+   "reusegain": 0.6051645712651558
+  },
+  {
+   "name": "07_tod_vuln.sol",
+   "b4_median_ms": 2.0345975,
+   "b1perf_ms": 3.5250186920166016,
+   "reusegain": 0.4228122805113291
+  },
+  {
+   "name": "08_timestamp_safe.sol",
+   "b4_median_ms": 1.9538015,
+   "b1perf_ms": 6.587743759155273,
+   "reusegain": 0.7034187164179364
+  },
+  {
+   "name": "08_timestamp_vuln.sol",
+   "b4_median_ms": 1.974249,
+   "b1perf_ms": 3.835439682006836,
+   "reusegain": 0.4852613614908933
+  },
+  {
+   "name": "09_mishandled_exception_safe.sol",
+   "b4_median_ms": 2.0840195,
+   "b1perf_ms": 5.385875701904297,
+   "reusegain": 0.6130583742838424
+  },
+  {
+   "name": "09_mishandled_exception_vuln.sol",
+   "b4_median_ms": 2.0180965,
+   "b1perf_ms": 3.801107406616211,
+   "reusegain": 0.46907669683647996
+  },
+  {
+   "name": "10_gas_exception_safe.sol",
+   "b4_median_ms": 2.0335125,
+   "b1perf_ms": 5.831480026245117,
+   "reusegain": 0.6512870676315466
+  },
+  {
+   "name": "10_gas_exception_vuln.sol",
+   "b4_median_ms": 2.0610515,
+   "b1perf_ms": 3.6306381225585938,
+   "reusegain": 0.4323170113832414
+  },
+  {
+   "name": "11_external_bug_safe.sol",
+   "b4_median_ms": 1.9766755,
+   "b1perf_ms": 5.373477935791016,
+   "reusegain": 0.6321422505833704
+  },
+  {
+   "name": "11_external_bug_vuln.sol",
+   "b4_median_ms": 1.972141,
+   "b1perf_ms": 2.7549266815185547,
+   "reusegain": 0.2841402955548248
+  }
+ ],
+ "median_gain": 0.49327824475893745,
+ "mean_gain": 0.5211911938273268,
+ "min_gain": 0.25591457874362317,
+ "max_gain": 0.7830966851855422,
+ "wilcoxon_statistic": 0.0,
+ "wilcoxon_pvalue": 4.76837158203125e-07,
+ "n": 22
+}

@@ -1,0 +1,387 @@
+{
+ "n_mutants": 38,
+ "killed": 38,
+ "mutation_score": 1.0,
+ "results": [
+  {
+   "mismatches": 243,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.8785000000000001,
+   "site_index": 0,
+   "kind": "boolop",
+   "description": "Or -> And (line 56)",
+   "killed": true
+  },
+  {
+   "mismatches": 1018,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.491,
+   "site_index": 1,
+   "kind": "compare",
+   "description": "Eq -> NotEq (line 67)",
+   "killed": true
+  },
+  {
+   "mismatches": 314,
+   "far_flips": 52,
+   "frr_flips": 150,
+   "accuracy": 0.843,
+   "site_index": 2,
+   "kind": "compare",
+   "description": "Eq -> NotEq (line 83)",
+   "killed": true
+  },
+  {
+   "mismatches": 233,
+   "far_flips": 24,
+   "frr_flips": 150,
+   "accuracy": 0.8835,
+   "site_index": 3,
+   "kind": "compare",
+   "description": "In -> NotIn (line 84)",
+   "killed": true
+  },
+  {
+   "mismatches": 397,
+   "far_flips": 85,
+   "frr_flips": 150,
+   "accuracy": 0.8015,
+   "site_index": 4,
+   "kind": "compare",
+   "description": "In -> NotIn (line 85)",
+   "killed": true
+  },
+  {
+   "mismatches": 868,
+   "far_flips": 868,
+   "frr_flips": 0,
+   "accuracy": 0.5660000000000001,
+   "site_index": 5,
+   "kind": "boolop",
+   "description": "And -> Or (line 89)",
+   "killed": true
+  },
+  {
+   "mismatches": 46,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.977,
+   "site_index": 6,
+   "kind": "not",
+   "description": "remove unary Not (line 104)",
+   "killed": true
+  },
+  {
+   "mismatches": 8,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.996,
+   "site_index": 7,
+   "kind": "compare",
+   "description": "Eq -> NotEq (line 106)",
+   "killed": true
+  },
+  {
+   "mismatches": 24,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.988,
+   "site_index": 8,
+   "kind": "compare",
+   "description": "Eq -> NotEq (line 108)",
+   "killed": true
+  },
+  {
+   "mismatches": 315,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.8425,
+   "site_index": 9,
+   "kind": "boolop",
+   "description": "Or -> And (line 112)",
+   "killed": true
+  },
+  {
+   "mismatches": 315,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.8425,
+   "site_index": 10,
+   "kind": "boolop",
+   "description": "And -> Or (line 120)",
+   "killed": true
+  },
+  {
+   "mismatches": 352,
+   "far_flips": 0,
+   "frr_flips": 150,
+   "accuracy": 0.8240000000000001,
+   "site_index": 11,
+   "kind": "not",
+   "description": "remove unary Not (line 56)",
+   "killed": true
+  },
+  {
+   "mismatches": 355,
+   "far_flips": 0,
+   "frr_flips": 150,
+   "accuracy": 0.8225,
+   "site_index": 12,
+   "kind": "not",
+   "description": "remove unary Not (line 57)",
+   "killed": true
+  },
+  {
+   "mismatches": 455,
+   "far_flips": 0,
+   "frr_flips": 150,
+   "accuracy": 0.7725,
+   "site_index": 13,
+   "kind": "not",
+   "description": "remove unary Not (line 58)",
+   "killed": true
+  },
+  {
+   "mismatches": 346,
+   "far_flips": 0,
+   "frr_flips": 150,
+   "accuracy": 0.827,
+   "site_index": 14,
+   "kind": "compare",
+   "description": "Eq -> NotEq (line 59)",
+   "killed": true
+  },
+  {
+   "mismatches": 373,
+   "far_flips": 0,
+   "frr_flips": 150,
+   "accuracy": 0.8135,
+   "site_index": 15,
+   "kind": "compare",
+   "description": "Eq -> NotEq (line 60)",
+   "killed": true
+  },
+  {
+   "mismatches": 85,
+   "far_flips": 0,
+   "frr_flips": 55,
+   "accuracy": 0.9575,
+   "site_index": 16,
+   "kind": "compare",
+   "description": "Eq -> NotEq (line 68)",
+   "killed": true
+  },
+  {
+   "mismatches": 653,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.6735,
+   "site_index": 17,
+   "kind": "compare",
+   "description": "Eq -> NotEq (line 72)",
+   "killed": true
+  },
+  {
+   "mismatches": 60,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.97,
+   "site_index": 18,
+   "kind": "boolop",
+   "description": "And -> Or (line 97)",
+   "killed": true
+  },
+  {
+   "mismatches": 154,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.923,
+   "site_index": 19,
+   "kind": "not",
+   "description": "remove unary Not (line 112)",
+   "killed": true
+  },
+  {
+   "mismatches": 95,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.9525,
+   "site_index": 20,
+   "kind": "boolop",
+   "description": "And -> Or (line 113)",
+   "killed": true
+  },
+  {
+   "mismatches": 95,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.9525,
+   "site_index": 21,
+   "kind": "boolop",
+   "description": "And -> Or (line 114)",
+   "killed": true
+  },
+  {
+   "mismatches": 162,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.919,
+   "site_index": 22,
+   "kind": "not",
+   "description": "remove unary Not (line 115)",
+   "killed": true
+  },
+  {
+   "mismatches": 105,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.9475,
+   "site_index": 23,
+   "kind": "not",
+   "description": "remove unary Not (line 116)",
+   "killed": true
+  },
+  {
+   "mismatches": 100,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.95,
+   "site_index": 24,
+   "kind": "not",
+   "description": "remove unary Not (line 117)",
+   "killed": true
+  },
+  {
+   "mismatches": 115,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.9425,
+   "site_index": 25,
+   "kind": "not",
+   "description": "remove unary Not (line 118)",
+   "killed": true
+  },
+  {
+   "mismatches": 410,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.795,
+   "site_index": 26,
+   "kind": "not",
+   "description": "remove unary Not (line 120)",
+   "killed": true
+  },
+  {
+   "mismatches": 138,
+   "far_flips": 23,
+   "frr_flips": 55,
+   "accuracy": 0.931,
+   "site_index": 27,
+   "kind": "compare",
+   "description": "LtE -> Gt (line 71)",
+   "killed": true
+  },
+  {
+   "mismatches": 526,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.737,
+   "site_index": 28,
+   "kind": "compare",
+   "description": "Eq -> NotEq (line 74)",
+   "killed": true
+  },
+  {
+   "mismatches": 42,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.979,
+   "site_index": 29,
+   "kind": "compare",
+   "description": "Eq -> NotEq (line 97)",
+   "killed": true
+  },
+  {
+   "mismatches": 44,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.978,
+   "site_index": 30,
+   "kind": "compare",
+   "description": "In -> NotIn (line 98)",
+   "killed": true
+  },
+  {
+   "mismatches": 112,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.944,
+   "site_index": 31,
+   "kind": "not",
+   "description": "remove unary Not (line 113)",
+   "killed": true
+  },
+  {
+   "mismatches": 47,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.9765,
+   "site_index": 32,
+   "kind": "compare",
+   "description": "NotEq -> Eq (line 113)",
+   "killed": true
+  },
+  {
+   "mismatches": 59,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.9705,
+   "site_index": 33,
+   "kind": "not",
+   "description": "remove unary Not (line 114)",
+   "killed": true
+  },
+  {
+   "mismatches": 36,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.982,
+   "site_index": 34,
+   "kind": "compare",
+   "description": "NotEq -> Eq (line 114)",
+   "killed": true
+  },
+  {
+   "mismatches": 47,
+   "far_flips": 9,
+   "frr_flips": 19,
+   "accuracy": 0.9765,
+   "site_index": 35,
+   "kind": "compare",
+   "description": "In -> NotIn (line 75)",
+   "killed": true
+  },
+  {
+   "mismatches": 392,
+   "far_flips": 0,
+   "frr_flips": 0,
+   "accuracy": 0.804,
+   "site_index": 36,
+   "kind": "compare",
+   "description": "Eq -> NotEq (line 76)",
+   "killed": true
+  },
+  {
+   "mismatches": 142,
+   "far_flips": 31,
+   "frr_flips": 56,
+   "accuracy": 0.929,
+   "site_index": 37,
+   "kind": "compare",
+   "description": "In -> NotIn (line 77)",
+   "killed": true
+  }
+ ]
+}

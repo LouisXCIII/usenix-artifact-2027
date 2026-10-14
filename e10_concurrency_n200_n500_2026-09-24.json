@@ -1,0 +1,23 @@
+{
+  "n100_original": {
+    "N": 100,
+    "n_endorsed_ok": 100,
+    "n_committed": 100,
+    "wall_clock_s": 5.790066242218018,
+    "mean_ms_per_tx": 57.900662422180176
+  },
+  "n200": {
+    "N": 200,
+    "n_endorsed_ok": 200,
+    "n_committed": 200,
+    "wall_clock_s": 11.35749888420105,
+    "mean_ms_per_tx": 56.78749442100525
+  },
+  "n500": {
+    "N": 500,
+    "n_endorsed_ok": 500,
+    "n_committed": 500,
+    "wall_clock_s": 27.720256328582764,
+    "mean_ms_per_tx": 55.44051265716553
+  }
+}

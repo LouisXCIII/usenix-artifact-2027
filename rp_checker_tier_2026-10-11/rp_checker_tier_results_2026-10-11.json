@@ -1,0 +1,162 @@
+{
+  "fragment": "Risk-tier (ZK margin ladder) -> role-cap-fraction mapping M_I, genuine two-vocabulary R_P instance",
+  "real_fraction_table_bps": {
+    "0": 0,
+    "1": 1000,
+    "2": 5000,
+    "3": 10000
+  },
+  "naive_variants": {
+    "NV1_tier_fraction_table_reversed": {
+      "widening_found": true,
+      "widening_witness": {
+        "tier": "1",
+        "role_idx": "3",
+        "amount": "1648636"
+      },
+      "over_conservative_found": true,
+      "over_conservative_witness": {
+        "tier": "3",
+        "role_idx": "3",
+        "amount": "1648636"
+      },
+      "note": "governance table transcribed in reverse order (tier 3 gets 10%, tier 1 gets 100%)"
+    },
+    "NV2_tier2_tier3_fraction_swapped": {
+      "widening_found": true,
+      "widening_witness": {
+        "tier2": "2",
+        "role_idx2": "3",
+        "amount2": "1376200"
+      },
+      "over_conservative_found": true,
+      "over_conservative_witness": {
+        "tier2": "3",
+        "role_idx2": "1",
+        "amount2": "7648"
+      },
+      "note": "governance table has tiers 2 and 3's fractions swapped (50%<->100%)"
+    },
+    "NV3_trust_unchecked_caller_claimed_tier": {
+      "widening_found": true,
+      "widening_witness": {
+        "achieved_tier": "2",
+        "claimed_tier": "3",
+        "role_idx3": "3",
+        "amount3": "1583100"
+      },
+      "over_conservative_found": true,
+      "over_conservative_witness": {
+        "achieved_tier": "3",
+        "claimed_tier": "0",
+        "role_idx3": "3",
+        "amount3": "1583100"
+      },
+      "note": "destination trusts a caller-declared risk tier instead of deriving it from which real multi-floor proofs actually verified"
+    },
+    "NV4_tier_off_by_one_shift": {
+      "widening_found": true,
+      "widening_witness": {
+        "tier4": "2",
+        "role_idx4": "3",
+        "amount4": "1648636"
+      },
+      "over_conservative_found": false,
+      "over_conservative_witness": null,
+      "note": "achieved tier mis-indexed one band too high before the fraction lookup"
+    }
+  },
+  "widening_count": 4,
+  "total_variants": 4,
+  "real_proof_tier_evidence": {
+    "available": true,
+    "source_file": "experiments/portability/x16_summary.json",
+    "tier_floors_logits": {
+      "T1": 3.2452,
+      "T2": 4.0,
+      "T3": 5.0
+    },
+    "cases": {
+      "tier3_example": {
+        "file": "test_contracts/04_call_to_unknown_safe.sol",
+        "class_idx": 0,
+        "real_margin_logits": 5.5318,
+        "results_by_floor": {
+          "T1": {
+            "valid": true,
+            "why": null
+          },
+          "T2": {
+            "valid": true,
+            "why": null
+          },
+          "T3": {
+            "valid": true,
+            "why": null
+          }
+        },
+        "achieved_tier": 3
+      },
+      "tier2_example": {
+        "file": "test_contracts/08_timestamp_vuln.sol",
+        "class_idx": 0,
+        "real_margin_logits": 4.5947,
+        "results_by_floor": {
+          "T1": {
+            "valid": true,
+            "why": null
+          },
+          "T2": {
+            "valid": true,
+            "why": null
+          },
+          "T3": {
+            "valid": false,
+            "why": "witness generation failed (real margin below this floor)"
+          }
+        },
+        "achieved_tier": 2
+      },
+      "tier1_example": {
+        "file": "test_contracts/09_mishandled_exception_vuln.sol",
+        "class_idx": 0,
+        "real_margin_logits": 3.2478,
+        "results_by_floor": {
+          "T1": {
+            "valid": true,
+            "why": null
+          },
+          "T2": {
+            "valid": false,
+            "why": "witness generation failed (real margin below this floor)"
+          },
+          "T3": {
+            "valid": false,
+            "why": "witness generation failed (real margin below this floor)"
+          }
+        },
+        "achieved_tier": 1
+      },
+      "tier0_example": {
+        "file": "contracts/SafeBank.sol",
+        "class_idx": 0,
+        "real_margin_logits": 1.2359,
+        "results_by_floor": {
+          "T1": {
+            "valid": false,
+            "why": "witness generation failed (real margin below this floor)"
+          },
+          "T2": {
+            "valid": false,
+            "why": "witness generation failed (real margin below this floor)"
+          },
+          "T3": {
+            "valid": false,
+            "why": "witness generation failed (real margin below this floor)"
+          }
+        },
+        "achieved_tier": 0
+      }
+    }
+  }
+}

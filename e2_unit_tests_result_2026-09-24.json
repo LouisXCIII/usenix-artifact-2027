@@ -1,0 +1,99 @@
+{
+  "results": [
+    {
+      "name": "prohibited_repair_widening",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "decisionID": "e2-unit-prohibited_repair_widening-1790252562500-fklykz",
+      "correct": true,
+      "record": {
+        "decisionId": "e2-unit-prohibited_repair_widening-1790252562500-fklykz",
+        "sourceDomain": "besu-mainnet",
+        "role": "manager",
+        "amount": 600000,
+        "sourceLimit": 0,
+        "semBound": true,
+        "evAssuranceOk": true,
+        "transferClass": "REJECT",
+        "destThreshold": 500000
+      }
+    },
+    {
+      "name": "prohibited_repair_fatal_override",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "decisionID": "e2-unit-prohibited_repair_fatal_override-1790252562500-rksrtz",
+      "correct": true,
+      "record": {
+        "decisionId": "e2-unit-prohibited_repair_fatal_override-1790252562500-rksrtz",
+        "sourceDomain": "besu-mainnet",
+        "role": "manager",
+        "amount": 200000,
+        "sourceLimit": 0,
+        "semBound": false,
+        "evAssuranceOk": true,
+        "transferClass": "REJECT",
+        "destThreshold": 0
+      }
+    },
+    {
+      "name": "fatal_vs_reevaluate_precedence",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "decisionID": "e2-unit-fatal_vs_reevaluate_precedence-1790252562500-xlw86w",
+      "correct": true,
+      "record": {
+        "decisionId": "e2-unit-fatal_vs_reevaluate_precedence-1790252562500-xlw86w",
+        "sourceDomain": "besu-mainnet",
+        "role": "temp_contractor_unregistered",
+        "amount": 200000,
+        "sourceLimit": 0,
+        "semBound": false,
+        "evAssuranceOk": true,
+        "transferClass": "REJECT",
+        "destThreshold": 0
+      }
+    },
+    {
+      "name": "genuine_repair_positive_control_a",
+      "expected": "CONDITIONAL",
+      "observed": "CONDITIONAL",
+      "decisionID": "e2-unit-genuine_repair_positive_control_a-1790252562500-yxbjtq",
+      "correct": true,
+      "record": {
+        "decisionId": "e2-unit-genuine_repair_positive_control_a-1790252562500-yxbjtq",
+        "sourceDomain": "besu-mainnet",
+        "role": "director",
+        "amount": 1500000,
+        "sourceLimit": 0,
+        "semBound": true,
+        "evAssuranceOk": true,
+        "transferClass": "CONDITIONAL",
+        "destThreshold": 2000000,
+        "requiresObligation": true
+      }
+    },
+    {
+      "name": "genuine_repair_positive_control_b",
+      "expected": "CONDITIONAL",
+      "observed": "CONDITIONAL",
+      "decisionID": "e2-unit-genuine_repair_positive_control_b-1790252562500-6zu4ci",
+      "correct": true,
+      "record": {
+        "decisionId": "e2-unit-genuine_repair_positive_control_b-1790252562500-6zu4ci",
+        "sourceDomain": "besu-mainnet",
+        "role": "director",
+        "amount": 1500000,
+        "sourceLimit": 0,
+        "semBound": true,
+        "evAssuranceOk": true,
+        "transferClass": "CONDITIONAL",
+        "destThreshold": 2000000,
+        "requiresObligation": true
+      }
+    }
+  ],
+  "nCorrect": 5,
+  "nTotal": 5,
+  "determinismOk": true
+}

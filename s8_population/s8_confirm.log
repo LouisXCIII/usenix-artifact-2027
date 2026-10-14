@@ -1,0 +1,11 @@
+0 c000 {'T0_identity': True, 'T1_strip_comments': False, 'T2_normalise_whitespace': False, 'T3_rename_contract': False, 'T4_append_comment': False}
+10 c048 {'T0_identity': True, 'T1_strip_comments': False, 'T2_normalise_whitespace': False, 'T3_rename_contract': False, 'T4_append_comment': False}
+20 c108 {'T0_identity': True, 'T1_strip_comments': False, 'T2_normalise_whitespace': False, 'T3_rename_contract': False, 'T4_append_comment': False}
+30 c189 {'T0_identity': True, 'T1_strip_comments': False, 'T2_normalise_whitespace': False, 'T3_rename_contract': False, 'T4_append_comment': False}
+40 c228 {'T0_identity': True, 'T1_strip_comments': False, 'T2_normalise_whitespace': False, 'T3_rename_contract': True, 'T4_append_comment': False}
+50 c270 {'T0_identity': True, 'T1_strip_comments': False, 'T2_normalise_whitespace': False, 'T3_rename_contract': False, 'T4_append_comment': False}
+60 c360 {'T0_identity': True, 'T1_strip_comments': False, 'T2_normalise_whitespace': False, 'T3_rename_contract': True, 'T4_append_comment': False}
+70 c445 {'T0_identity': True, 'T1_strip_comments': False, 'T2_normalise_whitespace': False, 'T3_rename_contract': False, 'T4_append_comment': False}
+80 c540 {'T0_identity': True, 'T1_strip_comments': True, 'T2_normalise_whitespace': False, 'T3_rename_contract': False, 'T4_append_comment': False}
+90 c589 {'T0_identity': True, 'T1_strip_comments': True, 'T2_normalise_whitespace': False, 'T3_rename_contract': False, 'T4_append_comment': False}
+done

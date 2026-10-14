@@ -1,0 +1,69 @@
+{
+ "label": "hl_ica_arb",
+ "explorer": "https://arbitrum.blockscout.com",
+ "queried": [
+  {
+   "address": "0xF90A3d406C6F8321fe118861A357F4D7107760D7",
+   "name": "InterchainAccountRouter",
+   "verified": true,
+   "compiler": "v0.8.22+commit.4fc1097e",
+   "proxy_type": "basic_implementation",
+   "implementations": [
+    "0xDb1734Cff6a0fE1f11E06621Bb717b9E9C3A7F3b"
+   ],
+   "files": [
+    "0xF90A3d40__contracts__middleware__InterchainAccountRouter.sol",
+    "0xF90A3d40__@openzeppelin__contracts__utils__structs__EnumerableSet.sol",
+    "0xF90A3d40__contracts__libs__EnumerableMapExtended.sol",
+    "0xF90A3d40__contracts__client__Router.sol",
+    "0xF90A3d40__@openzeppelin__contracts__utils__Address.sol",
+    "0xF90A3d40__@openzeppelin__contracts-upgradeable__utils__ContextUpgradeable.sol",
+    "0xF90A3d40__contracts__PackageVersioned.sol",
+    "0xF90A3d40__contracts__libs__TypeCasts.sol",
+    "0xF90A3d40__contracts__hooks__libs__StandardHookMetadata.sol",
+    "0xF90A3d40__contracts__libs__Message.sol",
+    "0xF90A3d40__contracts__interfaces__hooks__IPostDispatchHook.sol",
+    "0xF90A3d40__contracts__isms__ccip-read__CommitmentReadIsm.sol",
+    "0xF90A3d40__@openzeppelin__contracts-upgradeable__utils__AddressUpgradeable.sol",
+    "0xF90A3d40__@openzeppelin__contracts-upgradeable__access__OwnableUpgradeable.sol",
+    "0xF90A3d40__contracts__interfaces__IMailbox.sol",
+    "0xF90A3d40__contracts__isms__ccip-read__AbstractCcipReadIsm.sol",
+    "0xF90A3d40__contracts__upgrade__Versioned.sol",
+    "0xF90A3d40__contracts__Mailbox.sol",
+    "0xF90A3d40__contracts__interfaces__isms__ICcipReadIsm.sol",
+    "0xF90A3d40__contracts__client__MailboxClient.sol",
+    "0xF90A3d40__@openzeppelin__contracts__utils__Strings.sol",
+    "0xF90A3d40__contracts__interfaces__isms__IRoutingIsm.sol",
+    "0xF90A3d40__contracts__isms__routing__AbstractRoutingIsm.sol",
+    "0xF90A3d40__contracts__libs__MinimalProxy.sol",
+    "0xF90A3d40__contracts__middleware__libs__Call.sol",
+    "0xF90A3d40__@openzeppelin__contracts__utils__Context.sol",
+    "0xF90A3d40__@openzeppelin__contracts__utils__math__SignedMath.sol",
+    "0xF90A3d40__@openzeppelin__contracts-upgradeable__proxy__utils__Initializable.sol",
+    "0xF90A3d40__@openzeppelin__contracts__utils__math__Math.sol",
+    "0xF90A3d40__@openzeppelin__contracts__access__Ownable.sol",
+    "0xF90A3d40__contracts__middleware__libs__OwnableMulticall.sol",
+    "0xF90A3d40__contracts__libs__Indexed.sol",
+    "0xF90A3d40__@openzeppelin__contracts__utils__Create2.sol",
+    "0xF90A3d40__contracts__interfaces__IMessageRecipient.sol",
+    "0xF90A3d40__contracts__middleware__libs__InterchainAccountMessage.sol",
+    "0xF90A3d40__@openzeppelin__contracts__utils__structs__EnumerableMap.sol",
+    "0xF90A3d40__contracts__interfaces__IInterchainSecurityModule.sol"
+   ]
+  },
+  {
+   "address": "0xDb1734Cff6a0fE1f11E06621Bb717b9E9C3A7F3b",
+   "name": "OwnableMulticall",
+   "verified": true,
+   "compiler": "v0.8.22+commit.4fc1097e",
+   "proxy_type": null,
+   "implementations": [],
+   "files": [
+    "0xDb1734Cf__contracts__middleware__libs__OwnableMulticall.sol",
+    "0xDb1734Cf__..__node_modules__@openzeppelin__contracts__utils__Address.sol",
+    "0xDb1734Cf__contracts__libs__TypeCasts.sol",
+    "0xDb1734Cf__contracts__middleware__libs__Call.sol"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+fresh h 1 done
+fresh h 2 done
+fresh h 3 done
+fresh h 4 done
+fresh h 5 done
+fresh h 10 done
+stale done
+fresh fresh-h1 composed 0 -> ['SAFE'] model ok t0 same ages [0]
+fresh fresh-h1 composed 1 -> ['SAFE'] model ok t0 same ages [0]
+fresh fresh-h1 local 0 -> ['SAFE'] model ok t0 same ages [0]
+fresh fresh-h1 local 1 -> ['SAFE'] model ok t0 same ages [0]
+fresh fresh-h2 composed 0 -> ['SAFE', 'SAFE'] model ok t0 same ages [0, 11]
+fresh fresh-h2 composed 1 -> ['SAFE', 'SAFE'] model ok t0 same ages [0, 11]
+fresh fresh-h2 local 0 -> ['SAFE', 'SAFE'] model ok t0 same ages [0, 11]
+fresh fresh-h2 local 1 -> ['SAFE', 'SAFE'] model ok t0 same ages [0, 11]
+fresh fresh-h3 composed 0 -> ['SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 10, 21]
+fresh fresh-h3 composed 1 -> ['SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 10, 21]
+fresh fresh-h3 local 0 -> ['SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 10, 21]
+fresh fresh-h3 local 1 -> ['SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 10, 21]
+fresh fresh-h4 composed 0 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 10, 21, 31]
+fresh fresh-h4 composed 1 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 10, 21, 31]
+fresh fresh-h4 local 0 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 10, 21, 31]
+fresh fresh-h4 local 1 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 10, 21, 31]
+fresh fresh-h5 composed 0 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 10, 20, 30, 41]
+fresh fresh-h5 composed 1 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 10, 20, 30, 41]
+fresh fresh-h5 local 0 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 10, 20, 30, 41]
+fresh fresh-h5 local 1 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 10, 20, 30, 41]
+fresh fresh-h10 composed 0 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 7, 13, 19, 25, 31, 37, 43, 50, 56]
+fresh fresh-h10 local 0 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 7, 13, 19, 25, 31, 37, 43, 50, 56]
+fresh ctxloss-h4 composed 0 -> ['SAFE', 'SAFE', 'REJECT', 'REJECT'] model ok t0 same ages [0, 10, 20, 30]
+fresh ctxloss-h4 composed 1 -> ['SAFE', 'SAFE', 'REJECT', 'REJECT'] model ok t0 same ages [0, 10, 20, 30]
+fresh ctxloss-h4 local 0 -> ['SAFE', 'SAFE', 'REJECT', 'REJECT'] model ok t0 same ages [0, 10, 20, 30]
+fresh ctxloss-h4 local 1 -> ['SAFE', 'SAFE', 'REJECT', 'REJECT'] model ok t0 same ages [0, 10, 20, 30]
+stale stale-h3 composed 0 -> ['SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 50, 100]
+stale stale-h3 composed 1 -> ['SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 50, 100]
+stale stale-h3 local 0 -> ['SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 50, 100]
+stale stale-h3 local 1 -> ['SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 50, 100]
+stale stale-h4 composed 0 -> ['SAFE', 'SAFE', 'SAFE', 'REJECT'] model ok t0 same ages [0, 50, 100, 150]
+stale stale-h4 composed 1 -> ['SAFE', 'SAFE', 'SAFE', 'REJECT'] model ok t0 same ages [0, 50, 100, 150]
+stale stale-h4 local 0 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 50, 100, 150]
+stale stale-h4 local 1 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 50, 100, 150]
+stale stale-h5 composed 0 -> ['SAFE', 'SAFE', 'SAFE', 'REJECT', 'REJECT'] model ok t0 same ages [0, 50, 100, 150, 200]
+stale stale-h5 composed 1 -> ['SAFE', 'SAFE', 'SAFE', 'REJECT', 'REJECT'] model ok t0 same ages [0, 50, 100, 150, 200]
+stale stale-h5 local 0 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 50, 100, 150, 200]
+stale stale-h5 local 1 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 50, 100, 150, 200]
+stale stale-h10 composed 0 -> ['SAFE', 'SAFE', 'SAFE', 'REJECT', 'REJECT', 'REJECT', 'REJECT', 'REJECT', 'REJECT', 'REJECT'] model ok t0 same ages [0, 50, 100, 150, 200, 250, 300, 350, 400, 450]
+stale stale-h10 composed 1 -> ['SAFE', 'SAFE', 'SAFE', 'REJECT', 'REJECT', 'REJECT', 'REJECT', 'REJECT', 'REJECT', 'REJECT'] model ok t0 same ages [0, 50, 100, 150, 200, 250, 300, 350, 400, 450]
+stale stale-h10 local 0 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 50, 100, 150, 200, 250, 300, 350, 400, 450]
+stale stale-h10 local 1 -> ['SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE', 'SAFE'] model ok t0 same ages [0, 50, 100, 150, 200, 250, 300, 350, 400, 450]
+[
+ {
+  "variant": "composed",
+  "hop0": "SAFE",
+  "skip_hop_refused": true,
+  "skip_error": "Error: endorsement failure during invoke. response: status:500 message:\"previous hop 1 of chain s6-neg-composed-1790587622 not found -- state-binding continuity broken\"",
+  "replay_refused": true,
+  "replay_error": "Error: endorsement failure during invoke. response: status:500 message:\"hop 0 of chain s6-neg-composed-1790587622 already recorded (replay rejected)\""
+ },
+ {
+  "variant": "local",
+  "hop0": "SAFE",
+  "skip_hop_refused": true,
+  "skip_error": "Error: endorsement failure during invoke. response: status:500 message:\"previous hop 1 of chain s6-neg-local-1790587622 not found -- state-binding continuity broken\"",
+  "replay_refused": true,
+  "replay_error": "Error: endorsement failure during invoke. response: status:500 message:\"hop 0 of chain s6-neg-local-1790587622 already recorded (replay rejected)\""
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "name": "c470",
+  "other": "c474",
+  "kind": "N3_forged_featureHash_rerun",
+  "decisionId": "s8-n3r-c470-1790606126",
+  "ok": true,
+  "returned": "REJECT",
+  "committed": "REJECT",
+  "wallMs": 2082.2436379967257,
+  "tail": "",
+  "featureHashDiffers": true
+ },
+ {
+  "name": "c500",
+  "other": "c504",
+  "kind": "N3_forged_featureHash_rerun",
+  "decisionId": "s8-n3r-c500-1790606126",
+  "ok": true,
+  "returned": "REJECT",
+  "committed": "REJECT",
+  "wallMs": 2090.513123999699,
+  "tail": "",
+  "featureHashDiffers": true
+ },
+ {
+  "name": "c616",
+  "other": "03_dos_safe.sol",
+  "kind": "N3_forged_featureHash_rerun",
+  "decisionId": "s8-n3r-c616-1790606126",
+  "ok": true,
+  "returned": "REJECT",
+  "committed": "REJECT",
+  "wallMs": 2082.5003650024883,
+  "tail": "",
+  "featureHashDiffers": true
+ }
+]

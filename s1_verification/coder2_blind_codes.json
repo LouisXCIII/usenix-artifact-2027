@@ -1,0 +1,202 @@
+[
+ {
+  "row": "R1",
+  "D2": "Y",
+  "D3": "N",
+  "D4": "N",
+  "D5": "N",
+  "E": "U",
+  "evidence": "hyperlane/solidity__contracts__client__Router.sol:102-103 (enrolled router must equal sender); :104 and :108-112 (_handle left abstract to app)",
+  "note": "D3/D4/D5 not provided by base class; left to application. E: ISM/evidence configuration lives in MailboxClient, not in provided files."
+ },
+ {
+  "row": "R2",
+  "D2": "N",
+  "D3": "N",
+  "D4": "N",
+  "D5": "N",
+  "E": "N",
+  "evidence": "hyperlane/solidity__contracts__middleware__InterchainAccountRouter.sol:131-133 (not onlyRemoteRouter, untrusted remote senders by design), :153-163 (per-(origin,owner,sender,ism,salt) account then ica.multicall of message calls); hyperlane/solidity__contracts__middleware__libs__OwnableMulticall.sol:25-29; hyperlane/solidity__contracts__middleware__libs__Call.sol:35-41 (delegatecall sentinel), :71-80 (multicall, not safeMulticall); InterchainAccountRouter.sol:180-188 (ISM taken from message body, default ISM fallback)",
+  "note": "D2=N: any remote sender accepted; authority is scoped structurally by deriving a per-sender account (not a restriction on which sender). D3=N: arbitrary calls incl. delegatecall. E=N: the verifying ISM is chosen by the message/sender (fallback mailbox default), not a destination policy."
+ },
+ {
+  "row": "R3",
+  "D2": "P",
+  "D3": "N",
+  "D4": "N",
+  "D5": "N",
+  "E": "U",
+  "evidence": "axelar-gmp/contracts__executable__AxelarExecutable.sol:46-49 (gateway validation, then _execute with sourceChain/sourceAddress), :60-65 (abstract _execute)",
+  "note": "D2=P: sourceChain/sourceAddress exposed to _execute, check must be written by integrator. E: evidence policy is inside the gateway (not provided)."
+ },
+ {
+  "row": "R4",
+  "D2": "Y",
+  "D3": "N",
+  "D4": "N",
+  "D5": "P",
+  "E": "N",
+  "evidence": "axelar-gmp/contracts__governance__InterchainGovernance.sol:57-61,133 (onlyGovernance chain+address); :134-141 (arbitrary target/callData, only target!=0), :109 (_call target); axelar-gmp/contracts__utils__TimeLock.sol:46-48 (min delay enforced), :71-76; InterchainGovernance.sol:166-167 (cancel only via governance command)",
+  "note": "by_design_delegation=Yes (governance relay). D3=N: target!=address(0) is not a meaningful scope restriction. D5=P: destination-enforced minimum timelock delay, but no destination-side guardian/veto; cancellation only by source governance message. E=N at app level."
+ },
+ {
+  "row": "R5",
+  "D2": "Y",
+  "D3": "N",
+  "D4": "N",
+  "D5": "N",
+  "E": "U",
+  "evidence": "lz-v2/packages__layerzero-v2__evm__oapp__contracts__oapp__OAppReceiver.sol:103 (only endpoint), :106 (peer must match origin.sender), :115-121 (abstract _lzReceive)",
+  "note": "D3/D4/D5 left to application. E: DVN/security config lives in endpoint/OAppCore, not in provided file."
+ },
+ {
+  "row": "R6",
+  "D2": "U",
+  "D3": "N",
+  "D4": "N",
+  "D5": "N",
+  "E": "Y",
+  "evidence": "ccip/chains__evm__contracts__applications__CCIPReceiver.sol:41-45,84-86 (only router check, then _ccipReceive), :49-51 (abstract); :62-79 (getCCVsAndFinalityConfig overridable; default = default CCV + wait for finality)",
+  "note": "D2=U: base performs no sender check; whether Any2EVMMessage exposes sender (which would make it P) is defined in Client.sol, not provided. E=Y as a destination-configurable capability; shipped default is default CCV with finality required."
+ },
+ {
+  "row": "R7",
+  "D2": "Y",
+  "D3": "Y",
+  "D4": "Y",
+  "D5": "Y",
+  "E": "Y",
+  "evidence": "ccip/chains__evm__contracts__pools__TokenPool.sol:480 (_onlyOffRamp, supported chain), :483-485 (isRemotePool source pool), :476-478 (supported token), :363/391-395 (effect limited to release/mint of pool token), :486-490 (inbound rate limit), ccip/chains__evm__contracts__libraries__RateLimiter.sol:60-75 (capacity/rate revert), :43-45 (disabled bucket skips); TokenPool.sol:479 (RMN curse revert); :954-994 (required CCVs via hooks), :250-255 (allowed finality)",
+  "note": "D4=Y is a capability: rate limiter can be configured disabled (RateLimiter.sol:43, :106-109). D5=Y via RMN curse check at destination (a guardian-style stop), no timed delay. D6-relevant: bucket uses block.timestamp state at execution."
+ },
+ {
+  "row": "R8",
+  "D2": "P",
+  "D3": "N",
+  "D4": "N",
+  "D5": "N",
+  "E": "Y",
+  "evidence": "wormhole/ethereum__contracts__Messages.sol:195-199 (emitterChainId/emitterAddress parsed and exposed, not checked); :75-92 (guardian set non-empty, expiry, quorum), :213-217 (2/3+1 quorum), :111-137 (signature verification)",
+  "note": "Core verification only; no effect. E=Y: destination-side guardian-set/quorum check, fixed by protocol rather than per-app configurable."
+ },
+ {
+  "row": "R9",
+  "D2": "Y",
+  "D3": "N",
+  "D4": "N",
+  "D5": "N",
+  "E": "N",
+  "evidence": "uni-wh/src__UniswapWormholeMessageReceiver.sol:102,105 (emitter address + chain), :117-119 (monotonic sequence), :123 (2-day timeout), :135-136 (dest receiver/chain), :146-148 (arbitrary targets[i].call); uni-wh/README.md:3,21",
+  "note": "by_design_delegation=Yes (Uniswap governance). Timeout/sequence are message-freshness checks, not parameter policy (D4=N). No destination delay or guardian. E=N: relies on core parseAndVerifyVM (:96-99), no app-level consistency/evidence policy."
+ },
+ {
+  "row": "R10",
+  "D2": "Y",
+  "D3": "Y",
+  "D4": "Y",
+  "D5": "Y",
+  "E": "Y",
+  "evidence": "ntt/evm__src__NttManager__NttManager.sol:193,209,679-685 (_verifyPeer); :231-238,271 (only native token transfer mint/unlock); :250-252 (toChain check); :299-309 (inbound rate limit, enqueue); :327-329 (queued delay); :192,208,319 (whenNotPaused); :196-199 (transceiver attestations + isMessageApproved threshold), :71 (_checkThresholdInvariants)",
+  "note": "D4=Y is a capability: rate limiting can be skipped at construction (:52-54 _skipRateLimiting). D5=Y: pause + rate-limit queue delay. executeMsg (:204-211) is public; the approval check presumably sits in _isMessageExecuted (ManagerBase, not provided). E=Y: destination threshold over transceiver attestations."
+ },
+ {
+  "row": "R11",
+  "D2": "Y",
+  "D3": "P",
+  "D4": "P",
+  "D5": "Y",
+  "E": "Y",
+  "evidence": "aave-gov3/src__contracts__payloads__PayloadsController.sol:56-61 (controller + originator + origin chain); aave-deliv/src__contracts__CrossChainReceiver.sol:39-40,153 (approved bridge adapters), :156-159 (chain ids); PayloadsControllerCore.sol:82-110 (payload actions pre-registered on destination, arbitrary target, anyone can create), :153-159 (executor call, withDelegateCall), :291-294 (accessLevel >= payload's required level), :297-300 (payload created before vote); :141-142 (execution delay), :327-329 (1-10 day bounds), :166-170 (guardian cancel); CrossChainReceiver.sol:129-133,174-177 (owner invalidation), :202-205 & :267-281 (required confirmations across adapters)",
+  "note": "by_design_delegation=Yes. D3=P: message carries only a payloadId that must reference a payload already registered on destination, but payload contents are arbitrary (incl. delegatecall), so not a positive allowlist. D4=P: destination checks access-level threshold and creation-time ordering against its own state, but no caps/bounds on action parameters. D5=Y: timelock delay + guardian cancel. E=Y: multi-bridge N-of-M confirmations."
+ },
+ {
+  "row": "R12",
+  "D2": "Y",
+  "D3": "N",
+  "D4": "N",
+  "D5": "N",
+  "E": "N",
+  "evidence": "maker-arb/contracts__l2__L2GovernanceRelay.sol:34 (onlyL1Counterpart(l1GovernanceRelay)), :36 (target.delegatecall(targetData))",
+  "note": "by_design_delegation=Yes. Modifier body is in L2CrossDomainEnabled.sol (not provided); coded Y on the stated binding at :34. Arbitrary delegatecall; no delay/veto; no app-level evidence policy."
+ },
+ {
+  "row": "R13",
+  "D2": "Y",
+  "D3": "N",
+  "D4": "N",
+  "D5": "P",
+  "E": "N",
+  "evidence": "comet/contracts__bridges__BaseBridgeReceiver.sol:81 (rootMessageSender == govTimelock); :88-103 (arbitrary targets/values/signatures/calldatas queued); :97-98 (local timelock delay); :124-130 (anyone executes after eta); :139-148 (expiry)",
+  "note": "by_design_delegation=Yes. D5=P: destination local-timelock delay, but receiver is timelock admin (:65) and exposes no cancel/guardian path in this file. E=N at app level."
+ },
+ {
+  "row": "R14",
+  "D2": "P",
+  "D3": "P",
+  "D4": "N",
+  "D5": "N",
+  "E": "U",
+  "evidence": "op/packages__contracts-bedrock__src__universal__CrossDomainMessenger.sol:297-299 (xDomainMsgSender set to _sender for call), :326-332 (xDomainMessageSender exposed); :263-265 (_isUnsafeTarget denylist); op/packages__contracts-bedrock__src__L2__L2CrossDomainMessenger.sol:59-61 (denylist = self + message passer); CrossDomainMessenger.sol:235,439-441 (paused() returns false on L2)",
+  "note": "D2=P: messenger delivers from any L1 sender; target must check xDomainMessageSender. D3=P: narrow system-address denylist only. D5=N for the L2 destination (pause is a no-op on L2; L1 pause via SuperchainConfig not in files). E: derivation/finality not in files."
+ },
+ {
+  "row": "R15",
+  "D2": "P",
+  "D3": "N",
+  "D4": "U",
+  "D5": "U",
+  "E": "U",
+  "evidence": "nitro/src__bridge__Inbox.sol:261-281 (createRetryableTicket with arbitrary to/data), :324 (sender aliased via applyL1ToL2Alias); nitro/src__libraries__AddressAliasHelper.sol:14-32 (alias/undo helper)",
+  "note": "L1-side only: destination (L2/ArbOS) execution code not provided, so D4/D5/E=U. D2=P: aliasing gives L2 target a distinguishable sender but the target must check it. whenNotPaused/onlyAllowed on Inbox (:270) are source-side controls, not destination veto."
+ },
+ {
+  "row": "R16",
+  "D2": "P",
+  "D3": "N",
+  "D4": "N",
+  "D5": "N",
+  "E": "U",
+  "evidence": "fx/contracts__tunnel__FxBaseChildTunnel.sol:25-28 (validateSender helper, not applied by base), :36-38 (only fxChild check, then _processMessageFromRoot with sender), :63 (abstract); :31-34 (setFxRootTunnel unprotected, first-caller sets)",
+  "note": "D2=P: helper modifier provided, app must apply it. Note setFxRootTunnel has no access control. E: state-sync validation not in files."
+ },
+ {
+  "row": "R17",
+  "D2": "N",
+  "D3": "Y",
+  "D4": "N",
+  "D5": "Y",
+  "E": "U",
+  "evidence": "ibc-go/modules__apps__27-interchain-accounts__host__ibc_module.go:52-65 (OnChanOpenTry only checks HostEnabled); ibc-go/modules__apps__27-interchain-accounts__host__keeper__relay.go:99-125 (ICA per connection/port; signer must equal ICA), :105-109 (AllowMessages type allowlist); ibc-go/modules__apps__27-interchain-accounts__host__types__params.go:180-183 (default AllowAllHostMsgs); ibc_module.go:118-122 (HostEnabled=false rejects packets)",
+  "note": "D2=N: any controller may open a channel; authority is scoped to its own interchain account, not restricted by sender. D3=Y as capability: message-type allowlist, but shipped default is allow-all wildcard. D5=Y: governance-settable host kill switch (no delay). E: light-client verification in core, not provided."
+ },
+ {
+  "row": "R19",
+  "D2": "Y",
+  "D3": "Y",
+  "D4": "P",
+  "D5": "N",
+  "E": "U",
+  "evidence": "polkadot/polkadot__xcm__xcm-executor__src__lib.rs:269-288 (Barrier::should_execute over origin+message+weight), :977-980 (IsReserve per origin), :1053-1056 (IsTeleporter per origin), :1096-1103 (SafeCallFilter on Transact), :1105-1106 (OriginConverter); polkadot/polkadot__xcm__xcm-executor__src__config.rs:49-65,118-122 (runtime-configured trust/filters)",
+  "note": "All are runtime-configured capabilities; concrete policy depends on each chain's config. D4=P: Barrier hook sees the full message and weight and can reject, but executor has no built-in amount caps/rate limits. D5=N: no delay/guardian in executor. E: transport/relay-chain finality not in files."
+ },
+ {
+  "row": "R21",
+  "D2": "N",
+  "D3": "P",
+  "D4": "N",
+  "D5": "N",
+  "E": "N",
+  "evidence": "cacti/packages__cactus-plugin-satp-hermes__src__main__typescript__core__stage-services__server__stage1-server-service.ts:469-472 (client/server gateway pubkeys taken from request claims), :499 (signatureVerifier against session data); :453-461 (receiver network must be in supportedDLTs); :591-647 (checkTransferClaims only checks presence, '//todo' returns true); :435-437, :149-150, :164 (conditional reject not implemented)",
+  "note": "Stage 1 is negotiation only (session state change, no asset effect), so fit with 'changes destination state' is weak. D2=N: no allowlist of counterpart gateways visible; key is self-declared in claims (session.verify internals not provided). D3=P: positive set of supported networks, not of actions. E=N: no destination policy over evidence visible."
+ },
+ {
+  "row": "R20",
+  "D2": "U",
+  "D3": "U",
+  "D4": "U",
+  "D5": "U",
+  "E": "Y",
+  "evidence": "weaver/common__protos__common__verification_policy.proto:29-49 (per-view verification policy: which foreign parties must prove a view); weaver/common__protos__common__access_control.proto:15-21 (rule with read flag)",
+  "note": "Does NOT fit the inclusion rule on the provided evidence: the files only define data-sharing (read-only view) access control and proof verification policy; no state-changing receiver path is included. Not tiered. E=Y descriptively (destination-side verification policy over proofs). Also only protobuf definitions, no enforcement code, and commit date 2024-09-04."
+ }
+]

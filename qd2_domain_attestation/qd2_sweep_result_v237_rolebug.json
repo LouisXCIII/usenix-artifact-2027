@@ -1,0 +1,1637 @@
+{
+  "stamp": "1791455418",
+  "chaincodeVersion": "authcc_2.37/seq49",
+  "fixture": "03_dos_safe.sol",
+  "heightBefore": 4791,
+  "n": 30,
+  "results": [
+    {
+      "idx": 0,
+      "config": {
+        "role": "manager",
+        "amount": 250001,
+        "profile": "notification",
+        "mapped": "notification"
+      },
+      "conditional": {
+        "kind": "cond_0",
+        "decisionId": "qd2sweep-cond-0-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2052.634505998867,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_0",
+        "decisionId": "qd2sweep-cond-0-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2049.742574003176,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_0",
+          "decisionId": "qd2sweep-genuine-0-1791455418",
+          "ok": true,
+          "returned": "SAFE",
+          "committed": "SAFE",
+          "wallMs": 2051.3864109962014,
+          "tail": ""
+        },
+        "safe": true
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_0",
+          "decisionId": "qd2sweep-forged-0-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2051.0888200005866,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 1,
+      "config": {
+        "role": "director",
+        "amount": 1000001,
+        "profile": "audit",
+        "mapped": "audit"
+      },
+      "conditional": {
+        "kind": "cond_1",
+        "decisionId": "qd2sweep-cond-1-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2044.7183340002084,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_1",
+        "decisionId": "qd2sweep-cond-1-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2046.8640789986239,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_1",
+          "decisionId": "qd2sweep-genuine-1-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2054.3496500031324,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_1",
+          "decisionId": "qd2sweep-forged-1-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2051.1280960054137,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 2,
+      "config": {
+        "role": "clerk",
+        "amount": 5001,
+        "profile": "dual_approval",
+        "mapped": "dual_approval"
+      },
+      "conditional": {
+        "kind": "cond_2",
+        "decisionId": "qd2sweep-cond-2-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2046.971873001894,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_2",
+        "decisionId": "qd2sweep-cond-2-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2047.3253160016611,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_2",
+          "decisionId": "qd2sweep-genuine-2-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2054.5493620011257,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_2",
+          "decisionId": "qd2sweep-forged-2-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2047.9170260005048,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 3,
+      "config": {
+        "role": "manager",
+        "amount": 275000,
+        "profile": "combined",
+        "mapped": "combined"
+      },
+      "conditional": {
+        "kind": "cond_3",
+        "decisionId": "qd2sweep-cond-3-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2043.5075689965743,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_3",
+        "decisionId": "qd2sweep-cond-3-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2041.8647179976688,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_3",
+          "decisionId": "qd2sweep-genuine-3-1791455418",
+          "ok": true,
+          "returned": "SAFE",
+          "committed": "SAFE",
+          "wallMs": 2052.5062830056413,
+          "tail": ""
+        },
+        "safe": true
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_3",
+          "decisionId": "qd2sweep-forged-3-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2051.896263001254,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 4,
+      "config": {
+        "role": "director",
+        "amount": 1100000,
+        "profile": "notification",
+        "mapped": "audit"
+      },
+      "conditional": {
+        "kind": "cond_4",
+        "decisionId": "qd2sweep-cond-4-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2045.589271998324,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_4",
+        "decisionId": "qd2sweep-cond-4-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2043.6242950017913,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_4",
+          "decisionId": "qd2sweep-genuine-4-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2052.8493780002464,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_4",
+          "decisionId": "qd2sweep-forged-4-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2052.3317499973928,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 5,
+      "config": {
+        "role": "clerk",
+        "amount": 5500,
+        "profile": "audit",
+        "mapped": "audit"
+      },
+      "conditional": {
+        "kind": "cond_5",
+        "decisionId": "qd2sweep-cond-5-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2046.9809440037352,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_5",
+        "decisionId": "qd2sweep-cond-5-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2040.5554989993107,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_5",
+          "decisionId": "qd2sweep-genuine-5-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2051.764618001471,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_5",
+          "decisionId": "qd2sweep-forged-5-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2045.8988050013431,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 6,
+      "config": {
+        "role": "manager",
+        "amount": 300000,
+        "profile": "dual_approval",
+        "mapped": "dual_approval"
+      },
+      "conditional": {
+        "kind": "cond_6",
+        "decisionId": "qd2sweep-cond-6-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2045.769313001074,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_6",
+        "decisionId": "qd2sweep-cond-6-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2044.229892999283,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_6",
+          "decisionId": "qd2sweep-genuine-6-1791455418",
+          "ok": true,
+          "returned": "SAFE",
+          "committed": "SAFE",
+          "wallMs": 2050.6462460034527,
+          "tail": ""
+        },
+        "safe": true
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_6",
+          "decisionId": "qd2sweep-forged-6-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2046.3362209993647,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 7,
+      "config": {
+        "role": "director",
+        "amount": 1200000,
+        "profile": "combined",
+        "mapped": "combined"
+      },
+      "conditional": {
+        "kind": "cond_7",
+        "decisionId": "qd2sweep-cond-7-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2046.889999997802,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_7",
+        "decisionId": "qd2sweep-cond-7-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2045.6054610040155,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_7",
+          "decisionId": "qd2sweep-genuine-7-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2051.056324002275,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_7",
+          "decisionId": "qd2sweep-forged-7-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2047.0473590030451,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 8,
+      "config": {
+        "role": "clerk",
+        "amount": 6000,
+        "profile": "notification",
+        "mapped": "notification"
+      },
+      "conditional": {
+        "kind": "cond_8",
+        "decisionId": "qd2sweep-cond-8-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2047.3707540004398,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_8",
+        "decisionId": "qd2sweep-cond-8-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2043.9700669958256,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_8",
+          "decisionId": "qd2sweep-genuine-8-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2051.2181200028863,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_8",
+          "decisionId": "qd2sweep-forged-8-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2050.8964069958893,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 9,
+      "config": {
+        "role": "manager",
+        "amount": 325000,
+        "profile": "audit",
+        "mapped": "dual_approval"
+      },
+      "conditional": {
+        "kind": "cond_9",
+        "decisionId": "qd2sweep-cond-9-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2044.3818700005068,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_9",
+        "decisionId": "qd2sweep-cond-9-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2045.3331320022698,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_9",
+          "decisionId": "qd2sweep-genuine-9-1791455418",
+          "ok": true,
+          "returned": "SAFE",
+          "committed": "SAFE",
+          "wallMs": 2049.6654870003113,
+          "tail": ""
+        },
+        "safe": true
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_9",
+          "decisionId": "qd2sweep-forged-9-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2050.7096419969457,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 10,
+      "config": {
+        "role": "director",
+        "amount": 1300000,
+        "profile": "dual_approval",
+        "mapped": "dual_approval"
+      },
+      "conditional": {
+        "kind": "cond_10",
+        "decisionId": "qd2sweep-cond-10-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2042.7870200001053,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_10",
+        "decisionId": "qd2sweep-cond-10-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2044.213455003046,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_10",
+          "decisionId": "qd2sweep-genuine-10-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2048.0350149955484,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_10",
+          "decisionId": "qd2sweep-forged-10-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2047.8362520007067,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 11,
+      "config": {
+        "role": "clerk",
+        "amount": 6500,
+        "profile": "combined",
+        "mapped": "combined"
+      },
+      "conditional": {
+        "kind": "cond_11",
+        "decisionId": "qd2sweep-cond-11-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2048.2619460017304,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_11",
+        "decisionId": "qd2sweep-cond-11-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2046.8787200006773,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_11",
+          "decisionId": "qd2sweep-genuine-11-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2047.8400830033934,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_11",
+          "decisionId": "qd2sweep-forged-11-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2048.472014001163,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 12,
+      "config": {
+        "role": "manager",
+        "amount": 350000,
+        "profile": "notification",
+        "mapped": "notification"
+      },
+      "conditional": {
+        "kind": "cond_12",
+        "decisionId": "qd2sweep-cond-12-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2041.6761750020669,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_12",
+        "decisionId": "qd2sweep-cond-12-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2047.237712002243,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_12",
+          "decisionId": "qd2sweep-genuine-12-1791455418",
+          "ok": true,
+          "returned": "SAFE",
+          "committed": "SAFE",
+          "wallMs": 2050.637401000131,
+          "tail": ""
+        },
+        "safe": true
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_12",
+          "decisionId": "qd2sweep-forged-12-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2048.003381001763,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 13,
+      "config": {
+        "role": "director",
+        "amount": 1400000,
+        "profile": "audit",
+        "mapped": "audit"
+      },
+      "conditional": {
+        "kind": "cond_13",
+        "decisionId": "qd2sweep-cond-13-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2046.3494490031735,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_13",
+        "decisionId": "qd2sweep-cond-13-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2046.1901930029853,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_13",
+          "decisionId": "qd2sweep-genuine-13-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2057.8770529973553,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_13",
+          "decisionId": "qd2sweep-forged-13-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2048.999457998434,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 14,
+      "config": {
+        "role": "clerk",
+        "amount": 7000,
+        "profile": "dual_approval",
+        "mapped": "combined"
+      },
+      "conditional": {
+        "kind": "cond_14",
+        "decisionId": "qd2sweep-cond-14-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2044.549812002515,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_14",
+        "decisionId": "qd2sweep-cond-14-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2046.568361998652,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_14",
+          "decisionId": "qd2sweep-genuine-14-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2050.328465993516,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_14",
+          "decisionId": "qd2sweep-forged-14-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2051.9518130022334,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 15,
+      "config": {
+        "role": "manager",
+        "amount": 375000,
+        "profile": "combined",
+        "mapped": "combined"
+      },
+      "conditional": {
+        "kind": "cond_15",
+        "decisionId": "qd2sweep-cond-15-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2047.5098109964165,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_15",
+        "decisionId": "qd2sweep-cond-15-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2046.2309549984639,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_15",
+          "decisionId": "qd2sweep-genuine-15-1791455418",
+          "ok": true,
+          "returned": "SAFE",
+          "committed": "SAFE",
+          "wallMs": 2049.18336099945,
+          "tail": ""
+        },
+        "safe": true
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_15",
+          "decisionId": "qd2sweep-forged-15-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2049.9621389972162,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 16,
+      "config": {
+        "role": "director",
+        "amount": 1500000,
+        "profile": "notification",
+        "mapped": "notification"
+      },
+      "conditional": {
+        "kind": "cond_16",
+        "decisionId": "qd2sweep-cond-16-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2045.5694350021076,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_16",
+        "decisionId": "qd2sweep-cond-16-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2043.3206610032357,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_16",
+          "decisionId": "qd2sweep-genuine-16-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2052.416822996747,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_16",
+          "decisionId": "qd2sweep-forged-16-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2046.6276859951904,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 17,
+      "config": {
+        "role": "clerk",
+        "amount": 7500,
+        "profile": "audit",
+        "mapped": "audit"
+      },
+      "conditional": {
+        "kind": "cond_17",
+        "decisionId": "qd2sweep-cond-17-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2045.8395189998555,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_17",
+        "decisionId": "qd2sweep-cond-17-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2051.227696996648,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_17",
+          "decisionId": "qd2sweep-genuine-17-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2049.8547189999954,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_17",
+          "decisionId": "qd2sweep-forged-17-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2048.050867000711,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 18,
+      "config": {
+        "role": "manager",
+        "amount": 400000,
+        "profile": "dual_approval",
+        "mapped": "dual_approval"
+      },
+      "conditional": {
+        "kind": "cond_18",
+        "decisionId": "qd2sweep-cond-18-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2045.7539970011567,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_18",
+        "decisionId": "qd2sweep-cond-18-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2045.6976770001347,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_18",
+          "decisionId": "qd2sweep-genuine-18-1791455418",
+          "ok": true,
+          "returned": "SAFE",
+          "committed": "SAFE",
+          "wallMs": 2053.9921119998326,
+          "tail": ""
+        },
+        "safe": true
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_18",
+          "decisionId": "qd2sweep-forged-18-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2048.2314090040745,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 19,
+      "config": {
+        "role": "director",
+        "amount": 1600000,
+        "profile": "combined",
+        "mapped": "combined"
+      },
+      "conditional": {
+        "kind": "cond_19",
+        "decisionId": "qd2sweep-cond-19-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2048.173395000049,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_19",
+        "decisionId": "qd2sweep-cond-19-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2044.5788959987112,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_19",
+          "decisionId": "qd2sweep-genuine-19-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2049.009019996447,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_19",
+          "decisionId": "qd2sweep-forged-19-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2049.844977998873,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 20,
+      "config": {
+        "role": "clerk",
+        "amount": 8000,
+        "profile": "notification",
+        "mapped": "notification"
+      },
+      "conditional": {
+        "kind": "cond_20",
+        "decisionId": "qd2sweep-cond-20-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2048.7056000056327,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_20",
+        "decisionId": "qd2sweep-cond-20-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2045.1572809979552,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_20",
+          "decisionId": "qd2sweep-genuine-20-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2050.9768280026037,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_20",
+          "decisionId": "qd2sweep-forged-20-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2051.747001001786,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 21,
+      "config": {
+        "role": "manager",
+        "amount": 425000,
+        "profile": "audit",
+        "mapped": "audit"
+      },
+      "conditional": {
+        "kind": "cond_21",
+        "decisionId": "qd2sweep-cond-21-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2043.4877349980525,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_21",
+        "decisionId": "qd2sweep-cond-21-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2048.645226001099,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_21",
+          "decisionId": "qd2sweep-genuine-21-1791455418",
+          "ok": true,
+          "returned": "SAFE",
+          "committed": "SAFE",
+          "wallMs": 2075.5309460000717,
+          "tail": ""
+        },
+        "safe": true
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_21",
+          "decisionId": "qd2sweep-forged-21-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2047.3088990038377,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 22,
+      "config": {
+        "role": "director",
+        "amount": 1700000,
+        "profile": "dual_approval",
+        "mapped": "dual_approval"
+      },
+      "conditional": {
+        "kind": "cond_22",
+        "decisionId": "qd2sweep-cond-22-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2045.6960250012344,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_22",
+        "decisionId": "qd2sweep-cond-22-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2048.324704999686,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_22",
+          "decisionId": "qd2sweep-genuine-22-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2047.6575769935152,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_22",
+          "decisionId": "qd2sweep-forged-22-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2046.623454996734,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 23,
+      "config": {
+        "role": "clerk",
+        "amount": 8500,
+        "profile": "combined",
+        "mapped": "combined"
+      },
+      "conditional": {
+        "kind": "cond_23",
+        "decisionId": "qd2sweep-cond-23-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2043.6698810008238,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_23",
+        "decisionId": "qd2sweep-cond-23-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2042.7473679956165,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_23",
+          "decisionId": "qd2sweep-genuine-23-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2049.485381001432,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_23",
+          "decisionId": "qd2sweep-forged-23-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2049.825647001853,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 24,
+      "config": {
+        "role": "manager",
+        "amount": 450000,
+        "profile": "notification",
+        "mapped": "audit"
+      },
+      "conditional": {
+        "kind": "cond_24",
+        "decisionId": "qd2sweep-cond-24-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2043.3070159997442,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_24",
+        "decisionId": "qd2sweep-cond-24-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2044.363904002239,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_24",
+          "decisionId": "qd2sweep-genuine-24-1791455418",
+          "ok": true,
+          "returned": "SAFE",
+          "committed": "SAFE",
+          "wallMs": 2049.670663996949,
+          "tail": ""
+        },
+        "safe": true
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_24",
+          "decisionId": "qd2sweep-forged-24-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2049.7829300002195,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 25,
+      "config": {
+        "role": "director",
+        "amount": 1800000,
+        "profile": "audit",
+        "mapped": "audit"
+      },
+      "conditional": {
+        "kind": "cond_25",
+        "decisionId": "qd2sweep-cond-25-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2044.0690649993485,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_25",
+        "decisionId": "qd2sweep-cond-25-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2047.717654997541,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_25",
+          "decisionId": "qd2sweep-genuine-25-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2052.9959779960336,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_25",
+          "decisionId": "qd2sweep-forged-25-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2049.010756003554,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 26,
+      "config": {
+        "role": "clerk",
+        "amount": 9000,
+        "profile": "dual_approval",
+        "mapped": "dual_approval"
+      },
+      "conditional": {
+        "kind": "cond_26",
+        "decisionId": "qd2sweep-cond-26-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2043.049815001723,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_26",
+        "decisionId": "qd2sweep-cond-26-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2046.753875001741,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_26",
+          "decisionId": "qd2sweep-genuine-26-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2050.866652003606,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_26",
+          "decisionId": "qd2sweep-forged-26-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2050.2586089933175,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 27,
+      "config": {
+        "role": "manager",
+        "amount": 475000,
+        "profile": "combined",
+        "mapped": "combined"
+      },
+      "conditional": {
+        "kind": "cond_27",
+        "decisionId": "qd2sweep-cond-27-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2047.2912569966866,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_27",
+        "decisionId": "qd2sweep-cond-27-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2046.799479998299,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_27",
+          "decisionId": "qd2sweep-genuine-27-1791455418",
+          "ok": true,
+          "returned": "SAFE",
+          "committed": "SAFE",
+          "wallMs": 2046.9393040038995,
+          "tail": ""
+        },
+        "safe": true
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_27",
+          "decisionId": "qd2sweep-forged-27-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2046.9227229987155,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 28,
+      "config": {
+        "role": "director",
+        "amount": 1900000,
+        "profile": "notification",
+        "mapped": "notification"
+      },
+      "conditional": {
+        "kind": "cond_28",
+        "decisionId": "qd2sweep-cond-28-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2044.0357820043573,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_28",
+        "decisionId": "qd2sweep-cond-28-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2044.352124001307,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_28",
+          "decisionId": "qd2sweep-genuine-28-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2048.257536996971,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_28",
+          "decisionId": "qd2sweep-forged-28-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2046.0094009977183,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    },
+    {
+      "idx": 29,
+      "config": {
+        "role": "clerk",
+        "amount": 9500,
+        "profile": "audit",
+        "mapped": "dual_approval"
+      },
+      "conditional": {
+        "kind": "cond_29",
+        "decisionId": "qd2sweep-cond-29-1791455418",
+        "ok": true,
+        "returned": "CONDITIONAL",
+        "committed": "CONDITIONAL",
+        "wallMs": 2040.419478995318,
+        "tail": ""
+      },
+      "discharge": {
+        "kind": "disch_29",
+        "decisionId": "qd2sweep-cond-29-1791455418",
+        "ok": true,
+        "returned": "EXACT",
+        "committed": "EXACT",
+        "wallMs": 2044.2003869975451,
+        "tail": ""
+      },
+      "genuine": {
+        "aws_signer": "0x6ad6b3ee6b4db60c28eb9de1b73945371ffcc063",
+        "aws_passed": true,
+        "submit": {
+          "kind": "genuine_29",
+          "decisionId": "qd2sweep-genuine-29-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2050.7227159978356,
+          "tail": ""
+        },
+        "safe": false
+      },
+      "forged": {
+        "forged_signer": "0x45afe6f6f0b393085b1a7b9c18e1b36535ea21d2",
+        "submit": {
+          "kind": "forged_29",
+          "decisionId": "qd2sweep-forged-29-1791455418",
+          "ok": true,
+          "returned": "REJECT",
+          "committed": "REJECT",
+          "wallMs": 2048.31560599996,
+          "tail": ""
+        },
+        "rejected": true
+      }
+    }
+  ],
+  "summary": {
+    "n": 30,
+    "genuine_safe": "10/30",
+    "genuine_cp95_upper_bound_on_false_reject": null,
+    "forged_rejected": "30/30",
+    "forged_cp95_upper_bound_on_false_accept": 0.09503385285530419
+  },
+  "heightAfter": 4911
+}

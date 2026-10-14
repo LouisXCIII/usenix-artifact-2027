@@ -1,0 +1,37 @@
+{
+  "experiment": "A7 real governance ablation via Fabric's own transaction endorsement policy",
+  "real_policy_v2.11": "default channel policy = MAJORITY Endorsement (both orgs, per configtx.yaml)",
+  "ablated_policy_v2.12": "explicit --signature-policy \"OR('Org1MSP.member')\" at chaincode commit (only Org1 needed)",
+  "restored_policy_v2.13": "default policy restored (no --signature-policy override)",
+  "cases": [
+    {
+      "name": "real_single_org_submission",
+      "chaincode_version": "2.11/seq23 (default MAJORITY policy)",
+      "submission": "endorsed by Org1 peer only (Org2 omitted)",
+      "cli_response": "status 200, payload SAFE (endorsement/simulation succeeded)",
+      "actual_committed_validation_code": "10 ENDORSEMENT_POLICY_FAILURE (block 388, decoded via qscc)",
+      "final_ledger_state": "record does not exist -- correctly rejected"
+    },
+    {
+      "name": "ablated_single_org_submission",
+      "chaincode_version": "2.12/seq24 (weak OR(Org1MSP.member) policy)",
+      "submission": "endorsed by Org1 peer only (Org2 omitted)",
+      "cli_response": "status 200, payload SAFE",
+      "final_ledger_state": "record EXISTS, genuinely committed: amount=200000, class=SAFE -- accepted with only 1 org's endorsement"
+    },
+    {
+      "name": "restoration_verification_single_org",
+      "chaincode_version": "2.13/seq25 (default policy restored)",
+      "submission": "endorsed by Org1 peer only (Org2 omitted)",
+      "final_ledger_state": "record does not exist -- correctly rejected again, governance restored"
+    },
+    {
+      "name": "restoration_verification_normal_dual_org",
+      "chaincode_version": "2.13/seq25",
+      "submission": "endorsed by both Org1 and Org2 peers (normal operation)",
+      "final_ledger_state": "record exists, SAFE -- confirms normal operation unaffected by restoration"
+    }
+  ],
+  "n_correct": 4,
+  "n_total": 4
+}

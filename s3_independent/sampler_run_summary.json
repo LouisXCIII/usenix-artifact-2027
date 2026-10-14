@@ -1,0 +1,40 @@
+{
+ "full": {
+  "in_domain_cases": 5741,
+  "overall": {
+   "match": 5741
+  },
+  "unsafe_accepts": 0,
+  "cp95_upper_bound_if_zero": 0.0005216775478945612,
+  "out_of_domain": {
+   "match": 210
+  },
+  "skipped_int64_overflow": 49,
+  "per_category": {
+   "sampler": {
+    "match": 5741
+   }
+  },
+  "examples": {},
+  "adversary_expected_vs_oracle": {}
+ },
+ "basic": {
+  "in_domain_cases": 5741,
+  "overall": {
+   "match": 5741
+  },
+  "unsafe_accepts": 0,
+  "cp95_upper_bound_if_zero": 0.0005216775478945612,
+  "out_of_domain": {
+   "match": 210
+  },
+  "skipped_int64_overflow": 49,
+  "per_category": {
+   "sampler": {
+    "match": 5741
+   }
+  },
+  "examples": {},
+  "adversary_expected_vs_oracle": {}
+ }
+}

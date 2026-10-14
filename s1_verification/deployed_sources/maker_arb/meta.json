@@ -1,0 +1,19 @@
+{
+ "label": "maker_arb",
+ "explorer": "https://arbitrum.blockscout.com",
+ "queried": [
+  {
+   "address": "0x10E6593CDda8c58a1d0f14C5164B376352a55f2F",
+   "name": "L2GovernanceRelay",
+   "verified": true,
+   "compiler": "0.6.11+commit.5ef660b1",
+   "proxy_type": null,
+   "implementations": [],
+   "files": [
+    "0x10E6593C__contracts__l2__L2GovernanceRelay.sol",
+    "0x10E6593C__contracts__arbitrum__ArbSys.sol",
+    "0x10E6593C__contracts__l2__L2CrossDomainEnabled.sol"
+   ]
+  }
+ ]
+}

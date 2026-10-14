@@ -1,0 +1,12 @@
+{
+ "b1_parse_wb_json_ms": 0.28253,
+ "b1_parse_x_json_ms": 0.01822,
+ "b1_poseidon_feature_ms": 1.690454,
+ "b1_poseidon_weights_ms": 17.683731,
+ "b1_relation_ms": 0.001001,
+ "b1_sha256_feature_ms": 0.022028,
+ "b4_parse_proof_public_ms": 0.00574,
+ "b4_parse_vk_ms": 0.01766,
+ "b4_verifyGroth16_core_ms": 0.824341,
+ "b4_verifySemBoundProof_ms": 0.859437
+}

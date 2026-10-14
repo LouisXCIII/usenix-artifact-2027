@@ -1,0 +1,637 @@
+[
+  {
+    "case_id": 0,
+    "hops": [],
+    "real_grant": false
+  },
+  {
+    "case_id": 1,
+    "hops": [
+      true
+    ],
+    "real_grant": true
+  },
+  {
+    "case_id": 2,
+    "hops": [
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 3,
+    "hops": [
+      true,
+      true
+    ],
+    "real_grant": true
+  },
+  {
+    "case_id": 4,
+    "hops": [
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 5,
+    "hops": [
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 6,
+    "hops": [
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 7,
+    "hops": [
+      true,
+      true,
+      true
+    ],
+    "real_grant": true
+  },
+  {
+    "case_id": 8,
+    "hops": [
+      true,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 9,
+    "hops": [
+      true,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 10,
+    "hops": [
+      true,
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 11,
+    "hops": [
+      false,
+      true,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 12,
+    "hops": [
+      false,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 13,
+    "hops": [
+      false,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 14,
+    "hops": [
+      false,
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 15,
+    "hops": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "real_grant": true
+  },
+  {
+    "case_id": 16,
+    "hops": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 17,
+    "hops": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 18,
+    "hops": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 19,
+    "hops": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 20,
+    "hops": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 21,
+    "hops": [
+      true,
+      false,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 22,
+    "hops": [
+      true,
+      false,
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 23,
+    "hops": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 24,
+    "hops": [
+      false,
+      true,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 25,
+    "hops": [
+      false,
+      true,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 26,
+    "hops": [
+      false,
+      true,
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 27,
+    "hops": [
+      false,
+      false,
+      true,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 28,
+    "hops": [
+      false,
+      false,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 29,
+    "hops": [
+      false,
+      false,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 30,
+    "hops": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 31,
+    "hops": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "real_grant": true
+  },
+  {
+    "case_id": 32,
+    "hops": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 33,
+    "hops": [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 34,
+    "hops": [
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 35,
+    "hops": [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 36,
+    "hops": [
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 37,
+    "hops": [
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 38,
+    "hops": [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 39,
+    "hops": [
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 40,
+    "hops": [
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 41,
+    "hops": [
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 42,
+    "hops": [
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 43,
+    "hops": [
+      true,
+      false,
+      false,
+      true,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 44,
+    "hops": [
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 45,
+    "hops": [
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 46,
+    "hops": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 47,
+    "hops": [
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 48,
+    "hops": [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 49,
+    "hops": [
+      false,
+      true,
+      true,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 50,
+    "hops": [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 51,
+    "hops": [
+      false,
+      true,
+      false,
+      true,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 52,
+    "hops": [
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 53,
+    "hops": [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 54,
+    "hops": [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 55,
+    "hops": [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 56,
+    "hops": [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 57,
+    "hops": [
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 58,
+    "hops": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 59,
+    "hops": [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 60,
+    "hops": [
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 61,
+    "hops": [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    "real_grant": false
+  },
+  {
+    "case_id": 62,
+    "hops": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "real_grant": false
+  }
+]

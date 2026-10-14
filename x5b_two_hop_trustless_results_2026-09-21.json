@@ -1,0 +1,34 @@
+[
+ {
+  "case": "honest: v6 proof + B1 attestation of B0 state",
+  "class": "SAFE",
+  "semBound": true,
+  "evOK": true,
+  "lc": "B1 header of block 0x11b26 verified with 3/4 distinct pinned B1 validator seals; attested[codeHash] proven under its stateRoot",
+  "zk": "Groth16 v6 proof verified at the destination; model hash matches the pinned model and the margin meets destination policy"
+ },
+ {
+  "case": "dishonest: no proof for it (substitution) + B1 says not attested",
+  "class": "REJECT",
+  "semBound": false,
+  "evOK": false,
+  "lc": "B1 header of block 0x11b26 verified with 3/4 distinct pinned B1 validator seals; attested[codeHash] proven under its stateRoot",
+  "zk": "proof verifies but its public solidityCodeHash differs from this decision's codeHash (proof substitution rejected)"
+ },
+ {
+  "case": "laundering: dishonest hash presented with the HONEST entry's attestation proof",
+  "class": "REJECT",
+  "semBound": false,
+  "evOK": false,
+  "lc": "attested[codeHash] not proven: no storage proof supplied for slot 0 of this codeHash",
+  "zk": "proof verifies but its public solidityCodeHash differs from this decision's codeHash (proof substitution rejected)"
+ },
+ {
+  "case": "unrestricted hop (X5a MultiHopRelay address) offered as the attester",
+  "class": "REJECT",
+  "semBound": false,
+  "evOK": false,
+  "lc": "proof is for a contract that is not a pinned attester",
+  "zk": "Groth16 v6 proof verified at the destination; model hash matches the pinned model and the margin meets destination policy"
+ }
+]

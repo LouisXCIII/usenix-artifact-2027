@@ -1,0 +1,4106 @@
+{
+ "seed": 20260928,
+ "n": 100,
+ "rows": [
+  {
+   "id": "c000",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2082,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 597,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 16,
+     "n_diff": 120,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 54,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c001",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2175,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 964,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 33,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 109,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c009",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1974,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 397,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 10,
+     "n_diff": 118,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c016",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2632,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 825,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 32,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 109,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c019",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3393,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 661,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 72,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 245,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c020",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 5571,
+     "n_diff": 141,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 542,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 48,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 160,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c025",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 5795,
+     "n_diff": 149,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 424,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 75,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 249,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c029",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3699,
+     "n_diff": 139,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 805,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 26,
+     "n_diff": 120,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 87,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c032",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1835,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 818,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 78,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 132,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c047",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2106,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 487,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 21,
+     "n_diff": 118,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 36,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c048",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2640,
+     "n_diff": 138,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 584,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 65,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 217,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c059",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 371,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1754,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 42,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 73,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c064",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 393,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1517,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 47,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 80,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c092",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 4709,
+     "n_diff": 141,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1072,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 231,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 742,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c093",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1086,
+     "n_diff": 141,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 530,
+     "n_diff": 139,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 4,
+     "n_diff": 96,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 114,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c096",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 465,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1689,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 38,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 65,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c099",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1276,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1039,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 86,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 293,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c100",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1046,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 936,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 62,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 210,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c102",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1331,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 474,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 73,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 243,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c103",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 963,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1075,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 162,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 187,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c108",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 104,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 5718,
+     "n_diff": 141,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 1,
+     "n_diff": 15,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 2,
+     "n_diff": 55,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c131",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 101,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 7456,
+     "n_diff": 140,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 6,
+     "n_diff": 96,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 21,
+     "n_diff": 115,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c137",
+   "corpus": "smartbugs",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1310,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 745,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 4,
+     "n_diff": 96,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 16,
+     "n_diff": 116,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c161",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3529,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 163,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 23,
+     "n_diff": 115,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 6,
+     "n_diff": 103,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c162",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 5310,
+     "n_diff": 144,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 241,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 20,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 23,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c163",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 6807,
+     "n_diff": 147,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 131,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 17,
+     "n_diff": 116,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 58,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c171",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1120,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 371,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 25,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 86,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c173",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1190,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 402,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 4,
+     "n_diff": 91,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 6,
+     "n_diff": 102,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c177",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3643,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 115,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 4,
+     "n_diff": 97,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c183",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3949,
+     "n_diff": 141,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 191,
+     "n_diff": 133,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 167,
+     "n_diff": 133,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c189",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2742,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 349,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 23,
+     "n_diff": 118,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 78,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c192",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2949,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 234,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 38,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 16,
+     "n_diff": 119,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c200",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 362,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 720,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 79,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 273,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c206",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1839,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 356,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 9,
+     "n_diff": 112,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 10,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c208",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3801,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 283,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 32,
+     "n_diff": 119,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c212",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2862,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 434,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 107,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 26,
+     "n_diff": 120,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c213",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2293,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 293,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 20,
+     "n_diff": 115,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 14,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c217",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2000,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 381,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 106,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 24,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c219",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3869,
+     "n_diff": 137,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 389,
+     "n_diff": 133,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 46,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 79,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c225",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 7697,
+     "n_diff": 147,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 587,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 223,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 372,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c228",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 4141,
+     "n_diff": 145,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 276,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 18,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c231",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3659,
+     "n_diff": 145,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 409,
+     "n_diff": 139,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 64,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 73,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c238",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 6342,
+     "n_diff": 144,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 209,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 38,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 22,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c243",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 5120,
+     "n_diff": 145,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 436,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 59,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 196,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c246",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2849,
+     "n_diff": 139,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 412,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 38,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 130,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c248",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 915,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 694,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 262,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c257",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 326,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 563,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 73,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 250,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c261",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 102,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 545,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 22,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 76,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c264",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 324,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 727,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 70,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 233,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c266",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 731,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 712,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 55,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 188,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c270",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 182,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1127,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 40,
+     "n_diff": 120,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 135,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c276",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 697,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 653,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 165,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 523,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c284",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 233,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1113,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 2,
+     "n_diff": 62,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 100,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c286",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3020,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 324,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 4,
+     "n_diff": 87,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 6,
+     "n_diff": 106,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c295",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 134,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 811,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 31,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 104,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c331",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1201,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 663,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 5,
+     "n_diff": 94,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 16,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c343",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3380,
+     "n_diff": 137,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 343,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 112,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 21,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c348",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3762,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 514,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 24,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 14,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c356",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1338,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 626,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 31,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 115,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c359",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1053,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 540,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 24,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c360",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1047,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 781,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 549,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c364",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1580,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 406,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 39,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 33,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c370",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1178,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 752,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 178,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c378",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 169,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 556,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 125,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c380",
+   "corpus": "deployed",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2962,
+     "n_diff": 137,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 404,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 192,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c407",
+   "corpus": "s1_sources",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3838,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 372,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 35,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 60,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c411",
+   "corpus": "s1_sources",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2414,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 159,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 112,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c432",
+   "corpus": "s1_sources",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 2365,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 276,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 2,
+     "n_diff": 70,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 108,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c435",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 181,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 909,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 41,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 143,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c439",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 679,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 900,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 207,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 143,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c445",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 160,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 826,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 31,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 105,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c455",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 674,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 908,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 209,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 144,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c466",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 767,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1005,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 197,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 139,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c473",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 128,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 562,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 27,
+     "n_diff": 120,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 95,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c489",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 116,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 567,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 27,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 91,
+     "n_diff": 119,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c492",
+   "corpus": "e7",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 161,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 828,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 30,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 105,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c516",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 952,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 109,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 27,
+     "n_diff": 119,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c518",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 880,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 107,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 13,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c523",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 714,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 20,
+     "n_diff": 118,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 14,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c526",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 969,
+     "n_diff": 135,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 4,
+     "n_diff": 91,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 107,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c540",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 735,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 18,
+     "n_diff": 119,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 13,
+     "n_diff": 114,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c544",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 907,
+     "n_diff": 140,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 20,
+     "n_diff": 133,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 18,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c546",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 917,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 16,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 11,
+     "n_diff": 110,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c549",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 923,
+     "n_diff": 134,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 14,
+     "n_diff": 118,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 9,
+     "n_diff": 115,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c562",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 582,
+     "n_diff": 131,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 5,
+     "n_diff": 90,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 107,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c566",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 909,
+     "n_diff": 137,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 10,
+     "n_diff": 107,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 11,
+     "n_diff": 111,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c572",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 913,
+     "n_diff": 128,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 108,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 14,
+     "n_diff": 119,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c578",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 939,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 11,
+     "n_diff": 109,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 12,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c579",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 867,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 17,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 11,
+     "n_diff": 112,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c580",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 867,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 15,
+     "n_diff": 111,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 26,
+     "n_diff": 114,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c589",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 828,
+     "n_diff": 132,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 10,
+     "n_diff": 113,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 16,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c590",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 773,
+     "n_diff": 130,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 9,
+     "n_diff": 112,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 15,
+     "n_diff": 117,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c591",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 961,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 3,
+     "n_diff": 78,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 3,
+     "n_diff": 74,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c602",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 883,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 6,
+     "n_diff": 98,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 10,
+     "n_diff": 110,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c604",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 939,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 2,
+     "n_diff": 45,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 7,
+     "n_diff": 97,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c607",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 796,
+     "n_diff": 137,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 8,
+     "n_diff": 112,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 13,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c615",
+   "corpus": "weakaccess",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 1023,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 282,
+     "n_diff": 120,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 918,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c625",
+   "corpus": "test22",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 1961,
+     "n_diff": 126,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 690,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 50,
+     "n_diff": 121,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 85,
+     "n_diff": 124,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c634",
+   "corpus": "test22",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3465,
+     "n_diff": 136,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 568,
+     "n_diff": 129,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 53,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 90,
+     "n_diff": 125,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  },
+  {
+   "id": "c640",
+   "corpus": "test22",
+   "variants": {
+    "T0_identity": {
+     "x_identical": true,
+     "max_abs_diff": null,
+     "n_diff": 0,
+     "code_hash_identical": true,
+     "changed_source": false
+    },
+    "T1_strip_comments": {
+     "x_identical": false,
+     "max_abs_diff": 3757,
+     "n_diff": 137,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T2_normalise_whitespace": {
+     "x_identical": false,
+     "max_abs_diff": 480,
+     "n_diff": 127,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T3_rename_contract": {
+     "x_identical": false,
+     "max_abs_diff": 40,
+     "n_diff": 122,
+     "code_hash_identical": false,
+     "changed_source": true
+    },
+    "T4_append_comment": {
+     "x_identical": false,
+     "max_abs_diff": 68,
+     "n_diff": 123,
+     "code_hash_identical": false,
+     "changed_source": true
+    }
+   }
+  }
+ ]
+}

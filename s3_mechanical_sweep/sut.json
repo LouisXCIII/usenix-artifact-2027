@@ -1,0 +1,3922 @@
+[
+ {
+  "id": "M00001",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00002",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00003",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00004",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00005",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00006",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00007",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00008",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00009",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00010",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00011",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00012",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00013",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00014",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00015",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00016",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00017",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00018",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00019",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00020",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00021",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00022",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00023",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00024",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00025",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00026",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00027",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00028",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00029",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00030",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00031",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00032",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00033",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00034",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00035",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00036",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00037",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00038",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00039",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00040",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00041",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00042",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00043",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00044",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00045",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00046",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00047",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00048",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00049",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00050",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00051",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00052",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00053",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00054",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00055",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00056",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00057",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00058",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00059",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00060",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00061",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00062",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00063",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00064",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00065",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00066",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00067",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00068",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00069",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00070",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00071",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00072",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00073",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00074",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00075",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00076",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00077",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00078",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00079",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00080",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00081",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00082",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00083",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00084",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00085",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00086",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00087",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00088",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00089",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00090",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00091",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00092",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00093",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00094",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00095",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00096",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00097",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00098",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00099",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00100",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00101",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00102",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00103",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00104",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00105",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00106",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00107",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00108",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00109",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00110",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00111",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00112",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00113",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00114",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00115",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00116",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00117",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00118",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00119",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00120",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00121",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00122",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00123",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00124",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00125",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00126",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00127",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00128",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00129",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00130",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00131",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00132",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00133",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00134",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00135",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00136",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00137",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00138",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00139",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00140",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00141",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00142",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00143",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00144",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00145",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00146",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00147",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00148",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00149",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00150",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00151",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00152",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00153",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00154",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00155",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00156",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00157",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00158",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00159",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00160",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00161",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00162",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00163",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00164",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00165",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00166",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00167",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00168",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00169",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00170",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00171",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00172",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00173",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00174",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00175",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00176",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00177",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00178",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00179",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00180",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00181",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00182",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00183",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00184",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00185",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00186",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00187",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00188",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00189",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00190",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00191",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00192",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00193",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00194",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00195",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00196",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00197",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00198",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00199",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00200",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00201",
+  "class": "EXACT",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00202",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "SAFE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00203",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00204",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00205",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00206",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00207",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00208",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00209",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00210",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00211",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00212",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00213",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00214",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00215",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00216",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00217",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00218",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00219",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00220",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00221",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00222",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00223",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00224",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00225",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00226",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00227",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00228",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00229",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00230",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00231",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00232",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00233",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00234",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00235",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00236",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00237",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00238",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00239",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00240",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00241",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00242",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00243",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00244",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00245",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00246",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00247",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00248",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00249",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00250",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00251",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00252",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00253",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00254",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00255",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00256",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00257",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00258",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00259",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00260",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00261",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00262",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00263",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00264",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00265",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00266",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00267",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00268",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00269",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00270",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00271",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00272",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00273",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00274",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00275",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00276",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00277",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00278",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00279",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00280",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00281",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00282",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00283",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00284",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00285",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00286",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00287",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00288",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00289",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00290",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00291",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00292",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00293",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00294",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00295",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00296",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00297",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00298",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00299",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00300",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00301",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00302",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00303",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00304",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00305",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00306",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00307",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00308",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00309",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00310",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00311",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00312",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00313",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00314",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00315",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00316",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00317",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00318",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00319",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00320",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00321",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00322",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00323",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00324",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00325",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00326",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00327",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00328",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00329",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00330",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00331",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00332",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00333",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00334",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00335",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00336",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00337",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00338",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00339",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00340",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00341",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00342",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00343",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00344",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00345",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00346",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00347",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00348",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00349",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00350",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00351",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00352",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00353",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00354",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00355",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00356",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00357",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00358",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00359",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00360",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00361",
+  "class": "SAFE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00362",
+  "class": "CONDITIONAL",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00363",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00364",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00365",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00366",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00367",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00368",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00369",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00370",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00371",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00372",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00373",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00374",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00375",
+  "class": "",
+  "err": "decision mech-00001 already recorded (replay rejected)",
+  "class_basic": "",
+  "err_basic": "decision mech-00001 already recorded (replay rejected)"
+ },
+ {
+  "id": "M00376",
+  "class": "",
+  "err": "decision mech-00002 already recorded (replay rejected)",
+  "class_basic": "",
+  "err_basic": "decision mech-00002 already recorded (replay rejected)"
+ },
+ {
+  "id": "M00377",
+  "class": "",
+  "err": "decision mech-00003 already recorded (replay rejected)",
+  "class_basic": "",
+  "err_basic": "decision mech-00003 already recorded (replay rejected)"
+ },
+ {
+  "id": "M00378",
+  "class": "",
+  "err": "decision mech-00004 already recorded (replay rejected)",
+  "class_basic": "",
+  "err_basic": "decision mech-00004 already recorded (replay rejected)"
+ },
+ {
+  "id": "M00379",
+  "class": "",
+  "err": "decision mech-00005 already recorded (replay rejected)",
+  "class_basic": "",
+  "err_basic": "decision mech-00005 already recorded (replay rejected)"
+ },
+ {
+  "id": "M00380",
+  "class": "",
+  "err": "decision mech-00006 already recorded (replay rejected)",
+  "class_basic": "",
+  "err_basic": "decision mech-00006 already recorded (replay rejected)"
+ },
+ {
+  "id": "M00381",
+  "class": "",
+  "err": "decision mech-00007 already recorded (replay rejected)",
+  "class_basic": "",
+  "err_basic": "decision mech-00007 already recorded (replay rejected)"
+ },
+ {
+  "id": "M00382",
+  "class": "",
+  "err": "decision mech-00008 already recorded (replay rejected)",
+  "class_basic": "",
+  "err_basic": "decision mech-00008 already recorded (replay rejected)"
+ },
+ {
+  "id": "M00383",
+  "class": "",
+  "err": "decision mech-00009 already recorded (replay rejected)",
+  "class_basic": "",
+  "err_basic": "decision mech-00009 already recorded (replay rejected)"
+ },
+ {
+  "id": "M00384",
+  "class": "",
+  "err": "decision mech-00010 already recorded (replay rejected)",
+  "class_basic": "",
+  "err_basic": "decision mech-00010 already recorded (replay rejected)"
+ },
+ {
+  "id": "M00385",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00386",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00387",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00388",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00389",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00390",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00391",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00392",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00393",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00394",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00395",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00396",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00397",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00398",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00399",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00400",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00401",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00402",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00403",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00404",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00405",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00406",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00407",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00408",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00409",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00410",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00411",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00412",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00413",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00414",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00415",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00416",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00417",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00418",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00419",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00420",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00421",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00422",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00423",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00424",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00425",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00426",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00427",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00428",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00429",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00430",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00431",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00432",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00433",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00434",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00435",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00436",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00437",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00438",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00439",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00440",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00441",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00442",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00443",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00444",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00445",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00446",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00447",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00448",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00449",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00450",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00451",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00452",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00453",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00454",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00455",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00456",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00457",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00458",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00459",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00460",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00461",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00462",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00463",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00464",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00465",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00466",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00467",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00468",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00469",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00470",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00471",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00472",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00473",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00474",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00475",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00476",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00477",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00478",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00479",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00480",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00481",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00482",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00483",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00484",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00485",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00486",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00487",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00488",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00489",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00490",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00491",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00492",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00493",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00494",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00495",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00496",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00497",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00498",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00499",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00500",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00501",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00502",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00503",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00504",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00505",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00506",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00507",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00508",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00509",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00510",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00511",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00512",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00513",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00514",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00515",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00516",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00517",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00518",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00519",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00520",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00521",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00522",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00523",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00524",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00525",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00526",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00527",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00528",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00529",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00530",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00531",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00532",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00533",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00534",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00535",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00536",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00537",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00538",
+  "class": "REEVALUATE",
+  "err": "",
+  "class_basic": "REEVALUATE",
+  "err_basic": ""
+ },
+ {
+  "id": "M00539",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00540",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00541",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00542",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00543",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00544",
+  "class": "REJECT",
+  "err": "",
+  "class_basic": "REJECT",
+  "err_basic": ""
+ },
+ {
+  "id": "M00545",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00546",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00547",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00548",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00549",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00550",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00551",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00552",
+  "class": "",
+  "err": "amount must be positive (got 0)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got 0)"
+ },
+ {
+  "id": "M00553",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00554",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00555",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00556",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00557",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00558",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00559",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ },
+ {
+  "id": "M00560",
+  "class": "",
+  "err": "amount must be positive (got -1)",
+  "class_basic": "",
+  "err_basic": "amount must be positive (got -1)"
+ }
+]

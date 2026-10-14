@@ -1,0 +1,95 @@
+{
+ "tier_floors": {
+  "T1": 54445422,
+  "T2": 67108864,
+  "T3": 83886080
+ },
+ "tier_floor_logits": {
+  "T1": 3.2452,
+  "T2": 4.0,
+  "T3": 5.0
+ },
+ "modelWeightsHash": "10494038872765858080845244269484429820162559076895853253651143169770011946707",
+ "cases": {
+  "tier3_example": {
+   "file": "test_contracts/04_call_to_unknown_safe.sol",
+   "class_idx": 0,
+   "real_margin_logits": 5.5318,
+   "results_by_floor": {
+    "T1": {
+     "valid": true,
+     "why": null
+    },
+    "T2": {
+     "valid": true,
+     "why": null
+    },
+    "T3": {
+     "valid": true,
+     "why": null
+    }
+   },
+   "achieved_tier": 3
+  },
+  "tier2_example": {
+   "file": "test_contracts/08_timestamp_vuln.sol",
+   "class_idx": 0,
+   "real_margin_logits": 4.5947,
+   "results_by_floor": {
+    "T1": {
+     "valid": true,
+     "why": null
+    },
+    "T2": {
+     "valid": true,
+     "why": null
+    },
+    "T3": {
+     "valid": false,
+     "why": "witness generation failed (real margin below this floor)"
+    }
+   },
+   "achieved_tier": 2
+  },
+  "tier1_example": {
+   "file": "test_contracts/09_mishandled_exception_vuln.sol",
+   "class_idx": 0,
+   "real_margin_logits": 3.2478,
+   "results_by_floor": {
+    "T1": {
+     "valid": true,
+     "why": null
+    },
+    "T2": {
+     "valid": false,
+     "why": "witness generation failed (real margin below this floor)"
+    },
+    "T3": {
+     "valid": false,
+     "why": "witness generation failed (real margin below this floor)"
+    }
+   },
+   "achieved_tier": 1
+  },
+  "tier0_example": {
+   "file": "contracts/SafeBank.sol",
+   "class_idx": 0,
+   "real_margin_logits": 1.2359,
+   "results_by_floor": {
+    "T1": {
+     "valid": false,
+     "why": "witness generation failed (real margin below this floor)"
+    },
+    "T2": {
+     "valid": false,
+     "why": "witness generation failed (real margin below this floor)"
+    },
+    "T3": {
+     "valid": false,
+     "why": "witness generation failed (real margin below this floor)"
+    }
+   },
+   "achieved_tier": 0
+  }
+ }
+}

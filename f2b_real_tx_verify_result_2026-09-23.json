@@ -1,0 +1,28 @@
+{
+  "contractAddress": "0x15304EA9e4A7fBD6b7f9B7aC4c0C6Cc64e05e6DB",
+  "txId": "1fa626797024dfeb2bcd1e3774c6f3b8b04724f26580cc10fb977871a80a8b6c",
+  "blockNumber": "240",
+  "results": {
+    "real_block_commit": {
+      "txHash": "0x3613252211d97fd2b2959625225a14a17e0584994e1bb765540bf69bb6f10b95",
+      "committed": true
+    },
+    "real_endorsement": {
+      "txHash": "0xc10fb9ac1271eb7e023d51af10ef5ff02ed978ecf8121dbec4cac007316dc835",
+      "quorumMet": true
+    },
+    "fullyVerified": true,
+    "negative_control_tampered_sig": {
+      "txHash": "0xb115da99e4836e5f6c6c5b6b0d503ba54bc672ba95a321b24adaa496c376257a",
+      "quorumMet": false
+    },
+    "negative_control_only_org1": {
+      "txHash": "0x5b31b592cb843368c798b6cbecc8bce7fcfb4a9669cd9d6749bf8f732e92a074",
+      "quorumMet": false
+    },
+    "negative_control_wrong_orderer_key": {
+      "txHash": "0x24957c25573d806af6b4dd231e787aab7a275bc1a2737d027e5edf6adca22bc9",
+      "committed": false
+    }
+  }
+}

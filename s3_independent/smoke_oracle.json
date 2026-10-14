@@ -1,0 +1,90 @@
+[
+ {
+  "id": "tx1_exact",
+  "oracle_class": "EXACT",
+  "class_ignoring_replay": "EXACT",
+  "A": true,
+  "B": true,
+  "C": true,
+  "principal_type": "DestRole",
+  "in_domain": true,
+  "replay": false
+ },
+ {
+  "id": "tx2_safe",
+  "oracle_class": "SAFE",
+  "class_ignoring_replay": "SAFE",
+  "A": true,
+  "B": true,
+  "C": true,
+  "principal_type": "SourceRole",
+  "in_domain": true,
+  "replay": false
+ },
+ {
+  "id": "tx3_cond",
+  "oracle_class": "CONDITIONAL",
+  "class_ignoring_replay": "CONDITIONAL",
+  "A": false,
+  "B": true,
+  "C": true,
+  "principal_type": "DestRole",
+  "in_domain": true,
+  "replay": false
+ },
+ {
+  "id": "tx4_reeval",
+  "oracle_class": "REEVALUATE",
+  "class_ignoring_replay": "REEVALUATE",
+  "A": false,
+  "B": false,
+  "C": false,
+  "principal_type": "Unknown",
+  "in_domain": true,
+  "replay": false
+ },
+ {
+  "id": "tx5_reject",
+  "oracle_class": "REJECT",
+  "class_ignoring_replay": "REJECT",
+  "A": true,
+  "B": true,
+  "C": true,
+  "principal_type": "DestRole",
+  "in_domain": true,
+  "replay": false
+ },
+ {
+  "id": "tx3b_cond",
+  "oracle_class": "CONDITIONAL",
+  "class_ignoring_replay": "CONDITIONAL",
+  "A": false,
+  "B": true,
+  "C": true,
+  "principal_type": "SourceRole",
+  "in_domain": true,
+  "replay": false
+ },
+ {
+  "id": "over_cap",
+  "oracle_class": "REJECT",
+  "class_ignoring_replay": "REJECT",
+  "A": false,
+  "B": false,
+  "C": true,
+  "principal_type": "DestRole",
+  "in_domain": true,
+  "replay": false
+ },
+ {
+  "id": "replay",
+  "oracle_class": "REPLAY_ERROR",
+  "class_ignoring_replay": "EXACT",
+  "A": true,
+  "B": true,
+  "C": true,
+  "principal_type": "DestRole",
+  "in_domain": true,
+  "replay": true
+ }
+]

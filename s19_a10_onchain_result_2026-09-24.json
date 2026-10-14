@@ -1,0 +1,832 @@
+{
+  "strictAddr": "0xdBa2fd7a66ba4C04DB4d8Bf1D2f9e0Abc83E6d6E",
+  "ablatedAddr": "0x2f398EA0588b427B84c179F243de17bC3600c531",
+  "v4Addr": "0x4E2fe97Be70CbF61ccE96D850d476b86b7c8E47a",
+  "issuer": "0x0250812142577b93a70190D88403DB730D0A16De",
+  "N_CERTS": 10,
+  "nSubstitutionAttempts": 50,
+  "nStrictUnsafe": 0,
+  "nAblatedBypass": 50,
+  "results": [
+    {
+      "cert": 0,
+      "certId": "0xeee239c59c6ade96c8ef3a011a8bfbce4507daa0677ab11c34347564e5a70eb0",
+      "realDs": "0xa8065863641cd58b5fe748cc7bcd61f69eb1bed4aa592641b6349502e8d1793c",
+      "realPis": "0xc85c58c325cc4b2adfd2646521947533bbd2e2e8eb22525594f7cd4f2f73b68a",
+      "mapID": "RoleMapping-v1.3-seq33",
+      "assurID": "PQCTransferV4-dual-verified-cert0",
+      "cases": {
+        "positive_control": {
+          "strict": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "decision_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "destination_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "state_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "mapping_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "assurance_profile_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        }
+      }
+    },
+    {
+      "cert": 1,
+      "certId": "0xd8c6ac969cd0518190609d7f496f37780840f1b4f391c2b333981a02475a0b9e",
+      "realDs": "0xa93fa73bac019e4ef342d3f2a79f61323a8042127a97e2a55420751768497925",
+      "realPis": "0x5897e4b77dd64e0c15e1a0a6c7c623c7bcc6ed86e7ae1ad8fcf4f99e26f6080b",
+      "mapID": "RoleMapping-v1.3-seq34",
+      "assurID": "PQCTransferV4-dual-verified-cert1",
+      "cases": {
+        "positive_control": {
+          "strict": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "decision_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "destination_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "state_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "mapping_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "assurance_profile_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        }
+      }
+    },
+    {
+      "cert": 2,
+      "certId": "0xb7c99039a977fe343110ed02ea7fedda35e8ed2ff045e69a59a79835d54bfd8a",
+      "realDs": "0x8d12217f934e31bcfe1c1a2dc0b4fa529b84a30e33627c29da2afee9d631c47b",
+      "realPis": "0xfc4b369544a2cab8f55613d3dfbb9ee3c617cd880f0ec43e8193abb73fdf022a",
+      "mapID": "RoleMapping-v1.3-seq35",
+      "assurID": "PQCTransferV4-dual-verified-cert2",
+      "cases": {
+        "positive_control": {
+          "strict": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "decision_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "destination_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "state_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "mapping_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "assurance_profile_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        }
+      }
+    },
+    {
+      "cert": 3,
+      "certId": "0x6f3f81d75948b8db1fb9115da604da61baa8518de7f05e253dc7fe81a988a269",
+      "realDs": "0x64baff9163ccb7fdd2aa738e6af1d0967dff9a68724be22faddd24409f8b578a",
+      "realPis": "0xc297996d1e8a2e29cc21c43163888aed4fd9a0e604b01ae7e6c4168b8022e447",
+      "mapID": "RoleMapping-v1.3-seq36",
+      "assurID": "PQCTransferV4-dual-verified-cert3",
+      "cases": {
+        "positive_control": {
+          "strict": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "decision_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "destination_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "state_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "mapping_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "assurance_profile_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        }
+      }
+    },
+    {
+      "cert": 4,
+      "certId": "0x5d1ba6691a3b77806313b84bd465be53224e913919629ecd683151a829e5bd6a",
+      "realDs": "0xa6534b8ebed2f310d7fe26a35ac5bab67fe5e7eaf0d1fbf674f4bd8011ca2351",
+      "realPis": "0x20c9894f488a0551d21a56031366a8ddf2ceb9698db4fe83afd54295f577c2d0",
+      "mapID": "RoleMapping-v1.3-seq37",
+      "assurID": "PQCTransferV4-dual-verified-cert4",
+      "cases": {
+        "positive_control": {
+          "strict": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "decision_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "destination_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "state_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "mapping_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "assurance_profile_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        }
+      }
+    },
+    {
+      "cert": 5,
+      "certId": "0x954781fa61d5c4c9fa65616fb9039d2a9e62ecde55567edacce164b502cf9a0b",
+      "realDs": "0x9cc53485abe3e5c55414abd18484ea512823b9dd243760032a14c21a7a6311c6",
+      "realPis": "0x9c4f116f09e49327f456ffa8358008402169e617425b9fcd182276b6db1fde4b",
+      "mapID": "RoleMapping-v1.3-seq38",
+      "assurID": "PQCTransferV4-dual-verified-cert5",
+      "cases": {
+        "positive_control": {
+          "strict": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "decision_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "destination_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "state_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "mapping_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "assurance_profile_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        }
+      }
+    },
+    {
+      "cert": 6,
+      "certId": "0x1f633e62b82849be52768a81a88af7b879c3f96ca5d9af444deabfc1d1a147b9",
+      "realDs": "0xf45e62cf4e9fcaf1031406ba732d2f08065e16d1d44189e4e3627e95b8c7d564",
+      "realPis": "0xec086d70b840ac5a0110396bc9d5ac375555a8403fd5df7f4e67e2dafed29bcb",
+      "mapID": "RoleMapping-v1.3-seq39",
+      "assurID": "PQCTransferV4-dual-verified-cert6",
+      "cases": {
+        "positive_control": {
+          "strict": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "decision_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "destination_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "state_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "mapping_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "assurance_profile_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        }
+      }
+    },
+    {
+      "cert": 7,
+      "certId": "0x78eb63fc355f479fd12aacf758b40f474f518bf106c852f677d9e5e86eb72048",
+      "realDs": "0xbc1f8b2cc9afefa1bf65ee4b86915f89a587a292f27a1bc6edbd9f1587c16064",
+      "realPis": "0x1a7f0c0f5b5fbedf32de7fb34b4a2ce643a97b9fdb513fc009772bd85456fddf",
+      "mapID": "RoleMapping-v1.3-seq40",
+      "assurID": "PQCTransferV4-dual-verified-cert7",
+      "cases": {
+        "positive_control": {
+          "strict": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "decision_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "destination_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "state_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "mapping_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "assurance_profile_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        }
+      }
+    },
+    {
+      "cert": 8,
+      "certId": "0xbce9aec598fadb2f117f26439c8dff2c3e18e4b502b9e34524c14843ae5c04b5",
+      "realDs": "0x5eb76ea172fec887e11c065d6fbcb36c8e6e2801757c1c4809f8b2ffeff76486",
+      "realPis": "0x0b61477ba4b24c7d02d4347470a590f4ba7a0d5d4d27c6253f7e745446a0ea3f",
+      "mapID": "RoleMapping-v1.3-seq41",
+      "assurID": "PQCTransferV4-dual-verified-cert8",
+      "cases": {
+        "positive_control": {
+          "strict": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "decision_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "destination_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "state_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "mapping_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "assurance_profile_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        }
+      }
+    },
+    {
+      "cert": 9,
+      "certId": "0xaa4916fb2144808149feb89c77bf5d2a4b9f467f56a93a821f1b6065b2c915f7",
+      "realDs": "0xe1d0e41a310c866eada8e6808de2439b4b93ca1bf8486e62ee400e21b77b80ab",
+      "realPis": "0x8e83b1f27bfe278e6e77245f6ba548b6f00b60b3acd28b104682ef15c563da23",
+      "mapID": "RoleMapping-v1.3-seq42",
+      "assurID": "PQCTransferV4-dual-verified-cert9",
+      "cases": {
+        "positive_control": {
+          "strict": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "decision_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "destination_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "state_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "mapping_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        },
+        "assurance_profile_substitution": {
+          "strict": {
+            "valid": false,
+            "fieldMismatch": true,
+            "sigValid": true
+          },
+          "ablated": {
+            "valid": true,
+            "fieldMismatch": false,
+            "sigValid": true
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "SubmitDecisionB0Timed": [
+    {
+      "name": "CellCounter27",
+      "wall_ms": 5.376859,
+      "class": "REJECT"
+    },
+    {
+      "name": "LedgerCounter17",
+      "wall_ms": 3.892916,
+      "class": "REJECT"
+    },
+    {
+      "name": "PlainCounter2",
+      "wall_ms": 2.360874,
+      "class": "REJECT"
+    },
+    {
+      "name": "RealCounter7",
+      "wall_ms": 3.71535,
+      "class": "REJECT"
+    },
+    {
+      "name": "SolidCounter12",
+      "wall_ms": 3.138073,
+      "class": "REJECT"
+    },
+    {
+      "name": "StoreCounter22",
+      "wall_ms": 2.530041,
+      "class": "REJECT"
+    },
+    {
+      "name": "AlphaEscrow",
+      "wall_ms": 2.72536,
+      "class": "REJECT"
+    },
+    {
+      "name": "AnchorVault",
+      "wall_ms": 2.423309,
+      "class": "REJECT"
+    },
+    {
+      "name": "ApexAuction",
+      "wall_ms": 2.683874,
+      "class": "REJECT"
+    },
+    {
+      "name": "AsterFaucet",
+      "wall_ms": 1.935639,
+      "class": "REJECT"
+    },
+    {
+      "name": "AstraVoting",
+      "wall_ms": 2.40807,
+      "class": "REJECT"
+    },
+    {
+      "name": "BeaconCounter",
+      "wall_ms": 2.492106,
+      "class": "REJECT"
+    },
+    {
+      "name": "BetaVoting",
+      "wall_ms": 4.11221,
+      "class": "REJECT"
+    },
+    {
+      "name": "BridgeEscrow",
+      "wall_ms": 4.866029,
+      "class": "REJECT"
+    },
+    {
+      "name": "CedarSubscription",
+      "wall_ms": 5.294156,
+      "class": "REJECT"
+    },
+    {
+      "name": "CentralCounter",
+      "wall_ms": 5.112373,
+      "class": "REJECT"
+    },
+    {
+      "name": "CivicEscrow",
+      "wall_ms": 4.483566,
+      "class": "REJECT"
+    },
+    {
+      "name": "CrestFaucet",
+      "wall_ms": 5.020414,
+      "class": "REJECT"
+    },
+    {
+      "name": "DeltaCounter",
+      "wall_ms": 4.740524,
+      "class": "REJECT"
+    },
+    {
+      "name": "EastVoting",
+      "wall_ms": 4.133116,
+      "class": "REJECT"
+    },
+    {
+      "name": "FederalFaucet",
+      "wall_ms": 4.568511,
+      "class": "REJECT"
+    },
+    {
+      "name": "GammaVault",
+      "wall_ms": 4.053293,
+      "class": "REJECT"
+    }
+  ],
+  "SubmitDecisionB3Timed": [
+    {
+      "name": "CellCounter27",
+      "wall_ms": 3.887806,
+      "class": "REJECT"
+    },
+    {
+      "name": "LedgerCounter17",
+      "wall_ms": 4.060655,
+      "class": "REJECT"
+    },
+    {
+      "name": "PlainCounter2",
+      "wall_ms": 3.726001,
+      "class": "REJECT"
+    },
+    {
+      "name": "RealCounter7",
+      "wall_ms": 3.198227,
+      "class": "REJECT"
+    },
+    {
+      "name": "SolidCounter12",
+      "wall_ms": 3.543759,
+      "class": "REJECT"
+    },
+    {
+      "name": "StoreCounter22",
+      "wall_ms": 1.999729,
+      "class": "REJECT"
+    },
+    {
+      "name": "AlphaEscrow",
+      "wall_ms": 2.24532,
+      "class": "REJECT"
+    },
+    {
+      "name": "AnchorVault",
+      "wall_ms": 2.926009,
+      "class": "REJECT"
+    },
+    {
+      "name": "ApexAuction",
+      "wall_ms": 2.357446,
+      "class": "REJECT"
+    },
+    {
+      "name": "AsterFaucet",
+      "wall_ms": 3.550136,
+      "class": "REJECT"
+    },
+    {
+      "name": "AstraVoting",
+      "wall_ms": 1.983401,
+      "class": "REJECT"
+    },
+    {
+      "name": "BeaconCounter",
+      "wall_ms": 2.081377,
+      "class": "REJECT"
+    },
+    {
+      "name": "BetaVoting",
+      "wall_ms": 4.011989,
+      "class": "REJECT"
+    },
+    {
+      "name": "BridgeEscrow",
+      "wall_ms": 3.774329,
+      "class": "REJECT"
+    },
+    {
+      "name": "CedarSubscription",
+      "wall_ms": 3.815202,
+      "class": "REJECT"
+    },
+    {
+      "name": "CentralCounter",
+      "wall_ms": 4.043513,
+      "class": "REJECT"
+    },
+    {
+      "name": "CivicEscrow",
+      "wall_ms": 4.134896,
+      "class": "REJECT"
+    },
+    {
+      "name": "CrestFaucet",
+      "wall_ms": 4.640739,
+      "class": "REJECT"
+    },
+    {
+      "name": "DeltaCounter",
+      "wall_ms": 4.352106,
+      "class": "REJECT"
+    },
+    {
+      "name": "EastVoting",
+      "wall_ms": 5.132651,
+      "class": "REJECT"
+    },
+    {
+      "name": "FederalFaucet",
+      "wall_ms": 4.759174,
+      "class": "REJECT"
+    },
+    {
+      "name": "GammaVault",
+      "wall_ms": 7.683581,
+      "class": "REJECT"
+    }
+  ],
+  "SubmitDecisionTrustlessTimed": [
+    {
+      "name": "CellCounter27",
+      "wall_ms": 7.400374,
+      "class": "REJECT"
+    },
+    {
+      "name": "LedgerCounter17",
+      "wall_ms": 3.917795,
+      "class": "REJECT"
+    },
+    {
+      "name": "PlainCounter2",
+      "wall_ms": 3.459944,
+      "class": "REJECT"
+    },
+    {
+      "name": "RealCounter7",
+      "wall_ms": 3.588876,
+      "class": "REJECT"
+    },
+    {
+      "name": "SolidCounter12",
+      "wall_ms": 3.481393,
+      "class": "REJECT"
+    },
+    {
+      "name": "StoreCounter22",
+      "wall_ms": 2.366694,
+      "class": "REJECT"
+    },
+    {
+      "name": "AlphaEscrow",
+      "wall_ms": 3.260603,
+      "class": "REJECT"
+    },
+    {
+      "name": "AnchorVault",
+      "wall_ms": 2.414393,
+      "class": "REJECT"
+    },
+    {
+      "name": "ApexAuction",
+      "wall_ms": 2.096334,
+      "class": "REJECT"
+    },
+    {
+      "name": "AsterFaucet",
+      "wall_ms": 2.0002,
+      "class": "REJECT"
+    },
+    {
+      "name": "AstraVoting",
+      "wall_ms": 2.130101,
+      "class": "REJECT"
+    },
+    {
+      "name": "BeaconCounter",
+      "wall_ms": 3.267465,
+      "class": "REJECT"
+    },
+    {
+      "name": "BetaVoting",
+      "wall_ms": 2.161317,
+      "class": "REJECT"
+    },
+    {
+      "name": "BridgeEscrow",
+      "wall_ms": 3.293108,
+      "class": "REJECT"
+    },
+    {
+      "name": "CedarSubscription",
+      "wall_ms": 2.605476,
+      "class": "REJECT"
+    },
+    {
+      "name": "CentralCounter",
+      "wall_ms": 1.755954,
+      "class": "REJECT"
+    },
+    {
+      "name": "CivicEscrow",
+      "wall_ms": 2.636311,
+      "class": "REJECT"
+    },
+    {
+      "name": "CrestFaucet",
+      "wall_ms": 1.780194,
+      "class": "REJECT"
+    },
+    {
+      "name": "DeltaCounter",
+      "wall_ms": 2.965648,
+      "class": "REJECT"
+    },
+    {
+      "name": "EastVoting",
+      "wall_ms": 1.925918,
+      "class": "REJECT"
+    },
+    {
+      "name": "FederalFaucet",
+      "wall_ms": 1.849637,
+      "class": "REJECT"
+    },
+    {
+      "name": "GammaVault",
+      "wall_ms": 1.804458,
+      "class": "REJECT"
+    }
+  ]
+}

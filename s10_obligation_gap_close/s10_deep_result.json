@@ -1,0 +1,2591 @@
+{
+  "stamp": "1791099062",
+  "chaincodeVersion": "authcc_2.31/seq43",
+  "n_fixtures": 30,
+  "heightBefore": 4035,
+  "B_obligation_sweep": {
+    "v7_alone_baseline": [
+      {
+        "fixture": "03_dos_safe.sol",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-03_dos_safe.sol-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2061.1047109996434,
+        "tail": ""
+      },
+      {
+        "fixture": "03_dos_vuln.sol",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-03_dos_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2057.306346000132,
+        "tail": ""
+      },
+      {
+        "fixture": "04_call_to_unknown_safe.sol",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-04_call_to_unknown_safe.sol-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2056.938743000046,
+        "tail": ""
+      },
+      {
+        "fixture": "06_unused_return_safe.sol",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-06_unused_return_safe.sol-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2054.369705999761,
+        "tail": ""
+      },
+      {
+        "fixture": "08_timestamp_vuln.sol",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-08_timestamp_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2053.0325250001624,
+        "tail": ""
+      },
+      {
+        "fixture": "09_mishandled_exception_vuln.sol",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-09_mishandled_exception_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2051.351005000015,
+        "tail": ""
+      },
+      {
+        "fixture": "c003",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c003-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2054.898220999803,
+        "tail": ""
+      },
+      {
+        "fixture": "c004",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c004-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2050.4140810003264,
+        "tail": ""
+      },
+      {
+        "fixture": "c020",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c020-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2053.174924999894,
+        "tail": ""
+      },
+      {
+        "fixture": "c042",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c042-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2054.086282999833,
+        "tail": ""
+      },
+      {
+        "fixture": "c044",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c044-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2054.670688999977,
+        "tail": ""
+      },
+      {
+        "fixture": "c049",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c049-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2053.4755070002575,
+        "tail": ""
+      },
+      {
+        "fixture": "c076",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c076-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2052.0312020003075,
+        "tail": ""
+      },
+      {
+        "fixture": "c078",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c078-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2052.929760999632,
+        "tail": ""
+      },
+      {
+        "fixture": "c090",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c090-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2059.7880260002057,
+        "tail": ""
+      },
+      {
+        "fixture": "c100",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c100-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2050.5577940002695,
+        "tail": ""
+      },
+      {
+        "fixture": "c117",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c117-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2051.513679999971,
+        "tail": ""
+      },
+      {
+        "fixture": "c134",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c134-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2053.097391999927,
+        "tail": ""
+      },
+      {
+        "fixture": "c165",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c165-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2051.1258320002526,
+        "tail": ""
+      },
+      {
+        "fixture": "c175",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c175-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2046.5073959999245,
+        "tail": ""
+      },
+      {
+        "fixture": "c183",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c183-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2051.8419449999783,
+        "tail": ""
+      },
+      {
+        "fixture": "c188",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c188-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2053.6803959998906,
+        "tail": ""
+      },
+      {
+        "fixture": "c207",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c207-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2049.6323100001064,
+        "tail": ""
+      },
+      {
+        "fixture": "c209",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c209-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2048.966258999826,
+        "tail": ""
+      },
+      {
+        "fixture": "c223",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c223-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2052.34338199989,
+        "tail": ""
+      },
+      {
+        "fixture": "c230",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c230-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2054.2667660001825,
+        "tail": ""
+      },
+      {
+        "fixture": "c232",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c232-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2050.62766500032,
+        "tail": ""
+      },
+      {
+        "fixture": "c243",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c243-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2052.748592000171,
+        "tail": ""
+      },
+      {
+        "fixture": "c244",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c244-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2050.7282730000043,
+        "tail": ""
+      },
+      {
+        "fixture": "c253",
+        "kind": "v7_alone_baseline",
+        "decisionId": "s10d-b0-c253-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2053.4921890002806,
+        "tail": ""
+      }
+    ],
+    "healthy": [
+      {
+        "fixture": "03_dos_safe.sol",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-03_dos_safe.sol-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2060.107146000064,
+        "tail": ""
+      },
+      {
+        "fixture": "03_dos_vuln.sol",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-03_dos_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2055.156894999982,
+        "tail": ""
+      },
+      {
+        "fixture": "04_call_to_unknown_safe.sol",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-04_call_to_unknown_safe.sol-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2057.942784000261,
+        "tail": ""
+      },
+      {
+        "fixture": "06_unused_return_safe.sol",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-06_unused_return_safe.sol-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2057.638128000235,
+        "tail": ""
+      },
+      {
+        "fixture": "08_timestamp_vuln.sol",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-08_timestamp_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2053.1710509999357,
+        "tail": ""
+      },
+      {
+        "fixture": "09_mishandled_exception_vuln.sol",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-09_mishandled_exception_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2051.3718339998377,
+        "tail": ""
+      },
+      {
+        "fixture": "c003",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c003-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2054.9899940001524,
+        "tail": ""
+      },
+      {
+        "fixture": "c004",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c004-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2056.5666540001075,
+        "tail": ""
+      },
+      {
+        "fixture": "c020",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c020-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2053.469598999982,
+        "tail": ""
+      },
+      {
+        "fixture": "c042",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c042-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2052.2964689998844,
+        "tail": ""
+      },
+      {
+        "fixture": "c044",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c044-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2047.0601840002018,
+        "tail": ""
+      },
+      {
+        "fixture": "c049",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c049-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2055.6948910002575,
+        "tail": ""
+      },
+      {
+        "fixture": "c076",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c076-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2051.977459999762,
+        "tail": ""
+      },
+      {
+        "fixture": "c078",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c078-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2053.1104910000977,
+        "tail": ""
+      },
+      {
+        "fixture": "c090",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c090-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2053.7602959998367,
+        "tail": ""
+      },
+      {
+        "fixture": "c100",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c100-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2057.704751000074,
+        "tail": ""
+      },
+      {
+        "fixture": "c117",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c117-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2051.7647659999056,
+        "tail": ""
+      },
+      {
+        "fixture": "c134",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c134-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2053.8487849999,
+        "tail": ""
+      },
+      {
+        "fixture": "c165",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c165-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2050.788123000075,
+        "tail": ""
+      },
+      {
+        "fixture": "c175",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c175-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2060.9729679999873,
+        "tail": ""
+      },
+      {
+        "fixture": "c183",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c183-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2052.5597149999157,
+        "tail": ""
+      },
+      {
+        "fixture": "c188",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c188-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2052.479412000139,
+        "tail": ""
+      },
+      {
+        "fixture": "c207",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c207-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2048.894257000029,
+        "tail": ""
+      },
+      {
+        "fixture": "c209",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c209-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2052.6455280000846,
+        "tail": ""
+      },
+      {
+        "fixture": "c223",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c223-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2051.813795000271,
+        "tail": ""
+      },
+      {
+        "fixture": "c230",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c230-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2053.792390000126,
+        "tail": ""
+      },
+      {
+        "fixture": "c232",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c232-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2049.953364999965,
+        "tail": ""
+      },
+      {
+        "fixture": "c243",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c243-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2053.800329999831,
+        "tail": ""
+      },
+      {
+        "fixture": "c244",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c244-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2051.5633959998922,
+        "tail": ""
+      },
+      {
+        "fixture": "c253",
+        "kind": "healthy",
+        "decisionId": "s10d-b-healthy-c253-1791099062",
+        "ok": true,
+        "returned": "SAFE",
+        "committed": "SAFE",
+        "wallMs": 2052.9590629998893,
+        "tail": ""
+      }
+    ],
+    "S5_stripped": [
+      {
+        "fixture": "03_dos_safe.sol",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-03_dos_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2059.9631760001103,
+        "tail": ""
+      },
+      {
+        "fixture": "03_dos_vuln.sol",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-03_dos_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.1722449999943,
+        "tail": ""
+      },
+      {
+        "fixture": "04_call_to_unknown_safe.sol",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-04_call_to_unknown_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.716309000014,
+        "tail": ""
+      },
+      {
+        "fixture": "06_unused_return_safe.sol",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-06_unused_return_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2057.006468000054,
+        "tail": ""
+      },
+      {
+        "fixture": "08_timestamp_vuln.sol",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-08_timestamp_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.5202020000725,
+        "tail": ""
+      },
+      {
+        "fixture": "09_mishandled_exception_vuln.sol",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-09_mishandled_exception_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2045.1763080000092,
+        "tail": ""
+      },
+      {
+        "fixture": "c003",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c003-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.4020239999554,
+        "tail": ""
+      },
+      {
+        "fixture": "c004",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c004-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2056.8299450001177,
+        "tail": ""
+      },
+      {
+        "fixture": "c020",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c020-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.77183599992,
+        "tail": ""
+      },
+      {
+        "fixture": "c042",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c042-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.6421669999545,
+        "tail": ""
+      },
+      {
+        "fixture": "c044",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c044-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2056.944208999994,
+        "tail": ""
+      },
+      {
+        "fixture": "c049",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c049-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.6285960001333,
+        "tail": ""
+      },
+      {
+        "fixture": "c076",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c076-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2050.8491789996697,
+        "tail": ""
+      },
+      {
+        "fixture": "c078",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c078-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.0931450000717,
+        "tail": ""
+      },
+      {
+        "fixture": "c090",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c090-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.394487999867,
+        "tail": ""
+      },
+      {
+        "fixture": "c100",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c100-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2056.358732999797,
+        "tail": ""
+      },
+      {
+        "fixture": "c117",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c117-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2049.738009000066,
+        "tail": ""
+      },
+      {
+        "fixture": "c134",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c134-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.719115999731,
+        "tail": ""
+      },
+      {
+        "fixture": "c165",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c165-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2046.7771710000306,
+        "tail": ""
+      },
+      {
+        "fixture": "c175",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c175-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2060.5975560001752,
+        "tail": ""
+      },
+      {
+        "fixture": "c183",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c183-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2050.6028969998624,
+        "tail": ""
+      },
+      {
+        "fixture": "c188",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c188-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2048.668092999833,
+        "tail": ""
+      },
+      {
+        "fixture": "c207",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c207-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2049.254830999871,
+        "tail": ""
+      },
+      {
+        "fixture": "c209",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c209-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.648302000307,
+        "tail": ""
+      },
+      {
+        "fixture": "c223",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c223-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.054106000265,
+        "tail": ""
+      },
+      {
+        "fixture": "c230",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c230-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.182357000016,
+        "tail": ""
+      },
+      {
+        "fixture": "c232",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c232-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.7709330001235,
+        "tail": ""
+      },
+      {
+        "fixture": "c243",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c243-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.1464690002394,
+        "tail": ""
+      },
+      {
+        "fixture": "c244",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c244-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2049.2077869998866,
+        "tail": ""
+      },
+      {
+        "fixture": "c253",
+        "kind": "S5_stripped",
+        "decisionId": "s10d-b-S5_stripped-c253-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2049.5438320003814,
+        "tail": ""
+      }
+    ],
+    "S6_weakened": [
+      {
+        "fixture": "03_dos_safe.sol",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-03_dos_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2060.004757000115,
+        "tail": ""
+      },
+      {
+        "fixture": "03_dos_vuln.sol",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-03_dos_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2059.0826249999736,
+        "tail": ""
+      },
+      {
+        "fixture": "04_call_to_unknown_safe.sol",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-04_call_to_unknown_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.851077999956,
+        "tail": ""
+      },
+      {
+        "fixture": "06_unused_return_safe.sol",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-06_unused_return_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2057.127899000079,
+        "tail": ""
+      },
+      {
+        "fixture": "08_timestamp_vuln.sol",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-08_timestamp_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.671814000405,
+        "tail": ""
+      },
+      {
+        "fixture": "09_mishandled_exception_vuln.sol",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-09_mishandled_exception_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.880044999867,
+        "tail": ""
+      },
+      {
+        "fixture": "c003",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c003-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.904004999822,
+        "tail": ""
+      },
+      {
+        "fixture": "c004",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c004-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2056.6845899998043,
+        "tail": ""
+      },
+      {
+        "fixture": "c020",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c020-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.28886399982,
+        "tail": ""
+      },
+      {
+        "fixture": "c042",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c042-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2057.1558510000614,
+        "tail": ""
+      },
+      {
+        "fixture": "c044",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c044-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2056.008608999946,
+        "tail": ""
+      },
+      {
+        "fixture": "c049",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c049-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.9032940003162,
+        "tail": ""
+      },
+      {
+        "fixture": "c076",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c076-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2046.97999300015,
+        "tail": ""
+      },
+      {
+        "fixture": "c078",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c078-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2063.4175909999612,
+        "tail": ""
+      },
+      {
+        "fixture": "c090",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c090-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.442170999915,
+        "tail": ""
+      },
+      {
+        "fixture": "c100",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c100-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.9892109997927,
+        "tail": ""
+      },
+      {
+        "fixture": "c117",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c117-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2045.470389000002,
+        "tail": ""
+      },
+      {
+        "fixture": "c134",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c134-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.3735979999838,
+        "tail": ""
+      },
+      {
+        "fixture": "c165",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c165-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2046.4069670001663,
+        "tail": ""
+      },
+      {
+        "fixture": "c175",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c175-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2058.122779000314,
+        "tail": ""
+      },
+      {
+        "fixture": "c183",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c183-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2049.3810630000553,
+        "tail": ""
+      },
+      {
+        "fixture": "c188",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c188-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2049.688425000113,
+        "tail": ""
+      },
+      {
+        "fixture": "c207",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c207-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2050.3434020001805,
+        "tail": ""
+      },
+      {
+        "fixture": "c209",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c209-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2050.2956539999104,
+        "tail": ""
+      },
+      {
+        "fixture": "c223",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c223-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.003639999635,
+        "tail": ""
+      },
+      {
+        "fixture": "c230",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c230-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.5951829997903,
+        "tail": ""
+      },
+      {
+        "fixture": "c232",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c232-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.2069890000457,
+        "tail": ""
+      },
+      {
+        "fixture": "c243",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c243-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.0766759998187,
+        "tail": ""
+      },
+      {
+        "fixture": "c244",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c244-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2049.071724999976,
+        "tail": ""
+      },
+      {
+        "fixture": "c253",
+        "kind": "S6_weakened",
+        "decisionId": "s10d-b-S6_weakened-c253-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2047.685712999737,
+        "tail": ""
+      }
+    ],
+    "S7_laundered": [
+      {
+        "fixture": "03_dos_safe.sol",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-03_dos_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2060.952633999932,
+        "tail": ""
+      },
+      {
+        "fixture": "03_dos_vuln.sol",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-03_dos_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2058.4785459996056,
+        "tail": ""
+      },
+      {
+        "fixture": "04_call_to_unknown_safe.sol",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-04_call_to_unknown_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.0809830001526,
+        "tail": ""
+      },
+      {
+        "fixture": "06_unused_return_safe.sol",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-06_unused_return_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.107511000282,
+        "tail": ""
+      },
+      {
+        "fixture": "08_timestamp_vuln.sol",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-08_timestamp_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.817157000187,
+        "tail": ""
+      },
+      {
+        "fixture": "09_mishandled_exception_vuln.sol",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-09_mishandled_exception_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.66418099968,
+        "tail": ""
+      },
+      {
+        "fixture": "c003",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c003-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.283382000245,
+        "tail": ""
+      },
+      {
+        "fixture": "c004",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c004-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.7316799996006,
+        "tail": ""
+      },
+      {
+        "fixture": "c020",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c020-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2056.5625650001493,
+        "tail": ""
+      },
+      {
+        "fixture": "c042",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c042-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.6636860003673,
+        "tail": ""
+      },
+      {
+        "fixture": "c044",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c044-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.1301460000104,
+        "tail": ""
+      },
+      {
+        "fixture": "c049",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c049-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.9132560000107,
+        "tail": ""
+      },
+      {
+        "fixture": "c076",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c076-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.1031400000757,
+        "tail": ""
+      },
+      {
+        "fixture": "c078",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c078-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2059.8673260001306,
+        "tail": ""
+      },
+      {
+        "fixture": "c090",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c090-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2050.9639130000323,
+        "tail": ""
+      },
+      {
+        "fixture": "c100",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c100-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.467448000196,
+        "tail": ""
+      },
+      {
+        "fixture": "c117",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c117-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.160548999789,
+        "tail": ""
+      },
+      {
+        "fixture": "c134",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c134-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.4113380003873,
+        "tail": ""
+      },
+      {
+        "fixture": "c165",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c165-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2045.953647999795,
+        "tail": ""
+      },
+      {
+        "fixture": "c175",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c175-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2058.263887999601,
+        "tail": ""
+      },
+      {
+        "fixture": "c183",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c183-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.6729570000934,
+        "tail": ""
+      },
+      {
+        "fixture": "c188",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c188-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2050.500078999903,
+        "tail": ""
+      },
+      {
+        "fixture": "c207",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c207-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2049.1103150002346,
+        "tail": ""
+      },
+      {
+        "fixture": "c209",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c209-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2050.791990000107,
+        "tail": ""
+      },
+      {
+        "fixture": "c223",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c223-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.460843000219,
+        "tail": ""
+      },
+      {
+        "fixture": "c230",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c230-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2050.8493389997966,
+        "tail": ""
+      },
+      {
+        "fixture": "c232",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c232-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.4979189997102,
+        "tail": ""
+      },
+      {
+        "fixture": "c243",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c243-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.2250510000267,
+        "tail": ""
+      },
+      {
+        "fixture": "c244",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c244-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.874395000297,
+        "tail": ""
+      },
+      {
+        "fixture": "c253",
+        "kind": "S7_laundered",
+        "decisionId": "s10d-b-S7_laundered-c253-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2047.6954450000449,
+        "tail": ""
+      }
+    ]
+  },
+  "B_summary": {
+    "v7_alone_baseline": {
+      "n": 30,
+      "expect": "SAFE",
+      "match": 30,
+      "wrong": 0,
+      "errors": 0,
+      "cp95_upper_if_0_wrong": 0.09503385285530419
+    },
+    "healthy": {
+      "n": 30,
+      "expect": "SAFE",
+      "match": 30,
+      "wrong": 0,
+      "errors": 0,
+      "cp95_upper_if_0_wrong": 0.09503385285530419
+    },
+    "S5_stripped": {
+      "n": 30,
+      "expect": "REJECT",
+      "match": 30,
+      "wrong": 0,
+      "errors": 0,
+      "cp95_upper_if_0_wrong": 0.09503385285530419
+    },
+    "S6_weakened": {
+      "n": 30,
+      "expect": "REJECT",
+      "match": 30,
+      "wrong": 0,
+      "errors": 0,
+      "cp95_upper_if_0_wrong": 0.09503385285530419
+    },
+    "S7_laundered": {
+      "n": 30,
+      "expect": "REJECT",
+      "match": 30,
+      "wrong": 0,
+      "errors": 0,
+      "cp95_upper_if_0_wrong": 0.09503385285530419
+    }
+  },
+  "C_proof_robustness_sweep": {
+    "N1_proof_substitution": [
+      {
+        "fixture": "03_dos_safe.sol",
+        "other": "03_dos_vuln.sol",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-03_dos_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.6310560000857,
+        "tail": ""
+      },
+      {
+        "fixture": "03_dos_vuln.sol",
+        "other": "04_call_to_unknown_safe.sol",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-03_dos_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.8892899997118,
+        "tail": ""
+      },
+      {
+        "fixture": "04_call_to_unknown_safe.sol",
+        "other": "06_unused_return_safe.sol",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-04_call_to_unknown_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.093223999942,
+        "tail": ""
+      },
+      {
+        "fixture": "06_unused_return_safe.sol",
+        "other": "08_timestamp_vuln.sol",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-06_unused_return_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2049.595973000123,
+        "tail": ""
+      },
+      {
+        "fixture": "08_timestamp_vuln.sol",
+        "other": "09_mishandled_exception_vuln.sol",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-08_timestamp_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.9356229996883,
+        "tail": ""
+      },
+      {
+        "fixture": "09_mishandled_exception_vuln.sol",
+        "other": "c003",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-09_mishandled_exception_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.2068810000274,
+        "tail": ""
+      },
+      {
+        "fixture": "c003",
+        "other": "c004",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c003-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.9946210003327,
+        "tail": ""
+      },
+      {
+        "fixture": "c004",
+        "other": "c020",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c004-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2056.9681619999756,
+        "tail": ""
+      },
+      {
+        "fixture": "c020",
+        "other": "c042",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c020-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.9658350001228,
+        "tail": ""
+      },
+      {
+        "fixture": "c042",
+        "other": "c044",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c042-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2049.5606039999075,
+        "tail": ""
+      },
+      {
+        "fixture": "c044",
+        "other": "c049",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c044-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.424512999707,
+        "tail": ""
+      },
+      {
+        "fixture": "c049",
+        "other": "c076",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c049-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.265466999619,
+        "tail": ""
+      },
+      {
+        "fixture": "c076",
+        "other": "c078",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c076-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2062.2157120001248,
+        "tail": ""
+      },
+      {
+        "fixture": "c078",
+        "other": "c090",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c078-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2060.5905709999206,
+        "tail": ""
+      },
+      {
+        "fixture": "c090",
+        "other": "c100",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c090-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.897320999975,
+        "tail": ""
+      },
+      {
+        "fixture": "c100",
+        "other": "c117",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c100-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.288084999873,
+        "tail": ""
+      },
+      {
+        "fixture": "c117",
+        "other": "c134",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c117-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2063.513049999983,
+        "tail": ""
+      },
+      {
+        "fixture": "c134",
+        "other": "c165",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c134-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2061.1959389998447,
+        "tail": ""
+      },
+      {
+        "fixture": "c165",
+        "other": "c175",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c165-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2049.4555109999055,
+        "tail": ""
+      },
+      {
+        "fixture": "c175",
+        "other": "c183",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c175-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.836838999814,
+        "tail": ""
+      },
+      {
+        "fixture": "c183",
+        "other": "c188",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c183-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.1905269999224,
+        "tail": ""
+      },
+      {
+        "fixture": "c188",
+        "other": "c207",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c188-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.501639999671,
+        "tail": ""
+      },
+      {
+        "fixture": "c207",
+        "other": "c209",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c207-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.654200999972,
+        "tail": ""
+      },
+      {
+        "fixture": "c209",
+        "other": "c223",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c209-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.6229069998153,
+        "tail": ""
+      },
+      {
+        "fixture": "c223",
+        "other": "c230",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c223-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.3589459997092,
+        "tail": ""
+      },
+      {
+        "fixture": "c230",
+        "other": "c232",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c230-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2047.3522789998242,
+        "tail": ""
+      },
+      {
+        "fixture": "c232",
+        "other": "c243",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c232-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.4963349998397,
+        "tail": ""
+      },
+      {
+        "fixture": "c243",
+        "other": "c244",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c243-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.5078650002324,
+        "tail": ""
+      },
+      {
+        "fixture": "c244",
+        "other": "c253",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c244-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.9011860000755,
+        "tail": ""
+      },
+      {
+        "fixture": "c253",
+        "other": "03_dos_safe.sol",
+        "kind": "N1_proof_substitution",
+        "decisionId": "s10d-c-n1-c253-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2044.936852000319,
+        "tail": ""
+      }
+    ],
+    "N2_tampered_proof": [
+      {
+        "fixture": "03_dos_safe.sol",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-03_dos_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.0415980001635,
+        "tail": ""
+      },
+      {
+        "fixture": "03_dos_vuln.sol",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-03_dos_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.344833999745,
+        "tail": ""
+      },
+      {
+        "fixture": "04_call_to_unknown_safe.sol",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-04_call_to_unknown_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2050.080267999874,
+        "tail": ""
+      },
+      {
+        "fixture": "06_unused_return_safe.sol",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-06_unused_return_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2049.6270680000634,
+        "tail": ""
+      },
+      {
+        "fixture": "08_timestamp_vuln.sol",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-08_timestamp_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.39605499987,
+        "tail": ""
+      },
+      {
+        "fixture": "09_mishandled_exception_vuln.sol",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-09_mishandled_exception_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.9042119996557,
+        "tail": ""
+      },
+      {
+        "fixture": "c003",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c003-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.0288830002755,
+        "tail": ""
+      },
+      {
+        "fixture": "c004",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c004-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2056.0705369998686,
+        "tail": ""
+      },
+      {
+        "fixture": "c020",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c020-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.276201999779,
+        "tail": ""
+      },
+      {
+        "fixture": "c042",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c042-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.986424999901,
+        "tail": ""
+      },
+      {
+        "fixture": "c044",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c044-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2056.240912999783,
+        "tail": ""
+      },
+      {
+        "fixture": "c049",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c049-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.692249000098,
+        "tail": ""
+      },
+      {
+        "fixture": "c076",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c076-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2060.731327999747,
+        "tail": ""
+      },
+      {
+        "fixture": "c078",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c078-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2057.740472000205,
+        "tail": ""
+      },
+      {
+        "fixture": "c090",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c090-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2056.3347020001856,
+        "tail": ""
+      },
+      {
+        "fixture": "c100",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c100-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.196283000081,
+        "tail": ""
+      },
+      {
+        "fixture": "c117",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c117-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2062.7082599999085,
+        "tail": ""
+      },
+      {
+        "fixture": "c134",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c134-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.0283969997545,
+        "tail": ""
+      },
+      {
+        "fixture": "c165",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c165-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2048.9657099997203,
+        "tail": ""
+      },
+      {
+        "fixture": "c175",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c175-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2050.112329000058,
+        "tail": ""
+      },
+      {
+        "fixture": "c183",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c183-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.2089210000304,
+        "tail": ""
+      },
+      {
+        "fixture": "c188",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c188-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.510541000127,
+        "tail": ""
+      },
+      {
+        "fixture": "c207",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c207-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.6875130003173,
+        "tail": ""
+      },
+      {
+        "fixture": "c209",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c209-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.7888220000677,
+        "tail": ""
+      },
+      {
+        "fixture": "c223",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c223-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.066692999688,
+        "tail": ""
+      },
+      {
+        "fixture": "c230",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c230-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.476894000094,
+        "tail": ""
+      },
+      {
+        "fixture": "c232",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c232-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2045.7704919999742,
+        "tail": ""
+      },
+      {
+        "fixture": "c243",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c243-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.842196000005,
+        "tail": ""
+      },
+      {
+        "fixture": "c244",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c244-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.4271950000402,
+        "tail": ""
+      },
+      {
+        "fixture": "c253",
+        "kind": "N2_tampered_proof",
+        "decisionId": "s10d-c-n2-c253-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2046.2801480002781,
+        "tail": ""
+      }
+    ],
+    "N3_forged_featureHash": [
+      {
+        "fixture": "03_dos_safe.sol",
+        "other": "03_dos_vuln.sol",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-03_dos_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.237535000335,
+        "tail": ""
+      },
+      {
+        "fixture": "03_dos_vuln.sol",
+        "other": "04_call_to_unknown_safe.sol",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-03_dos_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.47070300013,
+        "tail": ""
+      },
+      {
+        "fixture": "04_call_to_unknown_safe.sol",
+        "other": "06_unused_return_safe.sol",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-04_call_to_unknown_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2050.9037799997714,
+        "tail": ""
+      },
+      {
+        "fixture": "06_unused_return_safe.sol",
+        "other": "08_timestamp_vuln.sol",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-06_unused_return_safe.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2046.8339290000586,
+        "tail": ""
+      },
+      {
+        "fixture": "08_timestamp_vuln.sol",
+        "other": "09_mishandled_exception_vuln.sol",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-08_timestamp_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.6349940000255,
+        "tail": ""
+      },
+      {
+        "fixture": "09_mishandled_exception_vuln.sol",
+        "other": "c003",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-09_mishandled_exception_vuln.sol-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.267988000196,
+        "tail": ""
+      },
+      {
+        "fixture": "c003",
+        "other": "c004",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c003-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2057.213516000047,
+        "tail": ""
+      },
+      {
+        "fixture": "c004",
+        "other": "c020",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c004-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.550177000081,
+        "tail": ""
+      },
+      {
+        "fixture": "c020",
+        "other": "c042",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c020-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.6159399996686,
+        "tail": ""
+      },
+      {
+        "fixture": "c042",
+        "other": "c044",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c042-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.4335080000783,
+        "tail": ""
+      },
+      {
+        "fixture": "c044",
+        "other": "c049",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c044-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.1078919998436,
+        "tail": ""
+      },
+      {
+        "fixture": "c049",
+        "other": "c076",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c049-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2051.185927000006,
+        "tail": ""
+      },
+      {
+        "fixture": "c076",
+        "other": "c078",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c076-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2060.9010430002854,
+        "tail": ""
+      },
+      {
+        "fixture": "c078",
+        "other": "c090",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c078-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2056.446615000368,
+        "tail": ""
+      },
+      {
+        "fixture": "c090",
+        "other": "c100",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c090-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.9515620000893,
+        "tail": ""
+      },
+      {
+        "fixture": "c100",
+        "other": "c117",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c100-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2046.7978080000648,
+        "tail": ""
+      },
+      {
+        "fixture": "c117",
+        "other": "c134",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c117-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2063.9158200001475,
+        "tail": ""
+      },
+      {
+        "fixture": "c134",
+        "other": "c165",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c134-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2050.5467990001307,
+        "tail": ""
+      },
+      {
+        "fixture": "c165",
+        "other": "c175",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c165-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.720395000255,
+        "tail": ""
+      },
+      {
+        "fixture": "c175",
+        "other": "c183",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c175-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2047.8317660003995,
+        "tail": ""
+      },
+      {
+        "fixture": "c183",
+        "other": "c188",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c183-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.0836499996876,
+        "tail": ""
+      },
+      {
+        "fixture": "c188",
+        "other": "c207",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c188-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.798842999844,
+        "tail": ""
+      },
+      {
+        "fixture": "c207",
+        "other": "c209",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c207-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.6464669998604,
+        "tail": ""
+      },
+      {
+        "fixture": "c209",
+        "other": "c223",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c209-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2054.6617640002296,
+        "tail": ""
+      },
+      {
+        "fixture": "c223",
+        "other": "c230",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c223-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2050.676167000347,
+        "tail": ""
+      },
+      {
+        "fixture": "c230",
+        "other": "c232",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c230-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2056.800715999998,
+        "tail": ""
+      },
+      {
+        "fixture": "c232",
+        "other": "c243",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c232-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2055.018282000219,
+        "tail": ""
+      },
+      {
+        "fixture": "c243",
+        "other": "c244",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c243-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2053.976346000127,
+        "tail": ""
+      },
+      {
+        "fixture": "c244",
+        "other": "c253",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c244-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2052.9290849999597,
+        "tail": ""
+      },
+      {
+        "fixture": "c253",
+        "other": "03_dos_safe.sol",
+        "kind": "N3_forged_featureHash",
+        "decisionId": "s10d-c-n3-c253-1791099062",
+        "ok": true,
+        "returned": "REJECT",
+        "committed": "REJECT",
+        "wallMs": 2046.2789189996329,
+        "tail": ""
+      }
+    ]
+  },
+  "C_summary": {
+    "N1_proof_substitution": {
+      "n": 30,
+      "accepted": 0,
+      "rejected": 30,
+      "errors": 0,
+      "cp95_upper_if_0_accepted": 0.09503385285530419
+    },
+    "N2_tampered_proof": {
+      "n": 30,
+      "accepted": 0,
+      "rejected": 30,
+      "errors": 0,
+      "cp95_upper_if_0_accepted": 0.09503385285530419
+    },
+    "N3_forged_featureHash": {
+      "n": 30,
+      "accepted": 0,
+      "rejected": 30,
+      "errors": 0,
+      "cp95_upper_if_0_accepted": 0.09503385285530419
+    }
+  },
+  "C_claim_trust_role_sweep": [
+    {
+      "role": "manager",
+      "threshold": 500000,
+      "kind": "C_claim_trust_role",
+      "decisionId": "s10d-c-roletrust-manager-1791099062",
+      "ok": true,
+      "returned": "EXACT",
+      "committed": "EXACT",
+      "wallMs": 2048.2379600002787,
+      "tail": ""
+    },
+    {
+      "role": "director",
+      "threshold": 2000000,
+      "kind": "C_claim_trust_role",
+      "decisionId": "s10d-c-roletrust-director-1791099062",
+      "ok": true,
+      "returned": "EXACT",
+      "committed": "EXACT",
+      "wallMs": 2048.505564000152,
+      "tail": ""
+    },
+    {
+      "role": "clerk",
+      "threshold": 10000,
+      "kind": "C_claim_trust_role",
+      "decisionId": "s10d-c-roletrust-clerk-1791099062",
+      "ok": true,
+      "returned": "EXACT",
+      "committed": "EXACT",
+      "wallMs": 2048.0692289997933,
+      "tail": ""
+    }
+  ],
+  "C_claim_trust_role_summary": {
+    "n": 3,
+    "fooled": 3
+  },
+  "heightAfter": 4097
+}

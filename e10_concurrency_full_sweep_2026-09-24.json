@@ -1,0 +1,51 @@
+{
+  "n100": {
+    "N": 100,
+    "n_endorsed_ok": 100,
+    "n_committed": 100,
+    "wall_clock_s": 5.790066242218018,
+    "mean_ms_per_tx": 57.900662422180176
+  },
+  "n200": {
+    "N": 200,
+    "n_endorsed_ok": 200,
+    "n_committed": 200,
+    "wall_clock_s": 11.35749888420105,
+    "mean_ms_per_tx": 56.78749442100525
+  },
+  "n500": {
+    "N": 500,
+    "n_endorsed_ok": 500,
+    "n_committed": 500,
+    "wall_clock_s": 27.720256328582764,
+    "mean_ms_per_tx": 55.44051265716553
+  },
+  "n1000": {
+    "N": 1000,
+    "n_endorsed_ok": 1000,
+    "n_committed": 1000,
+    "wall_clock_s": 56.4978609085083,
+    "mean_ms_per_tx": 56.4978609085083
+  },
+  "n2000": {
+    "N": 2000,
+    "n_endorsed_ok": 2000,
+    "n_committed": 2000,
+    "wall_clock_s": 112.05059599876404,
+    "mean_ms_per_tx": 56.02529799938202
+  },
+  "n5000": {
+    "N": 5000,
+    "n_endorsed_ok": 5000,
+    "n_committed": 5000,
+    "wall_clock_s": 284.96516513824463,
+    "mean_ms_per_tx": 56.99303302764893
+  },
+  "n10000": {
+    "N": 10000,
+    "n_endorsed_ok": 10000,
+    "n_committed": 10000,
+    "wall_clock_s": 570.1634175777435,
+    "mean_ms_per_tx": 57.016341757774356
+  }
+}

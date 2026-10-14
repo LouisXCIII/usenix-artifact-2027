@@ -1,0 +1,72 @@
+height before 3717
+M1 00_clean_token.sol True REJECT REJECT expected REJECT
+M1 00_clean_voting.sol True REJECT REJECT expected REJECT
+M1 02_integer_overflow_safe.sol True REJECT REJECT expected REJECT
+M1 02_integer_overflow_vuln.sol True REJECT REJECT expected REJECT
+M1 03_dos_safe.sol True SAFE SAFE expected SAFE
+M1 03_dos_vuln.sol True SAFE SAFE expected SAFE
+M1 04_call_to_unknown_safe.sol True SAFE SAFE expected SAFE
+M1 04_call_to_unknown_vuln.sol True REJECT REJECT expected REJECT
+M1 05_weak_access_control_safe.sol True REJECT REJECT expected REJECT
+M1 05_weak_access_control_vuln.sol True REJECT REJECT expected REJECT
+M1 06_unused_return_safe.sol True SAFE SAFE expected SAFE
+M1 06_unused_return_vuln.sol True REJECT REJECT expected REJECT
+M1 07_tod_safe.sol True REJECT REJECT expected REJECT
+M1 07_tod_vuln.sol True REJECT REJECT expected REJECT
+M1 08_timestamp_safe.sol True REJECT REJECT expected REJECT
+M1 08_timestamp_vuln.sol True SAFE SAFE expected SAFE
+M1 09_mishandled_exception_safe.sol True REJECT REJECT expected REJECT
+M1 09_mishandled_exception_vuln.sol True SAFE SAFE expected SAFE
+M1 10_gas_exception_safe.sol True REJECT REJECT expected REJECT
+M1 10_gas_exception_vuln.sol True REJECT REJECT expected REJECT
+M1 11_external_bug_safe.sol True REJECT REJECT expected REJECT
+M1 11_external_bug_vuln.sol True REJECT REJECT expected REJECT
+N1_proof_substitution 03_dos_safe.sol True REJECT REJECT
+N1_proof_substitution 03_dos_vuln.sol True REJECT REJECT
+N1_proof_substitution 04_call_to_unknown_safe.sol True REJECT REJECT
+N1_proof_substitution 06_unused_return_safe.sol True REJECT REJECT
+N1_proof_substitution 08_timestamp_vuln.sol True REJECT REJECT
+N1_proof_substitution 09_mishandled_exception_vuln.sol True REJECT REJECT
+N2_tampered_proof 03_dos_safe.sol True REJECT REJECT
+N2_tampered_proof 03_dos_vuln.sol True REJECT REJECT
+N2_tampered_proof 04_call_to_unknown_safe.sol True REJECT REJECT
+N2_tampered_proof 06_unused_return_safe.sol True REJECT REJECT
+N2_tampered_proof 08_timestamp_vuln.sol True REJECT REJECT
+N2_tampered_proof 09_mishandled_exception_vuln.sol True REJECT REJECT
+N3_forged_featureHash 03_dos_safe.sol True REJECT REJECT
+N3_forged_featureHash 03_dos_vuln.sol True REJECT REJECT
+N3_forged_featureHash 04_call_to_unknown_safe.sol True REJECT REJECT
+N3_forged_featureHash 06_unused_return_safe.sol True REJECT REJECT
+N3_forged_featureHash 08_timestamp_vuln.sol True REJECT REJECT
+N3_forged_featureHash 09_mishandled_exception_vuln.sol True REJECT REJECT
+N4_wrong_feature_proof 03_dos_safe.sol True REJECT REJECT
+N4_wrong_feature_proof 03_dos_vuln.sol True REJECT REJECT
+N4_wrong_feature_proof 04_call_to_unknown_safe.sol True REJECT REJECT
+N4_wrong_feature_proof 06_unused_return_safe.sol True REJECT REJECT
+N4_wrong_feature_proof 08_timestamp_vuln.sol True REJECT REJECT
+N4_wrong_feature_proof 09_mishandled_exception_vuln.sol True REJECT REJECT
+N5_amount_over_threshold 03_dos_safe.sol True REJECT REJECT
+N5_amount_over_threshold 03_dos_vuln.sol True REJECT REJECT
+N5_amount_over_threshold 04_call_to_unknown_safe.sol True REJECT REJECT
+N5_amount_over_threshold 06_unused_return_safe.sol True REJECT REJECT
+N5_amount_over_threshold 08_timestamp_vuln.sol True REJECT REJECT
+N5_amount_over_threshold 09_mishandled_exception_vuln.sol True REJECT REJECT
+N6_replay 03_dos_safe.sol False None unchanged
+N6_replay 03_dos_vuln.sol False None unchanged
+N6_replay 04_call_to_unknown_safe.sol False None unchanged
+N6_replay 06_unused_return_safe.sol False None unchanged
+N6_replay 08_timestamp_vuln.sol False None unchanged
+N6_replay 09_mishandled_exception_vuln.sol False None unchanged
+B0_N1_proof_substitution 03_dos_safe.sol True SAFE SAFE
+B0_N5_amount_over_threshold 03_dos_safe.sol True SAFE SAFE
+B0_N1_proof_substitution 03_dos_vuln.sol True SAFE SAFE
+B0_N5_amount_over_threshold 03_dos_vuln.sol True SAFE SAFE
+B0_N1_proof_substitution 04_call_to_unknown_safe.sol True SAFE SAFE
+B0_N5_amount_over_threshold 04_call_to_unknown_safe.sol True SAFE SAFE
+B0_N1_proof_substitution 06_unused_return_safe.sol True SAFE SAFE
+B0_N5_amount_over_threshold 06_unused_return_safe.sol True SAFE SAFE
+B0_N1_proof_substitution 08_timestamp_vuln.sol True SAFE SAFE
+B0_N5_amount_over_threshold 08_timestamp_vuln.sol True SAFE SAFE
+B0_N1_proof_substitution 09_mishandled_exception_vuln.sol True SAFE SAFE
+B0_N5_amount_over_threshold 09_mishandled_exception_vuln.sol True SAFE SAFE
+height after 3781

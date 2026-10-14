@@ -1,0 +1,38 @@
+[
+ {
+  "row": "R22",
+  "D2": "Y",
+  "D3": "Y",
+  "D4": "N",
+  "D5": "Y",
+  "E": "Y",
+  "evidence": "cctp TokenMessenger.sol:321 onlyRemoteTokenMessenger; TokenMinter.sol:85-100 mint fixed-function, no amount limit; MessageTransmitter.sol:253 whenNotPaused; TokenMinter.sol:93 whenNotPaused"
+ },
+ {
+  "row": "R23",
+  "D2": "P",
+  "D3": "P",
+  "D4": "N",
+  "D5": "Y",
+  "E": "U",
+  "evidence": "scroll L2ScrollMessenger.sol:99 counterpart check; ScrollMessengerBase.sol:151-155 only target != self; L2ScrollMessenger.sol:97 whenNotPaused"
+ },
+ {
+  "row": "R24",
+  "D2": "P",
+  "D3": "N",
+  "D4": "N",
+  "D5": "N",
+  "E": "U",
+  "evidence": "gnosis MessageProcessor.sol:211-240 _passMessage arbitrary call, messageSender exposed; no Pausable in provided files"
+ },
+ {
+  "row": "R25",
+  "D2": "Y",
+  "D3": "N",
+  "D4": "N",
+  "D5": "Y",
+  "E": "N",
+  "evidence": "bridge-exec ArbitrumBridgeExecutor.sol:16; L2BridgeExecutor.sol:45-53 queue arbitrary targets/delegatecalls; BridgeExecutorBase.sol:110 cancel onlyGuardian, :231 grace period"
+ }
+]

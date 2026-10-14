@@ -1,0 +1,105 @@
+{
+ "donor": "test_contracts/04_call_to_unknown_safe.sol",
+ "donor_margin": 5.532,
+ "variants": [
+  {
+   "i": 0,
+   "file": "VulnerableBank.sol",
+   "codeHash": "0x05e0a3d6930ef091830f9076debaca169de0f7996d38fa451b5045068de5427f",
+   "real_class_idx": 8,
+   "real_margin": 2.611,
+   "honest_proof": false,
+   "forged_proof": true
+  },
+  {
+   "i": 2,
+   "file": "02_integer_overflow_vuln.sol",
+   "codeHash": "0x0f475b984a4d592fa3c0e6398d9f4d85436177aec1f49d81456fc8be9193e78e",
+   "real_class_idx": 8,
+   "real_margin": 1.383,
+   "honest_proof": false,
+   "forged_proof": true
+  },
+  {
+   "i": 4,
+   "file": "03_dos_vuln.sol",
+   "codeHash": "0x01718f7b4b2a11736db1d58cc287da9b713a757e5aa16884965ba0baa3cfa1bf",
+   "real_class_idx": 0,
+   "real_margin": 5.509,
+   "honest_proof": true,
+   "forged_proof": true
+  },
+  {
+   "i": 6,
+   "file": "04_call_to_unknown_vuln.sol",
+   "codeHash": "0x033c555f450acbb1dada3d77a7f422ede5fcf524bc3350f5d3153c790733dc87",
+   "real_class_idx": 8,
+   "real_margin": 2.982,
+   "honest_proof": false,
+   "forged_proof": true
+  },
+  {
+   "i": 8,
+   "file": "05_weak_access_control_vuln.sol",
+   "codeHash": "0x1145736e247579059b97e5580d3c00f204e5a9fe6784bc2b44828f5d375f2f22",
+   "real_class_idx": 8,
+   "real_margin": 7.126,
+   "honest_proof": false,
+   "forged_proof": true
+  },
+  {
+   "i": 10,
+   "file": "06_unused_return_vuln.sol",
+   "codeHash": "0x1c737b9a21b26aae85330be735cb873c46d36386bc51414a41de210d92173a5f",
+   "real_class_idx": 8,
+   "real_margin": 3.032,
+   "honest_proof": false,
+   "forged_proof": true
+  },
+  {
+   "i": 12,
+   "file": "07_tod_vuln.sol",
+   "codeHash": "0x151373f2ff8ab65e9939832fee92ecc5b0f275f8d676752036c092bf8b6a1ba2",
+   "real_class_idx": 8,
+   "real_margin": 0.667,
+   "honest_proof": false,
+   "forged_proof": true
+  },
+  {
+   "i": 14,
+   "file": "08_timestamp_vuln.sol",
+   "codeHash": "0x01058eeb816a2a8e4bbc5c16d3f0644beae943f2a6f94c9b76a45cd52f2c9f1b",
+   "real_class_idx": 0,
+   "real_margin": 4.568,
+   "honest_proof": true,
+   "forged_proof": true
+  },
+  {
+   "i": 16,
+   "file": "09_mishandled_exception_vuln.sol",
+   "codeHash": "0x0f7f9a3efc715e9cb01e0e6fe0dec43a74fc211ce08cadeb332cc21ccbca10bf",
+   "real_class_idx": 0,
+   "real_margin": 3.22,
+   "honest_proof": false,
+   "forged_proof": true
+  },
+  {
+   "i": 18,
+   "file": "10_gas_exception_vuln.sol",
+   "codeHash": "0x1fabda5a58e14491d46028537e9e7dcf2b47570b030741fbbb26c0de4e117e5d",
+   "real_class_idx": 0,
+   "real_margin": 0.103,
+   "honest_proof": false,
+   "forged_proof": true
+  },
+  {
+   "i": 20,
+   "file": "11_external_bug_vuln.sol",
+   "codeHash": "0x11bbfd4d00c716ff55bfbb9294d3705d94eaa19e34757fa6af7570c6218edad1",
+   "real_class_idx": 8,
+   "real_margin": 3.143,
+   "honest_proof": false,
+   "forged_proof": true
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+  "obligation": {
+    "positive_control": {
+      "did": "e3v2-obl-positive_control-1790232344",
+      "expected_covered": true,
+      "got_covered": true,
+      "class": "EXACT",
+      "detail": "obligation genuinely covered: correct mechanism, sufficient strength, discharged, independently witnessed",
+      "pass": true
+    },
+    "S5_stripped": {
+      "did": "e3v2-obl-S5_stripped-1790232344",
+      "expected_covered": false,
+      "got_covered": false,
+      "class": "REJECT",
+      "detail": "S5: obligation stripped -- destination maps the required obligation to no mechanism at all",
+      "pass": true
+    },
+    "S6_weakened": {
+      "did": "e3v2-obl-S6_weakened-1790232344",
+      "expected_covered": false,
+      "got_covered": false,
+      "class": "REJECT",
+      "detail": "S6: obligation weakened -- destination mechanism strength is below what the source requires",
+      "pass": true
+    },
+    "S7_laundered": {
+      "did": "e3v2-obl-S7_laundered-1790232344",
+      "expected_covered": false,
+      "got_covered": false,
+      "class": "REJECT",
+      "detail": "S7: obligation laundered -- discharge is claimed but has no independently verifiable enforcement witness",
+      "pass": true
+    },
+    "boundary_equal_strength": {
+      "did": "e3v2-obl-boundary_equal_strength-1790232344",
+      "expected_covered": true,
+      "got_covered": true,
+      "class": "EXACT",
+      "detail": "obligation genuinely covered: correct mechanism, sufficient strength, discharged, independently witnessed",
+      "pass": true
+    },
+    "boundary_stronger_mechanism": {
+      "did": "e3v2-obl-boundary_stronger_mechanism-1790232344",
+      "expected_covered": true,
+      "got_covered": true,
+      "class": "EXACT",
+      "detail": "obligation genuinely covered: correct mechanism, sufficient strength, discharged, independently witnessed",
+      "pass": true
+    },
+    "empty_profile": {
+      "did": "e3v2-obl-empty_profile-1790232344",
+      "expected_covered": true,
+      "got_covered": true,
+      "class": "EXACT",
+      "detail": "no source obligation required (empty profile)",
+      "pass": true
+    }
+  },
+  "assurance": {
+    "S15_honest_classical_pq_channel": {
+      "did": "e3v2-assur-S15_honest_classical_pq_channel-1790232344",
+      "claimed": "classical",
+      "verified": "classical",
+      "expected_ok": false,
+      "got_class": "REJECT",
+      "overClaimDetected": null,
+      "pass": true
+    },
+    "S16_fake_upgrade_claimed_hybrid": {
+      "did": "e3v2-assur-S16_fake_upgrade_claimed_hybrid-1790232344",
+      "claimed": "hybrid",
+      "verified": "classical",
+      "expected_ok": false,
+      "got_class": "REJECT",
+      "overClaimDetected": true,
+      "pass": true
+    },
+    "S16_fake_upgrade_claimed_pq": {
+      "did": "e3v2-assur-S16_fake_upgrade_claimed_pq-1790232344",
+      "claimed": "pq",
+      "verified": "classical",
+      "expected_ok": false,
+      "got_class": "REJECT",
+      "overClaimDetected": true,
+      "pass": true
+    },
+    "S16_fake_upgrade_unverifiable": {
+      "did": "e3v2-assur-S16_fake_upgrade_unverifiable-1790232344",
+      "claimed": "pq",
+      "verified": "",
+      "expected_ok": false,
+      "got_class": "REJECT",
+      "overClaimDetected": true,
+      "pass": true
+    },
+    "positive_control_verified_hybrid": {
+      "did": "e3v2-assur-positive_control_verified_hybrid-1790232344",
+      "claimed": "hybrid",
+      "verified": "hybrid",
+      "expected_ok": true,
+      "got_class": "EXACT",
+      "overClaimDetected": null,
+      "pass": true
+    },
+    "positive_control_classical_ok": {
+      "did": "e3v2-assur-positive_control_classical_ok-1790232344",
+      "claimed": "classical",
+      "verified": "classical",
+      "expected_ok": true,
+      "got_class": "EXACT",
+      "overClaimDetected": null,
+      "pass": true
+    }
+  },
+  "n_obl_correct": 7,
+  "n_obl_total": 7,
+  "n_assur_correct": 6,
+  "n_assur_total": 6
+}

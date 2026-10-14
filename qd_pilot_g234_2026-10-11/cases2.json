@@ -1,0 +1,2102 @@
+[
+  {
+    "case_id": 0,
+    "role": "clerk",
+    "amount": -1,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 1,
+    "role": "clerk",
+    "amount": -1,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 2,
+    "role": "clerk",
+    "amount": -1,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 3,
+    "role": "clerk",
+    "amount": -1,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 4,
+    "role": "clerk",
+    "amount": -1,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 5,
+    "role": "clerk",
+    "amount": -1,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 6,
+    "role": "clerk",
+    "amount": 0,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 7,
+    "role": "clerk",
+    "amount": 0,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 8,
+    "role": "clerk",
+    "amount": 0,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 9,
+    "role": "clerk",
+    "amount": 0,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 10,
+    "role": "clerk",
+    "amount": 0,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 11,
+    "role": "clerk",
+    "amount": 0,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 12,
+    "role": "clerk",
+    "amount": 1,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 13,
+    "role": "clerk",
+    "amount": 1,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 14,
+    "role": "clerk",
+    "amount": 1,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 15,
+    "role": "clerk",
+    "amount": 1,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 16,
+    "role": "clerk",
+    "amount": 1,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 17,
+    "role": "clerk",
+    "amount": 1,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 18,
+    "role": "clerk",
+    "amount": 4999,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 19,
+    "role": "clerk",
+    "amount": 4999,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 20,
+    "role": "clerk",
+    "amount": 4999,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 21,
+    "role": "clerk",
+    "amount": 4999,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 22,
+    "role": "clerk",
+    "amount": 4999,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 23,
+    "role": "clerk",
+    "amount": 4999,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 24,
+    "role": "clerk",
+    "amount": 5000,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 25,
+    "role": "clerk",
+    "amount": 5000,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 26,
+    "role": "clerk",
+    "amount": 5000,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 27,
+    "role": "clerk",
+    "amount": 5000,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 28,
+    "role": "clerk",
+    "amount": 5000,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 29,
+    "role": "clerk",
+    "amount": 5000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 30,
+    "role": "clerk",
+    "amount": 5001,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 31,
+    "role": "clerk",
+    "amount": 5001,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 32,
+    "role": "clerk",
+    "amount": 5001,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 33,
+    "role": "clerk",
+    "amount": 5001,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 34,
+    "role": "clerk",
+    "amount": 5001,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 35,
+    "role": "clerk",
+    "amount": 5001,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 36,
+    "role": "clerk",
+    "amount": 9999,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 37,
+    "role": "clerk",
+    "amount": 9999,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 38,
+    "role": "clerk",
+    "amount": 9999,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 39,
+    "role": "clerk",
+    "amount": 9999,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 40,
+    "role": "clerk",
+    "amount": 9999,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 41,
+    "role": "clerk",
+    "amount": 9999,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 42,
+    "role": "clerk",
+    "amount": 10000,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 43,
+    "role": "clerk",
+    "amount": 10000,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 44,
+    "role": "clerk",
+    "amount": 10000,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 45,
+    "role": "clerk",
+    "amount": 10000,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 46,
+    "role": "clerk",
+    "amount": 10000,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 47,
+    "role": "clerk",
+    "amount": 10000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 48,
+    "role": "clerk",
+    "amount": 10001,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 49,
+    "role": "clerk",
+    "amount": 10001,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 50,
+    "role": "clerk",
+    "amount": 10001,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 51,
+    "role": "clerk",
+    "amount": 10001,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 52,
+    "role": "clerk",
+    "amount": 10001,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 53,
+    "role": "clerk",
+    "amount": 10001,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 54,
+    "role": "clerk",
+    "amount": 20000,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 55,
+    "role": "clerk",
+    "amount": 20000,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 56,
+    "role": "clerk",
+    "amount": 20000,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 57,
+    "role": "clerk",
+    "amount": 20000,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 58,
+    "role": "clerk",
+    "amount": 20000,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 59,
+    "role": "clerk",
+    "amount": 20000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 60,
+    "role": "manager",
+    "amount": -1,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 61,
+    "role": "manager",
+    "amount": -1,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 62,
+    "role": "manager",
+    "amount": -1,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 63,
+    "role": "manager",
+    "amount": -1,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 64,
+    "role": "manager",
+    "amount": -1,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 65,
+    "role": "manager",
+    "amount": -1,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 66,
+    "role": "manager",
+    "amount": 0,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 67,
+    "role": "manager",
+    "amount": 0,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 68,
+    "role": "manager",
+    "amount": 0,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 69,
+    "role": "manager",
+    "amount": 0,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 70,
+    "role": "manager",
+    "amount": 0,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 71,
+    "role": "manager",
+    "amount": 0,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 72,
+    "role": "manager",
+    "amount": 1,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 73,
+    "role": "manager",
+    "amount": 1,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 74,
+    "role": "manager",
+    "amount": 1,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 75,
+    "role": "manager",
+    "amount": 1,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 76,
+    "role": "manager",
+    "amount": 1,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 77,
+    "role": "manager",
+    "amount": 1,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 78,
+    "role": "manager",
+    "amount": 249999,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 79,
+    "role": "manager",
+    "amount": 249999,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 80,
+    "role": "manager",
+    "amount": 249999,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 81,
+    "role": "manager",
+    "amount": 249999,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 82,
+    "role": "manager",
+    "amount": 249999,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 83,
+    "role": "manager",
+    "amount": 249999,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 84,
+    "role": "manager",
+    "amount": 250000,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 85,
+    "role": "manager",
+    "amount": 250000,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 86,
+    "role": "manager",
+    "amount": 250000,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 87,
+    "role": "manager",
+    "amount": 250000,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 88,
+    "role": "manager",
+    "amount": 250000,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 89,
+    "role": "manager",
+    "amount": 250000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 90,
+    "role": "manager",
+    "amount": 250001,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 91,
+    "role": "manager",
+    "amount": 250001,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 92,
+    "role": "manager",
+    "amount": 250001,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 93,
+    "role": "manager",
+    "amount": 250001,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 94,
+    "role": "manager",
+    "amount": 250001,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 95,
+    "role": "manager",
+    "amount": 250001,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 96,
+    "role": "manager",
+    "amount": 499999,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 97,
+    "role": "manager",
+    "amount": 499999,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 98,
+    "role": "manager",
+    "amount": 499999,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 99,
+    "role": "manager",
+    "amount": 499999,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 100,
+    "role": "manager",
+    "amount": 499999,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 101,
+    "role": "manager",
+    "amount": 499999,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 102,
+    "role": "manager",
+    "amount": 500000,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 103,
+    "role": "manager",
+    "amount": 500000,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 104,
+    "role": "manager",
+    "amount": 500000,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 105,
+    "role": "manager",
+    "amount": 500000,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 106,
+    "role": "manager",
+    "amount": 500000,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 107,
+    "role": "manager",
+    "amount": 500000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 108,
+    "role": "manager",
+    "amount": 500001,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 109,
+    "role": "manager",
+    "amount": 500001,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 110,
+    "role": "manager",
+    "amount": 500001,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 111,
+    "role": "manager",
+    "amount": 500001,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 112,
+    "role": "manager",
+    "amount": 500001,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 113,
+    "role": "manager",
+    "amount": 500001,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 114,
+    "role": "manager",
+    "amount": 1000000,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 115,
+    "role": "manager",
+    "amount": 1000000,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 116,
+    "role": "manager",
+    "amount": 1000000,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 117,
+    "role": "manager",
+    "amount": 1000000,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 118,
+    "role": "manager",
+    "amount": 1000000,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 119,
+    "role": "manager",
+    "amount": 1000000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 120,
+    "role": "director",
+    "amount": -1,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 121,
+    "role": "director",
+    "amount": -1,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 122,
+    "role": "director",
+    "amount": -1,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 123,
+    "role": "director",
+    "amount": -1,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 124,
+    "role": "director",
+    "amount": -1,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 125,
+    "role": "director",
+    "amount": -1,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 126,
+    "role": "director",
+    "amount": 0,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 127,
+    "role": "director",
+    "amount": 0,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 128,
+    "role": "director",
+    "amount": 0,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 129,
+    "role": "director",
+    "amount": 0,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 130,
+    "role": "director",
+    "amount": 0,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 131,
+    "role": "director",
+    "amount": 0,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 132,
+    "role": "director",
+    "amount": 1,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 133,
+    "role": "director",
+    "amount": 1,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 134,
+    "role": "director",
+    "amount": 1,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 135,
+    "role": "director",
+    "amount": 1,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 136,
+    "role": "director",
+    "amount": 1,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 137,
+    "role": "director",
+    "amount": 1,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 138,
+    "role": "director",
+    "amount": 999999,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 139,
+    "role": "director",
+    "amount": 999999,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 140,
+    "role": "director",
+    "amount": 999999,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 141,
+    "role": "director",
+    "amount": 999999,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 142,
+    "role": "director",
+    "amount": 999999,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 143,
+    "role": "director",
+    "amount": 999999,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 144,
+    "role": "director",
+    "amount": 1000000,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 145,
+    "role": "director",
+    "amount": 1000000,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 146,
+    "role": "director",
+    "amount": 1000000,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 147,
+    "role": "director",
+    "amount": 1000000,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 148,
+    "role": "director",
+    "amount": 1000000,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 149,
+    "role": "director",
+    "amount": 1000000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 150,
+    "role": "director",
+    "amount": 1000001,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 151,
+    "role": "director",
+    "amount": 1000001,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 152,
+    "role": "director",
+    "amount": 1000001,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 153,
+    "role": "director",
+    "amount": 1000001,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 154,
+    "role": "director",
+    "amount": 1000001,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 155,
+    "role": "director",
+    "amount": 1000001,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 156,
+    "role": "director",
+    "amount": 1999999,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 157,
+    "role": "director",
+    "amount": 1999999,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 158,
+    "role": "director",
+    "amount": 1999999,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 159,
+    "role": "director",
+    "amount": 1999999,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 160,
+    "role": "director",
+    "amount": 1999999,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 161,
+    "role": "director",
+    "amount": 1999999,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 162,
+    "role": "director",
+    "amount": 2000000,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 163,
+    "role": "director",
+    "amount": 2000000,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 164,
+    "role": "director",
+    "amount": 2000000,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 165,
+    "role": "director",
+    "amount": 2000000,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 166,
+    "role": "director",
+    "amount": 2000000,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 167,
+    "role": "director",
+    "amount": 2000000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 168,
+    "role": "director",
+    "amount": 2000001,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 169,
+    "role": "director",
+    "amount": 2000001,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 170,
+    "role": "director",
+    "amount": 2000001,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 171,
+    "role": "director",
+    "amount": 2000001,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 172,
+    "role": "director",
+    "amount": 2000001,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 173,
+    "role": "director",
+    "amount": 2000001,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 174,
+    "role": "director",
+    "amount": 4000000,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 175,
+    "role": "director",
+    "amount": 4000000,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 176,
+    "role": "director",
+    "amount": 4000000,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 177,
+    "role": "director",
+    "amount": 4000000,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 178,
+    "role": "director",
+    "amount": 4000000,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 179,
+    "role": "director",
+    "amount": 4000000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 180,
+    "role": "gerente",
+    "amount": -1,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 181,
+    "role": "gerente",
+    "amount": -1,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 182,
+    "role": "gerente",
+    "amount": -1,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 183,
+    "role": "gerente",
+    "amount": -1,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 184,
+    "role": "gerente",
+    "amount": -1,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 185,
+    "role": "gerente",
+    "amount": -1,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 186,
+    "role": "gerente",
+    "amount": 0,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 187,
+    "role": "gerente",
+    "amount": 0,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 188,
+    "role": "gerente",
+    "amount": 0,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 189,
+    "role": "gerente",
+    "amount": 0,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 190,
+    "role": "gerente",
+    "amount": 0,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 191,
+    "role": "gerente",
+    "amount": 0,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 192,
+    "role": "gerente",
+    "amount": 1,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 193,
+    "role": "gerente",
+    "amount": 1,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 194,
+    "role": "gerente",
+    "amount": 1,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 195,
+    "role": "gerente",
+    "amount": 1,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 196,
+    "role": "gerente",
+    "amount": 1,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 197,
+    "role": "gerente",
+    "amount": 1,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 198,
+    "role": "gerente",
+    "amount": 249999,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 199,
+    "role": "gerente",
+    "amount": 249999,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 200,
+    "role": "gerente",
+    "amount": 249999,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 201,
+    "role": "gerente",
+    "amount": 249999,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 202,
+    "role": "gerente",
+    "amount": 249999,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 203,
+    "role": "gerente",
+    "amount": 249999,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 204,
+    "role": "gerente",
+    "amount": 250000,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 205,
+    "role": "gerente",
+    "amount": 250000,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 206,
+    "role": "gerente",
+    "amount": 250000,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 207,
+    "role": "gerente",
+    "amount": 250000,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 208,
+    "role": "gerente",
+    "amount": 250000,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 209,
+    "role": "gerente",
+    "amount": 250000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 210,
+    "role": "gerente",
+    "amount": 250001,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 211,
+    "role": "gerente",
+    "amount": 250001,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 212,
+    "role": "gerente",
+    "amount": 250001,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 213,
+    "role": "gerente",
+    "amount": 250001,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 214,
+    "role": "gerente",
+    "amount": 250001,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 215,
+    "role": "gerente",
+    "amount": 250001,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 216,
+    "role": "gerente",
+    "amount": 499999,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 217,
+    "role": "gerente",
+    "amount": 499999,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 218,
+    "role": "gerente",
+    "amount": 499999,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 219,
+    "role": "gerente",
+    "amount": 499999,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 220,
+    "role": "gerente",
+    "amount": 499999,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 221,
+    "role": "gerente",
+    "amount": 499999,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 222,
+    "role": "gerente",
+    "amount": 500000,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 223,
+    "role": "gerente",
+    "amount": 500000,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 224,
+    "role": "gerente",
+    "amount": 500000,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 225,
+    "role": "gerente",
+    "amount": 500000,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 226,
+    "role": "gerente",
+    "amount": 500000,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 227,
+    "role": "gerente",
+    "amount": 500000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 228,
+    "role": "gerente",
+    "amount": 500001,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 229,
+    "role": "gerente",
+    "amount": 500001,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 230,
+    "role": "gerente",
+    "amount": 500001,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 231,
+    "role": "gerente",
+    "amount": 500001,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 232,
+    "role": "gerente",
+    "amount": 500001,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 233,
+    "role": "gerente",
+    "amount": 500001,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 234,
+    "role": "gerente",
+    "amount": 1000000,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 235,
+    "role": "gerente",
+    "amount": 1000000,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 236,
+    "role": "gerente",
+    "amount": 1000000,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 237,
+    "role": "gerente",
+    "amount": 1000000,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 238,
+    "role": "gerente",
+    "amount": 1000000,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 239,
+    "role": "gerente",
+    "amount": 1000000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 240,
+    "role": "gerente_senior",
+    "amount": -1,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 241,
+    "role": "gerente_senior",
+    "amount": -1,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 242,
+    "role": "gerente_senior",
+    "amount": -1,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 243,
+    "role": "gerente_senior",
+    "amount": -1,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 244,
+    "role": "gerente_senior",
+    "amount": -1,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 245,
+    "role": "gerente_senior",
+    "amount": -1,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 246,
+    "role": "gerente_senior",
+    "amount": 0,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 247,
+    "role": "gerente_senior",
+    "amount": 0,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 248,
+    "role": "gerente_senior",
+    "amount": 0,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 249,
+    "role": "gerente_senior",
+    "amount": 0,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 250,
+    "role": "gerente_senior",
+    "amount": 0,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 251,
+    "role": "gerente_senior",
+    "amount": 0,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 252,
+    "role": "gerente_senior",
+    "amount": 1,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 253,
+    "role": "gerente_senior",
+    "amount": 1,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 254,
+    "role": "gerente_senior",
+    "amount": 1,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 255,
+    "role": "gerente_senior",
+    "amount": 1,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 256,
+    "role": "gerente_senior",
+    "amount": 1,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 257,
+    "role": "gerente_senior",
+    "amount": 1,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 258,
+    "role": "gerente_senior",
+    "amount": 999999,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 259,
+    "role": "gerente_senior",
+    "amount": 999999,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 260,
+    "role": "gerente_senior",
+    "amount": 999999,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 261,
+    "role": "gerente_senior",
+    "amount": 999999,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 262,
+    "role": "gerente_senior",
+    "amount": 999999,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 263,
+    "role": "gerente_senior",
+    "amount": 999999,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 264,
+    "role": "gerente_senior",
+    "amount": 1000000,
+    "evidence_type": "none",
+    "real_grant": true
+  },
+  {
+    "case_id": 265,
+    "role": "gerente_senior",
+    "amount": 1000000,
+    "evidence_type": "notification",
+    "real_grant": true
+  },
+  {
+    "case_id": 266,
+    "role": "gerente_senior",
+    "amount": 1000000,
+    "evidence_type": "audit",
+    "real_grant": true
+  },
+  {
+    "case_id": 267,
+    "role": "gerente_senior",
+    "amount": 1000000,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 268,
+    "role": "gerente_senior",
+    "amount": 1000000,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 269,
+    "role": "gerente_senior",
+    "amount": 1000000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": true
+  },
+  {
+    "case_id": 270,
+    "role": "gerente_senior",
+    "amount": 1000001,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 271,
+    "role": "gerente_senior",
+    "amount": 1000001,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 272,
+    "role": "gerente_senior",
+    "amount": 1000001,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 273,
+    "role": "gerente_senior",
+    "amount": 1000001,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 274,
+    "role": "gerente_senior",
+    "amount": 1000001,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 275,
+    "role": "gerente_senior",
+    "amount": 1000001,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 276,
+    "role": "gerente_senior",
+    "amount": 1999999,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 277,
+    "role": "gerente_senior",
+    "amount": 1999999,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 278,
+    "role": "gerente_senior",
+    "amount": 1999999,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 279,
+    "role": "gerente_senior",
+    "amount": 1999999,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 280,
+    "role": "gerente_senior",
+    "amount": 1999999,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 281,
+    "role": "gerente_senior",
+    "amount": 1999999,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 282,
+    "role": "gerente_senior",
+    "amount": 2000000,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 283,
+    "role": "gerente_senior",
+    "amount": 2000000,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 284,
+    "role": "gerente_senior",
+    "amount": 2000000,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 285,
+    "role": "gerente_senior",
+    "amount": 2000000,
+    "evidence_type": "dual_approval",
+    "real_grant": true
+  },
+  {
+    "case_id": 286,
+    "role": "gerente_senior",
+    "amount": 2000000,
+    "evidence_type": "combined",
+    "real_grant": true
+  },
+  {
+    "case_id": 287,
+    "role": "gerente_senior",
+    "amount": 2000000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 288,
+    "role": "gerente_senior",
+    "amount": 2000001,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 289,
+    "role": "gerente_senior",
+    "amount": 2000001,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 290,
+    "role": "gerente_senior",
+    "amount": 2000001,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 291,
+    "role": "gerente_senior",
+    "amount": 2000001,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 292,
+    "role": "gerente_senior",
+    "amount": 2000001,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 293,
+    "role": "gerente_senior",
+    "amount": 2000001,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  },
+  {
+    "case_id": 294,
+    "role": "gerente_senior",
+    "amount": 4000000,
+    "evidence_type": "none",
+    "real_grant": false
+  },
+  {
+    "case_id": 295,
+    "role": "gerente_senior",
+    "amount": 4000000,
+    "evidence_type": "notification",
+    "real_grant": false
+  },
+  {
+    "case_id": 296,
+    "role": "gerente_senior",
+    "amount": 4000000,
+    "evidence_type": "audit",
+    "real_grant": false
+  },
+  {
+    "case_id": 297,
+    "role": "gerente_senior",
+    "amount": 4000000,
+    "evidence_type": "dual_approval",
+    "real_grant": false
+  },
+  {
+    "case_id": 298,
+    "role": "gerente_senior",
+    "amount": 4000000,
+    "evidence_type": "combined",
+    "real_grant": false
+  },
+  {
+    "case_id": 299,
+    "role": "gerente_senior",
+    "amount": 4000000,
+    "evidence_type": "unknown_evidence_xyz",
+    "real_grant": false
+  }
+]

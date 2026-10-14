@@ -1,0 +1,208 @@
+{
+ "full": {
+  "in_domain_cases": 5741,
+  "overall": {
+   "match": 5653,
+   "unsafe_accept": 87,
+   "class_mismatch": 1
+  },
+  "unsafe_accepts": 87,
+  "cp95_upper_bound_if_zero": null,
+  "out_of_domain": {
+   "match": 210
+  },
+  "skipped_int64_overflow": 49,
+  "per_category": {
+   "sampler": {
+    "match": 5653,
+    "unsafe_accept": 87,
+    "class_mismatch": 1
+   }
+  },
+  "examples": {
+   "unsafe_accept": [
+    [
+     "S00126",
+     "sampler",
+     "manager",
+     421692,
+     true,
+     true,
+     true,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "S00145",
+     "sampler",
+     "director",
+     2000000,
+     true,
+     true,
+     true,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "S00169",
+     "sampler",
+     "gerente",
+     499999,
+     true,
+     true,
+     true,
+     "SAFE",
+     "CONDITIONAL"
+    ],
+    [
+     "S00214",
+     "sampler",
+     "gerente_senior",
+     1999999,
+     true,
+     true,
+     true,
+     "SAFE",
+     "CONDITIONAL"
+    ],
+    [
+     "S00242",
+     "sampler",
+     "director",
+     1000001,
+     true,
+     true,
+     true,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "S00254",
+     "sampler",
+     "manager",
+     499999,
+     true,
+     true,
+     true,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "S00309",
+     "sampler",
+     "manager",
+     469418,
+     true,
+     true,
+     true,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "S00386",
+     "sampler",
+     "clerk",
+     9999,
+     true,
+     true,
+     true,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "S00397",
+     "sampler",
+     "clerk",
+     9999,
+     true,
+     true,
+     true,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "S00401",
+     "sampler",
+     "gerente",
+     250001,
+     true,
+     true,
+     true,
+     "SAFE",
+     "CONDITIONAL"
+    ],
+    [
+     "S00416",
+     "sampler",
+     "manager",
+     250001,
+     true,
+     true,
+     true,
+     "EXACT",
+     "CONDITIONAL"
+    ],
+    [
+     "S00447",
+     "sampler",
+     "gerente_senior",
+     1999999,
+     true,
+     true,
+     true,
+     "SAFE",
+     "CONDITIONAL"
+    ]
+   ],
+   "class_mismatch": [
+    [
+     "S03307",
+     "sampler",
+     "CLERK",
+     3535074,
+     false,
+     true,
+     false,
+     "REJECT",
+     "REPLAY_ERROR"
+    ]
+   ]
+  },
+  "adversary_expected_vs_oracle": {}
+ },
+ "basic": {
+  "in_domain_cases": 5741,
+  "overall": {
+   "match": 5740,
+   "class_mismatch": 1
+  },
+  "unsafe_accepts": 0,
+  "cp95_upper_bound_if_zero": 0.0005216775478945612,
+  "out_of_domain": {
+   "match": 210
+  },
+  "skipped_int64_overflow": 49,
+  "per_category": {
+   "sampler": {
+    "match": 5740,
+    "class_mismatch": 1
+   }
+  },
+  "examples": {
+   "class_mismatch": [
+    [
+     "S03307",
+     "sampler",
+     "CLERK",
+     3535074,
+     false,
+     true,
+     false,
+     "REJECT",
+     "REPLAY_ERROR"
+    ]
+   ]
+  },
+  "adversary_expected_vs_oracle": {}
+ }
+}

@@ -1,0 +1,26 @@
+{
+  "block": 471404,
+  "headerHash": "0x97ba9a7215fd94805c0cd00ace2df00b3a640008be7cc15610deff0218587975",
+  "decisionId": "fresh-forward-check-1790256194180",
+  "result": {
+    "decisionId": "fresh-forward-check-1790256194180",
+    "sourceDomain": "besu-mainnet",
+    "role": "manager",
+    "amount": 200000,
+    "sourceLimit": 500000,
+    "semBound": true,
+    "evAssuranceOk": true,
+    "transferClass": "SAFE",
+    "destThreshold": 500000,
+    "zkVerified": true,
+    "zkVerificationDetail": "Groth16 v7 proof verified at the destination; model hash and margin meet destination policy; featureHash still needs proving against the on-chain scanner commitment",
+    "codeHash": "1391cbc93e5a3ca3fb5775f26984b6c7c74648dc28dd1b75eb9d8e5da89dd2dd",
+    "lcVerified": true,
+    "lcDetail": "header of block 0x7316c reproduced from raw fields with 3/4 distinct pinned-validator commit seals; registry slots proven by Merkle-Patricia proofs under its stateRoot",
+    "sourceBlockNumber": "0x7316c",
+    "sourceBlockHash": "0x97ba9a7215fd94805c0cd00ace2df00b3a640008be7cc15610deff0218587975",
+    "provenApprovals": 2,
+    "provenMlScanPassed": true
+  },
+  "ok": true
+}

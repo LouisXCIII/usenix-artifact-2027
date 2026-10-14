@@ -1,0 +1,114 @@
+[
+  {
+    "attackerName": "v7_honest",
+    "targetName": "new_safe_1",
+    "decisionID": "e7corpus-sub-v7_honest-as-new_safe_1-1790224366214",
+    "targetCh": "0x004b573928cdbfee4ca909fe923b70417b5c1cb092586456b9057aaf9c6dc757",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "v7_honest",
+    "targetName": "new_safe_4",
+    "decisionID": "e7corpus-sub-v7_honest-as-new_safe_4-1790224366293",
+    "targetCh": "0x0ecee47e99a1512dbaa02fc0f51ee2e64ed03a1685171012037302006f63f19d",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_1",
+    "targetName": "new_safe_2",
+    "decisionID": "e7corpus-sub-new_safe_1-as-new_safe_2-1790224366369",
+    "targetCh": "0x081c8340d5aab7fe9692da7770314e28dc86e79fa549d4a9e94afb7b59f1317d",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_1",
+    "targetName": "new_safe_6",
+    "decisionID": "e7corpus-sub-new_safe_1-as-new_safe_6-1790224366482",
+    "targetCh": "0x128d51c23b9c3444f7b798074687d48d44cab5432a41b97904b175be9be46521",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_2",
+    "targetName": "new_safe_4",
+    "decisionID": "e7corpus-sub-new_safe_2-as-new_safe_4-1790224366567",
+    "targetCh": "0x0ecee47e99a1512dbaa02fc0f51ee2e64ed03a1685171012037302006f63f19d",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_2",
+    "targetName": "new_safe_8",
+    "decisionID": "e7corpus-sub-new_safe_2-as-new_safe_8-1790224366641",
+    "targetCh": "0x01ec842dfe453a579a3ff56099d7ebf48ce396349e705eea78ab83bd090f237c",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_4",
+    "targetName": "new_safe_6",
+    "decisionID": "e7corpus-sub-new_safe_4-as-new_safe_6-1790224366708",
+    "targetCh": "0x128d51c23b9c3444f7b798074687d48d44cab5432a41b97904b175be9be46521",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_4",
+    "targetName": "new_safe_9",
+    "decisionID": "e7corpus-sub-new_safe_4-as-new_safe_9-1790224366785",
+    "targetCh": "0x1f4b82b9140f0c3fcb242039ffddba66bb33d2d8feddccc633fe8a567deff928",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_6",
+    "targetName": "new_safe_8",
+    "decisionID": "e7corpus-sub-new_safe_6-as-new_safe_8-1790224366860",
+    "targetCh": "0x01ec842dfe453a579a3ff56099d7ebf48ce396349e705eea78ab83bd090f237c",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_6",
+    "targetName": "new_safe_10",
+    "decisionID": "e7corpus-sub-new_safe_6-as-new_safe_10-1790224366928",
+    "targetCh": "0x137259f1243ba4be193b518a87c1cd85e5ed10cdaccc3bde6d18434d0e64f7a7",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_8",
+    "targetName": "new_safe_9",
+    "decisionID": "e7corpus-sub-new_safe_8-as-new_safe_9-1790224367010",
+    "targetCh": "0x1f4b82b9140f0c3fcb242039ffddba66bb33d2d8feddccc633fe8a567deff928",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_8",
+    "targetName": "v7_honest",
+    "decisionID": "e7corpus-sub-new_safe_8-as-v7_honest-1790224367090",
+    "targetCh": "0x0cdca6b375e2a354c612465c59140e334b1eb37b84d23ed9fc0635b3e821ce89",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_9",
+    "targetName": "new_safe_10",
+    "decisionID": "e7corpus-sub-new_safe_9-as-new_safe_10-1790224367147",
+    "targetCh": "0x137259f1243ba4be193b518a87c1cd85e5ed10cdaccc3bde6d18434d0e64f7a7",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_9",
+    "targetName": "new_safe_1",
+    "decisionID": "e7corpus-sub-new_safe_9-as-new_safe_1-1790224367198",
+    "targetCh": "0x004b573928cdbfee4ca909fe923b70417b5c1cb092586456b9057aaf9c6dc757",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_10",
+    "targetName": "v7_honest",
+    "decisionID": "e7corpus-sub-new_safe_10-as-v7_honest-1790224367247",
+    "targetCh": "0x0cdca6b375e2a354c612465c59140e334b1eb37b84d23ed9fc0635b3e821ce89",
+    "invokeLine": ""
+  },
+  {
+    "attackerName": "new_safe_10",
+    "targetName": "new_safe_2",
+    "decisionID": "e7corpus-sub-new_safe_10-as-new_safe_2-1790224367299",
+    "targetCh": "0x081c8340d5aab7fe9692da7770314e28dc86e79fa549d4a9e94afb7b59f1317d",
+    "invokeLine": ""
+  }
+]
