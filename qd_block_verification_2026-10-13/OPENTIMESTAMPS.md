@@ -79,3 +79,13 @@ re-submitted to all 4 calendars. The previous (second) stamp is kept, superseded
 `manifest_combined_2026-10-13.sha256.ots.STALE_superseded_3`. This is the final manifest version
 for this round -- no further source changes are pending. Pending Bitcoin confirmation as of
 2026-10-14 11:09; run `ots upgrade manifest_combined_2026-10-13.sha256.ots` later to check.
+
+**CONFIRMED COMPLETE (2026-10-14, 12:15).** `ots upgrade` succeeded with 2 independent Bitcoin
+attestations: block **971349** (tx `41ce1f563156964e1f589de91febd0993c98861b80a14adfc37864653c558504`)
+and block **971348** (tx `22dc7d6d6e6c2ad5eeb3bf0f8eeea9fca140b5420aebe25583751ff265d9e51e`). The
+hash the proof attests to (`906f4ced97409edefaf20d61626d17deb2aab3cdf8540958c52e7ad43c0054bb`)
+matches the current `manifest_combined_2026-10-13.sha256` on disk exactly. Independently
+cross-checked block 971349 against Blockstream (unrelated to OpenTimestamps): confirmed real,
+mined, block hash `0000000000000000000166763367465b9d0d1a86f6303f68edfaf73c9d0873d4` -- matches
+the `.ots` claim exactly. This is the final, confirmed proof for the final manifest version; no
+further action needed before attaching it to the submission bundle.
