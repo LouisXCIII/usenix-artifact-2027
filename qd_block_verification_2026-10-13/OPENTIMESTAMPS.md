@@ -71,3 +71,11 @@ anonymous repo (e.g. `anonymous.4open.science`) so the paper can link to it dire
 rely solely on attaching the `evidence/` folder to the USENIX artifact-submission bundle itself
 (no public link needed). Nothing has been published anywhere *about* this project so far — only
 an anonymous hash was submitted to public timestamp servers.
+
+**Third re-stamp (2026-10-14, final, after the self-audit fixes).** `main.go` (fail-closed
+fixes), `analyze_qd3.py` (missing-case safeguard), `summary_sweep.json`/`summary_layer1.json`
+(regenerated with the new schema) all changed, so the manifest was regenerated once more and
+re-submitted to all 4 calendars. The previous (second) stamp is kept, superseded, at
+`manifest_combined_2026-10-13.sha256.ots.STALE_superseded_3`. This is the final manifest version
+for this round -- no further source changes are pending. Pending Bitcoin confirmation as of
+2026-10-14 11:09; run `ots upgrade manifest_combined_2026-10-13.sha256.ots` later to check.

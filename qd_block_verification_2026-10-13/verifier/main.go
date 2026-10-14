@@ -247,7 +247,17 @@ func checkBlock(blk *cb.Block, roots rootCAs) *checkResult {
 			continue
 		}
 		chHdr := &cb.ChannelHeader{}
-		_ = proto.Unmarshal(payload.Header.ChannelHeader, chHdr)
+		if err := proto.Unmarshal(payload.Header.ChannelHeader, chHdr); err != nil {
+			// 2026-10-14 fail-closed fix (self-audit finding): an unmarshal failure here used
+			// to be silently ignored, leaving chHdr.Type at its zero value (HeaderType_MESSAGE),
+			// which != ENDORSER_TRANSACTION, causing this tx to be silently exempted from
+			// endorsement/policy checking entirely with no error logged. Parsing failure is
+			// exactly the kind of anomaly tampering could produce, so it must fail loud, not
+			// fail open.
+			r.EndorsementsOK = false
+			r.EndorsementErrs = append(r.EndorsementErrs, fmt.Sprintf("tx %d: channel header unmarshal: %v", txIdx, err))
+			continue
+		}
 		if chHdr.Type != int32(cb.HeaderType_ENDORSER_TRANSACTION) {
 			continue // config blocks / other types carry no chaincode endorsements
 		}
@@ -272,10 +282,21 @@ func checkBlock(blk *cb.Block, roots rootCAs) *checkResult {
 			// (the v2.43 chaincode upgrade's own lifecycle transactions) are legitimately
 			// 1-endorsement each. Only enforce the 2-org check for the real "authcc" namespace.
 			ccName := ""
+			ccNameKnown := false
 			if prp := (&pb.ProposalResponsePayload{}); proto.Unmarshal(cap.Action.ProposalResponsePayload, prp) == nil {
 				if ccAction := (&pb.ChaincodeAction{}); proto.Unmarshal(prp.Extension, ccAction) == nil && ccAction.ChaincodeId != nil {
 					ccName = ccAction.ChaincodeId.Name
+					ccNameKnown = true
 				}
+			}
+			// 2026-10-14 fail-closed fix (self-audit finding): if either nested unmarshal above
+			// failed, ccName silently stayed "" -- and since the policy check below was gated on
+			// ccName=="authcc", a parsing failure silently SKIPPED the policy check entirely
+			// (fail-open), rather than being flagged. A parsing failure must not look the same as
+			// "this genuinely isn't the authcc chaincode."
+			if !ccNameKnown {
+				r.PolicyOK = false
+				r.PolicyErrs = append(r.PolicyErrs, fmt.Sprintf("tx %d action %d: could not determine chaincode name from ProposalResponsePayload/Extension (unmarshal failed) -- cannot verify endorsement policy was met", txIdx, actIdx))
 			}
 			verifiedOrgs := map[string]bool{}
 			for eIdx, endorsement := range cap.Action.Endorsements {
