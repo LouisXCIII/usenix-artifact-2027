@@ -9,15 +9,15 @@
  * Idempotent: it reads on-chain state first and skips steps already done. Output: besu_registration.json.
  * Protocol: evidence/s4_fair_b1_protocol_2026-09-28.md
  */
-require("dotenv").config({ path: "/home/deployer/pqc-hardhat/.env" });
+require("dotenv").config({ path: "~/pqc-hardhat/.env" });
 const fs = require("fs");
 const path = require("path");
 const os = require("os");
 const { execFile } = require("child_process");
-const { ethers } = require("/home/deployer/pqc-hardhat/node_modules/ethers");
+const { ethers } = require("~/pqc-hardhat/node_modules/ethers");
 
 const HERE = __dirname;
-const REPO = "/home/deployer/pqc-hardhat";
+const REPO = "~/pqc-hardhat";
 const MLREG = "0x4BDF7d0CC77F907FeDfc1Ab6B39fa9f4336869c7";
 const FEATREG1 = "0x7Cb4419EebEE62Cd823DD119407C424e835537AE";
 const SSH_KEY = path.join(os.homedir(), ".ssh", "id_ecdsa");

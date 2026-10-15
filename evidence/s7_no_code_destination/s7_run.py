@@ -11,7 +11,7 @@ import json, math, os, subprocess, sys, time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 S4 = os.path.join(HERE, "..", "s4_fair_b1")
-TN = "/home/deployer/authcc-network/fabric-samples/test-network"
+TN = "~/authcc-network/fabric-samples/test-network"
 env = dict(os.environ)
 env["PATH"] = TN + "/../bin:" + env["PATH"]
 env["FABRIC_CFG_PATH"] = TN + "/../config/"

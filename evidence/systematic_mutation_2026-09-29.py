@@ -15,7 +15,7 @@ textbook set (Lt<->LtE, Gt<->GtE, Eq<->NotEq, In<->NotIn, And<->Or, remove
 unary Not), applied mechanically via Python's ast module to one node at a
 time. Not imported by any other file; standalone, like e1_mutation_check.py.
 
-Run: /home/deployer/pqc-hardhat/experiments/portability/.venv_e1/bin/python \
+Run: ~/pqc-hardhat/experiments/portability/.venv_e1/bin/python \
      systematic_mutation.py
 """
 import ast
@@ -25,7 +25,7 @@ import json
 import sys
 import os
 
-PORT_DIR = "/home/deployer/pqc-hardhat/experiments/portability"
+PORT_DIR = "~/pqc-hardhat/experiments/portability"
 sys.path.insert(0, PORT_DIR)
 
 from e1_generator import generate_cases

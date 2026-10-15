@@ -9,7 +9,7 @@ include the same `peer` CLI start-up for every variant. Protocol: evidence/s4_fa
 import json, os, subprocess, sys, time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-TN = "/home/deployer/authcc-network/fabric-samples/test-network"
+TN = "~/authcc-network/fabric-samples/test-network"
 env = dict(os.environ)
 env["PATH"] = TN + "/../bin:" + env["PATH"]
 env["FABRIC_CFG_PATH"] = TN + "/../config/"
@@ -24,7 +24,7 @@ env["CORE_PEER_ADDRESS"] = "localhost:17051"
 
 fx = {f["name"]: f for f in json.load(open(os.path.join(HERE, "fixtures.json")))["files"]}
 state = json.load(open(os.path.join(HERE, "besu_state.json")))
-WB = open("/home/deployer/paper_backups/submit_paper2/evidence/s4_fair_b1/go_src/b1_model_weights.json").read()
+WB = open("~/paper_backups/submit_paper2/evidence/s4_fair_b1/go_src/b1_model_weights.json").read()
 VARIANTS = ["b4-groth16", "b1-store", "b1-nostore", "b1-sha"]
 FN = {"b4-groth16": "SubmitDecisionTrustlessV7Timed", "b1-store": "SubmitDecisionB1StoreTimed",
       "b1-nostore": "SubmitDecisionB1NoStoreTimed", "b1-sha": "SubmitDecisionB1ShaTimed"}

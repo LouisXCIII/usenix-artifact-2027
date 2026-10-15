@@ -7,7 +7,7 @@
  */
 const fs = require("fs");
 const path = require("path");
-const { ethers } = require("/home/deployer/pqc-hardhat/node_modules/ethers");
+const { ethers } = require("~/pqc-hardhat/node_modules/ethers");
 
 const HERE = __dirname;
 const S4 = path.join(HERE, "..", "s4_fair_b1");

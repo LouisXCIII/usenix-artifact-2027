@@ -6,11 +6,11 @@
 The Go re-execution must agree with both. Output: s5_oracle_v4.json."""
 import glob, json, os, re, subprocess, sys
 
-sys.path.insert(0, "/home/deployer/pqc-hardhat/gateway")
+sys.path.insert(0, "~/pqc-hardhat/gateway")
 from extract_fullhead_witness import forward_head_quantized  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-C4 = "/home/deployer/pqc-hardhat/circuits_v4"
+C4 = "~/pqc-hardhat/circuits_v4"
 TMP = "/tmp/s5_v4_inputs"
 P = 21888242871839275222246405745257275088548364400416034343698204186575808495617
 os.makedirs(TMP, exist_ok=True)

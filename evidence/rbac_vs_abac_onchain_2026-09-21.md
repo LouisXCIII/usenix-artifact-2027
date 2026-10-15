@@ -43,7 +43,7 @@ Cả 6 giao dịch đều commit VALID trên cả peer0.org1 và peer0.org2 (txi
 `tab:corpus-results`, trước `\subsection{B_semless...}`. Build PDF sạch, 29 trang.
 
 ## File liên quan
-- `/home/deployer/fabric-network/authcc/chaincode/authchaincode.go` — code đã sửa (thêm, không
+- `~/fabric-network/authcc/chaincode/authchaincode.go` — code đã sửa (thêm, không
   đổi code cũ).
 - Chaincode definition `authcc` hiện tại: version 1.1, sequence 2, committed trên channel
   `authchannel`, cả Org1MSP+Org2MSP approved.

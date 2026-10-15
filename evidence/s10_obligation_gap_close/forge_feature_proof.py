@@ -34,9 +34,9 @@ Usage: python3 forge_feature_proof.py build   (witness+proof, writes forged_proo
 import json, os, subprocess, sys, time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = "/home/deployer/pqc-hardhat"
-S4 = "/home/deployer/paper_backups/submit_paper2/evidence/s4_fair_b1"
-S8 = "/home/deployer/paper_backups/submit_paper2/evidence/s8_population"
+ROOT = "~/pqc-hardhat"
+S4 = "~/paper_backups/submit_paper2/evidence/s4_fair_b1"
+S8 = "~/paper_backups/submit_paper2/evidence/s8_population"
 C7 = os.path.join(ROOT, "circuits_v7")
 TMP = "/tmp/s10_forge"
 os.makedirs(TMP, exist_ok=True)
@@ -126,7 +126,7 @@ def submit():
             json.dumps(meta["proof"]), json.dumps(meta["public"]), json.dumps(st["header"]),
             json.dumps(e["mlProof"]), json.dumps(e["featProof"]),
             "audit", "audit", "true", "true"]
-    TN = "/home/deployer/authcc-network/fabric-samples/test-network"
+    TN = "~/authcc-network/fabric-samples/test-network"
     ORD = TN + "/organizations/ordererOrganizations/example.com/tlsca/tlsca.example.com-cert.pem"
     P1 = TN + "/organizations/peerOrganizations/org1.example.com/tlsca/tlsca.org1.example.com-cert.pem"
     P2 = TN + "/organizations/peerOrganizations/org2.example.com/tlsca/tlsca.org2.example.com-cert.pem"

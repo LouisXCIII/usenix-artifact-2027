@@ -24,7 +24,7 @@ these numbers are optimistic through training/evaluation overlap.
 import json, os
 from scipy.stats import beta
 
-EV = "/home/deployer/paper_backups/submit_paper2/evidence"
+EV = "~/paper_backups/submit_paper2/evidence"
 rows = json.load(open(os.path.join(EV, "s5", "s5_corpus_features.json")))["rows"]
 W = json.load(open(os.path.join(EV, "s4_fair_b1", "go_src", "b1_model_weights.json")))
 Wq, bq = W["W_q"], W["b_q"]

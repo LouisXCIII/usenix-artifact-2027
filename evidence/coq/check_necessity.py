@@ -10,7 +10,7 @@ import re
 import shutil
 import subprocess
 
-COQDIR = "/home/deployer/paper_backups/submit_paper2/evidence/coq"
+COQDIR = "~/paper_backups/submit_paper2/evidence/coq"
 WORKDIR = os.path.dirname(os.path.abspath(__file__))
 FILES = ["ADPRelationalSoundness.v", "ADPMultiHopComposition.v"]
 

@@ -8,7 +8,7 @@ import os
 import subprocess
 import time
 
-TN = "/home/deployer/authcc-network/fabric-samples/test-network"
+TN = "~/authcc-network/fabric-samples/test-network"
 P1CERT = TN + "/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt"
 P2CERT = TN + "/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt"
 ORD = TN + "/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem"

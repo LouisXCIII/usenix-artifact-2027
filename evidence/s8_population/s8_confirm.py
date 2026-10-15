@@ -7,7 +7,7 @@ import hashlib, json, os, random, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 EV = os.path.join(HERE, "..")
-ROOT = "/home/deployer/pqc-hardhat"
+ROOT = "~/pqc-hardhat"
 sys.path.insert(0, os.path.join(ROOT, "gateway"))
 os.environ.setdefault("ZKP_STUB_MODE", "false")
 from gateway import MLScanner  # noqa: E402

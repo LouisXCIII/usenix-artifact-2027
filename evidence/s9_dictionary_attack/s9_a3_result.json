@@ -4,350 +4,350 @@
  "results": [
   {
    "idx": 8,
-   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/access_control/parity_wallet_bug_1.sol",
+   "path": "~/pqc-hardhat/external_corpus/smartbugs-curated/dataset/access_control/parity_wallet_bug_1.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 38,
-   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/bad_randomness/old_blockhash.sol",
+   "path": "~/pqc-hardhat/external_corpus/smartbugs-curated/dataset/bad_randomness/old_blockhash.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 46,
-   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/denial_of_service/send_loop.sol",
+   "path": "~/pqc-hardhat/external_corpus/smartbugs-curated/dataset/denial_of_service/send_loop.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 83,
-   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/reentrancy/simple_dao.sol",
+   "path": "~/pqc-hardhat/external_corpus/smartbugs-curated/dataset/reentrancy/simple_dao.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 85,
-   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/short_addresses/short_address_example.sol",
+   "path": "~/pqc-hardhat/external_corpus/smartbugs-curated/dataset/short_addresses/short_address_example.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 86,
-   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/time_manipulation/ether_lotto.sol",
+   "path": "~/pqc-hardhat/external_corpus/smartbugs-curated/dataset/time_manipulation/ether_lotto.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 94,
-   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol",
+   "path": "~/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x2972d548497286d18e92b5fa1f8f9139e5653fd2.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 95,
-   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
+   "path": "~/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0x39cfd754c85023648bf003bea2dd498c5612abfa.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 125,
-   "path": "/home/deployer/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
+   "path": "~/pqc-hardhat/external_corpus/smartbugs-curated/dataset/unchecked_low_level_calls/0xbebbfe5b549f5db6e6c78ca97cac19d1fb03082c.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 154,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_arb/0x118DFD54__lib__solidity-utils__src__contracts__utils__interfaces__IRescuable.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_arb/0x118DFD54__lib__solidity-utils__src__contracts__utils__interfaces__IRescuable.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 163,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_arb/0x89644CA1__src__contracts__transparent-proxy__ERC1967Proxy.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/aave_arb/0x89644CA1__src__contracts__transparent-proxy__ERC1967Proxy.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 187,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__deploy__Create2.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__deploy__Create2.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 202,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__governance__AxelarServiceGovernance.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__governance__AxelarServiceGovernance.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 204,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__governance__BaseWeightedMultisig.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__governance__BaseWeightedMultisig.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 239,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IMulticall.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IMulticall.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 245,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IRoles.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__interfaces__IRoles.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 251,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__libs__Bytes32String.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__libs__Bytes32String.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 281,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__libs__LibsTest.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__libs__LibsTest.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 292,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__InvalidProxyImplementation.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__InvalidProxyImplementation.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 293,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__InvalidSetupProxyImplementation.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__InvalidSetupProxyImplementation.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 300,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__TestProxy.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__upgradable__TestProxy.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 308,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__utils__TestRoles.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__test__utils__TestRoles.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 312,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__types__WeightedMultisigTypes.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__types__WeightedMultisigTypes.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 314,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__upgradable__FinalProxy.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__upgradable__FinalProxy.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 317,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__upgradable__InitProxy.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/axl_eth/0x7Acbae6C__contracts__upgradable__InitProxy.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 331,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/comp_arb/0x42480C37__contracts__bridges__BaseBridgeReceiver.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/comp_arb/0x42480C37__contracts__bridges__BaseBridgeReceiver.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 333,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/comp_arb/0x42480C37__contracts__bridges__arbitrum__AddressAliasHelper.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/comp_arb/0x42480C37__contracts__bridges__arbitrum__AddressAliasHelper.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 338,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/comp_poly/0x18281dfC__contracts__bridges__polygon__PolygonBridgeReceiver.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/comp_poly/0x18281dfC__contracts__bridges__polygon__PolygonBridgeReceiver.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 343,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__@openzeppelin__contracts-upgradeable__access__OwnableUpgradeable.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__@openzeppelin__contracts-upgradeable__access__OwnableUpgradeable.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 344,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__@openzeppelin__contracts-upgradeable__proxy__utils__Initializable.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__@openzeppelin__contracts-upgradeable__proxy__utils__Initializable.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 346,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__@openzeppelin__contracts-upgradeable__utils__ContextUpgradeable.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__@openzeppelin__contracts-upgradeable__utils__ContextUpgradeable.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 353,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__contracts__Mailbox.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__contracts__Mailbox.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 370,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__contracts__libs__MinimalProxy.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/hl_ica_arb/0xF90A3d40__contracts__libs__MinimalProxy.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 393,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/op_l2cdm/0x250AF3f4__src__libraries__Hashing.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/op_l2cdm/0x250AF3f4__src__libraries__Hashing.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 400,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/op_l2cdm/0x250AF3f4__src__universal__ProxyAdminOwnedBase.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_verification/deployed_sources/op_l2cdm/0x250AF3f4__src__universal__ProxyAdminOwnedBase.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 405,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_sources/aave-deliv/src__contracts__CrossChainReceiver.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_sources/aave-deliv/src__contracts__CrossChainReceiver.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 427,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/s1_sources/nitro/src__bridge__Inbox.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/s1_sources/nitro/src__bridge__Inbox.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 461,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/GridRegistry29.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/GridRegistry29.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 472,
-   "path": "/home/deployer/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/NodeRegistry19.sol",
+   "path": "~/paper_backups/submit_paper2/evidence/e7_big_push_2026-09-24/new_contracts_source/NodeRegistry19.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 510,
-   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/002.sol",
+   "path": "~/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/002.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 512,
-   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x0208a56ea43c3ff6c2611071948794c2674a16b9_2.sol",
+   "path": "~/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x0208a56ea43c3ff6c2611071948794c2674a16b9_2.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 516,
-   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x0d0edbcf2c0da25ac9a79c9466989e46a8f96221_1.sol",
+   "path": "~/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x0d0edbcf2c0da25ac9a79c9466989e46a8f96221_1.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 532,
-   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x310b15ad0a8b282ee8011d91c79feba80cb179c8.sol",
+   "path": "~/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x310b15ad0a8b282ee8011d91c79feba80cb179c8.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 535,
-   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x3933e1bd030c3c14407f8eecce81493e066ab5e1_1.sol",
+   "path": "~/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x3933e1bd030c3c14407f8eecce81493e066ab5e1_1.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 556,
-   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x612f1bdbe93523b7f5036efa87493b76341726e3.sol",
+   "path": "~/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0x612f1bdbe93523b7f5036efa87493b76341726e3.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 573,
-   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xEe045942b043B92cca0c454a553649EaA80873ea.sol",
+   "path": "~/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xEe045942b043B92cca0c454a553649EaA80873ea.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 579,
-   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xb5630e5dfd604b3b88965f2a5103bbf5e31a7340.sol",
+   "path": "~/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xb5630e5dfd604b3b88965f2a5103bbf5e31a7340.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 580,
-   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xb5c0e43a6330b9eb904ec57ea24d70269ae4652e.sol",
+   "path": "~/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xb5c0e43a6330b9eb904ec57ea24d70269ae4652e.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 583,
-   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xcd8f866ae90cef4c046101a1bc032cebecfaaa42_1.sol",
+   "path": "~/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xcd8f866ae90cef4c046101a1bc032cebecfaaa42_1.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true
   },
   {
    "idx": 589,
-   "path": "/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xdcd03c274982b15341b570f39e0f72e730d11f32_1.sol",
+   "path": "~/Desktop/projectAI/buildVocab/SourceCodesCleaned/WeakAccessMod/0xdcd03c274982b15341b570f39e0f72e730d11f32_1.sol",
    "mlScanPassed": false,
    "featureHashOnChain": "0x0000000000000000000000000000000000000000000000000000000000000000",
    "isZero": true

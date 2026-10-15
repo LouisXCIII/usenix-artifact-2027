@@ -6,10 +6,10 @@
  */
 const fs = require("fs");
 const path = require("path");
-const { ethers } = require("/home/deployer/pqc-hardhat/node_modules/ethers");
+const { ethers } = require("~/pqc-hardhat/node_modules/ethers");
 
 const HERE = __dirname;
-const REPO = "/home/deployer/pqc-hardhat";
+const REPO = "~/pqc-hardhat";
 
 (async () => {
   const provider = new ethers.JsonRpcProvider("http://127.0.0.1:18545", { chainId: 1337, name: "besu" });

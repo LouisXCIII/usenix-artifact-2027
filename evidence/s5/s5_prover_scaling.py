@@ -4,7 +4,7 @@ For each circuit: constraint count and proving-key size, witness-generation time
 snarkjs verification of the produced proof. Inputs are the circuit's own `input_A_*.json` (v3/v4/v5) or the S4 fixture input (v7)."""
 import json, os, re, subprocess, sys, time
 
-ROOT = "/home/deployer/pqc-hardhat"
+ROOT = "~/pqc-hardhat"
 HERE = os.path.dirname(os.path.abspath(__file__))
 TMP = "/tmp/s5_prover"
 os.makedirs(TMP, exist_ok=True)

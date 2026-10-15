@@ -8,14 +8,14 @@ import glob, hashlib, json, os, re, sys, random
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = "/home/deployer/pqc-hardhat"
-EV = "/home/deployer/paper_backups/submit_paper2/evidence"
+ROOT = "~/pqc-hardhat"
+EV = "~/paper_backups/submit_paper2/evidence"
 SOURCES = [
     (f"{ROOT}/external_corpus/smartbugs-curated/dataset", "smartbugs", None),
     (f"{EV}/s1_verification/deployed_sources", "deployed", "dir"),
     (f"{EV}/s1_sources", "s1_sources", "dir"),
     (f"{EV}/e7_big_push_2026-09-24/new_contracts_source", "e7", None),
-    ("/home/deployer/Desktop/projectAI/buildVocab/SourceCodesCleaned", "weakaccess", None),
+    ("~/Desktop/projectAI/buildVocab/SourceCodesCleaned", "weakaccess", None),
     (f"{ROOT}/test_contracts", "test22", None),
 ]
 

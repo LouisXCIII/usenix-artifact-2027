@@ -1,8 +1,9 @@
 # Artifact: signature-verified block evidence, independent re-implementation, and timestamp proof
 
 This repository holds reproducibility artifacts for a security evaluation of a cross-domain
-authorization-decision reuse system, submitted for double-blind peer review. It contains no
-author-identifying information by design.
+authorization-decision reuse system, submitted for double-blind peer review. It is maintained to
+contain no author-identifying information; file paths and commit metadata are periodically
+audited for this.
 
 ## Layout
 

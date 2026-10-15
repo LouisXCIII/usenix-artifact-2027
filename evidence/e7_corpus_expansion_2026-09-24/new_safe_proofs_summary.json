@@ -36,7 +36,7 @@
   "new_safe_3": {
     "valid": false,
     "why": "witness generation failed",
-    "stderr_tail": "y.forEach (<anonymous>)\n    at WitnessCalculator._doCalculateWitness (/home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:143:14)\n    at WitnessCalculator.calculateWTNSBin (/home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:218:20)\n    at /home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/generate_witness.js:16:38\n\nNode.js v24.21.0",
+    "stderr_tail": "y.forEach (<anonymous>)\n    at WitnessCalculator._doCalculateWitness (~/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:143:14)\n    at WitnessCalculator.calculateWTNSBin (~/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:218:20)\n    at ~/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/generate_witness.js:16:38\n\nNode.js v24.21.0",
     "margin": 0.107,
     "file": "/tmp/e7corpus_new_safe/new_safe_3.sol"
   },
@@ -60,7 +60,7 @@
   "new_safe_5": {
     "valid": false,
     "why": "witness generation failed",
-    "stderr_tail": "y.forEach (<anonymous>)\n    at WitnessCalculator._doCalculateWitness (/home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:143:14)\n    at WitnessCalculator.calculateWTNSBin (/home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:218:20)\n    at /home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/generate_witness.js:16:38\n\nNode.js v24.21.0",
+    "stderr_tail": "y.forEach (<anonymous>)\n    at WitnessCalculator._doCalculateWitness (~/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:143:14)\n    at WitnessCalculator.calculateWTNSBin (~/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:218:20)\n    at ~/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/generate_witness.js:16:38\n\nNode.js v24.21.0",
     "margin": 0.106,
     "file": "/tmp/e7corpus_new_safe/new_safe_5.sol"
   },
@@ -84,7 +84,7 @@
   "new_safe_7": {
     "valid": false,
     "why": "witness generation failed",
-    "stderr_tail": "y.forEach (<anonymous>)\n    at WitnessCalculator._doCalculateWitness (/home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:143:14)\n    at WitnessCalculator.calculateWTNSBin (/home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:218:20)\n    at /home/deployer/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/generate_witness.js:16:38\n\nNode.js v24.21.0",
+    "stderr_tail": "y.forEach (<anonymous>)\n    at WitnessCalculator._doCalculateWitness (~/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:143:14)\n    at WitnessCalculator.calculateWTNSBin (~/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/witness_calculator.js:218:20)\n    at ~/pqc-hardhat/circuits_v7/ml_scan_proof_v7_js/generate_witness.js:16:38\n\nNode.js v24.21.0",
     "margin": 2.291,
     "file": "/tmp/e7corpus_new_safe/new_safe_7.sol"
   },

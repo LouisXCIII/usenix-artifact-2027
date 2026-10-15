@@ -32,7 +32,7 @@ AI-authored adversarial content anywhere in this run.
 
 ## SUT verification
 
-Current live source `/home/deployer/fabric-network/authcc/chaincode/authchaincode.go` (sha256
+Current live source `~/fabric-network/authcc/chaincode/authchaincode.go` (sha256
 `17434774a081fdc2bdd61f26ae16d737ad709e5f91ae8db0ea87b60ac2d55369`) differs from the
 2026-09-28 snapshot (sha256 `e50ed4b1...`, recorded in `s3_independent/SUT_authchaincode.go.sha256`)
 because of unrelated additive work since then (obligation discharge identity check, q_D domain
