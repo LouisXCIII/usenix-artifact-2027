@@ -1,0 +1,4 @@
+303663b92da462766d6da92674688f7bbf4cc43cf4ea3d7663bce6d10115ee0b  blocks/genesis.block
+6c88f2240c5e81d694a08463def893c99da14faa309919cc7266506e85e4f417  certs/ca.example.com-orderer-cert.pem
+60a8859d60ad4f85201d22de1ee231122e586d9701d39d2f87859b81005ec697  certs/ca.org1.example.com-cert.pem
+acd9fb6232ccf2e9be7e5fe61817b728fd065ca69186f7b178e3fb713aa62bb3  certs/ca.org2.example.com-cert.pem
