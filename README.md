@@ -16,6 +16,18 @@ author-identifying information by design.
   manifest of this artifact, anchored via [OpenTimestamps](https://opentimestamps.org) to a real
   Bitcoin block. This proves the artifact existed by a given date without revealing any identity
   (hash-only commitment to public calendar servers) — see `OPENTIMESTAMPS.md` for how to verify.
+- `chaincode_source/` — the full chaincode source for every baseline and ablation entry point
+  (`chaincode/`, a single Go package), the Fabric chaincode entry point (`main.go`), `go.mod`/
+  `go.sum`, the Groth16 verification keys and other fixtures it reads (`chaincode/testdata/`),
+  and the standalone MapRec-signing tool used for the Ab7 ablation (`tools/maprec_sign/`).
+  `chaincode/b1_model_weights.json` is the baseline-only model-weights file documented
+  separately as removed from the deployed package after the S9 finding; it is kept here only to
+  reproduce the (non-deployed) same-relation baseline build the paper describes.
+- `e1_formal_benchmark_code/` — the generator, independent Z3 oracle, classifier under test, and
+  mutation-check scripts behind the paper's formal benchmark (`e1_generator.py`, `e1_oracle.py`,
+  `e1_ground_truth.py`, `e1_ground_truth_smt.py`, `e1_classifier.py`, `e1_run_campaign.py`,
+  `e1_run_campaign_smt.py`, `e1_mutation_check.py`). See `e1_formal_benchmark_2026-09-23.md` for
+  the protocol and results these scripts produced.
 
 ## How to verify
 
